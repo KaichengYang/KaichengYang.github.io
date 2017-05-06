@@ -25,6 +25,12 @@ h1, h2 {
   font-weight: 600;
 }
 
+article h1 {
+    font-size: 1.5em;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+}
+
 .latest
 {-
   padding: 10px 10px;
@@ -97,13 +103,28 @@ article > header {
   border-radius: 5px 5px;
 }
 
+article:link {
+    color:#ac4142;
+}
 
 /* Links */;
-a  { color:#1DAEDF; text-decoration:none; }
-a:visited { color:white; text-decoration:none; }
-a:link { color:black; text-decoration:none; }
-a:active { color:white; text-decoration:none; }
-a:hover { text-decoration: underline; }
+aside  a  { color:#1DAEDF; text-decoration:none; }
+aside  a:visited { color:white; text-decoration:none; }
+aside  a:link { color:white; text-decoration:none; }
+aside  a:active { color:white; text-decoration:none; }
+aside  a:hover { text-decoration: none; }
+
+article  a  { color:#ac4142; text-decoration:none; }
+article  a:visited { color:#ac4142; text-decoration:none; }
+article  a:link { color:#ac4142; text-decoration:none; }
+article  a:active { color:#ac4142; text-decoration:none; }
+article  a:hover { text-decoration: none; }
+
+.header {
+    color: #ac4142;
+    font-size: 2em;
+    padding-bottom: 0.5em;
+}
 
 .fa
 {
@@ -140,7 +161,12 @@ aside > ul {
 }
 
 aside > h1 {
-    font-size: 30px
+    font-size: 30px;
+}
+
+aside > h1 > a{
+    color:white;
+    text-decoration:none;
 }
 
 aside > h2 { 
@@ -249,6 +275,36 @@ aside > h2 {
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+/* Underline From Left */
+article a{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+article a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #ac4142;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+article a:hover:before, article a:focus:before, article a:active:before {
+  right: 0;
 }
 
 
