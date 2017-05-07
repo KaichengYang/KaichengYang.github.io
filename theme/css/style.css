@@ -371,10 +371,25 @@ article a:hover:before, article a:focus:before, article a:active:before {
     margin-right: 0;
   }
 
+  .sidebottom {
+      padding-top:20%;
+      padding-bottom: 10%;
+  }
+
+  .avatarcontainer {
+      width: 60%; 
+      margin: auto;
+  }
+
+  .list-bare {
+      width: 160px;
+      margin: auto;
+  }
+
   body > article {
     margin: 0 auto;
-    padding-top: 5px;
-    padding: 1em;
+    padding-top: 10%;
+    /*padding: 1em;*/
   }
 
   footer
