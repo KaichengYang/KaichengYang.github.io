@@ -388,8 +388,7 @@ article a:hover:before, article a:focus:before, article a:active:before {
 
   body > article {
     margin: 0 auto;
-    padding-top: 10%;
-    /*padding: 1em;*/
+    padding: 10% 10% 10% 10%;
   }
 
   footer
