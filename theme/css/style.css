@@ -188,11 +188,7 @@ aside > h2 {
 }
 
 .sidebottom {
-    position: fixed;
-    left: 6em;
-    bottom: 5%;
-    color: white;
-
+    padding-top:30%;
 }
 
 #avatar:hover {
