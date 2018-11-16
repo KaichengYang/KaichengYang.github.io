@@ -1,0 +1,43 @@
+
+.showcase {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.avatar {
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+
+#bio {
+    text-align: center;
+}
+
+#contact {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: None;
+}
+
+#contact_container {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.contact_icon {
+    font-size: 2rem;
+    color: #ac4142;
+}
+
+a {
+    color: #ac4142;
+}
+
+.bio-text p {
+    font-size: 1.2rem;
+}
