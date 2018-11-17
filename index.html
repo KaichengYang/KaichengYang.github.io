@@ -4,12 +4,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css"/>
+    <!-- style -->
     <link rel="stylesheet" href="/static/css/style.css">
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
-
-
+    <!-- vue -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- vue scrollto -->
+    <script src="https://cdn.jsdelivr.net/npm/vue-scrollto"></script>
+    <script src="//unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+    <script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+
 
     <title>Kaicheng Yang's Homepage</title>
 </head>
@@ -18,25 +26,35 @@
     <div id="app">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #ac4142;">
             <div class="container">
-                <a class="navbar-brand" href="#">Home</a>
+                <a class="navbar-brand" href="#" v-scroll-to="'#app'">Home</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav mr-5">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Publications </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" v-scroll-to="'#publication'">Publications </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                            <a class="nav-link" href="#" v-scroll-to="'#project'">Projects</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" v-scroll-to="'#about'">About</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
         
-        <!-- bio -->
+        <!-- body -->
         <div class="container mt-5">
+
+            <!-- bio -->
             <div class="row pt-5">
                 <div class="col-12 col-lg-4">
                     <div class="mx-auto">
@@ -46,13 +64,13 @@
                         </div>
 
                         <div id="contact_container">
-                            <a href="#" class="contact_icon">
+                            <a href="mailto:yangkc@iu.edu" class="contact_icon">
                                 <i class="fas fa-envelope"></i>
                             </a>
-                            <a href="#" class="contact_icon">
+                            <a href="https://scholar.google.com/citations?user=tqb96X8AAAAJ&hl=en" class="contact_icon" target="_blank">
                                 <i class="fas fa-graduation-cap"></i>
                             </a>
-                            <a href="#" class="contact_icon">
+                            <a href="https://www.linkedin.com/in/kaicheng-yang-43477213b/" class="contact_icon" target="_blank">
                                 <i class="fab fa-linkedin"></i>
                             </a>
 
@@ -66,12 +84,12 @@
                     </p>
 
                     <p>
-                        I'm a second year Ph.D student in Informatics at <a href="https://www.sice.indiana.edu/">
+                        I'm a second year Ph.D student in Informatics at <a href="https://www.sice.indiana.edu/" target="_blank">
                             School of Informatics, Computing and Egineering</a>
                             in Indiana University Bloomington.
-                        I mainly work with <a href="http://cnets.indiana.edu/fil/">Filippo Menczer</a>,
-                            <a href="http://cnets.indiana.edu/people/yong-yeol-ahn/">Yong-Yeol Ahn</a> and 
-                            <a href="https://www.indiana.edu/~soc/bios/Brea_Perry.html">Brea Perry</a>.
+                        I mainly work with <a href="http://cnets.indiana.edu/fil/" target="_blank">Filippo Menczer</a>,
+                            <a href="http://cnets.indiana.edu/people/yong-yeol-ahn/" target="_blank">Yong-Yeol Ahn</a> and 
+                            <a href="https://www.indiana.edu/~soc/bios/Brea_Perry.html" target="_blank">Brea Perry</a>.
                         Check out the Projects and Publications sections for what I have been working on.
                     </p>
 
@@ -84,6 +102,7 @@
 
             <hr>
             
+            <!-- publications -->
             <div id="publication" class="my-5">
                 <h2 class="mt-3">Publications</h2>
                 <ol class="mt-3">
@@ -93,7 +112,7 @@
                             <b>The spread of low-credibility content by social bots.</b>
                             <i>(In press for Nature Communications)</i>
                             <br>
-                            <a href="https://arxiv.org/abs/1707.07592"><i class="far fa-file-pdf"></i> ArXiv</a>
+                            <a href="https://arxiv.org/abs/1707.07592" target="_blank"><i class="far fa-file-pdf hvr-icon"></i> ArXiv</a>
                         </div>
                     </li>
                     <li>
@@ -102,19 +121,23 @@
                             <b>Expansion of cooperatively growing populations: Optimal migration rates and habitat network structures.</b>
                             <i>Physical Review E, 95(1), 012306.</i>
                             <br>
-                            <a href="https://doi.org/10.1103/PhysRevE.95.012306"><i class="fas fa-external-link-alt"></i> DOI</a>
+                            <a href="https://doi.org/10.1103/PhysRevE.95.012306" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
                         </div>
                     </li>
                 </ol>
             </div>
 
             <hr>
-
-            <div id="projects" class="my-5">
+            
+            <!-- projects -->
+            <div id="project" class="my-5">
                <h2 class="mt-3">Projects</h2> 
 
                <div id="bev" class="my-5">
                    <div class="row">
+                       <div class="col-12 col-lg-4">
+                            <img class="mx-auto showcase" src="/static/images/bev.png">
+                       </div>
                        <div class="col-12 col-lg-8">
                             <h4> <u>B</u>ot <u>E</u>lectioneering <u>V</u>olume</h4>
                             <p>
@@ -125,9 +148,6 @@
                             <p>
                                 <a href="https://botometer.iuni.iu.edu/bev/" target="_blank"><i class="fas fa-external-link-alt"></i> BEV</a>
                             </p>
-                       </div>
-                       <div class="col-12 col-lg-4">
-                            <img class="mx-auto showcase" src="/static/images/bev.png">
                        </div>
                    </div>
                </div>
@@ -152,6 +172,9 @@
 
                <div id="hoaxy" class="my-5">
                    <div class="row">
+                       <div class="col-12 col-lg-4">
+                            <img class="mx-auto showcase" src="/static/images/medembedding.png">
+                       </div>
                        <div class="col-12 col-lg-8">
                             <h4>Medical diagnosis embedding</h4>
                             <p>
@@ -160,9 +183,6 @@
                                 a preprocessing step for other machine learning tasks.
                                 Besides, the embedding itself can reveal interesing relationship between diagnoses.
                             </p>
-                       </div>
-                       <div class="col-12 col-lg-4">
-                            <img class="mx-auto showcase" src="/static/images/medembedding.png">
                        </div>
                    </div>
                </div>
@@ -189,6 +209,9 @@
 
                <div id="hoaxy" class="my-5">
                    <div class="row">
+                       <div class="col-12 col-lg-4">
+                            <img class="mx-auto showcase" src="/static/images/hoaxy.png">
+                       </div>
                        <div class="col-12 col-lg-8">
                             <h4>Hoaxy</h4>
                             <p>
@@ -200,18 +223,30 @@
                             <p>Contribution: developing API for Hoaxy to fetch Botometer scores</p>
                             <p>
                                 <a class="mr-3" href="https://hoaxy.iuni.iu.edu/" target="_blank"><i class="fas fa-external-link-alt"></i> Hoaxy</a>
-                                <a href="https://arxiv.org/abs/1707.07592"><i class="far fa-file-pdf"></i> Paper</a>
+                                <a href="https://arxiv.org/abs/1707.07592" target="_blank"><i class="far fa-file-pdf"></i> Paper</a>
                             </p>
-                       </div>
-                       <div class="col-12 col-lg-4">
-                            <img class="mx-auto showcase" src="/static/images/hoaxy.png">
                        </div>
                    </div>
                </div>
 
             </div>
 
+            <hr>
+
+            <!-- about -->
+            <div id="about" class="my-5">
+                <h2 class="mt-3">About</h2>
+                Site created by Kai-Cheng Yang. Powered by
+                <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>,
+                <a href="https://vuejs.org/" target="_blank">Vue.js</a>,
+                <a href="https://madewithvuejs.com/vue-scrollto" target="_blank">Vue ScrollTo</a> 
+                <a href="http://ianlunn.github.io/Hover/" target="_blank">Hoever.css</a> 
+                and <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>.
+            </div>
+
         </div>
+
+
     </div>
     <script src="/static/js/app.js"></script>
 </body>
