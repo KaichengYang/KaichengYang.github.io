@@ -24,39 +24,32 @@
 
 <body>
     <div id="app">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #ac4142;">
+
+        <b-navbar toggleable="md" type="dark" style="background-color: #ac4142;" fixed="top">
             <div class="container">
-                <a class="navbar-brand" href="#" v-scroll-to="'#app'">Home</a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="true" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav mr-5">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" v-scroll-to="'#publication'">Publications </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" v-scroll-to="'#project'">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CV</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" v-scroll-to="'#about'">About</a>
-                        </li>
-                    </ul>
-                </div>
+                <b-navbar-brand href="#" v-scroll-to="'#app'">Home</b-navbar-brand>
+
+                <b-collapse is-nav id="nav_collapse">
+                    <b-navbar-nav>
+                        <b-nav-item href="#" v-scroll-to="'#publication'">Publications</b-nav-item>
+                        <b-nav-item href="#" v-scroll-to="'#project'">Projects</b-nav-item>
+                        <b-nav-item href="#" v-scroll-to="'#about'">About</b-nav-item>
+                    </b-navbar-nav>
+                </b-collapse>
+
             </div>
-        </nav>
+        </b-navbar>
+
         
         <!-- body -->
         <div class="container mt-5">
 
             <!-- bio -->
             <div class="row pt-5">
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 mb-3">
                     <div class="mx-auto">
                         <img class="avatar mx-auto" src="/static/images/avatar.png">
                         <div id="bio" class="mt-2">
@@ -135,7 +128,7 @@
 
                <div id="bev" class="my-5">
                    <div class="row">
-                       <div class="col-12 col-lg-4">
+                       <div class="col-12 col-lg-4 mb-3">
                             <img class="mx-auto showcase" src="/static/images/bev.png">
                        </div>
                        <div class="col-12 col-lg-8">
@@ -154,7 +147,7 @@
 
                <div id="bev" class="my-5">
                    <div class="row">
-                       <div class="col-12 col-lg-4">
+                       <div class="col-12 col-lg-4 mb-3">
                             <img class="mx-auto showcase" src="/static/images/odborder.png">
                        </div>
                        <div class="col-12 col-lg-8">
@@ -172,7 +165,7 @@
 
                <div id="hoaxy" class="my-5">
                    <div class="row">
-                       <div class="col-12 col-lg-4">
+                       <div class="col-12 col-lg-4 mb-3">
                             <img class="mx-auto showcase" src="/static/images/medembedding.png">
                        </div>
                        <div class="col-12 col-lg-8">
@@ -189,7 +182,7 @@
 
                <div id="bev" class="my-5">
                    <div class="row">
-                       <div class="col-12 col-lg-4">
+                       <div class="col-12 col-lg-4 mb-3">
                             <img class="mx-auto showcase" src="/static/images/botometer.png">
                        </div>
                        <div class="col-12 col-lg-8">
@@ -209,7 +202,7 @@
 
                <div id="hoaxy" class="my-5">
                    <div class="row">
-                       <div class="col-12 col-lg-4">
+                       <div class="col-12 col-lg-4 mb-3">
                             <img class="mx-auto showcase" src="/static/images/hoaxy.png">
                        </div>
                        <div class="col-12 col-lg-8">
