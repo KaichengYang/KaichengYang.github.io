@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="static/css/style.css">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
+    <!-- Academicons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
     <!-- vue -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <!-- vue scrollto -->
@@ -73,8 +75,14 @@
                             <a href="mailto:yangkc@iu.edu" class="contact_icon">
                                 <i class="fas fa-envelope"></i>
                             </a>
+                            <a href="static/files/cv.pdf" class="contact_icon">
+                                <i class="ai ai-cv-square ai-1x"></i>
+                            </a>
                             <a href="https://scholar.google.com/citations?user=tqb96X8AAAAJ&hl=en" class="contact_icon" target="_blank">
-                                <i class="fas fa-graduation-cap"></i>
+                                <i class="ai ai-google-scholar-square ai-1x"></i>
+                            </a>
+                            <a href="https://www.researchgate.net/profile/Kai_Cheng_Yang2n" class="contact_icon" target="_blank">
+                                <i class="ai ai-researchgate-square ai-1x"></i>
                             </a>
                             <a href="https://www.linkedin.com/in/kaicheng-yang-43477213b/" class="contact_icon" target="_blank">
                                 <i class="fab fa-linkedin"></i>
@@ -188,164 +196,221 @@
             <div id="project" class="my-5">
                <h2 class="mt-3">Projects</h2> 
 
-               <div id="pagerank" class="my-5">
-                   <div class="row">
-                       <div class="col-12 col-lg-4 mb-3">
-                            <img class="mx-auto showcase" src="static/images/shopper.png">
-                       </div>
-                       <div class="col-12 col-lg-8">
-                            <h4>Network prominence indicates drug seeking behavior</h4>
-                            <p>
-                                Traditional methods for identifying drug seeking behavior focus on each patient's medical history individually.
-                                Typical criteria involves the number of different prescriber, visits of different pharmacies and total drug dose
-                                in certain time period.
-                                Our analysis shows such type of methods has become less useful as the patients are intentionally altering their
-                                behaviors to avoid being spotted by those methods.
-                                This project tends to utilize social network analysis to identify drug seeking behavior which has proven to be very
-                                effective and harder to trick.
-                            </p>
-                            <p>
-                                <a href="https://doi.org/10.31235/osf.io/5v2z4" target="_blank"><i class="far fa-file-pdf"></i> Paper</a>
-                            </p>
-                       </div>
-                   </div>
-               </div>
+               <h3 class="mt-3">1. Spread of misinformation on social media</h3> 
+               This project aims to study the spread of misinformation on social media.
 
-               <div id="botperception" class="my-5">
-                   <div class="row">
-                       <div class="col-12 col-lg-4 mb-3">
-                            <img class="mx-auto showcase" src="static/images/botperception.png">
-                       </div>
-                       <div class="col-12 col-lg-8">
-                            <h4>Human perception of social bots</h4>
-                            <p>
-                                So far, studies of social bots have largely been conducted in computational perspectives.
-                                How social media users perceive social bots and a series of related questions remain unclear.
-                                In this human subject research project we use experimental design to understand social media users'
-                                perception towards social bots.
-                            </p>
-                       </div>
-                   </div>
-               </div>
+                    <div id="hoaxy" class="my-5">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3">
+                                    <img class="mx-auto showcase" src="static/images/hoaxy.png">
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                    <h4>Hoaxy</h4>
+                                    <p>
+                                        Hoaxy is a tool that visualizes the spread of fake news and related fact checking articles on Twitter.
+                                        With the incorporation of Botometer, Hoaxy can also visualize the bot-like activities
+                                        involved in the spread of the articles.
+                                    </p>
+                                    <p>Contribution: maintaining, developing API for Hoaxy to fetch Botometer scores</p>
+                                    <p>
+                                        <a class="mr-3" href="https://hoaxy.iuni.iu.edu/" target="_blank"><i class="fas fa-external-link-alt"></i> Hoaxy</a>
+                                        <a href="https://doi.org/10.1038/s41467-018-06930-7" target="_blank"><i class="far fa-file-pdf"></i> Paper</a>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="fakenet" class="my-5">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3">
+                                    <img class="mx-auto showcase" src="static/images/fakenet.png">
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                    <h4>Fakenet</h4>
+                                    <p>
+                                        Identifying fake news has been a challenging task due the complex nature of the problem.
+                                        A common approach adopted by researchers is to code the news sources manually and label
+                                        all articles based on their source.
+                                        However, to cope with the large amount of emerging fake news sources, a scalable method is
+                                        needed.
+                                        This project I construct the co-occurrence network of news sources from social media and find
+                                        that although noisy this approach provides strong signal to distinguish the fake news sources.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                
+               <h3 class="mt-3">2. Social bots</h3> 
+               Social bots which are algorithm controlled social media accounts that automatically post/share contents and initiate
+               interactions with other users. 
+               This project aims to build public available bot detection tool and study the behavior and impact of social bots on various
+               social events.
 
-               <div id="multipartite" class="my-5">
-                   <div class="row">
-                       <div class="col-12 col-lg-4 mb-3">
-                            <img class="mx-auto showcase" src="static/images/multipartite.png">
-                       </div>
-                       <div class="col-12 col-lg-8">
-                            <h4>The Spread of Multipartite Viruses on Complex Networks</h4>
-                            <p>
-                                Multipartite viruses have multiple segmented genomes that are packaged in separate virus particles.
-                                This peculiar genetic organization makes multipartite viruses the most strange viruses and has drawn
-                                great attention from academia recently.
-                                Yet, a solid understanding of why such seemingly disadvantageous strategy has emerged is still lacking.
-                                This project extends the SIR model with multipartite mechanism and studies the spread of multipartite viruses on
-                                networks. Analysis reveals the sudden outbreak nature of multipartite viruses and finds that counterintuitively
-                                multipartite viruses favor static networks over dynamical networks.
-                                The results may may explain the prevalence of multipartite viruses in plants.
-                            </p>
-                       </div>
-                   </div>
-               </div>
+                    <div id="botometer" class="my-5">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3">
+                                    <img class="mx-auto showcase" src="static/images/botometer.png">
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                    <h4>Botometer</h4>
+                                    <p>
+                                        Botometer is a machine learning tool that extracts over 1000 different features from a Twitter account
+                                        and evaluates its likelihood of being social bot.
+                                        Currently Botometer is handling over 250,000 requests every day and serves as the foundation for many researches. 
+                                    </p>
+                                    <p>Contribution: maintaining, training data annotation and model retraining</p>
+                                    <p>
+                                        <a class="mr-3" href="https://botometer.iuni.iu.edu/" target="_blank"><i class="fas fa-external-link-alt"></i> Botometer</a>
+                                        <a href="https://arxiv.org/abs/1901.00912" target="_blank"><i class="far fa-file-pdf"></i> Paper</a>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
 
-               <div id="bev" class="my-5">
-                   <div class="row">
-                       <div class="col-12 col-lg-4 mb-3">
-                            <img class="mx-auto showcase" src="static/images/bev.png">
-                       </div>
-                       <div class="col-12 col-lg-8">
-                            <h4> <u>B</u>ot <u>E</u>lectioneering <u>V</u>olume</h4>
-                            <p>
-                                BEV is a tool that visualizes the activity of likely bots on Twitter around the 2018 US midterm elections.
-                                It allows to explore how active bots are on a daily basis in efforts to influence online discourse about the elections.
-                                It also shows what topics are being targeted by likely bots.
-                            </p>
-                            <p>
-                                <a class="mr-3" href="https://botometer.iuni.iu.edu/bev/" target="_blank"><i class="fas fa-external-link-alt"></i> BEV</a>
-                                <a href="https://arxiv.org/abs/1902.02339" target="_blank"><i class="far fa-file-pdf"></i> Paper</a>
-                            </p>
-                       </div>
-                   </div>
-               </div>
 
-               <div id="bev" class="my-5">
-                   <div class="row">
-                       <div class="col-12 col-lg-4 mb-3">
-                            <img class="mx-auto showcase" src="static/images/odborder.png">
-                       </div>
-                       <div class="col-12 col-lg-8">
-                            <h4>Geographical characterization of doctor shoppers</h4>
-                            <p>
-                                Doctor shoppers are people that visit multiple physicians to obtain multiple prescriptions of controlled substances.
-                                The opioid doctor shoppers have been found to be more likely to overdose leading to the ever severer opioid crisis
-                                in US. 
-                                The project intends to apply computational methods to over 9 years of longitudinal medical records from a large
-                                group of patients to characterize the geographic related behaviors of doctor shoppers.
-                            </p>
-                       </div>
-                   </div>
-               </div>
+                    <div id="bev" class="my-5">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3">
+                                    <img class="mx-auto showcase" src="static/images/bev.png">
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                    <h4> <u>B</u>ot <u>E</u>lectioneering <u>V</u>olume</h4>
+                                    <p>
+                                        BEV is a tool that visualizes the activity of likely bots on Twitter around the 2018 US midterm elections.
+                                        It allows to explore how active bots are on a daily basis in efforts to influence online discourse about the elections.
+                                        It also shows what topics are being targeted by likely bots.
+                                    </p>
+                                    <p>
+                                        <a class="mr-3" href="https://botometer.iuni.iu.edu/bev/" target="_blank"><i class="fas fa-external-link-alt"></i> BEV</a>
+                                        <a href="https://arxiv.org/abs/1902.02339" target="_blank"><i class="far fa-file-pdf"></i> Paper</a>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
 
-               <div id="medembedding" class="my-5">
-                   <div class="row">
-                       <div class="col-12 col-lg-4 mb-3">
-                            <img class="mx-auto showcase" src="static/images/medembedding.png">
-                       </div>
-                       <div class="col-12 col-lg-8">
-                            <h4>Medical diagnosis embedding</h4>
-                            <p>
-                                Word2vec is applied to large scale of medical records to find a distributed representation of the diagnoses.
-                                The embedding can effectively reduce the dimensions needed to encode all the diagnoses therefore serves as
-                                a preprocessing step for other machine learning tasks.
-                                Besides, the embedding itself can reveal interesting relationship between diagnoses.
-                            </p>
-                       </div>
-                   </div>
-               </div>
 
-               <div id="botometer" class="my-5">
-                   <div class="row">
-                       <div class="col-12 col-lg-4 mb-3">
-                            <img class="mx-auto showcase" src="static/images/botometer.png">
-                       </div>
-                       <div class="col-12 col-lg-8">
-                            <h4>Botometer</h4>
-                            <p>
-                                Botometer is a machine learning tool that can extract over 1000 different features from a Twitter account
-                                and evaluate its likelihood of being social bot.
-                                Botometer supports many other services like BEV and Hoaxy.
-                            </p>
-                            <p>Contribution: maintenance, training data annotation and model retraining</p>
-                            <p>
-                                <a class="mr-3" href="https://botometer.iuni.iu.edu/" target="_blank"><i class="fas fa-external-link-alt"></i> Botometer</a>
-                                <a href="https://arxiv.org/abs/1901.00912" target="_blank"><i class="far fa-file-pdf"></i> Paper</a>
-                            </p>
-                       </div>
-                   </div>
-               </div>
+                    <div id="botometerlite" class="my-5">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3">
+                                    <img class="mx-auto showcase" src="static/images/botometerlite.png">
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                    <h4>BotometerLite</h4>
+                                    <p>
+                                        BotometerLite is a light version of Botometer.
+                                        Using only part of the features from Botometer, BotometerLite is 200x faster 
+                                        but still yields comparable results.
+                                        Because of the simplified design, it becomes possible to interpret BotometerLite's results.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
 
-               <div id="hoaxy" class="my-5">
-                   <div class="row">
-                       <div class="col-12 col-lg-4 mb-3">
-                            <img class="mx-auto showcase" src="static/images/hoaxy.png">
-                       </div>
-                       <div class="col-12 col-lg-8">
-                            <h4>Hoaxy</h4>
-                            <p>
-                                Hoaxy is a tool that visualizes the spread of articles online.
-                                Articles can be found on Twitter, or in a corpus of claims and related fact checking.
-                                With the incorporation of Botometer, Hoaxy can also visualize the composition
-                                of accounts involved in certain articles in terms of bot-like behaviors.
-                            </p>
-                            <p>Contribution: developing API for Hoaxy to fetch Botometer scores</p>
-                            <p>
-                                <a class="mr-3" href="https://hoaxy.iuni.iu.edu/" target="_blank"><i class="fas fa-external-link-alt"></i> Hoaxy</a>
-                                <a href="https://doi.org/10.1038/s41467-018-06930-7" target="_blank"><i class="far fa-file-pdf"></i> Paper</a>
-                            </p>
-                       </div>
-                   </div>
-               </div>
+                    <div id="botperception" class="my-5">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3">
+                                    <img class="mx-auto showcase" src="static/images/botperception.png">
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                    <h4>Human perception of social bots</h4>
+                                    <p>
+                                        So far, studies of social bots have largely been conducted in computational perspectives.
+                                        How social media users perceive social bots and a series of related questions remain unclear.
+                                        In this human subject research project we use experimental design to understand social media users'
+                                        perception towards social bots.
+                                        We also characterize the effect of human biases on the efficacy of social bot detection task.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+               <h3 class="mt-3">3. Opioid drug doctor shopping</h3> 
+               Doctor shopping refers to the behavior of visiting multiple physicians to obtain controlled substance.
+               This project aims to characterize the doctor shopping behavior for opioid drugs in response to the severe
+               opioid crisis in US using 11 years’ longitudinal medical records from over 20 million patients. 
+
+                    <div id="pagerank" class="my-5">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3">
+                                    <img class="mx-auto showcase" src="static/images/shopper.png">
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                    <h4>Network prominence indicates drug seeking behavior</h4>
+                                    <p>
+                                        Traditional methods for identifying drug seeking behavior focus on each patient's medical history individually.
+                                        Typical criteria involves the number of different prescriber, visits of different pharmacies and total drug dose
+                                        in certain time period.
+                                        Our analysis shows such type of methods has become less useful as the patients are intentionally altering their
+                                        behaviors to avoid being spotted by those methods.
+                                        This project tends to utilize social network analysis to identify drug seeking behavior which has proven to be very
+                                        effective and harder to trick.
+                                    </p>
+                                    <p>
+                                        <a href="https://doi.org/10.31235/osf.io/5v2z4" target="_blank"><i class="far fa-file-pdf"></i> Paper</a>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="bev" class="my-5">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3">
+                                    <img class="mx-auto showcase" src="static/images/odborder.png">
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                    <h4>Geographical characterization of doctor shoppers</h4>
+                                    <p>
+                                        Doctor shoppers are people that visit multiple physicians to obtain multiple prescriptions of controlled substances.
+                                        The opioid doctor shoppers have been found to be more likely to overdose leading to the ever severer opioid crisis
+                                        in US. 
+                                        The project intends to apply computational methods to over 9 years of longitudinal medical records from a large
+                                        group of patients to characterize the geographic related behaviors of doctor shoppers.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="medembedding" class="my-5">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3">
+                                    <img class="mx-auto showcase" src="static/images/medembedding.png">
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                    <h4>Medical diagnosis embedding</h4>
+                                    <p>
+                                        Word2vec is applied to large scale of medical records to find a distributed representation of the diagnoses.
+                                        The embedding can effectively reduce the dimensions needed to encode all the diagnoses therefore serves as
+                                        a preprocessing step for other machine learning tasks.
+                                        Besides, the embedding itself can reveal interesting relationship between diagnoses.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+               <h3 class="mt-3">4. Spread of population</h3> 
+
+                    <div id="multipartite" class="my-5">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3">
+                                    <img class="mx-auto showcase" src="static/images/multipartite.png">
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                    <h4>The Spread of Multipartite Viruses on Complex Networks</h4>
+                                    <p>
+                                        Multipartite viruses have multiple segmented genomes that are packaged in separate virus particles.
+                                        This peculiar genetic organization makes multipartite viruses the most strange viruses and has drawn
+                                        great attention from academia recently.
+                                        Yet, a solid understanding of why such seemingly disadvantageous strategy has emerged is still lacking.
+                                        This project extends the SIR model with multipartite mechanism and studies the spread of multipartite viruses on
+                                        networks. Analysis reveals the sudden outbreak nature of multipartite viruses and finds that counterintuitively
+                                        multipartite viruses favor static networks over dynamical networks.
+                                        The results may may explain the prevalence of multipartite viruses in plants.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
 
             </div>
 
@@ -358,8 +423,9 @@
                 <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>,
                 <a href="https://vuejs.org/" target="_blank">Vue.js</a>,
                 <a href="https://madewithvuejs.com/vue-scrollto" target="_blank">Vue ScrollTo</a>, 
-                <a href="http://ianlunn.github.io/Hover/" target="_blank">Hoever.css</a> 
-                and <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>.
+                <a href="http://ianlunn.github.io/Hover/" target="_blank">Hoever.css</a>,
+                <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
+                and <a href="https://jpswalsh.github.io/academicons/" target="_blank">Academicons</a>.
             </div>
 
         </div>
