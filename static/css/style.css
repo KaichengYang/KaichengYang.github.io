@@ -38,7 +38,7 @@
 a {
     color:#ac4142;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: bottom;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
