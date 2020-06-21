@@ -121,6 +121,9 @@
                 <h2 class="mt-3">News</h2>
                 <ul class="mt-3">
                     <li>
+                        June 21, 2020: New preprint <b>Comparing Measures of Centrality in Bipartite Social Networks: A Study of Drug Seeking for Opioid Analgesics</b> available.
+                    </li>
+                    <li>
                         June 14, 2020: New preprint <b>Detection of Novel Social Bots by Ensembles of Specialized Classifiers</b> available.
                     </li>
                     <li>
@@ -163,14 +166,16 @@
                                     <h4>Social bot detection</h4>
                                     <p>
                                         Social bots are social media accounts controlled in part or completely by algorithms.
-                                        They are involved in the online discussions regarding various critical issues like elections and public health,
-                                        trying the manipulate the public opinion. This project aims to build bot detection tools to aid daily usage and research on social media.
+                                        They are involved in the online discussions around various critical issues like elections and public health,
+                                        trying the manipulate the public opinion.
+                                        To aid the daily usage for the public and studies on social media for researchers, I build tools to detect the social bots.
                                         <br>
                                         <a href="https://botometer.iuni.iu.edu/" target="_blank">Botometer</a> is a machine learning tool that extracts over 1000 different features from a Twitter account
                                         and evaluates its likelihood of being social bot.
                                         Botometer is handling over 450,000 requests every day and serves as the foundation for many studies. 
                                         <br>
-                                        <a href="https://botometer.iuni.iu.edu/#!/botometerlite" target="_blank">BotometerLite</a> is a highly efficient bot detection tool.
+                                        <a href="https://botometer.iuni.iu.edu/#!/botometerlite" target="_blank">BotometerLite</a> is a highly efficient bot detection tool 
+                                        that can process millions of accounts in minutes.
                                         With the novel evaluation system and model selection method, BotometerLite is able to achieve 
                                         comparable accuracy with Botometer.
                                     </p>
@@ -241,33 +246,43 @@
                         </div>
                     </div>
 
+               <h3 class="mt-3">2. Opioid epidemic in U.S.</h3> 
 
-               <h3 class="mt-3">2. Network science</h3> 
-
-                    <div id="birank" class="my-5">
+                    <div id="pagerank" class="my-5">
                         <div class="row">
                             <div class="col-12 col-lg-4 mb-3">
-                                    <img class="mx-auto showcase" src="static/images/birank.png">
+                                    <img class="mx-auto showcase" src="static/images/shopper.png">
                             </div>
                             <div class="col-12 col-lg-8">
-                                    <h4>Bipartite PageRank algorithms</h4>
+                                    <h4>Network prominence indicates drug seeking behavior</h4>
                                     <p>
-                                    We implement the bipartite PageRank algorithms that can rank nodes in bipartite networks directly without distorting the structure.
-                                    Our package is available both in Python (<a href="https://pypi.org/project/birankpy/" target="_blank">birankpy</a>)
-                                    and R (<a href="https://cran.r-project.org/web/packages/birankr/index.html" target="_blank">birankr</a>).
-                                    Source code and documentation can be found on <a href="https://github.com/BrianAronson/birankr"><i class="fab fa-github-square"></i> GitHub</a>.
+                                        Traditional methods for identifying drug seeking patients rely on each individual's medical history.
+                                        We find that it's beneficial to consider the provider-patient prescription networks, which account for the social processes among
+                                        the actors.
+                                        In our <a href="https://doi.org/10.1371/journal.pone.0223849" target="_blank"><i class="far fa-file-pdf"></i> paper</a>,
+                                        we show that PageRank can be used to effectively identify these drug seekers.
+                                        However, the naive PageRank algorithm requires one-mode projection on the bipartite network among the providers and patients,
+                                        which may distort the network topology.
+                                        In a recent <a href="https://doi.org/10.31235/osf.io/hazvs" target="_blank"><i class="far fa-file-pdf"></i> paper</a>, we 
+                                        further demonstrate that the bipartite PageRank algorithms that rank nodes directly on the bipartite networks can better predict high risk patients.
+                                        <br>
+                                        We implement the bipartite PageRank algorithms for the community.
+                                        Our package is available both in Python (<a href="https://pypi.org/project/birankpy/" target="_blank">birankpy</a>)
+                                        and R (<a href="https://cran.r-project.org/web/packages/birankr/index.html" target="_blank">birankr</a>).
+                                        Source code and documentation can be found on <a href="https://github.com/BrianAronson/birankr"><i class="fab fa-github-square"></i> GitHub</a>.
                                     </p>
                             </div>
                         </div>
                     </div>
 
+               <h3 class="mt-3">3. Network science</h3> 
                     <div id="persona" class="my-5">
                         <div class="row">
                             <div class="col-12 col-lg-4 mb-3">
                                     <img class="mx-auto showcase" src="static/images/persona2vec.png">
                             </div>
                             <div class="col-12 col-lg-8">
-                                    <h4>Multi-role Representations Learning</h4>
+                                    <h4>Multi-role representations learning</h4>
                                     <p>
                                     Most network embedding algorithms assign a single vector to each node, 
                                     implicitly assuming that a single representation is enough to capture all characteristics of the node.
@@ -282,36 +297,6 @@
                         </div>
                     </div>
 
-               <!--
-               <h3 class="mt-3">2. Opioid epidemic in U.S.</h3> 
-               Doctor shopping refers to the behavior of visiting multiple physicians to obtain excessive controlled substance.
-               This project aims to characterize the doctor shopping behavior for opioid drugs in response to the severe
-               opioid crisis in US using 11 years’ longitudinal medical records from over 20 million patients. 
-
-                    <div id="pagerank" class="my-5">
-                        <div class="row">
-                            <div class="col-12 col-lg-4 mb-3">
-                                    <img class="mx-auto showcase" src="static/images/shopper.png">
-                            </div>
-                            <div class="col-12 col-lg-8">
-                                    <h4>Network prominence indicates drug seeking behavior</h4>
-                                    <p>
-                                        Traditional methods for identifying drug seeking behavior focus on each patient's medical history individually.
-                                        Typical criteria involves the number of different prescribers, visits of different pharmacies and total drug dose
-                                        in certain time period.
-                                        Our analysis shows these methods become less useful as the patients are intentionally altering their
-                                        behaviors to avoid detection.
-                                        This project tends to utilize social network analysis to identify drug seeking behavior which has proven to be more
-                                        effective and harder to trick.
-                                    </p>
-                                    <p>
-                                        <a href="https://doi.org/10.1371/journal.pone.0223849" target="_blank"><i class="far fa-file-pdf"></i> Paper</a>
-                                    </p>
-                            </div>
-                        </div>
-                    </div>
-
-            -->
             </div>
 
             <hr>
@@ -446,6 +431,14 @@
                             <i>PLoS one, 14(10), p.e0223849.</i>
                             <br>
                             <a href="https://doi.org/10.1371/journal.pone.0223849" target="_blank"><i class="far fa-file-pdf"></i> DOI</a> 
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            Aronson, B., <u>Yang, K. C.</u>, Odabas, M., Ahn, Y. Y., & Perry, B. (2020).
+                            <b>Comparing Measures of Centrality in Bipartite Social Networks: A Study of Drug Seeking for Opioid Analgesics.</b>
+                            <br>
+                            <a href="https://doi.org/10.31235/osf.io/hazvs" target="_blank"><i class="far fa-file-pdf"></i> SocArXiv</a> 
                         </div>
                     </li>
                 </ol>
