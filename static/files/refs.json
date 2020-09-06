@@ -3,6 +3,140 @@
         "project_class": "1. Bad actors on social media",
         "papers": [
             {
+                "authors": "Yan, H., <u>Yang, K. C.</u>, Menczer, F., & Shanahan, J. (2020).",
+                "title": "Asymmetrical Perceptions of Partisan Political Bots.",
+                "venue": "New Media & Society.",
+                "medias": [
+                    {
+                        "url": "https://mediaschool.indiana.edu/news-events/news/item.html?n=human-or-bot-conservative-profiles-are-more-often-misidentified-study-finds",
+                        "name": "IU the Media School Report"
+                    }
+                ],
+                "links":[
+                    {
+                        "url": "https://doi.org/10.1177/1461444820942744",
+                        "class": "far fa-file-pdf",
+                        "name": "DOI"
+                    },
+                    {
+                        "url": "https://doi.org/10.31235/osf.io/gf7jb",
+                        "class": "far fa-file-pdf",
+                        "name": "SocArXiv"
+                    }
+                ]
+            },
+            {
+                "authors": "Sayyadiharikandeh, M., Varol, O., <u>Yang, K. C.</u>, Flammini, A., & Menczer, F. (2020).",
+                "title": "Detection of Novel Social Bots by Ensembles of Specialized Classifiers.",
+                "venue": "Forthcoming in CIKM2020.",
+                "links": [
+                    {
+                        "url": "https://arxiv.org/abs/2006.06867",
+                        "class": "far fa-file-pdf",
+                        "name": "arXiv"
+                    }
+                ]
+            },
+            {
+                "authors": "Yang, K. C.</u>, Hui, P. M., & Menczer, F. (2020).",
+                "title": "How Twitter Data Sampling Biases U.S. Voter Behavior Characterizations.",
+                "links": [
+                    {
+                        "url": "https://arxiv.org/abs/2006.01447",
+                        "class": "far fa-file-pdf",
+                        "name": "arXiv"
+                    }
+                ]
+            },
+            {
+                "authors": "Wen, C., Pacheco, D., <u>Yang, K. C.</u>, & Menczer, F. (2020).",
+                "title": "Neutral Bots Reveal Political Bias on Social Media.",
+                "links": [
+                    {
+                        "url": "https://arxiv.org/abs/2005.08141",
+                        "class": "far fa-file-pdf",
+                        "name": "arXiv"
+                    },
+                    {
+                        "url": "https://github.com/IUNetSci/DrifterBot",
+                        "class": "fab fa-github-square",
+                        "name": "GitHub"
+                    }
+                ]
+            },
+            {
+                "authors": "Yang, K. C.</u>, Torres-Lugo, C., & Menczer, F. (2020).",
+                "title": "Prevalence of Low-Credibility Information on Twitter During the COVID-19 Outbreak.",
+                "venue":"Proceedings ICWSM International Workshop on Cyber Social Threats (CySoc)",
+                "medias": [
+                    {
+                        "url": "https://spectrum.ieee.org/tech-talk/telecom/internet/twitter-bots-are-spreading-massive-amounts-of-covid-19-misinformation",
+                        "name": "IEEE Spectrum"
+                    }
+                ],
+                "links": [
+                    {
+                        "url": "https://doi.org/10.36190/2020.16",
+                        "class": "far fa-file-pdf",
+                        "name": "DOI"
+                    },
+                    {
+                        "url": "https://arxiv.org/abs/2004.14484",
+                        "class": "far fa-file-pdf",
+                        "name": "arXiv"
+                    }
+                ]
+            },
+            {
+                "authors": "Hui, P. M., <u>Yang, K. C.</u>, Torres-Lugo, C., & Menczer, F. (2020).",
+                "title": "BotSlayer: DIY Real-Time Influence Campaign Detection.",
+                "venue": "Proceedings of the International AAAI Conference on Web and Social Media, vol. 14, pp. 980-982. 2020.",
+                "links": [
+                    {
+                        "url": "https://www.aaai.org/ojs/index.php/ICWSM/article/view/7370",
+                        "class": "far fa-file-pdf",
+                        "name": "DOI"
+                    },
+                    {
+                        "url": "https://osome.iu.edu/tools/botslayer/",
+                        "class": "fas fa-external-link-alt",
+                        "name": "BotSlayer"
+                    }
+                ]
+            },
+            {
+                "authors": "Yang, K. C.</u>, Varol, O., Hui, P. M., & Menczer, F. (2020).",
+                "title": "Scalable and Generalizable Social Bot Detection through Data Selection.",
+                "venue": "Proceedings of the AAAI Conference on Artificial Intelligence, vol. 34, pp. 1096--1103.",
+                "links": [
+                    {
+                        "url": "https://doi.org/10.1609/aaai.v34i01.5460 ",
+                        "class": "far fa-file-pdf",
+                        "name": "DOI"
+                    },
+                    {
+                        "url": "https://arxiv.org/abs/1911.09179",
+                        "class": "far fa-file-pdf",
+                        "name": "arXiv"
+                    },
+                    {
+                        "url": "https://botometer.osome.iu.edu/botometerlite",
+                        "class": "fas fa-external-link-alt",
+                        "name": "BotometerLite"
+                    },
+                    {
+                        "url": "https://rapidapi.com/OSoMe/api/botometer-pro",
+                        "class": "fas fa-external-link-alt",
+                        "name": "API"
+                    },
+                    {
+                        "url": "https://botometer.osome.iu.edu/bot-repository/",
+                        "class": "fas fa-database",
+                        "name": "Dataset"
+                    }
+                ]
+            },
+            {
                 "title": "BotSlayer: real-time detection of bot amplification on Twitter.",
                 "authors": "Hui, P. M., <u>Yang, K. C.</u>, Torres-Lugo, C., Monroe, Z., McCarty, M., Serrette, B. D., Pentchev, V., & Menczer, F. (2019).",
                 "venue": "The Journal of Open Source Software, 01706.",
@@ -30,6 +164,91 @@
                     {
                         "name": "Science Node",
                         "url": "https://sciencenode.org/feature/Botslayer.php"
+                    }
+                ]
+            },
+            {
+                "authors": "Yang, K. C.</u>, Hui, P. M., & Menczer, F. (2019).",
+                "title": "Bot Electioneering Volume: visualizing social bot activity during elections.",
+                "venue": "Companion Proceedings of The 2019 World Wide Web Conference. pp. 214–217.",
+                "links": [
+                    {
+                        "url": "https://doi.org/10.1145/3308560.3316499",
+                        "class": "far fa-file-pdf",
+                        "name": "DOI"
+                    },
+                    {
+                        "url": "https://arxiv.org/abs/1902.02339",
+                        "class": "far fa-file-pdf",
+                        "name": "arXiv"
+                    },
+                    {
+                        "url": "https://botometer.osome.iu.edu/bev/",
+                        "class": "fas fa-external-link-alt",
+                        "name": "BEV"
+                    }
+                ]
+            },
+            {
+                "authors": "<u>Yang, K. C.</u>, Varol, O., Davis, C. A., Ferrara, E., Flammini, A., & Menczer, F. (2019).",
+                "title": "Arming the public with artificial intelligence to counter social bots.",
+                "venue": "Human Behavior and Emerging Technologies. 2019;e115.",
+                "links": [
+                    {
+                        "url": "https://doi.org/10.1002/hbe2.115",
+                        "class": "far fa-file-pdf",
+                        "name": "DOI"
+                    },
+                    {
+                        "url": "https://arxiv.org/abs/1901.00912",
+                        "class": "far fa-file-pdf",
+                        "name": "arXiv"
+                    },
+                    {
+                        "url": "https://botometer.osome.iu.edu/",
+                        "class": "fas fa-external-link-alt",
+                        "name": "Botometer"
+                    },
+                    {
+                        "url": "https://rapidapi.com/OSoMe/api/botometer-pro",
+                        "class": "fas fa-external-link-alt",
+                        "name": "API"
+                    },
+                    {
+                        "url": "https://botometer.osome.iu.edu/bot-repository/",
+                        "class": "fas fa-database",
+                        "name": "Dataset"
+                    }
+                ]
+            },
+            {
+                "authors": "Shao, C., Ciampaglia, G. L., Varol, O., <u>Yang, K. C.</u>, Flammini, A., & Menczer, F. (2018).",
+                "title": "The spread of low-credibility content by social bots.",
+                "venue": "Nature Communications, 9(1), 4787.",
+                "medias": [
+                    {
+                        "url": "https://news.iu.edu/stories/2018/11/iub/releases/20-twitter-bots-election-misinformation.html",
+                        "name": "IU news"
+                    },
+                    {
+                        "url": "https://www.sciencenews.org/article/twitter-bots-fake-news-2016-election",
+                        "name": "ScienceNews"
+                    },
+                    {
+                        "url": "https://www.technologyreview.com/s/608561/first-evidence-that-social-bots-play-a-major-role-in-spreading-fake-news/",
+                        "name": "MIT Technology Review"
+                    }
+                ],
+                "links":[
+                    {
+                        "url": "https://doi.org/10.1038/s41467-018-06930-7",
+                        "class": "far fa-file-pdf",
+                        "name": "DOI"
+                    },
+                    {
+                        "url": "https://github.com/IUNetSci/HoaxyBots",
+                        "class": "fab fa-github-square",
+                        "name": "GitHub"
                     }
                 ]
             }
