@@ -1,7 +1,18 @@
 var app = new Vue({
     el: '#app',
     data: {
-        message: 'Hello Vue!'
+        message: 'Hello Vue!',
+        json: null,
+        refs: null
+    },
+    created: function () {
+        var _this = this;
+        $.getJSON('/static/files/data.json', function (json) {
+            _this.json = json;
+        });
+        $.getJSON('/static/files/refs.json', function (json) {
+            _this.refs = json;
+        });
     }
 })
 

@@ -1,0 +1,77 @@
+{
+	"news_list": [
+        {
+            "date": "Sep 2, 2020",
+            "msg": "Botometer V4 and BotometerLite are now available through RapidAPI, check out the <a href='https://cnets.indiana.edu/blog/2020/09/01/botometer-v4/' target='_blank'>announcement</a> "
+        },
+        {
+			"date": "Jul 18, 2020",
+			"msg": "Our paper <b>Asymmetrical Perceptions of Partisan Political Bots</b> has been published by New Media & Society, the preprint version is also available"
+		},
+		{
+			"date": "Jul 10, 2020",
+			"msg": "Our paper <b>BiRank: Fast and Flexible Ranking on Bipartite Networks with R and Python</b> has been published by The Journal of Open Source Software, the package is available"
+        },
+        {
+            "date": "Jun 21, 2020",
+            "msg": "New preprint <b>Comparing Measures of Centrality in Bipartite Social Networks: A Study of Drug Seeking for Opioid Analgesics</b> available"
+        },
+        {
+            "date": "Jun 14, 2020",
+            "msg": "New preprint <b>Detection of Novel Social Bots by Ensembles of Specialized Classifiers</b> available"
+        }
+    ],
+    "project_highlights": [
+        {
+            "project_class": "1. Bad actors on social media",
+            "projects": [
+                {
+                    "image": "botometer",
+                    "title": "Social bot detection",
+                    "msg": "Social bots are social media accounts controlled in part or completely by algorithms. They are involved in the online discussions around various critical issues like elections and public health, trying the manipulate the public opinion. To aid the daily usage for the public and studies on social media for researchers, I build tools to detect the social bots. <br> <a href='https://botometer.iuni.iu.edu/' target='_blank'>Botometer</a> is a machine learning tool that extracts over 1000 different features from a Twitter account and evaluates its likelihood of being social bot. Botometer is handling over 450,000 requests every day and serves as the foundation for many studies. <br> <a href='https://botometer.iuni.iu.edu/#!/botometerlite' target='_blank'>BotometerLite</a> is a highly efficient bot detection tool that can process millions of accounts in minutes. With the novel evaluation system and model selection method, BotometerLite is able to achieve comparable accuracy with Botometer."
+                },
+                {
+                    "image": "systembias",
+                    "title": "Biases in Twitter data sampling",
+                    "msg": "Researchers have used data from Twitter to analyze public opinions and forecast election results. Many recent studies, including some of our own, reveal the existence of inauthentic actors such as malicious social bots, suggesting that not every message is a genuine expression from a legitimate user. However, the prevalence of inauthentic activities in social data streams is still unclear, making it difficult to gauge biases of analyses based on such data. We attempt to close this gap in a recent <a href='https://arxiv.org/abs/2006.01447' target='_blank'><i class='far fa-file-pdf'></i> paper</a> using Twitter data from the 2018 U.S. midterm elections. We find that hyperactive accounts are over-represented in volume samples. In comparison with the self-identified voters, hyperactive accounts are more likely to exhibit various suspicious behaviors and share low-credibility information. "
+                },
+                {
+                    "image": "botperception",
+                    "title": "Human perceptions of political bots",
+                    "msg": "Bots are prevalent in online political discussion. In our recent <a href='https://doi.org/10.1177/1461444820942744' target='_blank'><i class='far fa-file-pdf'></i> paper</a>, we examine the perceptions of bots with partisan personas by conducting an experiment with human subjects. Our analysis reveals asymmetrical partisan-motivated reasoning, in that conservative profiles appear to be more confusing and Republican participants perform less well in the recognition task. Moreover, Republican users are more likely to confuse conservative bots with humans, whereas Democratic users are more likely to confuse conservative human users with bots."
+                },
+                {
+                    "image": "misinfocovid19",
+                    "title": "Prevalence of low-credibility information about COVID-19",
+                    "msg": "We estimate the prevalence of links to low-credibility information on Twitter during the novel coronavirus outbreak, and the role of bots in spreading these links in a recent <a href='https://doi.org/10.36190/2020.16' target='_blank'><i class='far fa-file-pdf'></i> paper</a>. We find that the combined volume of tweets linking to low-credibility information is comparable to the volume of New York Times articles and CDC links. The majority of this content spreads via retweets. Social bots are involved in both posting and amplifying low-credibility information, although the majority of volume is generated by likely humans."
+                },
+                {
+                    "image": "botslayer",
+                    "title": "Bot amplification detection & visualization",
+                    "msg": "Inauthentic actors like social bots often act in coordination to increase influence and evade detection. We therefore also build tools that can detect and visualize such operations. <br> <a href='https://osome.iuni.iu.edu/tools/botslayer/' target='_blank'>BotSlayer</a> helps to track and detect potential coordinated manipulation on Twitter. It's free and easy to install, allowing everyone to own a customized instance running in the could. We also provide an open source version <a href='https://github.com/IUNetSci/BotSlayer-CE' target='_blank'>BotSlayer-CE</a>. <br> <a href='https://hoaxy.iuni.iu.edu/' target='_blank'> Hoaxy</a> visualizes the information spreading on Twitter. The close integration with Botometer and BotSlayer makes it a powerful yet handy tool for in-depth investigation of inauthentic behaviors."
+                }
+            ]
+            
+        },
+        {
+            "project_class": "2. Opioid epidemic in U.S.",
+            "projects": [
+                {
+                    "image": "shopper",
+                    "title": "Network prominence indicates drug seeking behavior",
+                    "msg": "Traditional methods for identifying drug seeking patients rely on each individual's medical history. We find that it's beneficial to consider the provider-patient prescription networks, which account for the social processes among the actors. In our <a href='https://doi.org/10.1371/journal.pone.0223849' target='_blank'><i class='far fa-file-pdf'></i> paper</a>, we show that PageRank can be used to effectively identify these drug seekers. However, the naive PageRank algorithm requires one-mode projection on the bipartite network among the providers and patients, which may distort the network topology. In a recent <a href='https://doi.org/10.31235/osf.io/hazvs' target='_blank'><i class='far fa-file-pdf'></i> paper</a>, we further demonstrate that the bipartite PageRank algorithms that rank nodes directly on the bipartite networks can better predict high risk patients. <br> We implement the bipartite PageRank algorithms for the community. Our package is available both in Python (<a href='https://pypi.org/project/birankpy/' target='_blank'>birankpy</a>) and R (<a href='https://cran.r-project.org/web/packages/birankr/index.html' target='_blank'>birankr</a>). Source code and documentation can be found on <a href='https://github.com/BrianAronson/birankr'><i class='fab fa-github-square'></i> GitHub</a>."
+                }
+            ]
+        },
+        {
+            "project_class": "3. Network science",
+            "projects": [
+                {
+                    "image": "persona2vec",
+                    "title": "Multi-role representations learning",
+                    "msg": "Most network embedding algorithms assign a single vector to each node, implicitly assuming that a single representation is enough to capture all characteristics of the node. However, across many domains, it is common to observe pervasively overlapping community structure, where most nodes belong to multiple communities, playing different roles depending on the contexts. We propose persona2vec, a graph embedding framework that efficiently learns multiple representations of nodes based on their structural contexts. Checkout our <a href='https://arxiv.org/abs/2006.04941' target='_blank'><i class='far fa-file-pdf'></i> paper</a> and <a href='https://github.com/jisungyoon/persona2vec'><i class='fab fa-github-square'></i> GitHub</a>. "
+                }
+            ]
+        }
+    ]
+}

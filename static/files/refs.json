@@ -1,0 +1,86 @@
+[
+    {
+        "project_class": "1. Bad actors on social media",
+        "papers": [
+            {
+                "title": "BotSlayer: real-time detection of bot amplification on Twitter.",
+                "authors": "Hui, P. M., <u>Yang, K. C.</u>, Torres-Lugo, C., Monroe, Z., McCarty, M., Serrette, B. D., Pentchev, V., & Menczer, F. (2019).",
+                "venue": "The Journal of Open Source Software, 01706.",
+                "links": [
+                    {
+                        "name": "DOI",
+                        "class": "far fa-file-pdf",
+                        "url": "https://doi.org/10.21105/joss.01706"
+                    },
+                    {
+                        "name": "GitHub",
+                        "class": "fab fa-github-square",
+                        "url": "https://github.com/IUNetSci/BotSlayer-CE"
+                    }
+                ],
+                "medias": [
+                    {
+                        "name": "IU News",
+                        "url": "https://news.iu.edu/stories/2019/09/iub/releases/12-botslayer-launch.html"
+                    },
+                    {
+                        "name": "IDS news",
+                        "url": "https://www.idsnews.com/article/2019/09/iu-develops-new-services-to-rid-of-false-information-on-twitter"
+                    },
+                    {
+                        "name": "Science Node",
+                        "url": "https://sciencenode.org/feature/Botslayer.php"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "project_class": "2. Opioid epidemic in U.S.",
+        "papers": [
+            {
+                "title": "Comparing Measures of Centrality in Bipartite Social Networks: A Study of Drug Seeking for Opioid Analgesics.",
+                "authors": "Aronson, B., <u>Yang, K. C.</u>, Odabas, M., Ahn, Y. Y., & Perry, B. (2020).",
+                "links": [
+                    {
+                        "name": "SocArXiv",
+                        "class": "far fa-file-pdf",
+                        "url": "https://doi.org/10.31235/osf.io/hazvs"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "project_class": "3. Network Science",
+        "papers": [
+            {
+                "title": "BiRank: Fast and Flexible Ranking on Bipartite Networks with R and Python.",
+                "authors": "<u>Yang, K. C.</u>, Aronson, B., & Ahn, Y. Y. (2020).",
+                "venue": "The Journal of Open Source Software, 02315.",
+                "links": [
+                    {
+                        "url": "https://doi.org/10.21105/joss.02315",
+                        "class": "far fa-file-pdf",
+                        "name": "DOI"
+                    },
+                    {
+                        "url": "https://github.com/BrianAronson/birankr",
+                        "class": "fab fa-github-square",
+                        "name": "GitHub"
+                    },
+                    {
+                        "url": "https://pypi.org/project/birankpy/",
+                        "class": "fas fa-external-link-alt",
+                        "name": "PyPI" 
+                    },
+                    {
+                        "url": "https://cran.r-project.org/web/packages/birankr/index.html",
+                        "class": "fas fa-external-link-alt",
+                        "name": "CRAN" 
+                    }
+                ]
+            }
+        ]
+    }
+]
