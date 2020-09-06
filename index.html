@@ -170,6 +170,9 @@
                                 <span v-if="paper.venue">
                                     <i>{{ paper.venue }}</i>
                                 </span>
+                                <span v-if="paper.note">
+                                    ({{ paper.note }})
+                                </span>
                                 <br>
                                 <span v-if="paper.medias">
                                     <i>Media Coverage:</i>
@@ -181,7 +184,7 @@
                                 </span>
                                 <span v-if="paper.links">
                                     <span v-for="(link, index) in paper.links">
-                                        <a v-bind:href="link.url" target="_blank"><i v-bind:class="link.class"></i>{{ link.name }}</a>
+                                        <a v-bind:href="link.url" target="_blank"><i v-bind:class="link.class"></i> {{ link.name }}</a>
                                         <span v-if="index != paper.links.length - 1">| </span>
                                     </span>
                                 </span>
@@ -320,37 +323,6 @@
                             <br>
                             <a href="https://doi.org/10.1038/s41467-018-06930-7" target="_blank"><i class="far fa-file-pdf"></i> DOI</a> |
                             <a href="https://github.com/IUNetSci/HoaxyBots"><i class="fab fa-github-square"></i> GitHub</a>
-                        </div>
-                    </li>
-                </ol>
-                <h3 class="mt-3">Network Science</h3>
-                <ol class="mt-3">
-                    <li>
-                        <div>
-                            Yoon, J., <u>Yang, K. C.</u>, Jung, W. S., & Ahn, Y. Y. (2020). 
-                            <b>Persona2vec: A Flexible Multi-role Representations Learning Framework for Graphs.</b>
-                            <br>
-                            <a href="https://arxiv.org/abs/2006.04941" target='_blank'><i class="far fa-file-pdf"></i> arXiv</a> |
-                            <a href="https://github.com/jisungyoon/persona2vec"><i class="fab fa-github-square"></i> GitHub</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            Zhang, Y. J., Wu, Z. X., Holme, P., & <u>Yang, K. C.</u>(2019).
-                            <b>Advantage of being multicomponent and spatial: Multipartite viruses colonize structured populations with lower thresholds.</b>
-                            <i>Physical Review Letters 123(13), 138101.</i>
-                            (Editors' Suggestion)
-                            <br>
-                            <a href="https://doi.org/10.1103/PhysRevLett.123.138101" target="_blank"><i class="far fa-file-pdf"></i> DOI</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <u>Yang, K. C.</u>, Wu, Z. X., Holme, P., & Nonaka, E. (2017).
-                            <b>Expansion of cooperatively growing populations: Optimal migration rates and habitat network structures.</b>
-                            <i>Physical Review E, 95(1), 012306.</i>
-                            <br>
-                            <a href="https://doi.org/10.1103/PhysRevE.95.012306" target="_blank"><i class="far fa-file-pdf"></i> DOI</a>
                         </div>
                     </li>
                 </ol>

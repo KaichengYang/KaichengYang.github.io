@@ -48,6 +48,18 @@
                         "url": "https://doi.org/10.31235/osf.io/hazvs"
                     }
                 ]
+            },
+            {
+                "authors": "Perry, B., <u>Yang, K. C.</u>, Kaminski, P., Odabas, M., Park, J., Martel, M., Oser, C., Freeman, P., Ahn, Y. Y., & Talbert, J. (2019).",
+                "title": "Co-prescription network reveals social dynamics of opioid doctor shopping.",
+                "venue": "PLoS one, 14(10), p.e0223849.",
+                "links": [
+                    {
+                        "url": "https://doi.org/10.1371/journal.pone.0223849",
+                        "class": "far fa-file-pdf",
+                        "name": "DOI"
+                    }
+                ]
             }
         ]
     },
@@ -78,6 +90,47 @@
                         "url": "https://cran.r-project.org/web/packages/birankr/index.html",
                         "class": "fas fa-external-link-alt",
                         "name": "CRAN" 
+                    }
+                ]
+            },
+            {
+                "title": "Persona2vec: A Flexible Multi-role Representations Learning Framework for Graphs.",
+                "authors": "Yoon, J., <u>Yang, K. C.</u>, Jung, W. S., & Ahn, Y. Y. (2020).",
+                "links": [
+                    {
+                        "url": "https://arxiv.org/abs/2006.04941",
+                        "class": "far fa-file-pdf",
+                        "name": "arXiv"
+                    },
+                    {
+                        "url": "https://github.com/jisungyoon/persona2vec",
+                        "class": "fab fa-github-square",
+                        "name": "GitHub"
+                    }
+                ]
+            },
+            {
+                "title": "Advantage of being multicomponent and spatial: Multipartite viruses colonize structured populations with lower thresholds.",
+                "authors": "Zhang, Y. J., Wu, Z. X., Holme, P., & <u>Yang, K. C.</u>(2019).",
+                "venue": "Physical Review Letters 123(13), 138101.",
+                "note": "Editors' Suggestion",
+                "links": [
+                    {
+                        "url": "https://doi.org/10.1103/PhysRevLett.123.138101",
+                        "class": "far fa-file-pdf",
+                        "name": "DOI"
+                    }
+                ]
+            },
+            {
+                "title": "Expansion of cooperatively growing populations: Optimal migration rates and habitat network structures.",
+                "authors": "<u>Yang, K. C.</u>, Wu, Z. X., Holme, P., & Nonaka, E. (2017).",
+                "venue": "Physical Review E, 95(1), 012306.",
+                "links": [
+                    {
+                        "url": "https://doi.org/10.1103/PhysRevE.95.012306",
+                        "class": "far fa-file-pdf",
+                        "name": "DOI"
                     }
                 ]
             }
