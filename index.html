@@ -135,11 +135,11 @@
                <h2 class="mt-3">Project highlights</h2> 
                
                <span v-for="project_highlight in json.project_highlights">
-                    <h3 class="mt-3">{{ project_highlight.project_class }}</h3>  
+                    <h3 class="mt-3 mb-3">{{ project_highlight.project_class }}</h3>  
 
                     <div class="row">
                         <template v-for="project in project_highlight.projects">
-                            <div class="col-md-4 mb-5">
+                            <div class="col-md-4 mb-3">
                                 <b-card
                                 :title="project.title"
                                 :img-src="'static/images/' + project.image + '.png'"
@@ -234,9 +234,10 @@
                 Site created by Kai-Cheng Yang. Powered by
                 <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>,
                 <a href="https://vuejs.org/" target="_blank">Vue.js</a>,
+                <a href="https://bootstrap-vue.org/">BootstrapVue</a>,
                 <a href="https://madewithvuejs.com/vue-scrollto" target="_blank">Vue ScrollTo</a>, 
                 <a href="http://ianlunn.github.io/Hover/" target="_blank">Hoever.css</a>,
-                <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
+                <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>,
                 and <a href="https://jpswalsh.github.io/academicons/" target="_blank">Academicons</a>.
             </div>
 
