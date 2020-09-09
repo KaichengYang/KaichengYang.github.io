@@ -16,12 +16,10 @@
                 "links":[
                     {
                         "url": "https://doi.org/10.1177/1461444820942744",
-                        "class": "far fa-file-pdf",
                         "name": "DOI"
                     },
                     {
                         "url": "https://doi.org/10.31235/osf.io/gf7jb",
-                        "class": "far fa-file-pdf",
                         "name": "SocArXiv"
                     }
                 ]
@@ -34,7 +32,6 @@
                 "links": [
                     {
                         "url": "https://arxiv.org/abs/2006.06867",
-                        "class": "far fa-file-pdf",
                         "name": "arXiv"
                     }
                 ]
@@ -46,7 +43,6 @@
                 "links": [
                     {
                         "url": "https://arxiv.org/abs/2006.01447",
-                        "class": "far fa-file-pdf",
                         "name": "arXiv"
                     }
                 ]
@@ -58,12 +54,10 @@
                 "links": [
                     {
                         "url": "https://arxiv.org/abs/2005.08141",
-                        "class": "far fa-file-pdf",
                         "name": "arXiv"
                     },
                     {
                         "url": "https://github.com/IUNetSci/DrifterBot",
-                        "class": "fab fa-github-square",
                         "name": "GitHub"
                     }
                 ]
@@ -82,12 +76,10 @@
                 "links": [
                     {
                         "url": "https://doi.org/10.36190/2020.16",
-                        "class": "far fa-file-pdf",
                         "name": "DOI"
                     },
                     {
                         "url": "https://arxiv.org/abs/2004.14484",
-                        "class": "far fa-file-pdf",
                         "name": "arXiv"
                     }
                 ]
@@ -100,12 +92,10 @@
                 "links": [
                     {
                         "url": "https://www.aaai.org/ojs/index.php/ICWSM/article/view/7370",
-                        "class": "far fa-file-pdf",
                         "name": "DOI"
                     },
                     {
                         "url": "https://osome.iu.edu/tools/botslayer/",
-                        "class": "fas fa-external-link-alt",
                         "name": "BotSlayer"
                     }
                 ]
@@ -118,27 +108,22 @@
                 "links": [
                     {
                         "url": "https://doi.org/10.1609/aaai.v34i01.5460 ",
-                        "class": "far fa-file-pdf",
                         "name": "DOI"
                     },
                     {
                         "url": "https://arxiv.org/abs/1911.09179",
-                        "class": "far fa-file-pdf",
                         "name": "arXiv"
                     },
                     {
                         "url": "https://botometer.osome.iu.edu/botometerlite",
-                        "class": "fas fa-external-link-alt",
                         "name": "BotometerLite"
                     },
                     {
                         "url": "https://rapidapi.com/OSoMe/api/botometer-pro",
-                        "class": "fas fa-external-link-alt",
                         "name": "API"
                     },
                     {
                         "url": "https://botometer.osome.iu.edu/bot-repository/",
-                        "class": "fas fa-database",
                         "name": "Dataset"
                     }
                 ]
@@ -151,12 +136,10 @@
                 "links": [
                     {
                         "name": "DOI",
-                        "class": "far fa-file-pdf",
                         "url": "https://doi.org/10.21105/joss.01706"
                     },
                     {
                         "name": "GitHub",
-                        "class": "fab fa-github-square",
                         "url": "https://github.com/IUNetSci/BotSlayer-CE"
                     }
                 ],
@@ -183,17 +166,14 @@
                 "links": [
                     {
                         "url": "https://doi.org/10.1145/3308560.3316499",
-                        "class": "far fa-file-pdf",
                         "name": "DOI"
                     },
                     {
                         "url": "https://arxiv.org/abs/1902.02339",
-                        "class": "far fa-file-pdf",
                         "name": "arXiv"
                     },
                     {
                         "url": "https://botometer.osome.iu.edu/bev/",
-                        "class": "fas fa-external-link-alt",
                         "name": "BEV"
                     }
                 ]
@@ -206,27 +186,22 @@
                 "links": [
                     {
                         "url": "https://doi.org/10.1002/hbe2.115",
-                        "class": "far fa-file-pdf",
                         "name": "DOI"
                     },
                     {
                         "url": "https://arxiv.org/abs/1901.00912",
-                        "class": "far fa-file-pdf",
                         "name": "arXiv"
                     },
                     {
                         "url": "https://botometer.osome.iu.edu/",
-                        "class": "fas fa-external-link-alt",
                         "name": "Botometer"
                     },
                     {
                         "url": "https://rapidapi.com/OSoMe/api/botometer-pro",
-                        "class": "fas fa-external-link-alt",
                         "name": "API"
                     },
                     {
                         "url": "https://botometer.osome.iu.edu/bot-repository/",
-                        "class": "fas fa-database",
                         "name": "Dataset"
                     }
                 ]
@@ -253,12 +228,10 @@
                 "links":[
                     {
                         "url": "https://doi.org/10.1038/s41467-018-06930-7",
-                        "class": "far fa-file-pdf",
                         "name": "DOI"
                     },
                     {
                         "url": "https://github.com/IUNetSci/HoaxyBots",
-                        "class": "fab fa-github-square",
                         "name": "GitHub"
                     }
                 ]
@@ -275,7 +248,6 @@
                 "links": [
                     {
                         "name": "SocArXiv",
-                        "class": "far fa-file-pdf",
                         "url": "https://doi.org/10.31235/osf.io/hazvs"
                     }
                 ]
@@ -288,7 +260,6 @@
                 "links": [
                     {
                         "url": "https://doi.org/10.1371/journal.pone.0223849",
-                        "class": "far fa-file-pdf",
                         "name": "DOI"
                     }
                 ]
@@ -306,22 +277,18 @@
                 "links": [
                     {
                         "url": "https://doi.org/10.21105/joss.02315",
-                        "class": "far fa-file-pdf",
                         "name": "DOI"
                     },
                     {
                         "url": "https://github.com/BrianAronson/birankr",
-                        "class": "fab fa-github-square",
                         "name": "GitHub"
                     },
                     {
                         "url": "https://pypi.org/project/birankpy/",
-                        "class": "fas fa-external-link-alt",
                         "name": "PyPI" 
                     },
                     {
                         "url": "https://cran.r-project.org/web/packages/birankr/index.html",
-                        "class": "fas fa-external-link-alt",
                         "name": "CRAN" 
                     }
                 ]
@@ -333,12 +300,10 @@
                 "links": [
                     {
                         "url": "https://arxiv.org/abs/2006.04941",
-                        "class": "far fa-file-pdf",
                         "name": "arXiv"
                     },
                     {
                         "url": "https://github.com/jisungyoon/persona2vec",
-                        "class": "fab fa-github-square",
                         "name": "GitHub"
                     }
                 ]
@@ -352,7 +317,6 @@
                 "links": [
                     {
                         "url": "https://doi.org/10.1103/PhysRevLett.123.138101",
-                        "class": "far fa-file-pdf",
                         "name": "DOI"
                     }
                 ]
@@ -365,7 +329,6 @@
                 "links": [
                     {
                         "url": "https://doi.org/10.1103/PhysRevE.95.012306",
-                        "class": "far fa-file-pdf",
                         "name": "DOI"
                     }
                 ]

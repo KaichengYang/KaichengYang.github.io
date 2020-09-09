@@ -207,14 +207,14 @@
                                     <span v-if="paper.medias">
                                         <i>Media Coverage:</i>
                                         <span v-for="(media, index) in paper.medias">
-                                            <a v-bind:href="media.url" target="_blank">{{ media.name }}</a>
+                                            <a v-bind:href="media.url" target="_blank"><i class="fas fa-external-link-alt"></i> {{ media.name }}</a>
                                             <span v-if="index != paper.medias.length - 1">| </span>
                                         </span>
                                         <br>
                                     </span>
                                     <span v-if="paper.links">
                                         <span v-for="(link, index) in paper.links">
-                                            <a v-bind:href="link.url" target="_blank"><i v-bind:class="link.class"></i> {{ link.name }}</a>
+                                            <a v-bind:href="link.url" target="_blank"><i v-bind:class="get_pub_icon(link.name)"></i> {{ link.name }}</a>
                                             <span v-if="index != paper.links.length - 1">| </span>
                                         </span>
                                     </span>
