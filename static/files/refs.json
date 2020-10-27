@@ -3,6 +3,17 @@
         "project_class": "1. Bad actors on social media",
         "papers": [
             {
+                "authors": "Torres-Lugo, C., <u>Yang, K. C.</u>, & Menczer, F. (2020).",
+                "title": "The Manufacture of Political Echo Chambers by Follow Train Abuse on Twitter.",
+                "id": "lugo2020manufacture",
+                "links": [
+                    {
+                        "url": "https://arxiv.org/abs/2010.13691",
+                        "name": "arXiv"
+                    }
+                ]
+            },
+            {
                 "authors": "Yan, H., <u>Yang, K. C.</u>, Menczer, F., & Shanahan, J. (2020).",
                 "title": "Asymmetrical Perceptions of Partisan Political Bots.",
                 "id": "yan2020asymmetrical",
@@ -28,11 +39,27 @@
                 "authors": "Sayyadiharikandeh, M., Varol, O., <u>Yang, K. C.</u>, Flammini, A., & Menczer, F. (2020).",
                 "title": "Detection of Novel Social Bots by Ensembles of Specialized Classifiers.",
                 "id": "sayyadi2020detection",
-                "venue": "Forthcoming in CIKM2020.",
+                "venue": "In Proceedings of the 29th ACM International Conference on Information & Knowledge Management, pp. 2725-2732. 2020.",
                 "links": [
+                    {
+                        "url": "https://doi.org/10.1145/3340531.3412698",
+                        "name": "DOI"
+                    },
                     {
                         "url": "https://arxiv.org/abs/2006.06867",
                         "name": "arXiv"
+                    },
+                    {
+                        "url": "https://botometer.osome.iu.edu/",
+                        "name": "Botometer"
+                    },
+                    {
+                        "url": "https://rapidapi.com/OSoMe/api/botometer-pro",
+                        "name": "API"
+                    },
+                    {
+                        "url": "https://botometer.osome.iu.edu/bot-repository/",
+                        "name": "Dataset"
                     }
                 ]
             },
@@ -66,7 +93,7 @@
                 "authors": "<u>Yang, K. C.</u>, Torres-Lugo, C., & Menczer, F. (2020).",
                 "title": "Prevalence of Low-Credibility Information on Twitter During the COVID-19 Outbreak.",
                 "id": "yang2020prevalence",
-                "venue":"Proceedings ICWSM International Workshop on Cyber Social Threats (CySoc)",
+                "venue":"Proceedings ICWSM International Workshop on Cyber Social Threats (CySoc).",
                 "medias": [
                     {
                         "url": "https://spectrum.ieee.org/tech-talk/telecom/internet/twitter-bots-are-spreading-massive-amounts-of-covid-19-misinformation",
@@ -107,7 +134,7 @@
                 "venue": "Proceedings of the AAAI Conference on Artificial Intelligence, vol. 34, pp. 1096--1103.",
                 "links": [
                     {
-                        "url": "https://doi.org/10.1609/aaai.v34i01.5460 ",
+                        "url": "https://doi.org/10.1609/aaai.v34i01.5460",
                         "name": "DOI"
                     },
                     {

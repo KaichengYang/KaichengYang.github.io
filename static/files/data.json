@@ -1,6 +1,14 @@
 {
 	"news_list": [
         {
+            "date": "Oct 27, 2020",
+            "msg": "New preprint <b>The Manufacture of Political Echo Chambers by Follow Train Abuse on Twitter</b> available"
+        },
+        {
+            "date": "Oct 25, 2020",
+            "msg": "Our paper <b>Detection of Novel Social Bots by Ensembles of Specialized Classifiers</b> has been published in the Proceedings of CIKM 2020"
+        },
+        {
             "date": "Sep 2, 2020",
             "msg": "Botometer V4 and BotometerLite are now available through RapidAPI, check out the <a href='https://cnets.indiana.edu/blog/2020/09/01/botometer-v4/' target='_blank'>announcement</a> "
         },
@@ -15,10 +23,6 @@
         {
             "date": "Jun 21, 2020",
             "msg": "New preprint <b>Comparing Measures of Centrality in Bipartite Social Networks: A Study of Drug Seeking for Opioid Analgesics</b> available"
-        },
-        {
-            "date": "Jun 14, 2020",
-            "msg": "New preprint <b>Detection of Novel Social Bots by Ensembles of Specialized Classifiers</b> available"
         }
     ],
     "project_highlights": [
@@ -29,6 +33,11 @@
                     "image": "botometer",
                     "title": "Social bot detection",
                     "msg": "Social bots are social media accounts controlled in part or completely by algorithms. They are involved in the online discussions around various critical issues like elections and public health, trying the manipulate the public opinion. To aid the daily usage for the public and studies on social media for researchers, I build tools to detect the social bots. <br> <a href='https://botometer.osome.iu.edu/' target='_blank'>Botometer</a> is a machine learning tool that extracts over 1000 different features from a Twitter account and evaluates its likelihood of being social bot. Botometer is handling over 450,000 requests every day and serves as the foundation for many studies. <br> <a href='https://botometer.osome.iu.edu/botometerlite' target='_blank'>BotometerLite</a> is a highly efficient bot detection tool that can process millions of accounts in minutes. With the novel evaluation system and model selection method, BotometerLite is able to achieve comparable accuracy with Botometer."
+                },
+                {
+                    "image": "trainnet",
+                    "title": "Political follow trains on Twitter",
+                    "msg": "A growing body of evidence points to critical vulnerabilities of social media, such as the emergence of partisan echo chambers and the viral spread of misinformation. In our recent <a href='https://doi.org/10.1177/1461444820942744' target='_blank'><i class='far fa-file-pdf'></i> paper</a>, we show that these vulnerabilities are amplified by abusive behaviors associated with so-called ''follow trains'' on Twitter, in which long lists of like-minded accounts are mentioned for others to follow. This leads to the formation of highly dense and hierarchical echo chambers. We present the first systematic analysis of U.S. political train networks, which involve many thousands of hyper-partisan accounts. These accounts engage in various suspicious behaviors, including some that violate platform policies: we find evidence of inauthentic automated accounts, artificial inflation of friends and followers, and abnormal content deletion. The networks are also responsible for amplifying toxic content from low-credibility and conspiratorial sources. Platforms may be reluctant to curb this kind of abuse for fear of being accused of political bias. As a result, the political echo chambers manufactured by follow trains grow denser and train accounts accumulate influence; even political leaders occasionally engage with them."
                 },
                 {
                     "image": "systembias",
