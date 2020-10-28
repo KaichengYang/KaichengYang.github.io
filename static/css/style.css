@@ -84,3 +84,7 @@ a:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:
     border-color: #ac4142;
     color: white;
   }
+
+li {
+    margin-bottom: 10px;
+}
