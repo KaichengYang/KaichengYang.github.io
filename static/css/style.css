@@ -88,3 +88,7 @@ a:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:
 li {
     margin-bottom: 10px;
 }
+
+li.nav-item {
+    margin-bottom: 0px;
+}
