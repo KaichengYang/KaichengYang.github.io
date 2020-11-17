@@ -297,6 +297,17 @@
         "project_class": "3. Network Science",
         "papers": [
             {
+                "title": "Model-free hidden geometry of complex networks.",
+                "authors": "Zhang, Y. J., <u>Yang, K. C.</u>, & Radicchi, F. (2020).",
+                "id": "zhang2020model",
+                "links": [
+                    {
+                        "url": "https://arxiv.org/abs/2011.08103",
+                        "name": "arXiv"
+                    }
+                ]
+            },
+            {
                 "title": "BiRank: Fast and Flexible Ranking on Bipartite Networks with R and Python.",
                 "authors": "<u>Yang, K. C.</u>, Aronson, B., & Ahn, Y. Y. (2020).",
                 "id": "yang2020birank",
