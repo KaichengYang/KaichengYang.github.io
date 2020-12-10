@@ -3,6 +3,17 @@
         "project_class": "1. Bad actors on social media",
         "papers": [
             {
+                "authors": "Pasquetto, I., Swire-Thompson, B., Amazeen, M.A., Benevenuto, F., Brashier, N.M., Bond, R.M., Bozarth, L.C., Budak, C., Ecker, U.K.H. , Fazio, L.K., Ferrara, E., Flanagin, A.J., Flammini, A., Freelon, D., Grinberg, N., Hertwig, R., Jamieson, K.H., Joseph, K., Jones, J.J. …<u>Yang, K.C.</u> (2020).",
+                "title": "Tackling misinformation: What researchers could do with social media data.",
+                "id": "pasquetto2020tackling",
+                "links": [
+                    {
+                        "url": "https://doi.org/10.37016/mr-2020-49",
+                        "name": "DOI"
+                    }
+                ]
+            },
+            {
                 "authors": "Torres-Lugo, C., <u>Yang, K. C.</u>, & Menczer, F. (2020).",
                 "title": "The Manufacture of Political Echo Chambers by Follow Train Abuse on Twitter.",
                 "id": "lugo2020manufacture",
@@ -348,7 +359,7 @@
             },
             {
                 "title": "Advantage of being multicomponent and spatial: Multipartite viruses colonize structured populations with lower thresholds.",
-                "authors": "Zhang, Y. J., Wu, Z. X., Holme, P., & <u>Yang, K. C.</u>(2019).",
+                "authors": "Zhang, Y. J., Wu, Z. X., Holme, P., & <u>Yang, K. C.</u> (2019).",
                 "id": "zhang2019advantage",
                 "venue": "Physical Review Letters 123(13), 138101.",
                 "note": "Editors' Suggestion",

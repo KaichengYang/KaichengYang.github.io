@@ -1,6 +1,10 @@
 {
 	"news_list": [
         {
+            "date": "Dec 10, 2020",
+            "msg": "Our commentary <b>Tackling misinformation: What researchers could do with social media data</b> has been published by HKS Misinformation Review"
+        },
+        {
             "date": "Nov 16, 2020",
             "msg": "New preprint <b>Model-free hidden geometry of complex networks</b> available"
         },
@@ -19,11 +23,7 @@
         {
 			"date": "Jul 18, 2020",
 			"msg": "Our paper <b>Asymmetrical Perceptions of Partisan Political Bots</b> has been published by New Media & Society, the preprint version is also available"
-		},
-		{
-			"date": "Jul 10, 2020",
-			"msg": "Our paper <b>BiRank: Fast and Flexible Ranking on Bipartite Networks with R and Python</b> has been published by The Journal of Open Source Software, the package is available"
-        }
+		}
     ],
     "project_highlights": [
         {
