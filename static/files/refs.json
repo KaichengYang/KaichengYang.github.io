@@ -3,6 +3,17 @@
         "project_class": "1. Bad actors on social media",
         "papers": [
             {
+                "authors": "<u>Yang, K. C.</u>, Pierri, F.,  Hui, P. M., Axelrod, D., Torres-Lugo, C., Bryden, J., & Menczer, F. (2020).",
+                "title": "The Manufacture of Political Echo Chambers by Follow Train Abuse on Twitter.",
+                "id": "lugo2020manufacture",
+                "links": [
+                    {
+                        "url": "https://arxiv.org/abs/2012.09353",
+                        "name": "arXiv"
+                    }
+                ]
+            },
+            {
                 "authors": "Pasquetto, I., Swire-Thompson, B., Amazeen, M.A., Benevenuto, F., Brashier, N.M., Bond, R.M., Bozarth, L.C., Budak, C., Ecker, U.K.H. , Fazio, L.K., Ferrara, E., Flanagin, A.J., Flammini, A., Freelon, D., Grinberg, N., Hertwig, R., Jamieson, K.H., Joseph, K., Jones, J.J. …<u>Yang, K.C.</u> (2020).",
                 "title": "Tackling misinformation: What researchers could do with social media data.",
                 "id": "pasquetto2020tackling",
@@ -50,7 +61,7 @@
                 "authors": "Sayyadiharikandeh, M., Varol, O., <u>Yang, K. C.</u>, Flammini, A., & Menczer, F. (2020).",
                 "title": "Detection of Novel Social Bots by Ensembles of Specialized Classifiers.",
                 "id": "sayyadi2020detection",
-                "venue": "In Proceedings of the 29th ACM International Conference on Information & Knowledge Management, pp. 2725-2732. 2020.",
+                "venue": "In Proceedings of the 29th ACM International Conference on Information & Knowledge Management (CIKM), pp. 2725-2732. 2020.",
                 "links": [
                     {
                         "url": "https://doi.org/10.1145/3340531.3412698",
@@ -126,7 +137,7 @@
                 "authors": "Hui, P. M., <u>Yang, K. C.</u>, Torres-Lugo, C., & Menczer, F. (2020).",
                 "title": "BotSlayer: DIY Real-Time Influence Campaign Detection.",
                 "id": "hui2020botslayer",
-                "venue": "Proceedings of the International AAAI Conference on Web and Social Media, vol. 14, pp. 980-982. 2020.",
+                "venue": "Proceedings of the International AAAI Conference on Web and Social Media (ICWSM), vol. 14, pp. 980-982. 2020.",
                 "links": [
                     {
                         "url": "https://www.aaai.org/ojs/index.php/ICWSM/article/view/7370",
@@ -142,7 +153,7 @@
                 "authors": "<u>Yang, K. C.</u>, Varol, O., Hui, P. M., & Menczer, F. (2020).",
                 "title": "Scalable and Generalizable Social Bot Detection through Data Selection.",
                 "id": "yang2020scalable",
-                "venue": "Proceedings of the AAAI Conference on Artificial Intelligence, vol. 34, pp. 1096--1103.",
+                "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), vol. 34, pp. 1096--1103.",
                 "links": [
                     {
                         "url": "https://doi.org/10.1609/aaai.v34i01.5460",
@@ -200,7 +211,7 @@
                 "authors": "<u>Yang, K. C.</u>, Hui, P. M., & Menczer, F. (2019).",
                 "title": "Bot Electioneering Volume: visualizing social bot activity during elections.",
                 "id": "yang2019bot",
-                "venue": "Companion Proceedings of The 2019 World Wide Web Conference. pp. 214–217.",
+                "venue": "Companion Proceedings of The 2019 World Wide Web Conference (Companion WWW). pp. 214–217.",
                 "links": [
                     {
                         "url": "https://doi.org/10.1145/3308560.3316499",
