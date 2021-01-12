@@ -1,6 +1,10 @@
 {
 	"news_list": [
         {
+            "date": "Jan 11, 2021",
+            "msg": "Check out our <a href='https://github.com/osome-iu/osometweet' target='_blank'>OSoMeTweet</a> Python package to access Twitter's V2 API"
+        },
+        {
             "date": "Dec 17, 2020",
             "msg": "New preprint <b>The COVID-19 Infodemic: Twitter versus Facebook</b> available"
         },
@@ -23,11 +27,7 @@
         {
             "date": "Sep 2, 2020",
             "msg": "Botometer V4 and BotometerLite are now available through RapidAPI, check out the <a href='https://cnets.indiana.edu/blog/2020/09/01/botometer-v4/' target='_blank'>announcement</a> "
-        },
-        {
-			"date": "Jul 18, 2020",
-			"msg": "Our paper <b>Asymmetrical Perceptions of Partisan Political Bots</b> has been published by New Media & Society, the preprint version is also available"
-		}
+        }
     ],
     "project_highlights": [
         {
