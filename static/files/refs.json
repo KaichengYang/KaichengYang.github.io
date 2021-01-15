@@ -321,9 +321,14 @@
         "papers": [
             {
                 "title": "Model-free hidden geometry of complex networks.",
-                "authors": "Zhang, Y. J., <u>Yang, K. C.</u>, & Radicchi, F. (2020).",
+                "authors": "Zhang, Y. J., <u>Yang, K. C.</u>, & Radicchi, F. (2021).",
+                "venue": "Physical Review E, 103(1), 012305.",
                 "id": "zhang2020model",
                 "links": [
+                    {
+                        "url": "https://doi.org/10.1103/PhysRevE.103.012305",
+                        "name": "DOI"
+                    },
                     {
                         "url": "https://arxiv.org/abs/2011.08103",
                         "name": "arXiv"
@@ -346,11 +351,11 @@
                     },
                     {
                         "url": "https://pypi.org/project/birankpy/",
-                        "name": "PyPI" 
+                        "name": "PyPI"
                     },
                     {
                         "url": "https://cran.r-project.org/web/packages/birankr/index.html",
-                        "name": "CRAN" 
+                        "name": "CRAN"
                     }
                 ]
             },
@@ -373,7 +378,7 @@
                 "title": "Advantage of being multicomponent and spatial: Multipartite viruses colonize structured populations with lower thresholds.",
                 "authors": "Zhang, Y. J., Wu, Z. X., Holme, P., & <u>Yang, K. C.</u> (2019).",
                 "id": "zhang2019advantage",
-                "venue": "Physical Review Letters 123(13), 138101.",
+                "venue": "Physical Review Letters, 123(13), 138101.",
                 "note": "Editors' Suggestion",
                 "links": [
                     {

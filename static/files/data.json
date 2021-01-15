@@ -1,6 +1,10 @@
 {
 	"news_list": [
         {
+            "date": "Jan 14, 2021",
+            "msg": "Our paper <b>Model-free hidden geometry of complex networks</b> has been published in Physical Review E"
+        },
+        {
             "date": "Jan 11, 2021",
             "msg": "Check out our <a href='https://github.com/osome-iu/osometweet' target='_blank'>OSoMeTweet</a> Python package to access Twitter's V2 API"
         },
@@ -11,10 +15,6 @@
         {
             "date": "Dec 10, 2020",
             "msg": "Our commentary <b>Tackling misinformation: What researchers could do with social media data</b> has been published by HKS Misinformation Review"
-        },
-        {
-            "date": "Nov 16, 2020",
-            "msg": "New preprint <b>Model-free hidden geometry of complex networks</b> available"
         },
         {
             "date": "Oct 27, 2020",
@@ -64,7 +64,7 @@
                     "msg": "Inauthentic actors like social bots often act in coordination to increase influence and evade detection. We therefore also build tools that can detect and visualize such operations. <br> <a href='https://osome.iuni.iu.edu/tools/botslayer/' target='_blank'>BotSlayer</a> helps to track and detect potential coordinated manipulation on Twitter. It's free and easy to install, allowing everyone to own a customized instance running in the could. We also provide an open source version <a href='https://github.com/IUNetSci/BotSlayer-CE' target='_blank'>BotSlayer-CE</a>. <br> <a href='https://hoaxy.iuni.iu.edu/' target='_blank'> Hoaxy</a> visualizes the information spreading on Twitter. The close integration with Botometer and BotSlayer makes it a powerful yet handy tool for in-depth investigation of inauthentic behaviors."
                 }
             ]
-            
+
         },
         {
             "project_class": "2. Opioid epidemic in U.S.",
@@ -82,7 +82,7 @@
                 {
                     "image": "modelfree",
                     "title": "Model-free hidden geometry of complex networks",
-                    "msg": "The fundamental idea of embedding a network in a metric space is rooted in the principle of proximity preservation. Nodes are mapped into points of the space with pairwise distance that reflects their proximity in the network. Popular methods employed in network embedding either rely on implicit approximations of the principle of proximity preservation or implement it by enforcing the geometry of the embedding space, thus hindering geometric properties that networks may spontaneously exhibit. In our <a href='https://arxiv.org/abs/2011.08103' target='_blank'><i class='far fa-file-pdf'></i> paper</a>, we take advantage of a model-free embedding method explicitly devised for preserving pairwise proximity, and characterize the geometry emerging from the mapping of several networks, both real and synthetic. We show that the learned embedding has simple and intuitive interpretations: the distance of a node from the geometric center is representative for its closeness centrality, and the relative positions of nodes reflect the community structure of the network. Proximity can be preserved in relatively low-dimensional embedding spaces and the hidden geometry displays optimal performance in guiding greedy navigation regardless of the specific network topology."
+                    "msg": "The fundamental idea of embedding a network in a metric space is rooted in the principle of proximity preservation. Nodes are mapped into points of the space with pairwise distance that reflects their proximity in the network. Popular methods employed in network embedding either rely on implicit approximations of the principle of proximity preservation or implement it by enforcing the geometry of the embedding space, thus hindering geometric properties that networks may spontaneously exhibit. In our <a href='https://doi.org/10.1103/PhysRevE.103.012305' target='_blank'><i class='far fa-file-pdf'></i> paper</a>, we take advantage of a model-free embedding method explicitly devised for preserving pairwise proximity, and characterize the geometry emerging from the mapping of several networks, both real and synthetic. We show that the learned embedding has simple and intuitive interpretations: the distance of a node from the geometric center is representative for its closeness centrality, and the relative positions of nodes reflect the community structure of the network. Proximity can be preserved in relatively low-dimensional embedding spaces and the hidden geometry displays optimal performance in guiding greedy navigation regardless of the specific network topology."
                 },
                 {
                     "image": "persona2vec",
