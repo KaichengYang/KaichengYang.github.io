@@ -1,6 +1,10 @@
 {
 	"news_list": [
         {
+            "date": "Jan 17, 2021",
+            "msg": "Check out our new <a href='https://osome.iuni.iu.edu/tools/covaxxy' target='_blank'>CoVaxxy</a> tool to visualize the COVID-19 vaccine discussion on Twitter"
+        },
+        {
             "date": "Jan 14, 2021",
             "msg": "Our paper <b>Model-free hidden geometry of complex networks</b> has been published in Physical Review E"
         },
@@ -46,7 +50,7 @@
                 {
                     "image": "trainnet",
                     "title": "Political follow trains on Twitter",
-                    "msg": "A growing body of evidence points to critical vulnerabilities of social media, such as the emergence of partisan echo chambers and the viral spread of misinformation. In our recent <a href='https://arxiv.org/abs/2010.13691' target='_blank'><i class='far fa-file-pdf'></i> paper</a>, we show that these vulnerabilities are amplified by abusive behaviors associated with so-called ''follow trains'' on Twitter, in which long lists of like-minded accounts are mentioned for others to follow. This leads to the formation of highly dense and hierarchical echo chambers. We present the first systematic analysis of U.S. political train networks, which involve many thousands of hyper-partisan accounts. These accounts engage in various suspicious behaviors, including some that violate platform policies: we find evidence of inauthentic automated accounts, artificial inflation of friends and followers, and abnormal content deletion. The networks are also responsible for amplifying toxic content from low-credibility and conspiratorial sources. Platforms may be reluctant to curb this kind of abuse for fear of being accused of political bias. As a result, the political echo chambers manufactured by follow trains grow denser and train accounts accumulate influence; even political leaders occasionally engage with them."
+                    "msg": "A growing body of evidence points to critical vulnerabilities of social media, such as the emergence of partisan echo chambers and the viral spread of misinformation. We show that these vulnerabilities are amplified by abusive behaviors associated with  so-called 'follow trains' on Twitter, in which long lists of like-minded accounts are mentioned for others to follow. In our recent <a href='https://arxiv.org/abs/2010.13691' target='_blank'><i class='far fa-file-pdf'></i> paper</a>, we present the first systematic analysis of a large U.S. hyper-partisan train network. We observe an artificial inflation of influence: accounts heavily promoted by follow trains profit from a median six-fold increase in daily follower growth. This catalyzes the formation of highly clustered echo chambers, hierarchically organized around a dense core of active accounts. Train accounts also engage in other behaviors that violate platform policies: we find evidence of activity by inauthentic automated accounts and abnormal content deletion, as well as amplification of toxic content from low-credibility and conspiratorial sources. Some train accounts have been active for years, suggesting that platforms need to pay greater attention to this kind of abuse."
                 },
                 {
                     "image": "systembias",
