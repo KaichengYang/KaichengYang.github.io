@@ -3,7 +3,7 @@
         "project_class": "1. Bad actors on social media",
         "papers": [
             {
-                "authors": "DeVerna, M., Pierri, F., Truong, B. T., Bollenbacher, J., Axelrod, D., Loynes, N., Torres-Lugo, C., <u>Yang, K.-C.</u>, Menczer, F. & Bryden, J.",
+                "authors": "DeVerna, M., Pierri, F., Truong, B. T., Bollenbacher, J., Axelrod, D., Loynes, N., Torres-Lugo, C., <u>Yang, K.-C.</u>, Menczer, F., & Bryden, J.",
                 "title": "CoVaxxy: A global collection of English Twitter posts about COVID-19 vaccines.",
                 "id": "deverna2020covaxxy",
                 "links": [
@@ -310,6 +310,18 @@
     {
         "project_class": "2. Opioid epidemic in U.S.",
         "papers": [
+            {
+                "title": "Systematic Evaluation of State Policy Interventions Targeting the US Opioid Epidemic, 2007-2018.",
+                "authors": "Lee, B., Zhao, W., <u>Yang, K. C.</u>, Ahn, Y. Y., & Perry, B. (2021).",
+                "id": "lee2021systematic",
+                "venue": "JAMA Network Open, 4(2), e2036687.",
+                "links": [
+                    {
+                        "name": "DOI",
+                        "url": "https://doi.org/10.1001/jamanetworkopen.2020.36687"
+                    }
+                ]
+            },
             {
                 "title": "Comparing Measures of Centrality in Bipartite Social Networks: A Study of Drug Seeking for Opioid Analgesics.",
                 "authors": "Aronson, B., <u>Yang, K. C.</u>, Odabas, M., Ahn, Y. Y., & Perry, B. (2020).",
