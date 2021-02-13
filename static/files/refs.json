@@ -319,6 +319,10 @@
                     {
                         "name": "DOI",
                         "url": "https://doi.org/10.1001/jamanetworkopen.2020.36687"
+                    },
+                    {
+                        "name": "Dataset",
+                        "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Z0TMBW"
                     }
                 ]
             },
