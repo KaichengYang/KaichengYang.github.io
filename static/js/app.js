@@ -17,7 +17,9 @@ var app = new Vue({
             DOI: "far fa-file-pdf",
             SocArXiv: "far fa-file-pdf",
             GitHub: "fab fa-github-square",
-            Dataset: "fas fa-database"
+            Dataset: "fas fa-database",
+            PyPI: "fab fa-python",
+            CRAN: "fab fa-r-project"
         }
     },
     created: function () {
