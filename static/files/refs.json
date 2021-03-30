@@ -355,6 +355,26 @@
         "project_class": "3. Network Science",
         "papers": [
             {
+                "title": "Persona2vec: A Flexible Multi-role Representations Learning Framework for Graphs.",
+                "authors": "Yoon, J., <u>Yang, K. C.</u>, Jung, W. S., & Ahn, Y. Y. (2021).",
+                "venue": "PeerJ Computer Science, 7:e439",
+                "id": "yoon2020persona",
+                "links": [
+                    {
+                        "url": "https://doi.org/10.7717/peerj-cs.439",
+                        "name": "DOI"
+                    },
+                    {
+                        "url": "https://arxiv.org/abs/2006.04941",
+                        "name": "arXiv"
+                    },
+                    {
+                        "url": "https://github.com/jisungyoon/persona2vec",
+                        "name": "GitHub"
+                    }
+                ]
+            },
+            {
                 "title": "Model-free hidden geometry of complex networks.",
                 "authors": "Zhang, Y. J., <u>Yang, K. C.</u>, & Radicchi, F. (2021).",
                 "venue": "Physical Review E, 103(1), 012305.",
@@ -391,21 +411,6 @@
                     {
                         "url": "https://cran.r-project.org/web/packages/birankr/index.html",
                         "name": "CRAN"
-                    }
-                ]
-            },
-            {
-                "title": "Persona2vec: A Flexible Multi-role Representations Learning Framework for Graphs.",
-                "authors": "Yoon, J., <u>Yang, K. C.</u>, Jung, W. S., & Ahn, Y. Y. (2020).",
-                "id": "yoon2020persona",
-                "links": [
-                    {
-                        "url": "https://arxiv.org/abs/2006.04941",
-                        "name": "arXiv"
-                    },
-                    {
-                        "url": "https://github.com/jisungyoon/persona2vec",
-                        "name": "GitHub"
                     }
                 ]
             },
