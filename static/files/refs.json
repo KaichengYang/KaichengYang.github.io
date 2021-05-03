@@ -14,7 +14,7 @@
                 ]
             },
             {
-                "authors": "DeVerna, M., Pierri, F., Truong, B. T., Bollenbacher, J., Axelrod, D., Loynes, N., Torres-Lugo, C., <u>Yang, K.-C.</u>, Menczer, F., & Bryden, J.",
+                "authors": "DeVerna, M., Pierri, F., Truong, B. T., Bollenbacher, J., Axelrod, D., Loynes, N., Torres-Lugo, C., <u>Yang, K.-C.</u>, Menczer, F., & Bryden, J. (2021).",
                 "title": "CoVaxxy: A global collection of English Twitter posts about COVID-19 vaccines.",
                 "id": "deverna2020covaxxy",
                 "links": [
@@ -35,6 +35,7 @@
             {
                 "authors": "<u>Yang, K. C.</u>, Pierri, F.,  Hui, P. M., Axelrod, D., Torres-Lugo, C., Bryden, J., & Menczer, F. (2020).",
                 "title": "The COVID-19 Infodemic: Twitter versus Facebook.",
+                "venue": "Forthcoming in Big Data & Society.",
                 "id": "yang2020covid",
                 "links": [
                     {
@@ -368,7 +369,7 @@
             {
                 "title": "Persona2vec: A Flexible Multi-role Representations Learning Framework for Graphs.",
                 "authors": "Yoon, J., <u>Yang, K. C.</u>, Jung, W. S., & Ahn, Y. Y. (2021).",
-                "venue": "PeerJ Computer Science, 7:e439",
+                "venue": "PeerJ Computer Science, 7:e439.",
                 "id": "yoon2020persona",
                 "links": [
                     {
