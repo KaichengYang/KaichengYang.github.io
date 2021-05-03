@@ -1,6 +1,10 @@
 {
 	"news_list": [
         {
+            "date": "Apr 22, 2021",
+            "msg": "New preprint <b>The impact of online misinformation on U.S. COVID-19 vaccinations</b> available"
+        },
+        {
             "date": "Mar 30, 2021",
             "msg": "Our paper <b>Persona2vec: a flexible multi-role representations learning framework for graphs</b> has been published in PeerJ Computer Science"
         },
@@ -23,15 +27,11 @@
         {
             "date": "Dec 17, 2020",
             "msg": "New preprint <b>The COVID-19 Infodemic: Twitter versus Facebook</b> available"
-        },
-        {
-            "date": "Dec 10, 2020",
-            "msg": "Our commentary <b>Tackling misinformation: What researchers could do with social media data</b> has been published by HKS Misinformation Review"
         }
     ],
     "project_highlights": [
         {
-            "project_class": "1. Bad actors on social media",
+            "project_class": "1. Bad actors and misinformation on social media",
             "projects": [
                 {
                     "image": "misinfocovid19",
