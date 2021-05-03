@@ -1,7 +1,18 @@
 [
     {
-        "project_class": "1. Bad actors on social media",
+        "project_class": "1. Bad actors and misinformation on social media",
         "papers": [
+            {
+                "authors": "Pierri, F., Perry, B., DeVerna, M., <u>Yang, K. C.</u>, Flammini, A. , Menczer, F., & Bryden, J. (2021).",
+                "title": "The impact of online misinformation on U.S. COVID-19 vaccinations.",
+                "id": "pierri2020impact",
+                "links": [
+                    {
+                        "url": "https://arxiv.org/abs/2104.10635",
+                        "name": "arXiv"
+                    }
+                ]
+            },
             {
                 "authors": "DeVerna, M., Pierri, F., Truong, B. T., Bollenbacher, J., Axelrod, D., Loynes, N., Torres-Lugo, C., <u>Yang, K.-C.</u>, Menczer, F., & Bryden, J.",
                 "title": "CoVaxxy: A global collection of English Twitter posts about COVID-19 vaccines.",
