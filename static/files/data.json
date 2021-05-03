@@ -130,7 +130,6 @@
         },
         {
             "title": "Hoaxy",
-            "image": "hoaxy",
             "msg": "Visualize the spread of claims and fact checking",
             "links": [
                 {
@@ -141,7 +140,6 @@
         },
         {
             "title": "OSoMeTweet",
-            "image": "osometweet",
             "msg": "Python package to access Twitter's V2 API",
             "links": [
                 {
@@ -156,7 +154,6 @@
         },
         {
             "title": "BotSlayer",
-            "image": "botslayer",
             "msg": "Detect coordination and bot amplification",
             "links": [
                 {
@@ -171,7 +168,6 @@
         },
         {
             "title": "CoVaxxy",
-            "image": "covaxxy",
             "msg": "Dashboard for COVID-19 vaccine Twitter discussion",
             "links": [
                 {
@@ -186,7 +182,6 @@
         },
         {
             "title": "BiRank",
-            "image": "birank",
             "msg": "Bipartite network PageRank",
             "links": [
                 {
