@@ -23,18 +23,6 @@
         {
             "date": "Feb 12, 2021",
             "msg": "Our paper <b>Systematic Evaluation of State Policy Interventions Targeting the US Opioid Epidemic, 2007-2018</b> has been published in JAMA Network Open"
-        },
-        {
-            "date": "Jan 17, 2021",
-            "msg": "Check out our new <a href='https://osome.iuni.iu.edu/tools/covaxxy' target='_blank'>CoVaxxy</a> tool to visualize the COVID-19 vaccine discussion on Twitter; the corresponding preprint is also available"
-        },
-        {
-            "date": "Jan 14, 2021",
-            "msg": "Our paper <b>Model-free hidden geometry of complex networks</b> has been published in Physical Review E"
-        },
-        {
-            "date": "Jan 11, 2021",
-            "msg": "Check out our <a href='https://github.com/osome-iu/osometweet' target='_blank'>OSoMeTweet</a> Python package to access Twitter's V2 API"
         }
     ],
     "project_highlights": [
@@ -138,7 +126,6 @@
         },
         {
             "title": "Hoaxy",
-            "image": "hoaxy",
             "msg": "Visualize the spread of claims and fact checking",
             "links": [
                 {
@@ -149,7 +136,6 @@
         },
         {
             "title": "OSoMeTweet",
-            "image": "osometweet",
             "msg": "Python package to access Twitter's V2 API",
             "links": [
                 {
@@ -164,7 +150,6 @@
         },
         {
             "title": "BotSlayer",
-            "image": "botslayer",
             "msg": "Detect coordination and bot amplification",
             "links": [
                 {
@@ -179,7 +164,6 @@
         },
         {
             "title": "CoVaxxy",
-            "image": "covaxxy",
             "msg": "Dashboard for COVID-19 vaccine Twitter discussion",
             "links": [
                 {
@@ -194,7 +178,6 @@
         },
         {
             "title": "BiRank",
-            "image": "birank",
             "msg": "Bipartite network PageRank",
             "links": [
                 {
