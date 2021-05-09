@@ -1,6 +1,18 @@
 {
 	"news_list": [
         {
+            "date": "May 9, 2021",
+            "msg": "I'll be doing an internship at ByteDance this summer"
+        },
+        {
+            "date": "May 5, 2021",
+            "msg": "I received the <b>2021 IU Luddy Outstanding Research Award</b>"
+        },
+        {
+            "date": "May 5, 2021",
+            "msg": "Our paper <b>The COVID-19 Infodemic: Twitter versus Facebook</b> has been published in Big Data & Society"
+        },
+        {
             "date": "Apr 22, 2021",
             "msg": "New preprint <b>The impact of online misinformation on U.S. COVID-19 vaccinations</b> available"
         },
@@ -23,10 +35,6 @@
         {
             "date": "Jan 11, 2021",
             "msg": "Check out our <a href='https://github.com/osome-iu/osometweet' target='_blank'>OSoMeTweet</a> Python package to access Twitter's V2 API"
-        },
-        {
-            "date": "Dec 17, 2020",
-            "msg": "New preprint <b>The COVID-19 Infodemic: Twitter versus Facebook</b> available"
         }
     ],
     "project_highlights": [
@@ -36,7 +44,7 @@
                 {
                     "image": "misinfocovid19",
                     "title": "COVID-19 Infodemic: Twitter vs. Facebook",
-                    "msg": "The global spread of the novel coronavirus is affected by the spread of related misinformation --- the so-called COVID-19 Infodemic --- that makes populations more vulnerable to the disease through resistance to mitigation efforts. In our <a href='https://arxiv.org/abs/2012.09353' target='_blank'><i class='far fa-file-pdf'></i> paper</a> <b>COVID-19 Infodemic: Twitter vs. Facebook</b> we analyze the prevalence and diffusion of links to low-credibility content about the pandemic across two major social media platforms, Twitter and Facebook. We characterize cross-platform similarities and differences in popular sources, diffusion patterns, influencers, coordination, and automation. Comparing the two platforms, we find divergence among the prevalence of popular low-credibility sources and suspicious videos. A minority of accounts and pages exert a strong influence on each platform. These misinformation \"superspreaders\" are often associated with the low-credibility sources and tend to be verified by the platforms. On both platforms, there is evidence of coordinated sharing of Infodemic content. The overt nature of this manipulation points to the need for societal-level rather than in-house mitigation strategies. However, we highlight limits imposed by inconsistent data-access policies on our capability to study harmful manipulations of information ecosystems."
+                    "msg": "The global spread of the novel coronavirus is affected by the spread of related misinformation --- the so-called COVID-19 Infodemic --- that makes populations more vulnerable to the disease through resistance to mitigation efforts. In our <a href='https://doi.org/10.1177/20539517211013861' target='_blank'><i class='far fa-file-pdf'></i> paper</a> <b>The COVID-19 Infodemic: Twitter versus Facebook </b> we analyze the prevalence and diffusion of links to low-credibility content about the pandemic across two major social media platforms, Twitter and Facebook. We characterize cross-platform similarities and differences in popular sources, diffusion patterns, influencers, coordination, and automation. Comparing the two platforms, we find divergence among the prevalence of popular low-credibility sources and suspicious videos. A minority of accounts and pages exert a strong influence on each platform. These misinformation \"superspreaders\" are often associated with the low-credibility sources and tend to be verified by the platforms. On both platforms, there is evidence of coordinated sharing of Infodemic content. The overt nature of this manipulation points to the need for societal-level rather than in-house mitigation strategies. However, we highlight limits imposed by inconsistent data-access policies on our capability to study harmful manipulations of information ecosystems."
                 },
                 {
                     "image": "trainnet",
@@ -130,6 +138,7 @@
         },
         {
             "title": "Hoaxy",
+            "image": "hoaxy",
             "msg": "Visualize the spread of claims and fact checking",
             "links": [
                 {
@@ -140,6 +149,7 @@
         },
         {
             "title": "OSoMeTweet",
+            "image": "osometweet",
             "msg": "Python package to access Twitter's V2 API",
             "links": [
                 {
@@ -154,6 +164,7 @@
         },
         {
             "title": "BotSlayer",
+            "image": "botslayer",
             "msg": "Detect coordination and bot amplification",
             "links": [
                 {
@@ -168,6 +179,7 @@
         },
         {
             "title": "CoVaxxy",
+            "image": "covaxxy",
             "msg": "Dashboard for COVID-19 vaccine Twitter discussion",
             "links": [
                 {
@@ -182,6 +194,7 @@
         },
         {
             "title": "BiRank",
+            "image": "birank",
             "msg": "Bipartite network PageRank",
             "links": [
                 {

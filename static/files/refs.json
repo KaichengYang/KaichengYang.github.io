@@ -3,6 +3,22 @@
         "project_class": "1. Bad actors and misinformation on social media",
         "papers": [
             {
+                "authors": "<u>Yang, K. C.</u>, Pierri, F.,  Hui, P. M., Axelrod, D., Torres-Lugo, C., Bryden, J., & Menczer, F. (2021).",
+                "title": "The COVID-19 Infodemic: Twitter versus Facebook.",
+                "venue": "Big Data & Society.",
+                "id": "yang2020covid",
+                "links": [
+                    {
+                        "url": "https://doi.org/10.1177/20539517211013861",
+                        "name": "DOI"
+                    },
+                    {
+                        "url": "https://arxiv.org/abs/2012.09353",
+                        "name": "arXiv"
+                    }
+                ]
+            },
+            {
                 "authors": "Pierri, F., Perry, B., DeVerna, M., <u>Yang, K. C.</u>, Flammini, A. , Menczer, F., & Bryden, J. (2021).",
                 "title": "The impact of online misinformation on U.S. COVID-19 vaccinations.",
                 "id": "pierri2020impact",
@@ -29,18 +45,6 @@
                     {
                         "url": "https://github.com/osome-iu/CoVaxxy",
                         "name": "Dataset"
-                    }
-                ]
-            },
-            {
-                "authors": "<u>Yang, K. C.</u>, Pierri, F.,  Hui, P. M., Axelrod, D., Torres-Lugo, C., Bryden, J., & Menczer, F. (2020).",
-                "title": "The COVID-19 Infodemic: Twitter versus Facebook.",
-                "venue": "Forthcoming in Big Data & Society.",
-                "id": "yang2020covid",
-                "links": [
-                    {
-                        "url": "https://arxiv.org/abs/2012.09353",
-                        "name": "arXiv"
                     }
                 ]
             },
@@ -340,7 +344,7 @@
             },
             {
                 "title": "Comparing Measures of Centrality in Bipartite Social Networks: A Study of Drug Seeking for Opioid Analgesics.",
-                "authors": "Aronson, B., <u>Yang, K. C.</u>, Odabas, M., Ahn, Y. Y., & Perry, B. (2020).",
+                "authors": "<u>Yang, K. C.</u>, Aronson, B., Odabas, M., Ahn, Y. Y., & Perry, B. (2020).",
                 "id": "aronson2020comparing",
                 "links": [
                     {
