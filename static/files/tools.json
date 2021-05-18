@@ -1,0 +1,100 @@
+[
+    {
+        "title": "Botometer",
+        "image": "botometer",
+        "msg": "Detect bot-like Twitter accounts",
+        "links": [
+            {
+                "url": "https://botometer.osome.iu.edu/",
+                "name": "Web interface"
+            },
+            {
+                "url": "https://rapidapi.com/OSoMe/api/botometer-pro",
+                "name": "API"
+            },
+            {
+                "url": "https://botometer.osome.iu.edu/botometerlite",
+                "name": "BotometerLite"
+            },
+            {
+                "url": "https://pypi.org/project/botometer/",
+                "name": "Python library"
+            }
+        ]
+    },
+    {
+        "title": "Hoaxy",
+        "image": "hoaxy",
+        "msg": "Visualize the spread of claims and fact checking",
+        "links": [
+            {
+                "url": "https://hoaxy.osome.iu.edu/",
+                "name": "Hoaxy"
+            }
+        ]
+    },
+    {
+        "title": "OSoMeTweet",
+        "image": "osometweet",
+        "msg": "Python package to access Twitter's V2 API",
+        "links": [
+            {
+                "url": "https://github.com/osome-iu/osometweet",
+                "name": "GitHub"
+            },
+            {
+                "url": "https://pypi.org/project/osometweet/",
+                "name": "PyPI"
+            }
+        ]
+    },
+    {
+        "title": "BotSlayer",
+        "image": "botslayer",
+        "msg": "Detect coordination and bot amplification",
+        "links": [
+            {
+                "url": "https://osome.iu.edu/tools/botslayer/",
+                "name": "BotSlayer"
+            },
+            {
+                "name": "GitHub",
+                "url": "https://github.com/IUNetSci/BotSlayer-CE"
+            }
+        ]
+    },
+    {
+        "title": "CoVaxxy",
+        "image": "covaxxy",
+        "msg": "Dashboard for COVID-19 vaccine Twitter discussion",
+        "links": [
+            {
+                "url": "https://osome.iu.edu/tools/covaxxy",
+                "name": "CoVaxxy"
+            },
+            {
+                "url": "https://github.com/osome-iu/CoVaxxy",
+                "name": "GitHub"
+            }
+        ]
+    },
+    {
+        "title": "BiRank",
+        "image": "birank",
+        "msg": "Bipartite network PageRank",
+        "links": [
+            {
+                "url": "https://github.com/BrianAronson/birankr",
+                "name": "GitHub"
+            },
+            {
+                "url": "https://pypi.org/project/birankpy/",
+                "name": "PyPI"
+            },
+            {
+                "url": "https://cran.r-project.org/web/packages/birankr/index.html",
+                "name": "CRAN"
+            }
+        ]
+    }
+]

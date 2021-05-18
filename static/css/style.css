@@ -44,6 +44,7 @@ a {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
     overflow: hidden;
+    text-decoration: none;
 }
 a:hover {
     color:#ac4142;
@@ -75,14 +76,14 @@ a:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:
     color: #ac4142;
 }
 
-.highlight {
-    background-color: burlywood;
-}
-
 .btn-clicked {
     background-color: #ac4142;
     border-color: #ac4142;
     color: white;
+  }
+
+#newslist > ul > li {
+    list-style-type: none;
   }
 
 li {
