@@ -1,5 +1,32 @@
 [
     {
+        "authors": "DeVerna, M., Pierri, F., Truong, B. T., Bollenbacher, J., Axelrod, D., Loynes, N., Torres-Lugo, C., <u>Yang, K.-C.</u>, Menczer, F., & Bryden, J.",
+        "year": [2021],
+        "type": ["conf"],
+        "topic": ["socialmedia"],
+        "highlight": [],
+        "title": "CoVaxxy: A Collection of English-Language Twitter Posts About COVID-19 Vaccines.",
+        "id": "deverna2021covaxxy",
+        "links": [
+            {
+                "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/18122",
+                "name": "DOI"
+            },
+            {
+                "url": "https://arxiv.org/abs/2101.07694",
+                "name": "arXiv"
+            },
+            {
+                "url": "https://osome.iuni.iu.edu/tools/covaxxy",
+                "name": "CoVaxxy"
+            },
+            {
+                "url": "https://github.com/osome-iu/CoVaxxy",
+                "name": "Dataset"
+            }
+        ]
+    },
+    {
         "authors": "<u>Yang, K. C.</u>, Pierri, F.,  Hui, P. M., Axelrod, D., Torres-Lugo, C., Bryden, J., & Menczer, F.",
         "year": [2021],
         "type": ["journal"],
@@ -31,29 +58,6 @@
             {
                 "url": "https://arxiv.org/abs/2104.10635",
                 "name": "arXiv"
-            }
-        ]
-    },
-    {
-        "authors": "DeVerna, M., Pierri, F., Truong, B. T., Bollenbacher, J., Axelrod, D., Loynes, N., Torres-Lugo, C., <u>Yang, K.-C.</u>, Menczer, F., & Bryden, J.",
-        "year": [2021],
-        "type": ["preprint"],
-        "topic": ["socialmedia"],
-        "highlight": [],
-        "title": "CoVaxxy: A global collection of English Twitter posts about COVID-19 vaccines.",
-        "id": "deverna2020covaxxy",
-        "links": [
-            {
-                "url": "https://arxiv.org/abs/2101.07694",
-                "name": "arXiv"
-            },
-            {
-                "url": "https://osome.iuni.iu.edu/tools/covaxxy",
-                "name": "CoVaxxy"
-            },
-            {
-                "url": "https://github.com/osome-iu/CoVaxxy",
-                "name": "Dataset"
             }
         ]
     },
