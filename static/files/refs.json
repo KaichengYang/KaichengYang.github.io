@@ -1,5 +1,24 @@
 [
     {
+        "authors": "Zhang, Y. J., <u>Yang, K. C.</u>, & Radicchi, F.",
+        "year": [2021],
+        "type": ["preprint"],
+        "topic": ["netsci"],
+        "highlight": ["highlight"],
+        "title": "Systematic comparison of graph embedding methods in practical tasks.",
+        "id": "zhang2021systematic",
+        "links": [
+            {
+                "url": "https://arxiv.org/abs/2106.10198",
+                "name": "arXiv"
+            },
+            {
+                "url": "https://github.com/yijiaozhang/hypercompare",
+                "name": "GitHub"
+            }
+        ]
+    },
+    {
         "authors": "DeVerna, M., Pierri, F., Truong, B. T., Bollenbacher, J., Axelrod, D., Loynes, N., Torres-Lugo, C., <u>Yang, K.-C.</u>, Menczer, F., & Bryden, J.",
         "year": [2021],
         "type": ["conf"],
@@ -467,7 +486,7 @@
         "year": [2021],
         "type": ["journal"],
         "topic": ["netsci"],
-        "highlight": ["highlight"],
+        "highlight": [],
         "venue": "Physical Review E, 103(1), 012305.",
         "id": "zhang2020model",
         "links": [
