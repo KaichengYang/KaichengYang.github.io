@@ -24,6 +24,11 @@
         "project_class": "2. Opioid epidemic in U.S.",
         "projects": [
             {
+                "image": "docshopcompare",
+                "title": "Assessing prescription drug seeking indicators over ten years of the opioid epidemic",
+                "msg": "Prescription drug seeking (PDS) from multiple prescribers is a primary means of obtaining prescription opioids; however, PDS behavior has likely evolved in response to policy shifts, and there is little agreement about how to operationalize it. In our <a href='https://doi.org/10.1111/add.15635' target='_blank'><i class='far fa-file-pdf'></i> paper</a> <b>New means, new measures: Assessing prescription drug seeking indicators over ten years of the opioid epidemic</b> systematically compared the performance of traditional and novel PDS indicators. We find that in the United States, network-based measures appear to have increasing promise for identifying prescription opioid drug seeking behavior, while indicators based on quantity of providers or pharmacies appear to have decreasing utility."
+            },
+            {
                 "image": "pdmp",
                 "title": "Evaluating the state policy interventions targeting the opioid epidemic",
                 "msg": "Are U.S. state drug policies effective in preventing opioid misuse, opioid use disorder, and drug overdose mortality? In our <a href='https://doi.org/10.1001/jamanetworkopen.2020.36687' target='_blank'><i class='far fa-file-pdf'></i> paper</a> <b>Systematic Evaluation of State Policy Interventions Targeting the US Opioid Epidemic, 2007-2018</b> we find that although existingstate-level drug policies have been associated with a decrease in the misuse of prescription opioids, these policies may have had the unintended consequence of motivating those with opioid use disorders to switch to alternative illicit substances, inducing higher overdose mortality "

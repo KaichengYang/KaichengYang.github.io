@@ -1,5 +1,20 @@
 [
     {
+        "authors": "Perry, B., Odabas, M., <u>Yang, K. C.</u>, Lee, B., Kaminski, P., Aronson, B., Ahn, Y. Y., Oser, C., Freeman, P., & Talbert, J.",
+        "year": [2021],
+        "type": ["journal"],
+        "topic": ["opioid"],
+        "highlight": [],
+        "title": "New means, new measures: Assessing prescription drug seeking indicators over ten years of the opioid epidemic.",
+        "id": "perry2021new",
+        "links": [
+            {
+                "url": " https://doi.org/10.1111/add.15635",
+                "name": "DOI"
+            }
+        ]
+    },
+    {
         "authors": "Zhang, Y. J., <u>Yang, K. C.</u>, & Radicchi, F.",
         "year": [2021],
         "type": ["preprint"],
