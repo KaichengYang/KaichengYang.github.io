@@ -1,5 +1,21 @@
 [
     {
+        "authors": "Torres-Lugo, C., <u>Yang, K. C.</u>, & Menczer, F.",
+        "year": [2022],
+        "type": ["conf"],
+        "topic": ["socialmedia"],
+        "highlight": ["highlight"],
+        "title": "The Manufacture of Partisan Echo Chambers by Follow Train Abuse on Twitter.",
+        "venue": "(Forthcoming) Proceedings of the International AAAI Conference on Web and Social Media (ICWSM).",
+        "id": "lugo2020manufacture",
+        "links": [
+            {
+                "url": "https://arxiv.org/abs/2010.13691",
+                "name": "arXiv"
+            }
+        ]
+    },
+    {
         "authors": "Perry, B., Odabas, M., <u>Yang, K. C.</u>, Lee, B., Kaminski, P., Aronson, B., Ahn, Y. Y., Oser, C., Freeman, P., & Talbert, J.",
         "year": [2021],
         "type": ["journal"],
@@ -39,6 +55,7 @@
         "type": ["conf"],
         "topic": ["socialmedia"],
         "highlight": [],
+        "venue": "Proceedings of the International AAAI Conference on Web and Social Media (ICWSM).",
         "title": "CoVaxxy: A Collection of English-Language Twitter Posts About COVID-19 Vaccines.",
         "id": "deverna2021covaxxy",
         "links": [
@@ -108,21 +125,6 @@
             {
                 "url": "https://doi.org/10.37016/mr-2020-49",
                 "name": "DOI"
-            }
-        ]
-    },
-    {
-        "authors": "Torres-Lugo, C., <u>Yang, K. C.</u>, & Menczer, F.",
-        "year": [2020],
-        "type": ["preprint"],
-        "topic": ["socialmedia"],
-        "highlight": ["highlight"],
-        "title": "The Manufacture of Political Echo Chambers by Follow Train Abuse on Twitter.",
-        "id": "lugo2020manufacture",
-        "links": [
-            {
-                "url": "https://arxiv.org/abs/2010.13691",
-                "name": "arXiv"
             }
         ]
     },
