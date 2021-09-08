@@ -1,5 +1,21 @@
 [
     {
+        "title": "Use of and Comorbidities Associated With Diagnostic Codes for COVID-19 in US Health Insurance Claims.",
+        "authors": "<u>Yang, K. C.</u>, Lee, B., Ahn, Y. Y., & Perry, B.",
+        "year": [2021],
+        "type": ["journal"],
+        "topic": ["covid"],
+        "highlight": [],
+        "id": "yang2021use",
+        "venue": "JAMA Network Open, 4(9), e2124643.",
+        "links": [
+            {
+                "name": "DOI",
+                "url": "https://doi.org/10.1001/jamanetworkopen.2021.24643"
+            }
+        ]
+    },
+    {
         "authors": "Torres-Lugo, C., <u>Yang, K. C.</u>, & Menczer, F.",
         "year": [2022],
         "type": ["conf"],
@@ -53,7 +69,7 @@
         "authors": "DeVerna, M., Pierri, F., Truong, B. T., Bollenbacher, J., Axelrod, D., Loynes, N., Torres-Lugo, C., <u>Yang, K.-C.</u>, Menczer, F., & Bryden, J.",
         "year": [2021],
         "type": ["conf"],
-        "topic": ["socialmedia"],
+        "topic": ["socialmedia", "covid"],
         "highlight": [],
         "venue": "Proceedings of the International AAAI Conference on Web and Social Media (ICWSM).",
         "title": "CoVaxxy: A Collection of English-Language Twitter Posts About COVID-19 Vaccines.",
@@ -81,7 +97,7 @@
         "authors": "<u>Yang, K. C.</u>, Pierri, F.,  Hui, P. M., Axelrod, D., Torres-Lugo, C., Bryden, J., & Menczer, F.",
         "year": [2021],
         "type": ["journal"],
-        "topic": ["socialmedia"],
+        "topic": ["socialmedia", "covid"],
         "highlight": ["highlight"],
         "title": "The COVID-19 Infodemic: Twitter versus Facebook.",
         "venue": "Big Data & Society.",
@@ -101,7 +117,7 @@
         "authors": "Pierri, F., Perry, B., DeVerna, M., <u>Yang, K. C.</u>, Flammini, A. , Menczer, F., & Bryden, J.",
         "year": [2021],
         "type": ["preprint"],
-        "topic": ["socialmedia"],
+        "topic": ["socialmedia", "covid"],
         "highlight": [],
         "title": "The impact of online misinformation on U.S. COVID-19 vaccinations.",
         "id": "pierri2020impact",
@@ -224,7 +240,7 @@
         "authors": "<u>Yang, K. C.</u>, Torres-Lugo, C., & Menczer, F.",
         "year": [2020],
         "type": ["conf"],
-        "topic": ["socialmedia"],
+        "topic": ["socialmedia", "covid"],
         "highlight": [],
         "title": "Prevalence of Low-Credibility Information on Twitter During the COVID-19 Outbreak.",
         "id": "yang2020prevalence",
