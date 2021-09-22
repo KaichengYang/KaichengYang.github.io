@@ -1,5 +1,29 @@
 [
     {
+        "authors": "Chen, W., Pacheco, D., <u>Yang, K. C.</u>, & Menczer, F.",
+        "year": [2021],
+        "type": ["journal"],
+        "topic": ["socialmedia"],
+        "highlight": [],
+        "title": "Neutral bots probe political bias on social media.",
+        "id": "chen2021neutral",
+        "venue": "Nature Communications, 12(1), 5580.",
+        "links": [
+            {
+                "name": "DOI",
+                "url": "https://doi.org/10.1038/s41467-021-25738-6"
+            },
+            {
+                "url": "https://arxiv.org/abs/2005.08141",
+                "name": "arXiv"
+            },
+            {
+                "url": "https://github.com/IUNetSci/DrifterBot",
+                "name": "GitHub"
+            }
+        ]
+    },
+    {
         "title": "Use of and Comorbidities Associated With Diagnostic Codes for COVID-19 in US Health Insurance Claims.",
         "authors": "<u>Yang, K. C.</u>, Lee, B., Ahn, Y. Y., & Perry, B.",
         "year": [2021],
@@ -214,25 +238,6 @@
             {
                 "url": "https://arxiv.org/abs/2006.01447",
                 "name": "arXiv"
-            }
-        ]
-    },
-    {
-        "authors": "Chen, W., Pacheco, D., <u>Yang, K. C.</u>, & Menczer, F.",
-        "year": [2020],
-        "type": ["preprint"],
-        "topic": ["socialmedia"],
-        "highlight": [],
-        "title": "Neutral Bots Reveal Political Bias on Social Media.",
-        "id": "chen2020neutral",
-        "links": [
-            {
-                "url": "https://arxiv.org/abs/2005.08141",
-                "name": "arXiv"
-            },
-            {
-                "url": "https://github.com/IUNetSci/DrifterBot",
-                "name": "GitHub"
             }
         ]
     },
