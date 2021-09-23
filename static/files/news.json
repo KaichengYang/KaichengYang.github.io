@@ -1,58 +1,72 @@
 [
     {
-        "date": "Sep. 22, 2021",
+        "date": "Sep 22, 2021",
+        "type": "new_paper",
         "msg": "Our paper <b>Neutral bots probe political bias on social media</b> has been published in Nature Communications"
     },
     {
-        "date": "Sep. 8, 2021",
+        "date": "Sep 8, 2021",
+        "type": "new_paper",
         "msg": "Our paper <b>Use of and Comorbidities Associated With Diagnostic Codes for COVID-19 in US Health Insurance Claims</b> has been published in JAMA Network Open"
     },
     {
-        "date": "Jul. 16, 2021",
+        "date": "Jul 16, 2021",
+        "type": "new_paper",
         "msg": "Our paper <b>The Manufacture of Partisan Echo Chambers by  Follow  Train  Abuse  on  Twitter</b> has been accepted to ICWSM'22, though the proceedings won't be published until next year"
     },
     {
-        "date": "Jul. 8, 2021",
+        "date": "Jul 8, 2021",
+        "type": "new_paper",
         "msg": "Our paper <b>New means, new measures: Assessing prescription drug seeking indicators over ten years of the opioid epidemic</b> has been published in Addiction"
     },
     {
-        "date": "Jun. 21, 2021",
+        "date": "Jun 21, 2021",
+        "type": "new_preprint",
         "msg": "New preprint <b>Systematic comparison of graph embedding methods in practical tasks</b> available"
     },
     {
-        "date": "Jun. 8, 2021",
+        "date": "Jun 8, 2021",
+        "type": "new_paper",
         "msg": "Our paper <b>CoVaxxy: A Collection of English-Language Twitter Posts About COVID-19 Vaccines </b> has been published in the proceedings of ICWSM"
     },
     {
         "date": "May 9, 2021",
+        "type": "personal_news",
         "msg": "I'll join TikTok (ByteDance) as an summer intern"
     },
     {
         "date": "May 5, 2021",
+        "type": "personal_news",
         "msg": "I received the <b>2021 IU Luddy Outstanding Research Award</b>"
     },
     {
         "date": "May 5, 2021",
+        "type": "new_paper",
         "msg": "Our paper <b>The COVID-19 Infodemic: Twitter versus Facebook</b> has been published in Big Data & Society"
     },
     {
         "date": "Apr 22, 2021",
+        "type": "new_preprint",
         "msg": "New preprint <b>The impact of online misinformation on U.S. COVID-19 vaccinations</b> available"
     },
     {
         "date": "Mar 30, 2021",
+        "type": "new_paper",
         "msg": "Our paper <b>Persona2vec: a flexible multi-role representations learning framework for graphs</b> has been published in PeerJ Computer Science"
     },
     {
         "date": "Feb 12, 2021",
+        "type": "new_paper",
         "msg": "Our paper <b>Systematic Evaluation of State Policy Interventions Targeting the US Opioid Epidemic, 2007-2018</b> has been published in JAMA Network Open"
     },
     {
         "date": "Jan 17, 2021",
+        "type": "new_preprint",
         "msg": "Check out our new <a href='https://osome.iuni.iu.edu/tools/covaxxy' target='_blank'>CoVaxxy</a> tool to visualize the COVID-19 vaccine discussion on Twitter; the corresponding preprint is also available"
     },
     {
         "date": "Jan 14, 2021",
+        "type": "new_paper",
         "msg": "Our paper <b>Model-free hidden geometry of complex networks</b> has been published in Physical Review E"
     },
     {
@@ -61,22 +75,27 @@
     },
     {
         "date": "Dec 16, 2020",
+        "type": "new_preprint",
         "msg": "New preprint <b>The COVID-19 Infodemic: Twitter versus Facebook</b> available"
     },
     {
         "date": "Dec 10, 2020",
+        "type": "new_paper",
         "msg": "Our commentary <b>Tackling misinformation: What researchers could do with social media data</b> has been published by HKS Misinformation Review"
     },
     {
         "date": "Nov 16, 2020",
+        "type": "new_preprint",
         "msg": "New preprint <b>Model-free hidden geometry of complex networks</b> available"
     },
     {
         "date": "Oct 27, 2020",
+        "type": "new_preprint",
         "msg": "New preprint <b>The Manufacture of Political Echo Chambers by Follow Train Abuse on Twitter</b> available"
     },
     {
         "date": "Oct 25, 2020",
+        "type": "new_paper",
         "msg": "Our paper <b>Detection of Novel Social Bots by Ensembles of Specialized Classifiers</b> has been published in the Proceedings of CIKM 2020"
     },
     {
@@ -85,38 +104,47 @@
     },
     {
         "date": "Jul 18, 2020",
+        "type": "new_paper",
         "msg": "Our paper <b>Asymmetrical Perceptions of Partisan Political Bots</b> has been published by New Media & Society, the preprint version is also available"
     },
     {
         "date": "Jul 10, 2020",
+        "type": "new_paper",
         "msg": "Our paper <b>BiRank: Fast and Flexible Ranking on Bipartite Networks with R and Python</b> has been published by The Journal of Open Source Software, the package is available"
     },
     {
         "date": "Jun 21, 2020",
+        "type": "new_preprint",
         "msg": "New preprint <b>Comparing Measures of Centrality in Bipartite Social Networks: A Study of Drug Seeking for Opioid Analgesics</b> available"
     },
     {
         "date": "Jun 14, 2020",
+        "type": "new_preprint",
         "msg": "New preprint <b>Detection of Novel Social Bots by Ensembles of Specialized Classifiers</b> available"
     },
     {
         "date": "Jun 10, 2020",
+        "type": "new_preprint",
         "msg": "New preprint <b>Persona2vec: A Flexible Multi-role Representations Learning Framework for Graphs</b> available"
     },
     {
         "date": "Jun 3, 2020",
+        "type": "new_preprint",
         "msg": "New preprint <b>How Twitter Data Sampling Biases U.S. Voter Behavior Characterizations</b> available"
     },
     {
         "date": "May 21, 2020",
+        "type": "personal_news",
         "msg": "I passed my qualification exam 🎉🎉🎉"
     },
     {
         "date": "May 19, 2020",
+        "type": "new_preprint",
         "msg": "New preprint <b>Neutral Bots Reveal Political Bias on Social Media</b> available"
     },
     {
         "date": "May 1, 2020",
+        "type": "new_preprint",
         "msg": "New preprint <b>Prevalence of Low-Credibility Information on Twitter During the COVID-19 Outbreak</b> available"
     }
 ]
