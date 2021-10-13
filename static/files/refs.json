@@ -79,6 +79,7 @@
         "highlight": ["highlight"],
         "title": "Systematic comparison of graph embedding methods in practical tasks.",
         "id": "zhang2021systematic",
+        "venue": "In submission.",
         "links": [
             {
                 "url": "https://arxiv.org/abs/2106.10198",
@@ -142,6 +143,7 @@
         "authors": "Pierri, F., Perry, B., DeVerna, M., <u>Yang, K. C.</u>, Flammini, A. , Menczer, F., & Bryden, J.",
         "year": [2021],
         "type": ["preprint"],
+        "venue": "In submission.",
         "topic": ["socialmedia", "covid"],
         "highlight": [],
         "title": "The impact of online misinformation on U.S. COVID-19 vaccinations.",
@@ -231,6 +233,7 @@
         "authors": "<u>Yang, K. C.</u>, Hui, P. M., & Menczer, F.",
         "year": [2020],
         "type": ["preprint"],
+        "venue": "In submission.",
         "topic": ["socialmedia"],
         "highlight": [],
         "title": "How Twitter Data Sampling Biases U.S. Voter Behavior Characterizations.",
@@ -469,6 +472,7 @@
         "authors": "<u>Yang, K. C.</u>, Aronson, B., Odabas, M., Ahn, Y. Y., & Perry, B.",
         "year": [2020],
         "type": ["preprint"],
+        "venue": "In submission.",
         "highlight": ["highlight"],
         "topic": ["opioid", "netsci"],
         "id": "aronson2020comparing",
