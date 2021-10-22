@@ -1,5 +1,29 @@
 [
     {
+        "authors": "Zhang, Y. J., <u>Yang, K. C.</u>, & Radicchi, F.",
+        "year": [2021],
+        "type": ["journal"],
+        "topic": ["netsci"],
+        "highlight": ["highlight"],
+        "title": "Systematic comparison of graph embedding methods in practical tasks.",
+        "id": "zhang2021systematic",
+        "venue": "Physical Review E, 104(4), 044315.",
+        "links": [
+            {
+                "url": "https://doi.org/10.1103/PhysRevE.104.044315",
+                "name": "DOI"
+            },
+            {
+                "url": "https://arxiv.org/abs/2106.10198",
+                "name": "arXiv"
+            },
+            {
+                "url": "https://github.com/yijiaozhang/hypercompare",
+                "name": "GitHub"
+            }
+        ]
+    },
+    {
         "authors": "Chen, W., Pacheco, D., <u>Yang, K. C.</u>, & Menczer, F.",
         "year": [2021],
         "type": ["journal"],
@@ -68,26 +92,6 @@
             {
                 "url": " https://doi.org/10.1111/add.15635",
                 "name": "DOI"
-            }
-        ]
-    },
-    {
-        "authors": "Zhang, Y. J., <u>Yang, K. C.</u>, & Radicchi, F.",
-        "year": [2021],
-        "type": ["preprint"],
-        "topic": ["netsci"],
-        "highlight": ["highlight"],
-        "title": "Systematic comparison of graph embedding methods in practical tasks.",
-        "id": "zhang2021systematic",
-        "venue": "In submission.",
-        "links": [
-            {
-                "url": "https://arxiv.org/abs/2106.10198",
-                "name": "arXiv"
-            },
-            {
-                "url": "https://github.com/yijiaozhang/hypercompare",
-                "name": "GitHub"
             }
         ]
     },

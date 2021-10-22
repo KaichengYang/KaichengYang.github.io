@@ -1,5 +1,10 @@
 [
     {
+        "date": "Oct 22, 2021",
+        "type": "new_paper",
+        "msg": "Our paper <b>Systematic comparison of graph embedding methods in practical tasks</b> has been published in Physical Review E"
+    },
+    {
         "date": "Sep 22, 2021",
         "type": "new_paper",
         "msg": "Our paper <b>Neutral bots probe political bias on social media</b> has been published in Nature Communications"
