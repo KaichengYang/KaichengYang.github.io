@@ -32,6 +32,12 @@
         "title": "Neutral bots probe political bias on social media.",
         "id": "chen2021neutral",
         "venue": "Nature Communications, 12(1), 5580.",
+        "medias": [
+            {
+                "url": "https://www.futurity.org/twitter-politics-bias-users-2636992-2/",
+                "name": "Futurity"
+            }
+        ],
         "links": [
             {
                 "name": "DOI",
@@ -177,13 +183,13 @@
     },
     {
         "authors": "Yan, H., <u>Yang, K. C.</u>, Menczer, F., & Shanahan, J.",
-        "year": [2020],
+        "year": [2021],
         "type": ["journal"],
         "topic": ["socialmedia"],
         "highlight": ["highlight"],
         "title": "Asymmetrical Perceptions of Partisan Political Bots.",
         "id": "yan2020asymmetrical",
-        "venue": "New Media & Society.",
+        "venue": "New Media & Society, 23(10), 3016-3037.",
         "medias": [
             {
                 "url": "https://mediaschool.indiana.edu/news-events/news/item.html?n=human-or-bot-conservative-profiles-are-more-often-misidentified-study-finds",
@@ -460,6 +466,16 @@
         "highlight": [],
         "id": "lee2021systematic",
         "venue": "JAMA Network Open, 4(2), e2036687.",
+        "medias": [
+            {
+                "url": "https://www.uspharmacist.com/article/opioiduse-policies-causing-unintended-consequences",
+                "name": "U.S. Pharmacist"
+            },
+            {
+                "url": "https://original.newsbreak.com/@david-heitz-561257/2165960991970-limbaugh-an-early-voice-of-opioid-addiction",
+                "name": "Newsbreak"
+            }
+        ],
         "links": [
             {
                 "name": "DOI",
