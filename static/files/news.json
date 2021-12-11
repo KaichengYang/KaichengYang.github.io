@@ -1,5 +1,10 @@
 [
     {
+        "date": "Dec 10, 2021",
+        "type": "new_paper",
+        "msg": "Our paper <b>Substitution of Nonpharmacologic Therapy With Opioid Prescribing for Pain During the COVID-19 Pandemic</b> has been published in JAMA Network Open"
+    },
+    {
         "date": "Oct 22, 2021",
         "type": "new_paper",
         "msg": "Our paper <b>Systematic comparison of graph embedding methods in practical tasks</b> has been published in Physical Review E"
@@ -17,7 +22,7 @@
     {
         "date": "Jul 16, 2021",
         "type": "new_paper",
-        "msg": "Our paper <b>The Manufacture of Partisan Echo Chambers by  Follow  Train  Abuse  on  Twitter</b> has been accepted to ICWSM'22, though the proceedings won't be published until next year"
+        "msg": "Our paper <b>The Manufacture of Partisan Echo Chambers by  Follow  Train  Abuse  on  Twitter</b> has been accepted to ICWSM'22"
     },
     {
         "date": "Jul 8, 2021",
