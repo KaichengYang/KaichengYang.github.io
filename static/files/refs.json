@@ -8,6 +8,16 @@
         "highlight": [],
         "id": "yang2021use",
         "venue": "JAMA Network Open, 4(12):e2138453.",
+        "medias": [
+            {
+                "url": "https://www.everydayhealth.com/opioid-addiction/pain-treated-more-with-opioids-less-with-physical-therapy-during-covid-19-pandemic/",
+                "name": "Everyday Health"
+            },
+            {
+                "url": "https://consumer.healthday.com/12-14-did-pandemic-lockdowns-worsen-the-epidemic-of-opioid-abuse-2655959996.html",
+                "name": "Health Day"
+            }
+        ],
         "links": [
             {
                 "name": "DOI",
@@ -488,8 +498,8 @@
                 "name": "U.S. Pharmacist"
             },
             {
-                "url": "https://original.newsbreak.com/@david-heitz-561257/2165960991970-limbaugh-an-early-voice-of-opioid-addiction",
-                "name": "Newsbreak"
+                "url": "https://www.news-medical.net/news/20210217/Opioid-supply-controlling-policies-may-have-unintended-consequences-finds-study.aspx",
+                "name": "News-Medical"
             }
         ],
         "links": [
