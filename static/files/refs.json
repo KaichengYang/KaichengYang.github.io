@@ -1,10 +1,30 @@
 [
     {
+        "authors": "<u>Yang, K. C.</u>, Ferrara, E. & Menczer, F.",
+        "year": [2022],
+        "type": ["journal"],
+        "topic": ["socialmedia"],
+        "highlight": [],
+        "title": "Botometer 101: Social bot practicum for computational social scientists.",
+        "id": "yang2022botometer",
+        "venue": "In submission.",
+        "links": [
+            {
+                "url": "https://arxiv.org/abs/2201.01608",
+                "name": "arXiv"
+            },
+            {
+                "url": "https://github.com/osome-iu/Botometer101",
+                "name": "GitHub"
+            }
+        ]
+    },
+    {
         "title": "Substitution of Nonpharmacologic Therapy With Opioid Prescribing for Pain During the COVID-19 Pandemic.",
         "authors": "Lee, B., <u>Yang, K. C.</u>, Kaminski, P., Ahn, Y. Y., Peng, S., Odabas, M., Gupta, S., Green, H. & Perry, B..",
         "year": [2021],
         "type": ["journal"],
-        "topic": ["covid"],
+        "topic": ["covid", "opioid"],
         "highlight": [],
         "id": "yang2021use",
         "venue": "JAMA Network Open, 4(12):e2138453.",

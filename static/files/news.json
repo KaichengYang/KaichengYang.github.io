@@ -1,5 +1,10 @@
 [
     {
+        "date": "Jan 6, 2022",
+        "type": "new_preprint",
+        "msg": "New preprint <b>Botometer 101: Social bot practicum for computational social scientists</b> available"
+    },
+    {
         "date": "Dec 10, 2021",
         "type": "new_paper",
         "msg": "Our paper <b>Substitution of Nonpharmacologic Therapy With Opioid Prescribing for Pain During the COVID-19 Pandemic</b> has been published in JAMA Network Open"
