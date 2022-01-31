@@ -173,6 +173,12 @@
                 "url": "https://github.com/osome-iu/CoVaxxy",
                 "name": "Dataset"
             }
+        ],
+        "medias": [
+            {
+                "url": "https://news.sky.com/story/robert-f-kennedy-jr-americas-most-famous-political-dynasty-has-given-rise-to-one-of-its-leading-covid-anti-vaxxers-and-his-falsehoods-reach-millions-12528811",
+                "name": "Sky News"
+            }
         ]
     },
     {
@@ -192,6 +198,16 @@
             {
                 "url": "https://arxiv.org/abs/2012.09353",
                 "name": "arXiv"
+            }
+        ],
+        "medias": [
+            {
+                "url": "https://www.news5cleveland.com/about-us/news-literacy/misinformation-is-being-spread-alongside-our-news-stories-what-can-we-do-about-it",
+                "name": "News 5"
+            },
+            {
+                "url": "https://theconversation.com/big-tech-has-a-vaccine-misinformation-problem-heres-what-a-social-media-expert-recommends-164987",
+                "name": "The Conversation"
             }
         ]
     },
@@ -520,6 +536,10 @@
             {
                 "url": "https://www.news-medical.net/news/20210217/Opioid-supply-controlling-policies-may-have-unintended-consequences-finds-study.aspx",
                 "name": "News-Medical"
+            },
+            {
+                "url": "https://www.medpagetoday.com/opinion/second-opinions/96922",
+                "name": "MedPage Today"
             }
         ],
         "links": [
