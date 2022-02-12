@@ -1,5 +1,10 @@
 [
     {
+        "date": "Feb 12, 2022",
+        "type": "personal_news",
+        "msg": "I was selected for <a href='https://midas.umich.edu/ds-consortium/' target='_blank'>Future Leaders Summit 2022</a>, University of Michigan"
+    },
+    {
         "date": "Jan 6, 2022",
         "type": "new_preprint",
         "msg": "New preprint <b>Botometer 101: Social bot practicum for computational social scientists</b> available"
