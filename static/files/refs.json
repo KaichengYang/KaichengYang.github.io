@@ -1,5 +1,15 @@
 [
     {
+        "authors": "Duan, Z., Li, J., Lukito, J., <u>Yang, K. C.</u>, Chen, F., Shah, D. V. & Yang, S.",
+        "title": "Algorithmic Agents in the Hybrid Media System: Social Bots, Selective Amplification and Partisan News about COVID-19.",
+        "year": [2022],
+        "type": ["preprint"],
+        "topic": ["socialmedia"],
+        "highlight": [],
+        "id": "duan2022algorithmic",
+        "venue": "(Forthcoming) Human Communication Research."
+    },
+    {
         "authors": "<u>Yang, K. C.</u>, Ferrara, E. & Menczer, F.",
         "year": [2022],
         "type": ["preprint"],
@@ -213,12 +223,12 @@
     },
     {
         "authors": "Pierri, F., Perry, B., DeVerna, M., <u>Yang, K. C.</u>, Flammini, A. , Menczer, F., & Bryden, J.",
-        "year": [2021],
+        "year": [2022],
         "type": ["preprint"],
-        "venue": "In submission.",
+        "venue": "(Forthcoming) Scientific Reports.",
         "topic": ["socialmedia", "covid"],
         "highlight": [],
-        "title": "The impact of online misinformation on U.S. COVID-19 vaccinations.",
+        "title": "Online misinformation is linked to early COVID-19 vaccination hesitancy and refusal.",
         "id": "pierri2020impact",
         "links": [
             {
