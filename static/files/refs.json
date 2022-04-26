@@ -10,6 +10,30 @@
         "venue": "(Forthcoming) Human Communication Research."
     },
     {
+        "authors": "Pierri, F., Perry, B., DeVerna, M., <u>Yang, K. C.</u>, Flammini, A. , Menczer, F., & Bryden, J.",
+        "year": [2022],
+        "type": ["journal"],
+        "venue": "Scientific Reports. 12(1), 5966.",
+        "topic": ["socialmedia", "covid"],
+        "highlight": [],
+        "title": "Online misinformation is linked to early COVID-19 vaccination hesitancy and refusal.",
+        "id": "pierri2020impact",
+        "links": [
+            {
+                "url": "https://doi.org/10.1038/s41598-022-10070-w",
+                "name": "DOI"
+            },
+            {
+                "url": "https://arxiv.org/abs/2104.10635",
+                "name": "arXiv"
+            },
+            {
+                "url": "https://github.com/osome-iu/CoVaxxy-Misinfo",
+                "name": "GitHub"
+            }
+        ]
+    },
+    {
         "authors": "<u>Yang, K. C.</u>, Ferrara, E. & Menczer, F.",
         "year": [2022],
         "type": ["preprint"],
@@ -218,22 +242,6 @@
             {
                 "url": "https://theconversation.com/big-tech-has-a-vaccine-misinformation-problem-heres-what-a-social-media-expert-recommends-164987",
                 "name": "The Conversation"
-            }
-        ]
-    },
-    {
-        "authors": "Pierri, F., Perry, B., DeVerna, M., <u>Yang, K. C.</u>, Flammini, A. , Menczer, F., & Bryden, J.",
-        "year": [2022],
-        "type": ["preprint"],
-        "venue": "(Forthcoming) Scientific Reports.",
-        "topic": ["socialmedia", "covid"],
-        "highlight": [],
-        "title": "Online misinformation is linked to early COVID-19 vaccination hesitancy and refusal.",
-        "id": "pierri2020impact",
-        "links": [
-            {
-                "url": "https://arxiv.org/abs/2104.10635",
-                "name": "arXiv"
             }
         ]
     },
