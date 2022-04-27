@@ -1,5 +1,10 @@
 [
     {
+        "date": "Apr 27, 2022",
+        "type": "new_tool",
+        "msg": "Check out our new tool <a href='https://botometer.osome.iu.edu/botamp/'>BotAmp</a>, which can compare the bot amplification levels of two sets of tweets"
+    },
+    {
         "date": "Apr 26, 2022",
         "type": "new_paper",
         "msg": "Our paper <b>Online misinformation is linked to early COVID-19 vaccination hesitancy and refusal</b> has been published in Scientific Reports"

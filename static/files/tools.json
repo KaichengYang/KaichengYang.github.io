@@ -23,6 +23,17 @@
         ]
     },
     {
+        "title": "BotAmp",
+        "image": "botamp",
+        "msg": "Compare the bot amplification levels of two sets of tweets",
+        "links": [
+            {
+                "url": "https://botometer.osome.iu.edu/botamp/",
+                "name": "BotAmp"
+            }
+        ]
+    },
+    {
         "title": "Hoaxy",
         "image": "hoaxy",
         "msg": "Visualize the spread of claims and fact checking",
