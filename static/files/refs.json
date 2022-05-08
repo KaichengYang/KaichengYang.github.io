@@ -18,6 +18,20 @@
         "highlight": [],
         "title": "Online misinformation is linked to early COVID-19 vaccination hesitancy and refusal.",
         "id": "pierri2020impact",
+        "medias": [
+            {
+                "url": "https://slate.com/technology/2022/04/elon-musk-free-speech-twitter-for-whom.html",
+                "name": "Slate"
+            },
+            {
+                "url": "https://time.com/6172678/childhood-vaccinations-fall-covid-19/",
+                "name": "Time"
+            },
+            {
+                "url": "https://www.news-medical.net/news/20220504/The-extent-to-which-COVID-19-vaccination-rates-and-vaccine-hesitancy-are-associated-with-levels-of-online-vaccine-misinformation.aspx",
+                "name": "News-Medical"
+            }
+        ],
         "links": [
             {
                 "url": "https://doi.org/10.1038/s41598-022-10070-w",
@@ -116,6 +130,22 @@
             {
                 "url": "https://www.futurity.org/twitter-politics-bias-users-2636992-2/",
                 "name": "Futurity"
+            },
+            {
+                "url": "https://www.rollingstone.com/culture/culture-news/elon-musk-twitter-cernovich-far-right-abuse-1343566/",
+                "name": "Rolling Stone"
+            },
+            {
+                "url": "https://metro.co.uk/2022/04/28/elon-musk-tweets-unleash-racist-abuse-on-female-twitter-employee-16551767/",
+                "name": "Metro"
+            },
+            {
+                "url": "https://theconversation.com/elon-musks-comments-about-twitter-dont-square-with-the-social-media-platforms-reality-182023",
+                "name": "The Conversation"
+            },
+            {
+                "url": "https://www.nbcnews.com/think/opinion/elon-musks-twitter-meme-shows-touch-reality-rcna26669",
+                "name": "NBC news"
             }
         ],
         "links": [
