@@ -1,5 +1,10 @@
 [
     {
+        "date": "May 19, 2022",
+        "type": "new_paper",
+        "msg": "Our paper <b>Algorithmic Agents in the Hybrid Media System: Social Bots, Selective Amplification, and Partisan News about COVID-19</b> has been published in Human Communication Research"
+    },
+    {
         "date": "Apr 27, 2022",
         "type": "new_tool",
         "msg": "Check out our new tool <a href='https://botometer.osome.iu.edu/botamp/'>BotAmp</a>, which can compare the bot amplification levels of two sets of tweets"

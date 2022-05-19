@@ -3,11 +3,17 @@
         "authors": "Duan, Z., Li, J., Lukito, J., <u>Yang, K. C.</u>, Chen, F., Shah, D. V. & Yang, S.",
         "title": "Algorithmic Agents in the Hybrid Media System: Social Bots, Selective Amplification and Partisan News about COVID-19.",
         "year": [2022],
-        "type": ["preprint"],
+        "type": ["journal"],
         "topic": ["socialmedia"],
         "highlight": [],
         "id": "duan2022algorithmic",
-        "venue": "(Forthcoming) Human Communication Research."
+        "venue": "Human Communication Research.",
+        "links": [
+            {
+                "name": "DOI",
+                "url": "https://doi.org/10.1093/hcr/hqac012"
+            }
+        ]
     },
     {
         "authors": "Pierri, F., Perry, B., DeVerna, M., <u>Yang, K. C.</u>, Flammini, A. , Menczer, F., & Bryden, J.",
