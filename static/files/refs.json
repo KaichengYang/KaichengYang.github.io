@@ -1,5 +1,21 @@
 [
   {
+    "authors": "<u>Yang, K. C.</u>, Menczer, F.",
+    "title": "How many bots are on Twitter? The question is difficult to answer and misses the point.",
+    "year": [2022],
+    "type": ["other"],
+    "topic": ["socialmedia"],
+    "highlight": [],
+    "id": "yang2022how",
+    "venue": "The Conversation.",
+    "links": [
+      {
+        "name": "link",
+        "url": "https://theconversation.com/how-many-bots-are-on-twitter-the-question-is-difficult-to-answer-and-misses-the-point-183425"
+      }
+    ]
+  },
+  {
     "authors": "Duan, Z., Li, J., Lukito, J., <u>Yang, K. C.</u>, Chen, F., Shah, D. V. & Yang, S.",
     "title": "Algorithmic Agents in the Hybrid Media System: Social Bots, Selective Amplification and Partisan News about COVID-19.",
     "year": [2022],
