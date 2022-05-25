@@ -1,5 +1,10 @@
 [
   {
+    "date": "May 25, 2022",
+    "type": "personal_news",
+    "msg": "I was quoted by <a href='https://www.politico.com/newsletters/digital-future-daily/2022/05/24/of-corn-and-crypto-00034823' target='_blank'>Politico</a>, <a href='https://www.yahoo.com/news/elon-musk-may-never-be-able-to-kick-bots-off-twitter-183132976.html' target='_blank'>Yahoo News</a>, and <a href='https://www.washingtonpost.com/technology/2022/05/13/twitter-sale-musk-bots/' target='_blank'>The Washington Post</a> on social bots recently"
+  },
+  {
     "date": "May 23, 2022",
     "type": "new_article",
     "msg": "Our article <b>How many bots are on Twitter? The question is difficult to answer and misses the point</b> <a href='https://theconversation.com/how-many-bots-are-on-twitter-the-question-is-difficult-to-answer-and-misses-the-point-183425' target='_blank'><i class='fas fa-external-link-alt'></i></a> has been published in The Conversation"
@@ -32,27 +37,27 @@
   {
     "date": "Jan 6, 2022",
     "type": "new_preprint",
-    "msg": "New preprint <b>Botometer 101: Social bot practicum for computational social scientists</b> available"
+    "msg": "New preprint <b>Botometer 101: Social bot practicum for computational social scientists</b> <a href='https://arxiv.org/abs/2201.01608' target='_blank'><i class='ai ai-arxiv ai-1x'></i></a> available"
   },
   {
     "date": "Dec 10, 2021",
     "type": "new_paper",
-    "msg": "Our paper <b>Substitution of Nonpharmacologic Therapy With Opioid Prescribing for Pain During the COVID-19 Pandemic</b> has been published in JAMA Network Open"
+    "msg": "Our paper <b>Substitution of Nonpharmacologic Therapy With Opioid Prescribing for Pain During the COVID-19 Pandemic</b> <a href='https://doi.org/10.1001/jamanetworkopen.2021.38453' target='_blank'><i class='far fa-file-pdf'></i></a> has been published in JAMA Network Open"
   },
   {
     "date": "Oct 22, 2021",
     "type": "new_paper",
-    "msg": "Our paper <b>Systematic comparison of graph embedding methods in practical tasks</b> has been published in Physical Review E"
+    "msg": "Our paper <b>Systematic comparison of graph embedding methods in practical tasks</b> <a href='https://doi.org/10.1103/PhysRevE.104.044315' target='_blank'><i class='far fa-file-pdf'></i></a> has been published in Physical Review E"
   },
   {
     "date": "Sep 22, 2021",
     "type": "new_paper",
-    "msg": "Our paper <b>Neutral bots probe political bias on social media</b> has been published in Nature Communications"
+    "msg": "Our paper <b>Neutral bots probe political bias on social media</b> <a href='https://doi.org/10.1038/s41467-021-25738-6' target='_blank'><i class='far fa-file-pdf'></i></a> has been published in Nature Communications"
   },
   {
     "date": "Sep 8, 2021",
     "type": "new_paper",
-    "msg": "Our paper <b>Use of and Comorbidities Associated With Diagnostic Codes for COVID-19 in US Health Insurance Claims</b> has been published in JAMA Network Open"
+    "msg": "Our paper <b>Use of and Comorbidities Associated With Diagnostic Codes for COVID-19 in US Health Insurance Claims</b> <a href='https://doi.org/10.1001/jamanetworkopen.2021.24643' target='_blank'><i class='far fa-file-pdf'></i></a> has been published in JAMA Network Open"
   },
   {
     "date": "Jul 16, 2021",
@@ -62,7 +67,7 @@
   {
     "date": "Jul 8, 2021",
     "type": "new_paper",
-    "msg": "Our paper <b>New means, new measures: Assessing prescription drug seeking indicators over ten years of the opioid epidemic</b> has been published in Addiction"
+    "msg": "Our paper <b>New means, new measures: Assessing prescription drug seeking indicators over ten years of the opioid epidemic</b> <a href='https://doi.org/10.1111/add.15635' target='_blank'><i class='far fa-file-pdf'></i></a> has been published in Addiction"
   },
   {
     "date": "Jun 21, 2021",
