@@ -1,6 +1,6 @@
 [
   {
-    "authors": "<u>Yang, K. C.</u>, Menczer, F.",
+    "authors": "<u>Yang, K. C.</u>, & Menczer, F.",
     "title": "How many bots are on Twitter? The question is difficult to answer and misses the point.",
     "year": [2022],
     "type": ["other"],
@@ -12,6 +12,12 @@
       {
         "name": "link",
         "url": "https://theconversation.com/how-many-bots-are-on-twitter-the-question-is-difficult-to-answer-and-misses-the-point-183425"
+      }
+    ],
+    "medias": [
+      {
+        "url": "https://www.businessinsider.com/musk-right-demand-lower-fee-based-bot-fight-experts-say-2022-5",
+        "name": "Business Insider"
       }
     ]
   },
