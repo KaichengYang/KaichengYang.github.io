@@ -1,5 +1,25 @@
 [
   {
+    "authors": "Torres-Lugo, C., <u>Yang, K. C.</u>, & Menczer, F.",
+    "year": [2022],
+    "type": ["conf"],
+    "topic": ["socialmedia"],
+    "highlight": [],
+    "title": "The Manufacture of Partisan Echo Chambers by Follow Train Abuse on Twitter.",
+    "venue": "Proceedings of the International AAAI Conference on Web and Social Media (ICWSM).",
+    "id": "lugo2020manufacture",
+    "links": [
+      {
+        "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/19354",
+        "name": "DOI"
+      },
+      {
+        "url": "https://arxiv.org/abs/2010.13691",
+        "name": "arXiv"
+      }
+    ]
+  },
+  {
     "authors": "<u>Yang, K. C.</u>, & Menczer, F.",
     "title": "How many bots are on Twitter? The question is difficult to answer and misses the point.",
     "year": [2022],
@@ -208,22 +228,6 @@
     ]
   },
   {
-    "authors": "Torres-Lugo, C., <u>Yang, K. C.</u>, & Menczer, F.",
-    "year": [2022],
-    "type": ["conf"],
-    "topic": ["socialmedia"],
-    "highlight": [],
-    "title": "The Manufacture of Partisan Echo Chambers by Follow Train Abuse on Twitter.",
-    "venue": "(Forthcoming) Proceedings of the International AAAI Conference on Web and Social Media (ICWSM).",
-    "id": "lugo2020manufacture",
-    "links": [
-      {
-        "url": "https://arxiv.org/abs/2010.13691",
-        "name": "arXiv"
-      }
-    ]
-  },
-  {
     "authors": "Perry, B., Odabas, M., <u>Yang, K. C.</u>, Lee, B., Kaminski, P., Aronson, B., Ahn, Y. Y., Oser, C., Freeman, P., & Talbert, J.",
     "year": [2022],
     "type": ["journal"],
@@ -353,7 +357,7 @@
     "highlight": [],
     "title": "Detection of Novel Social Bots by Ensembles of Specialized Classifiers.",
     "id": "sayyadi2020detection",
-    "venue": "In Proceedings of the 29th ACM International Conference on Information & Knowledge Management (CIKM), pp. 2725-2732.",
+    "venue": "Proceedings of the 29th ACM International Conference on Information & Knowledge Management (CIKM), pp. 2725-2732.",
     "links": [
       {
         "url": "https://doi.org/10.1145/3340531.3412698",
@@ -475,7 +479,7 @@
     "title": "BotSlayer: real-time detection of bot amplification on Twitter.",
     "authors": "Hui, P. M., <u>Yang, K. C.</u>, Torres-Lugo, C., Monroe, Z., McCarty, M., Serrette, B. D., Pentchev, V., & Menczer, F.",
     "year": [2019],
-    "type": ["conf"],
+    "type": ["journal"],
     "topic": ["socialmedia"],
     "highlight": [],
     "id": "hui2019botslayer",
