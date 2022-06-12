@@ -1,4 +1,20 @@
 [
+    {
+    "authors": "<u>Yang, K. C.</u>, Hui, P. M., & Menczer, F.",
+    "year": [2022],
+    "type": ["journal"],
+    "venue": "(Forthcoming) PeerJ Computer Science.",
+    "topic": ["socialmedia"],
+    "highlight": [],
+    "title": "How Twitter Data Sampling Biases U.S. Voter Behavior Characterizations.",
+    "id": "yang2022twitter",
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2006.01447",
+        "name": "arXiv"
+      }
+    ]
+  },
   {
     "authors": "Torres-Lugo, C., <u>Yang, K. C.</u>, & Menczer, F.",
     "year": [2022],
@@ -378,22 +394,6 @@
       {
         "url": "https://botometer.osome.iu.edu/bot-repository/",
         "name": "Dataset"
-      }
-    ]
-  },
-  {
-    "authors": "<u>Yang, K. C.</u>, Hui, P. M., & Menczer, F.",
-    "year": [2020],
-    "type": ["preprint"],
-    "venue": "In submission.",
-    "topic": ["socialmedia"],
-    "highlight": [],
-    "title": "How Twitter Data Sampling Biases U.S. Voter Behavior Characterizations.",
-    "id": "yang2020how",
-    "links": [
-      {
-        "url": "https://arxiv.org/abs/2006.01447",
-        "name": "arXiv"
       }
     ]
   },
