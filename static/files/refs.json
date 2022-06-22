@@ -1,4 +1,20 @@
 [
+  {
+    "authors": "Yan, H., & <u>Yang, K. C.</u>",
+    "year": [2022],
+    "type": ["preprint"],
+    "topic": ["socialmedia"],
+    "highlight": [],
+    "title": "The landscape of social bot research: a critical appraisal.",
+    "id": "yan2022landscape",
+    "venue": "In submission.",
+    "links":[
+      {
+        "url": "https://doi.org/10.31219/osf.io/3cf4j",
+        "name": "DOI"
+      }
+    ]
+  },
     {
     "authors": "<u>Yang, K. C.</u>, Hui, P. M., & Menczer, F.",
     "year": [2022],

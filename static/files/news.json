@@ -1,5 +1,10 @@
 [
   {
+    "date": "Jun 22, 2022",
+    "type": "new_preprint",
+    "msg": "New preprint <b>The landscape of social bot research: a critical appraisal</b> <a href='https://doi.org/10.31219/osf.io/3cf4j' target='_blank'><i class='ai ai-osf ai-1x'></i></a> available"
+  },
+  {
     "date": "Jun 9, 2022",
     "type": "personal_news",
     "msg": "I gave a tutorial on how to identify social media manipulation using <a href='https://osome.iu.edu/tools' target='_blank'>OSoMe tools</a> at the <a href='https://cj2022.brown.columbia.edu/' target='_blank'>2022 Computation + Journalism Conference</a>"
