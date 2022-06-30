@@ -1,5 +1,6 @@
 [
   {
+    "id": "botometer",
     "title": "Botometer",
     "image": "botometer",
     "msg": "Detect bot-like Twitter accounts",
@@ -23,6 +24,7 @@
     ]
   },
   {
+    "id": "botamp",
     "title": "BotAmp",
     "image": "botamp",
     "msg": "Compare the bot amplification levels of two sets of tweets",
@@ -34,6 +36,7 @@
     ]
   },
   {
+    "id": "birank",
     "title": "BiRank",
     "image": "birank",
     "msg": "Bipartite network PageRank",
@@ -53,6 +56,7 @@
     ]
   },
   {
+    "id": "osometweet",
     "title": "OSoMeTweet",
     "image": "osometweet",
     "msg": "Python package to access Twitter's V2 API",
@@ -68,6 +72,7 @@
     ]
   },
   {
+    "id": "scicolor",
     "title": "Scicolor",
     "image": "scicolor",
     "msg": "A collection of color maps for scientific visualization",
@@ -87,6 +92,7 @@
     ]
   },
   {
+    "id": "hoaxy",
     "title": "Hoaxy",
     "image": "hoaxy",
     "msg": "Visualize the spread of claims and fact checking",
@@ -98,6 +104,7 @@
     ]
   },
   {
+    "id": "botslayer",
     "title": "BotSlayer",
     "image": "botslayer",
     "msg": "Detect coordination and bot amplification",
@@ -113,6 +120,7 @@
     ]
   },
   {
+    "id": "covaxxy",
     "title": "CoVaxxy",
     "image": "covaxxy",
     "msg": "Dashboard for COVID-19 vaccine Twitter discussion",

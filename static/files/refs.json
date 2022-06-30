@@ -65,12 +65,6 @@
         "name": "link",
         "url": "https://theconversation.com/how-many-bots-are-on-twitter-the-question-is-difficult-to-answer-and-misses-the-point-183425"
       }
-    ],
-    "medias": [
-      {
-        "url": "https://www.businessinsider.com/musk-right-demand-lower-fee-based-bot-fight-experts-say-2022-5",
-        "name": "Business Insider"
-      }
     ]
   },
   {
@@ -98,20 +92,6 @@
     "highlight": [],
     "title": "Online misinformation is linked to early COVID-19 vaccination hesitancy and refusal.",
     "id": "pierri2020impact",
-    "medias": [
-      {
-        "url": "https://slate.com/technology/2022/04/elon-musk-free-speech-twitter-for-whom.html",
-        "name": "Slate"
-      },
-      {
-        "url": "https://time.com/6172678/childhood-vaccinations-fall-covid-19/",
-        "name": "Time"
-      },
-      {
-        "url": "https://www.news-medical.net/news/20220504/The-extent-to-which-COVID-19-vaccination-rates-and-vaccine-hesitancy-are-associated-with-levels-of-online-vaccine-misinformation.aspx",
-        "name": "News-Medical"
-      }
-    ],
     "links": [
       {
         "url": "https://doi.org/10.1038/s41598-022-10070-w",
@@ -154,18 +134,8 @@
     "type": ["journal"],
     "topic": ["covid", "opioid"],
     "highlight": [],
-    "id": "yang2021use",
+    "id": "lee2021substitution",
     "venue": "JAMA Network Open, 4(12):e2138453.",
-    "medias": [
-      {
-        "url": "https://www.everydayhealth.com/opioid-addiction/pain-treated-more-with-opioids-less-with-physical-therapy-during-covid-19-pandemic/",
-        "name": "Everyday Health"
-      },
-      {
-        "url": "https://consumer.healthday.com/12-14-did-pandemic-lockdowns-worsen-the-epidemic-of-opioid-abuse-2655959996.html",
-        "name": "Health Day"
-      }
-    ],
     "links": [
       {
         "name": "DOI",
@@ -206,28 +176,6 @@
     "title": "Neutral bots probe political bias on social media.",
     "id": "chen2021neutral",
     "venue": "Nature Communications, 12(1), 5580.",
-    "medias": [
-      {
-        "url": "https://www.futurity.org/twitter-politics-bias-users-2636992-2/",
-        "name": "Futurity"
-      },
-      {
-        "url": "https://www.rollingstone.com/culture/culture-news/elon-musk-twitter-cernovich-far-right-abuse-1343566/",
-        "name": "Rolling Stone"
-      },
-      {
-        "url": "https://metro.co.uk/2022/04/28/elon-musk-tweets-unleash-racist-abuse-on-female-twitter-employee-16551767/",
-        "name": "Metro"
-      },
-      {
-        "url": "https://theconversation.com/elon-musks-comments-about-twitter-dont-square-with-the-social-media-platforms-reality-182023",
-        "name": "The Conversation"
-      },
-      {
-        "url": "https://www.nbcnews.com/think/opinion/elon-musks-twitter-meme-shows-touch-reality-rcna26669",
-        "name": "NBC news"
-      }
-    ],
     "links": [
       {
         "name": "DOI",
@@ -301,12 +249,6 @@
         "url": "https://github.com/osome-iu/CoVaxxy",
         "name": "Dataset"
       }
-    ],
-    "medias": [
-      {
-        "url": "https://news.sky.com/story/robert-f-kennedy-jr-americas-most-famous-political-dynasty-has-given-rise-to-one-of-its-leading-covid-anti-vaxxers-and-his-falsehoods-reach-millions-12528811",
-        "name": "Sky News"
-      }
     ]
   },
   {
@@ -317,7 +259,7 @@
     "highlight": ["highlight"],
     "title": "The COVID-19 Infodemic: Twitter versus Facebook.",
     "venue": "Big Data & Society.",
-    "id": "yang2020covid",
+    "id": "yang2021covid",
     "links": [
       {
         "url": "https://doi.org/10.1177/20539517211013861",
@@ -326,16 +268,6 @@
       {
         "url": "https://arxiv.org/abs/2012.09353",
         "name": "arXiv"
-      }
-    ],
-    "medias": [
-      {
-        "url": "https://www.news5cleveland.com/about-us/news-literacy/misinformation-is-being-spread-alongside-our-news-stories-what-can-we-do-about-it",
-        "name": "News 5"
-      },
-      {
-        "url": "https://theconversation.com/big-tech-has-a-vaccine-misinformation-problem-heres-what-a-social-media-expert-recommends-164987",
-        "name": "The Conversation"
       }
     ]
   },
@@ -364,12 +296,6 @@
     "title": "Asymmetrical Perceptions of Partisan Political Bots.",
     "id": "yan2020asymmetrical",
     "venue": "New Media & Society, 23(10), 3016-3037.",
-    "medias": [
-      {
-        "url": "https://mediaschool.indiana.edu/news-events/news/item.html?n=human-or-bot-conservative-profiles-are-more-often-misidentified-study-finds",
-        "name": "IU the Media School Report"
-      }
-    ],
     "links":[
       {
         "url": "https://doi.org/10.1177/1461444820942744",
@@ -422,12 +348,6 @@
     "title": "Prevalence of Low-Credibility Information on Twitter During the COVID-19 Outbreak.",
     "id": "yang2020prevalence",
     "venue":"Proceedings ICWSM International Workshop on Cyber Social Threats (CySoc).",
-    "medias": [
-      {
-        "url": "https://spectrum.ieee.org/tech-talk/telecom/internet/twitter-bots-are-spreading-massive-amounts-of-covid-19-misinformation",
-        "name": "IEEE Spectrum"
-      }
-    ],
     "links": [
       {
         "url": "https://doi.org/10.36190/2020.16",
@@ -509,20 +429,6 @@
         "name": "GitHub",
         "url": "https://github.com/IUNetSci/BotSlayer-CE"
       }
-    ],
-    "medias": [
-      {
-        "name": "IU News",
-        "url": "https://news.iu.edu/stories/2019/09/iub/releases/12-botslayer-launch.html"
-      },
-      {
-        "name": "IDS news",
-        "url": "https://www.idsnews.com/article/2019/09/iu-develops-new-services-to-rid-of-false-information-on-twitter"
-      },
-      {
-        "name": "Science Node",
-        "url": "https://sciencenode.org/feature/Botslayer.php"
-      }
     ]
   },
   {
@@ -590,20 +496,6 @@
     "title": "The spread of low-credibility content by social bots.",
     "id": "shao2018spread",
     "venue": "Nature Communications, 9(1), 4787.",
-    "medias": [
-      {
-        "url": "https://news.iu.edu/stories/2018/11/iub/releases/20-twitter-bots-election-misinformation.html",
-        "name": "IU news"
-      },
-      {
-        "url": "https://www.sciencenews.org/article/twitter-bots-fake-news-2016-election",
-        "name": "ScienceNews"
-      },
-      {
-        "url": "https://www.technologyreview.com/s/608561/first-evidence-that-social-bots-play-a-major-role-in-spreading-fake-news/",
-        "name": "MIT Technology Review"
-      }
-    ],
     "links":[
       {
         "url": "https://doi.org/10.1038/s41467-018-06930-7",
@@ -624,20 +516,6 @@
     "highlight": [],
     "id": "lee2021systematic",
     "venue": "JAMA Network Open, 4(2), e2036687.",
-    "medias": [
-      {
-        "url": "https://www.uspharmacist.com/article/opioiduse-policies-causing-unintended-consequences",
-        "name": "U.S. Pharmacist"
-      },
-      {
-        "url": "https://www.news-medical.net/news/20210217/Opioid-supply-controlling-policies-may-have-unintended-consequences-finds-study.aspx",
-        "name": "News-Medical"
-      },
-      {
-        "url": "https://www.medpagetoday.com/opinion/second-opinions/96922",
-        "name": "MedPage Today"
-      }
-    ],
     "links": [
       {
         "name": "DOI",
