@@ -1,5 +1,10 @@
 [
   {
+    "date": "Jul 1, 2022",
+    "type": "new_pub",
+    "msg": "Our paper <b>How Twitter data sampling biases U.S. voter behavior characterizations</b> <a href='https://doi.org/10.7717/peerj-cs.1025' target='_blank'><i class='far fa-file-pdf'></i></a> was published in PeerJ Computer Science"
+  },
+  {
     "date": "Jun 22, 2022",
     "type": "new_preprint",
     "msg": "New preprint <b>The landscape of social bot research: a critical appraisal</b> <a href='https://doi.org/10.31219/osf.io/3cf4j' target='_blank'><i class='ai ai-osf ai-1x'></i></a> available"
@@ -22,17 +27,17 @@
   {
     "date": "Jun 3, 2022",
     "type": "new_pub",
-    "msg": "Our paper <b>The Manufacture of Partisan Echo Chambers by Follow Train Abuse on Twitter</b> <a href='https://ojs.aaai.org/index.php/ICWSM/article/view/19354' target='_blank'><i class='far fa-file-pdf'></i></a> has been published in the Proceedings of ICWSM"
+    "msg": "Our paper <b>The Manufacture of Partisan Echo Chambers by Follow Train Abuse on Twitter</b> <a href='https://ojs.aaai.org/index.php/ICWSM/article/view/19354' target='_blank'><i class='far fa-file-pdf'></i></a> was published in the Proceedings of ICWSM"
   },
   {
     "date": "May 23, 2022",
     "type": "new_pub",
-    "msg": "Our article <b>How many bots are on Twitter? The question is difficult to answer and misses the point</b> <a href='https://theconversation.com/how-many-bots-are-on-twitter-the-question-is-difficult-to-answer-and-misses-the-point-183425' target='_blank'><i class='fas fa-external-link-alt'></i></a> has been published in The Conversation"
+    "msg": "Our article <b>How many bots are on Twitter? The question is difficult to answer and misses the point</b> <a href='https://theconversation.com/how-many-bots-are-on-twitter-the-question-is-difficult-to-answer-and-misses-the-point-183425' target='_blank'><i class='fas fa-external-link-alt'></i></a> was published in The Conversation"
   },
   {
     "date": "May 19, 2022",
     "type": "new_pub",
-    "msg": "Our paper <b>Algorithmic Agents in the Hybrid Media System: Social Bots, Selective Amplification, and Partisan News about COVID-19</b> <a href='https://doi.org/10.1093/hcr/hqac012' target='_blank'><i class='far fa-file-pdf'></i></a> has been published in Human Communication Research"
+    "msg": "Our paper <b>Algorithmic Agents in the Hybrid Media System: Social Bots, Selective Amplification, and Partisan News about COVID-19</b> <a href='https://doi.org/10.1093/hcr/hqac012' target='_blank'><i class='far fa-file-pdf'></i></a> was published in Human Communication Research"
   },
   {
     "date": "Apr 27, 2022",
@@ -42,7 +47,7 @@
   {
     "date": "Apr 26, 2022",
     "type": "new_pub",
-    "msg": "Our paper <b>Online misinformation is linked to early COVID-19 vaccination hesitancy and refusal</b> <a href='https://doi.org/10.1038/s41598-022-10070-w' target='_blank'><i class='far fa-file-pdf'></i></a> has been published in Scientific Reports"
+    "msg": "Our paper <b>Online misinformation is linked to early COVID-19 vaccination hesitancy and refusal</b> <a href='https://doi.org/10.1038/s41598-022-10070-w' target='_blank'><i class='far fa-file-pdf'></i></a> was published in Scientific Reports"
   },
   {
     "date": "Apr 14, 2022",
@@ -62,32 +67,32 @@
   {
     "date": "Dec 10, 2021",
     "type": "new_pub",
-    "msg": "Our paper <b>Substitution of Nonpharmacologic Therapy With Opioid Prescribing for Pain During the COVID-19 Pandemic</b> <a href='https://doi.org/10.1001/jamanetworkopen.2021.38453' target='_blank'><i class='far fa-file-pdf'></i></a> has been published in JAMA Network Open"
+    "msg": "Our paper <b>Substitution of Nonpharmacologic Therapy With Opioid Prescribing for Pain During the COVID-19 Pandemic</b> <a href='https://doi.org/10.1001/jamanetworkopen.2021.38453' target='_blank'><i class='far fa-file-pdf'></i></a> was published in JAMA Network Open"
   },
   {
     "date": "Oct 22, 2021",
     "type": "new_pub",
-    "msg": "Our paper <b>Systematic comparison of graph embedding methods in practical tasks</b> <a href='https://doi.org/10.1103/PhysRevE.104.044315' target='_blank'><i class='far fa-file-pdf'></i></a> has been published in Physical Review E"
+    "msg": "Our paper <b>Systematic comparison of graph embedding methods in practical tasks</b> <a href='https://doi.org/10.1103/PhysRevE.104.044315' target='_blank'><i class='far fa-file-pdf'></i></a> was published in Physical Review E"
   },
   {
     "date": "Sep 22, 2021",
     "type": "new_pub",
-    "msg": "Our paper <b>Neutral bots probe political bias on social media</b> <a href='https://doi.org/10.1038/s41467-021-25738-6' target='_blank'><i class='far fa-file-pdf'></i></a> has been published in Nature Communications"
+    "msg": "Our paper <b>Neutral bots probe political bias on social media</b> <a href='https://doi.org/10.1038/s41467-021-25738-6' target='_blank'><i class='far fa-file-pdf'></i></a> was published in Nature Communications"
   },
   {
     "date": "Sep 8, 2021",
     "type": "new_pub",
-    "msg": "Our paper <b>Use of and Comorbidities Associated With Diagnostic Codes for COVID-19 in US Health Insurance Claims</b> <a href='https://doi.org/10.1001/jamanetworkopen.2021.24643' target='_blank'><i class='far fa-file-pdf'></i></a> has been published in JAMA Network Open"
+    "msg": "Our paper <b>Use of and Comorbidities Associated With Diagnostic Codes for COVID-19 in US Health Insurance Claims</b> <a href='https://doi.org/10.1001/jamanetworkopen.2021.24643' target='_blank'><i class='far fa-file-pdf'></i></a> was published in JAMA Network Open"
   },
   {
     "date": "Jul 16, 2021",
     "type": "new_pub",
-    "msg": "Our paper <b>The Manufacture of Partisan Echo Chambers by  Follow  Train  Abuse  on  Twitter</b> has been accepted to ICWSM'22"
+    "msg": "Our paper <b>The Manufacture of Partisan Echo Chambers by  Follow  Train  Abuse  on  Twitter</b> was accepted to ICWSM'22"
   },
   {
     "date": "Jul 8, 2021",
     "type": "new_pub",
-    "msg": "Our paper <b>New means, new measures: Assessing prescription drug seeking indicators over ten years of the opioid epidemic</b> <a href='https://doi.org/10.1111/add.15635' target='_blank'><i class='far fa-file-pdf'></i></a> has been published in Addiction"
+    "msg": "Our paper <b>New means, new measures: Assessing prescription drug seeking indicators over ten years of the opioid epidemic</b> <a href='https://doi.org/10.1111/add.15635' target='_blank'><i class='far fa-file-pdf'></i></a> was published in Addiction"
   },
   {
     "date": "Jun 21, 2021",
@@ -97,7 +102,7 @@
   {
     "date": "Jun 8, 2021",
     "type": "new_pub",
-    "msg": "Our paper <b>CoVaxxy: A Collection of English-Language Twitter Posts About COVID-19 Vaccines </b> has been published in the proceedings of ICWSM"
+    "msg": "Our paper <b>CoVaxxy: A Collection of English-Language Twitter Posts About COVID-19 Vaccines </b> was published in the proceedings of ICWSM"
   },
   {
     "date": "May 9, 2021",
@@ -112,7 +117,7 @@
   {
     "date": "May 5, 2021",
     "type": "new_pub",
-    "msg": "Our paper <b>The COVID-19 Infodemic: Twitter versus Facebook</b> has been published in Big Data & Society"
+    "msg": "Our paper <b>The COVID-19 Infodemic: Twitter versus Facebook</b> was published in Big Data & Society"
   },
   {
     "date": "Apr 22, 2021",
@@ -122,12 +127,12 @@
   {
     "date": "Mar 30, 2021",
     "type": "new_pub",
-    "msg": "Our paper <b>Persona2vec: a flexible multi-role representations learning framework for graphs</b> has been published in PeerJ Computer Science"
+    "msg": "Our paper <b>Persona2vec: a flexible multi-role representations learning framework for graphs</b> was published in PeerJ Computer Science"
   },
   {
     "date": "Feb 12, 2021",
     "type": "new_pub",
-    "msg": "Our paper <b>Systematic Evaluation of State Policy Interventions Targeting the US Opioid Epidemic, 2007-2018</b> has been published in JAMA Network Open"
+    "msg": "Our paper <b>Systematic Evaluation of State Policy Interventions Targeting the US Opioid Epidemic, 2007-2018</b> was published in JAMA Network Open"
   },
   {
     "date": "Jan 17, 2021",
@@ -137,7 +142,7 @@
   {
     "date": "Jan 14, 2021",
     "type": "new_pub",
-    "msg": "Our paper <b>Model-free hidden geometry of complex networks</b> has been published in Physical Review E"
+    "msg": "Our paper <b>Model-free hidden geometry of complex networks</b> was published in Physical Review E"
   },
   {
     "date": "Jan 11, 2021",
@@ -152,7 +157,7 @@
   {
     "date": "Dec 10, 2020",
     "type": "new_pub",
-    "msg": "Our commentary <b>Tackling misinformation: What researchers could do with social media data</b> has been published by HKS Misinformation Review"
+    "msg": "Our commentary <b>Tackling misinformation: What researchers could do with social media data</b> was published by HKS Misinformation Review"
   },
   {
     "date": "Nov 16, 2020",
@@ -167,7 +172,7 @@
   {
     "date": "Oct 25, 2020",
     "type": "new_pub",
-    "msg": "Our paper <b>Detection of Novel Social Bots by Ensembles of Specialized Classifiers</b> has been published in the Proceedings of CIKM 2020"
+    "msg": "Our paper <b>Detection of Novel Social Bots by Ensembles of Specialized Classifiers</b> was published in the Proceedings of CIKM 2020"
   },
   {
     "date": "Sep 2, 2020",
@@ -177,12 +182,12 @@
   {
     "date": "Jul 18, 2020",
     "type": "new_pub",
-    "msg": "Our paper <b>Asymmetrical Perceptions of Partisan Political Bots</b> has been published by New Media & Society, the preprint version is also available"
+    "msg": "Our paper <b>Asymmetrical Perceptions of Partisan Political Bots</b> was published by New Media & Society, the preprint version is also available"
   },
   {
     "date": "Jul 10, 2020",
     "type": "new_pub",
-    "msg": "Our paper <b>BiRank: Fast and Flexible Ranking on Bipartite Networks with R and Python</b> has been published by The Journal of Open Source Software, the package is available"
+    "msg": "Our paper <b>BiRank: Fast and Flexible Ranking on Bipartite Networks with R and Python</b> was published by The Journal of Open Source Software, the package is available"
   },
   {
     "date": "Jun 21, 2020",

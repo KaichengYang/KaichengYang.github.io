@@ -1,30 +1,24 @@
 [
   {
-    "authors": "Yan, H., & <u>Yang, K. C.</u>",
-    "year": [2022],
-    "type": ["preprint"],
-    "topic": ["socialmedia"],
-    "highlight": [],
-    "title": "The landscape of social bot research: a critical appraisal.",
-    "id": "yan2022landscape",
-    "venue": "In submission.",
-    "links":[
-      {
-        "url": "https://doi.org/10.31219/osf.io/3cf4j",
-        "name": "DOI"
-      }
-    ]
-  },
-    {
     "authors": "<u>Yang, K. C.</u>, Hui, P. M., & Menczer, F.",
-    "year": [2022],
-    "type": ["journal"],
-    "venue": "(Forthcoming) PeerJ Computer Science.",
-    "topic": ["socialmedia"],
+    "year": [
+      2022
+    ],
+    "type": [
+      "journal"
+    ],
+    "venue": "PeerJ Computer Science, 8:e1025.",
+    "topic": [
+      "socialmedia"
+    ],
     "highlight": [],
-    "title": "How Twitter Data Sampling Biases U.S. Voter Behavior Characterizations.",
+    "title": "How Twitter data sampling biases U.S. voter behavior characterizations.",
     "id": "yang2022twitter",
     "links": [
+      {
+        "url": "https://doi.org/10.7717/peerj-cs.1025",
+        "name": "DOI"
+      },
       {
         "url": "https://arxiv.org/abs/2006.01447",
         "name": "arXiv"
@@ -32,10 +26,38 @@
     ]
   },
   {
+    "authors": "Yan, H., & <u>Yang, K. C.</u>",
+    "year": [
+      2022
+    ],
+    "type": [
+      "preprint"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
+    "highlight": [],
+    "title": "The landscape of social bot research: a critical appraisal.",
+    "id": "yan2022landscape",
+    "venue": "In submission.",
+    "links": [
+      {
+        "url": "https://doi.org/10.31219/osf.io/3cf4j",
+        "name": "DOI"
+      }
+    ]
+  },
+  {
     "authors": "Torres-Lugo, C., <u>Yang, K. C.</u>, & Menczer, F.",
-    "year": [2022],
-    "type": ["conf"],
-    "topic": ["socialmedia"],
+    "year": [
+      2022
+    ],
+    "type": [
+      "conf"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
     "highlight": [],
     "title": "The Manufacture of Partisan Echo Chambers by Follow Train Abuse on Twitter.",
     "venue": "Proceedings of the International AAAI Conference on Web and Social Media (ICWSM).",
@@ -54,9 +76,15 @@
   {
     "authors": "<u>Yang, K. C.</u>, & Menczer, F.",
     "title": "How many bots are on Twitter? The question is difficult to answer and misses the point.",
-    "year": [2022],
-    "type": ["other"],
-    "topic": ["socialmedia"],
+    "year": [
+      2022
+    ],
+    "type": [
+      "other"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
     "highlight": [],
     "id": "yang2022how",
     "venue": "The Conversation.",
@@ -70,9 +98,15 @@
   {
     "authors": "Duan, Z., Li, J., Lukito, J., <u>Yang, K. C.</u>, Chen, F., Shah, D. V. & Yang, S.",
     "title": "Algorithmic Agents in the Hybrid Media System: Social Bots, Selective Amplification and Partisan News about COVID-19.",
-    "year": [2022],
-    "type": ["journal"],
-    "topic": ["socialmedia"],
+    "year": [
+      2022
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
     "highlight": [],
     "id": "duan2022algorithmic",
     "venue": "Human Communication Research.",
@@ -85,10 +119,17 @@
   },
   {
     "authors": "Pierri, F., Perry, B., DeVerna, M., <u>Yang, K. C.</u>, Flammini, A. , Menczer, F., & Bryden, J.",
-    "year": [2022],
-    "type": ["journal"],
+    "year": [
+      2022
+    ],
+    "type": [
+      "journal"
+    ],
     "venue": "Scientific Reports. 12(1), 5966.",
-    "topic": ["socialmedia", "covid"],
+    "topic": [
+      "socialmedia",
+      "covid"
+    ],
     "highlight": [],
     "title": "Online misinformation is linked to early COVID-19 vaccination hesitancy and refusal.",
     "id": "pierri2020impact",
@@ -109,9 +150,15 @@
   },
   {
     "authors": "<u>Yang, K. C.</u>, Ferrara, E. & Menczer, F.",
-    "year": [2022],
-    "type": ["preprint"],
-    "topic": ["socialmedia"],
+    "year": [
+      2022
+    ],
+    "type": [
+      "preprint"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
     "highlight": [],
     "title": "Botometer 101: Social bot practicum for computational social scientists.",
     "id": "yang2022botometer",
@@ -130,9 +177,16 @@
   {
     "title": "Substitution of Nonpharmacologic Therapy With Opioid Prescribing for Pain During the COVID-19 Pandemic.",
     "authors": "Lee, B., <u>Yang, K. C.</u>, Kaminski, P., Ahn, Y. Y., Peng, S., Odabas, M., Gupta, S., Green, H. & Perry, B.",
-    "year": [2021],
-    "type": ["journal"],
-    "topic": ["covid", "opioid"],
+    "year": [
+      2021
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "covid",
+      "opioid"
+    ],
     "highlight": [],
     "id": "lee2021substitution",
     "venue": "JAMA Network Open, 4(12):e2138453.",
@@ -145,9 +199,15 @@
   },
   {
     "authors": "Zhang, Y. J., <u>Yang, K. C.</u>, & Radicchi, F.",
-    "year": [2021],
-    "type": ["journal"],
-    "topic": ["netsci"],
+    "year": [
+      2021
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "netsci"
+    ],
     "highlight": [],
     "title": "Systematic comparison of graph embedding methods in practical tasks.",
     "id": "zhang2021systematic",
@@ -169,9 +229,15 @@
   },
   {
     "authors": "Chen, W., Pacheco, D., <u>Yang, K. C.</u>, & Menczer, F.",
-    "year": [2021],
-    "type": ["journal"],
-    "topic": ["socialmedia"],
+    "year": [
+      2021
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
     "highlight": [],
     "title": "Neutral bots probe political bias on social media.",
     "id": "chen2021neutral",
@@ -194,9 +260,15 @@
   {
     "title": "Use of and Comorbidities Associated With Diagnostic Codes for COVID-19 in US Health Insurance Claims.",
     "authors": "<u>Yang, K. C.</u>, Lee, B., Ahn, Y. Y., & Perry, B.",
-    "year": [2021],
-    "type": ["journal"],
-    "topic": ["covid"],
+    "year": [
+      2021
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "covid"
+    ],
     "highlight": [],
     "id": "yang2021use",
     "venue": "JAMA Network Open, 4(9), e2124643.",
@@ -209,10 +281,18 @@
   },
   {
     "authors": "Perry, B., Odabas, M., <u>Yang, K. C.</u>, Lee, B., Kaminski, P., Aronson, B., Ahn, Y. Y., Oser, C., Freeman, P., & Talbert, J.",
-    "year": [2022],
-    "type": ["journal"],
-    "topic": ["opioid"],
-    "highlight": ["highlight"],
+    "year": [
+      2022
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "opioid"
+    ],
+    "highlight": [
+      "highlight"
+    ],
     "title": "New means, new measures: Assessing prescription drug seeking indicators over ten years of the opioid epidemic.",
     "id": "perry2021new",
     "venue": "Addiction.  117(1), 195-204.",
@@ -225,9 +305,16 @@
   },
   {
     "authors": "DeVerna, M., Pierri, F., Truong, B. T., Bollenbacher, J., Axelrod, D., Loynes, N., Torres-Lugo, C., <u>Yang, K.-C.</u>, Menczer, F., & Bryden, J.",
-    "year": [2021],
-    "type": ["conf"],
-    "topic": ["socialmedia", "covid"],
+    "year": [
+      2021
+    ],
+    "type": [
+      "conf"
+    ],
+    "topic": [
+      "socialmedia",
+      "covid"
+    ],
     "highlight": [],
     "venue": "Proceedings of the International AAAI Conference on Web and Social Media (ICWSM).",
     "title": "CoVaxxy: A Collection of English-Language Twitter Posts About COVID-19 Vaccines.",
@@ -253,10 +340,19 @@
   },
   {
     "authors": "<u>Yang, K. C.</u>, Pierri, F.,  Hui, P. M., Axelrod, D., Torres-Lugo, C., Bryden, J., & Menczer, F.",
-    "year": [2021],
-    "type": ["journal"],
-    "topic": ["socialmedia", "covid"],
-    "highlight": ["highlight"],
+    "year": [
+      2021
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "socialmedia",
+      "covid"
+    ],
+    "highlight": [
+      "highlight"
+    ],
     "title": "The COVID-19 Infodemic: Twitter versus Facebook.",
     "venue": "Big Data & Society.",
     "id": "yang2021covid",
@@ -273,9 +369,15 @@
   },
   {
     "authors": "Pasquetto, I., Swire-Thompson, B., Amazeen, M.A., Benevenuto, F., Brashier,…<u>Yang, K.C.</u>",
-    "year": [2020],
-    "type": ["journal"],
-    "topic": ["socialmedia"],
+    "year": [
+      2020
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
     "highlight": [],
     "title": "Tackling misinformation: What researchers could do with social media data.",
     "venue": "The Harvard Kennedy School Misinformation Review, 1(8).",
@@ -289,14 +391,22 @@
   },
   {
     "authors": "Yan, H., <u>Yang, K. C.</u>, Menczer, F., & Shanahan, J.",
-    "year": [2021],
-    "type": ["journal"],
-    "topic": ["socialmedia"],
-    "highlight": ["highlight"],
+    "year": [
+      2021
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
+    "highlight": [
+      "highlight"
+    ],
     "title": "Asymmetrical Perceptions of Partisan Political Bots.",
     "id": "yan2020asymmetrical",
     "venue": "New Media & Society, 23(10), 3016-3037.",
-    "links":[
+    "links": [
       {
         "url": "https://doi.org/10.1177/1461444820942744",
         "name": "DOI"
@@ -309,9 +419,15 @@
   },
   {
     "authors": "Sayyadiharikandeh, M., Varol, O., <u>Yang, K. C.</u>, Flammini, A., & Menczer, F.",
-    "year": [2020],
-    "type": ["conf"],
-    "topic": ["socialmedia"],
+    "year": [
+      2020
+    ],
+    "type": [
+      "conf"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
     "highlight": [],
     "title": "Detection of Novel Social Bots by Ensembles of Specialized Classifiers.",
     "id": "sayyadi2020detection",
@@ -341,13 +457,20 @@
   },
   {
     "authors": "<u>Yang, K. C.</u>, Torres-Lugo, C., & Menczer, F.",
-    "year": [2020],
-    "type": ["conf"],
-    "topic": ["socialmedia", "covid"],
+    "year": [
+      2020
+    ],
+    "type": [
+      "conf"
+    ],
+    "topic": [
+      "socialmedia",
+      "covid"
+    ],
     "highlight": [],
     "title": "Prevalence of Low-Credibility Information on Twitter During the COVID-19 Outbreak.",
     "id": "yang2020prevalence",
-    "venue":"Proceedings ICWSM International Workshop on Cyber Social Threats (CySoc).",
+    "venue": "Proceedings ICWSM International Workshop on Cyber Social Threats (CySoc).",
     "links": [
       {
         "url": "https://doi.org/10.36190/2020.16",
@@ -361,9 +484,15 @@
   },
   {
     "authors": "Hui, P. M., <u>Yang, K. C.</u>, Torres-Lugo, C., & Menczer, F.",
-    "year": [2020],
-    "type": ["conf"],
-    "topic": ["socialmedia"],
+    "year": [
+      2020
+    ],
+    "type": [
+      "conf"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
     "highlight": [],
     "title": "BotSlayer: DIY Real-Time Influence Campaign Detection.",
     "id": "hui2020botslayer",
@@ -381,10 +510,18 @@
   },
   {
     "authors": "<u>Yang, K. C.</u>, Varol, O., Hui, P. M., & Menczer, F.",
-    "year": [2020],
-    "type": ["conf"],
-    "topic": ["socialmedia"],
-    "highlight": ["highlight"],
+    "year": [
+      2020
+    ],
+    "type": [
+      "conf"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
+    "highlight": [
+      "highlight"
+    ],
     "title": "Scalable and Generalizable Social Bot Detection through Data Selection.",
     "id": "yang2020scalable",
     "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), vol. 34, pp. 1096--1103.",
@@ -414,9 +551,15 @@
   {
     "title": "BotSlayer: real-time detection of bot amplification on Twitter.",
     "authors": "Hui, P. M., <u>Yang, K. C.</u>, Torres-Lugo, C., Monroe, Z., McCarty, M., Serrette, B. D., Pentchev, V., & Menczer, F.",
-    "year": [2019],
-    "type": ["journal"],
-    "topic": ["socialmedia"],
+    "year": [
+      2019
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
     "highlight": [],
     "id": "hui2019botslayer",
     "venue": "The Journal of Open Source Software, 01706.",
@@ -433,9 +576,15 @@
   },
   {
     "authors": "<u>Yang, K. C.</u>, Hui, P. M., & Menczer, F.",
-    "year": [2019],
-    "type": ["conf"],
-    "topic": ["socialmedia"],
+    "year": [
+      2019
+    ],
+    "type": [
+      "conf"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
     "highlight": [],
     "title": "Bot Electioneering Volume: visualizing social bot activity during elections.",
     "id": "yang2019bot",
@@ -457,9 +606,15 @@
   },
   {
     "authors": "<u>Yang, K. C.</u>, Varol, O., Davis, C. A., Ferrara, E., Flammini, A., & Menczer, F.",
-    "year": [2019],
-    "type": ["journal"],
-    "topic": ["socialmedia"],
+    "year": [
+      2019
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
     "highlight": [],
     "title": "Arming the public with artificial intelligence to counter social bots.",
     "id": "yang2018arming",
@@ -489,14 +644,20 @@
   },
   {
     "authors": "Shao, C., Ciampaglia, G. L., Varol, O., <u>Yang, K. C.</u>, Flammini, A., & Menczer, F.",
-    "year": [2018],
-    "type": ["journal"],
-    "topic": ["socialmedia"],
+    "year": [
+      2018
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
     "highlight": [],
     "title": "The spread of low-credibility content by social bots.",
     "id": "shao2018spread",
     "venue": "Nature Communications, 9(1), 4787.",
-    "links":[
+    "links": [
       {
         "url": "https://doi.org/10.1038/s41467-018-06930-7",
         "name": "DOI"
@@ -510,9 +671,15 @@
   {
     "title": "Systematic Evaluation of State Policy Interventions Targeting the US Opioid Epidemic, 2007-2018.",
     "authors": "Lee, B., Zhao, W., <u>Yang, K. C.</u>, Ahn, Y. Y., & Perry, B.",
-    "year": [2021],
-    "type": ["journal"],
-    "topic": ["opioid"],
+    "year": [
+      2021
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "opioid"
+    ],
     "highlight": [],
     "id": "lee2021systematic",
     "venue": "JAMA Network Open, 4(2), e2036687.",
@@ -530,11 +697,20 @@
   {
     "title": "Comparing Measures of Centrality in Bipartite Social Networks: A Study of Drug Seeking for Opioid Analgesics.",
     "authors": "<u>Yang, K. C.</u>, Aronson, B., Odabas, M., Ahn, Y. Y., & Perry, B.",
-    "year": [2020],
-    "type": ["preprint"],
+    "year": [
+      2020
+    ],
+    "type": [
+      "preprint"
+    ],
     "venue": "In submission.",
-    "highlight": ["highlight"],
-    "topic": ["opioid", "netsci"],
+    "highlight": [
+      "highlight"
+    ],
+    "topic": [
+      "opioid",
+      "netsci"
+    ],
     "id": "aronson2020comparing",
     "links": [
       {
@@ -545,9 +721,16 @@
   },
   {
     "authors": "Perry, B., <u>Yang, K. C.</u>, Kaminski, P., Odabas, M., Park, J., Martel, M., Oser, C., Freeman, P., Ahn, Y. Y., & Talbert, J.",
-    "year": [2019],
-    "type": ["journal"],
-    "topic": ["opioid", "netsci"],
+    "year": [
+      2019
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "opioid",
+      "netsci"
+    ],
     "highlight": [],
     "title": "Co-prescription network reveals social dynamics of opioid doctor shopping.",
     "id": "perry2019co",
@@ -562,9 +745,15 @@
   {
     "title": "Persona2vec: A Flexible Multi-role Representations Learning Framework for Graphs.",
     "authors": "Yoon, J., <u>Yang, K. C.</u>, Jung, W. S., & Ahn, Y. Y.",
-    "year": [2021],
-    "type": ["journal"],
-    "topic": ["netsci"],
+    "year": [
+      2021
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "netsci"
+    ],
     "highlight": [],
     "venue": "PeerJ Computer Science, 7:e439.",
     "id": "yoon2020persona",
@@ -586,9 +775,15 @@
   {
     "title": "Model-free hidden geometry of complex networks.",
     "authors": "Zhang, Y. J., <u>Yang, K. C.</u>, & Radicchi, F.",
-    "year": [2021],
-    "type": ["journal"],
-    "topic": ["netsci"],
+    "year": [
+      2021
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "netsci"
+    ],
     "highlight": [],
     "venue": "Physical Review E, 103(1), 012305.",
     "id": "zhang2020model",
@@ -606,9 +801,15 @@
   {
     "title": "BiRank: Fast and Flexible Ranking on Bipartite Networks with R and Python.",
     "authors": "<u>Yang, K. C.</u>, Aronson, B., & Ahn, Y. Y.",
-    "year": [2020],
-    "type": ["journal"],
-    "topic": ["netsci"],
+    "year": [
+      2020
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "netsci"
+    ],
     "highlight": [],
     "id": "yang2020birank",
     "venue": "The Journal of Open Source Software, 02315.",
@@ -634,9 +835,15 @@
   {
     "title": "Advantage of being multicomponent and spatial: Multipartite viruses colonize structured populations with lower thresholds.",
     "authors": "Zhang, Y. J., Wu, Z. X., Holme, P., & <u>Yang, K. C.</u>",
-    "year": [2019],
-    "type": ["journal"],
-    "topic": ["netsci"],
+    "year": [
+      2019
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "netsci"
+    ],
     "highlight": [],
     "id": "zhang2019advantage",
     "venue": "Physical Review Letters, 123(13), 138101.",
@@ -651,9 +858,15 @@
   {
     "title": "Expansion of cooperatively growing populations: Optimal migration rates and habitat network structures.",
     "authors": "<u>Yang, K. C.</u>, Wu, Z. X., Holme, P., & Nonaka, E.",
-    "year": [2017],
-    "type": ["journal"],
-    "topic": ["netsci"],
+    "year": [
+      2017
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "netsci"
+    ],
     "highlight": [],
     "id": "yang2017expansion",
     "venue": "Physical Review E, 95(1), 012306.",
