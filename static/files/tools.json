@@ -36,6 +36,34 @@
     ]
   },
   {
+    "id": "hoaxy",
+    "title": "Hoaxy",
+    "image": "hoaxy",
+    "msg": "Visualize the spread of claims and fact checking",
+    "links": [
+      {
+        "url": "https://hoaxy.osome.iu.edu/",
+        "name": "Hoaxy"
+      }
+    ]
+  },
+  {
+    "id": "covaxxy",
+    "title": "CoVaxxy",
+    "image": "covaxxy",
+    "msg": "Dashboard for COVID-19 vaccine Twitter discussion",
+    "links": [
+      {
+        "url": "https://osome.iu.edu/tools/covaxxy",
+        "name": "CoVaxxy"
+      },
+      {
+        "url": "https://github.com/osome-iu/CoVaxxy",
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
     "id": "birank",
     "title": "BiRank",
     "image": "birank",
@@ -92,18 +120,6 @@
     ]
   },
   {
-    "id": "hoaxy",
-    "title": "Hoaxy",
-    "image": "hoaxy",
-    "msg": "Visualize the spread of claims and fact checking",
-    "links": [
-      {
-        "url": "https://hoaxy.osome.iu.edu/",
-        "name": "Hoaxy"
-      }
-    ]
-  },
-  {
     "id": "botslayer",
     "title": "BotSlayer",
     "image": "botslayer",
@@ -116,22 +132,6 @@
       {
         "name": "GitHub",
         "url": "https://github.com/IUNetSci/BotSlayer-CE"
-      }
-    ]
-  },
-  {
-    "id": "covaxxy",
-    "title": "CoVaxxy",
-    "image": "covaxxy",
-    "msg": "Dashboard for COVID-19 vaccine Twitter discussion",
-    "links": [
-      {
-        "url": "https://osome.iu.edu/tools/covaxxy",
-        "name": "CoVaxxy"
-      },
-      {
-        "url": "https://github.com/osome-iu/CoVaxxy",
-        "name": "GitHub"
       }
     ]
   }
