@@ -1,5 +1,43 @@
 [
   {
+    "title": "Elon Musk tries to squirm out of US$44b Twitter deal",
+    "url": "https://ia.acs.org.au/article/2022/elon-musk-tries-to-squirm-out-of-us-44b-twitter-deal.html",
+    "outlet": "Information Age",
+    "date": "Jul 11, 2022",
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer",
+      "yang2022how"
+    ],
+    "toshow": true
+  },
+  {
+    "title": "Bots: What are they? Why did they lead Elon Musk to terminate his $44 billion Twitter deal?",
+    "url": "https://www.usatoday.com/story/tech/2022/07/10/elon-musk-bots-twitter-deal-off/10025518002",
+    "outlet": "USA Today",
+    "date": "Jul 10, 2022",
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botamp",
+      "yang2022how"
+    ],
+    "toshow": false
+  },
+  {
+    "title": "Delaying or refusing COVID-19 vaccines: The effects of misinformation",
+    "url": "https://cordis.europa.eu/article/id/436591-delaying-or-refusing-covid-19-vaccines-the-effects-of-misinformation",
+    "outlet": "European Commission",
+    "date": "Jun 30, 2022",
+    "type": "coverage",
+    "topic": "misinformation",
+    "project_id": [
+      "pierri2020impact"
+    ],
+    "toshow": true
+  },
+  {
     "title": "Bots: What are they and how could they mess up Elon Musk's $44 billion Twitter deal?",
     "url": "https://www.usatoday.com/story/tech/2022/06/26/elon-musk-and-twitter-why-bots-could-bring-down-44-million-deal/7723616001",
     "outlet": "USA Today",
@@ -9,7 +47,8 @@
     "project_id": [
       "botamp",
       "yang2022how"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Elon Musk pressured Twitter to give him access to a 'firehose' of data to evaluate bots. Now what?",
@@ -17,7 +56,8 @@
     "outlet": "CNN",
     "date": "Jun 17, 2022",
     "type": "quotation",
-    "topic": "social bot"
+    "topic": "social bot",
+    "toshow": true
   },
   {
     "title": "How Bad Is Twitter's Bot Problem?",
@@ -28,7 +68,8 @@
     "topic": "social bot",
     "project_id": [
       "botometer"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Twitter Called Elon Musk's Bluff About Bots. It Could Backfire",
@@ -39,7 +80,8 @@
     "topic": "social bot",
     "project_id": [
       "botometer"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Elon Musk's Bot Problem on Twitter Is Extraordinary",
@@ -47,7 +89,8 @@
     "outlet": "The Wall Street Journal",
     "date": "Jun 5, 2022",
     "type": "quotation",
-    "topic": "social bot"
+    "topic": "social bot",
+    "toshow": true
   },
   {
     "title": "Elon Musk was right: Bots really are everywhere online",
@@ -55,7 +98,8 @@
     "outlet": "Grid",
     "date": "May 31, 2022",
     "type": "quotation",
-    "topic": "social bot"
+    "topic": "social bot",
+    "toshow": true
   },
   {
     "title": "The Anti-Vaccine Movement's New Frontier",
@@ -66,7 +110,8 @@
     "topic": "misinformation",
     "project_id": [
       "covaxxy"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Elon Musk will either pay far less for Twitter or use fake accounts as an excuse to walk away, experts say",
@@ -77,7 +122,8 @@
     "topic": "social bot",
     "project_id": [
       "yang2022how"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Of corn and crypto",
@@ -85,7 +131,8 @@
     "outlet": "Politico",
     "date": "May 24, 2022",
     "type": "quotation",
-    "topic": "social bot"
+    "topic": "social bot",
+    "toshow": true
   },
   {
     "title": "Elon Musk's Twitter Bot Problem Is Fake News",
@@ -96,7 +143,8 @@
     "topic": "social bot",
     "project_id": [
       "botometer"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Elon Musk may never be able to kick bots off Twitter",
@@ -104,7 +152,8 @@
     "outlet": "Yahoo News",
     "date": "May 18, 2022",
     "type": "quotation",
-    "topic": "social bot"
+    "topic": "social bot",
+    "toshow": true
   },
   {
     "title": "Is Elon Musk a bot? ",
@@ -115,7 +164,8 @@
     "topic": "social bot",
     "project_id": [
       "botometer"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Musk's question about bots is nothing new for Twitter",
@@ -123,7 +173,8 @@
     "outlet": "The Washington Post",
     "date": "May 13, 2022",
     "type": "quotation",
-    "topic": "social bot"
+    "topic": "social bot",
+    "toshow": true
   },
   {
     "title": "Musk says he will ban Twitter spam bots, but he has been a beneficiary",
@@ -134,7 +185,8 @@
     "topic": "social bot",
     "project_id": [
       "botometer"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Routine Childhood Vaccination Rates Fell as Misinformation About the COVID-19 Shot Rose",
@@ -145,7 +197,8 @@
     "topic": "misinformation",
     "project_id": [
       "pierri2020impact"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "The extent to which COVID-19 vaccination rates and vaccine hesitancy are associated with levels of online vaccine misinformation",
@@ -156,7 +209,8 @@
     "topic": "misinformation",
     "project_id": [
       "pierri2020impact"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Elon Musk's comments about Twitter don't square with the social media platform's reality",
@@ -167,7 +221,8 @@
     "topic": "social_media_bias",
     "project_id": [
       "chen2021neutral"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Elon Musk's no good, very bad meme shows how out of touch he is with political reality",
@@ -178,7 +233,8 @@
     "topic": "social_media_bias",
     "project_id": [
       "chen2021neutral"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Researchers See Clear Link Between Twitter Misinformation and COVID-19 Vaccine Hesitancy and Refusal",
@@ -189,7 +245,8 @@
     "topic": "misinformation",
     "project_id": [
       "pierri2020impact"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Elon Musk tweets unleash racist abuse on female Twitter employee",
@@ -200,7 +257,8 @@
     "topic": "social_media_bias",
     "project_id": [
       "chen2021neutral"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Elon Musk Says He Wants Free Speech on Twitter. But for Whom?",
@@ -211,7 +269,8 @@
     "topic": "misinformation",
     "project_id": [
       "pierri2020impact"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Elon Musk Previews What He'll Do With Twitter: Serve Up His Employees for the Far Right's Racist Abuse ",
@@ -222,7 +281,8 @@
     "topic": "social_media_bias",
     "project_id": [
       "chen2021neutral"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "IU researchers find link between COVID-19 misinformation, vaccine hesitancy",
@@ -233,7 +293,8 @@
     "topic": "misinformation",
     "project_id": [
       "pierri2020impact"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Twitter bots helped build the cult of Elon Musk and Tesla. But who's creating them?",
@@ -244,7 +305,8 @@
     "topic": "social bot",
     "project_id": [
       "botometer"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Hard-to-trace social media accounts stir up online debate about Maine energy politics",
@@ -252,7 +314,8 @@
     "outlet": "Spectrum News",
     "date": "Apr 12, 2022",
     "type": "quotation",
-    "topic": "social bot"
+    "topic": "social bot",
+    "toshow": true
   },
   {
     "title": "Robert F Kennedy Jr: America's most famous political dynasty has given rise to one of its leading COVID anti-vaxxers",
@@ -263,7 +326,8 @@
     "topic": "misinformation",
     "project_id": [
       "covaxxy"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "The Prescription Opioid Ecosystem: A Novel Approach to the Crisis",
@@ -274,7 +338,8 @@
     "topic": "opioid",
     "project_id": [
       "lee2021systematic"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Misinformation is being spread alongside our news stories. What can we do about it?",
@@ -285,7 +350,8 @@
     "topic": "misinformation",
     "project_id": [
       "yang2021covid"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Increased Opioid Prescribing Observed During the COVID-19 Pandemic ",
@@ -296,7 +362,8 @@
     "topic": "opioid",
     "project_id": [
       "lee2021substitution"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Pain Treated More With Opioids, Less With Physical Therapy, During COVID-19 Pandemic",
@@ -307,7 +374,8 @@
     "topic": "opioid",
     "project_id": [
       "lee2021substitution"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "How a Kennedy built an anti-vaccine juggernaut amid COVID-19",
@@ -318,7 +386,8 @@
     "topic": "misinformation",
     "project_id": [
       "covaxxy"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Did Pandemic Lockdowns Worsen the Epidemic of Opioid Abuse? ",
@@ -329,7 +398,8 @@
     "topic": "opioid",
     "project_id": [
       "lee2021substitution"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Political bias on Twitter comes from users, not the platform",
@@ -340,7 +410,8 @@
     "topic": "social_media_bias",
     "project_id": [
       "chen2021neutral"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Big tech has a vaccine misinformation problem - here's what a social media expert recommends",
@@ -351,7 +422,8 @@
     "topic": "misinformation",
     "project_id": [
       "yang2021covid"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Misinformation is just one part of a vaccine trust problem",
@@ -362,7 +434,8 @@
     "topic": "misinformation",
     "project_id": [
       "covaxxy"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Opioid-Use Policies Causing Unintended Consequences",
@@ -373,7 +446,8 @@
     "topic": "opioid",
     "project_id": [
       "lee2021systematic"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "As America exits pandemic, white conservatives at risk of suffering indefinitely",
@@ -384,7 +458,8 @@
     "topic": "misinformation",
     "project_id": [
       "covaxxy"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Republicans are least likely to want the coronavirus vaccine",
@@ -395,7 +470,8 @@
     "topic": "misinformation",
     "project_id": [
       "covaxxy"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Opioid supply-controlling policies may have unintended consequences, finds study",
@@ -406,7 +482,8 @@
     "topic": "opioid",
     "project_id": [
       "lee2021systematic"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Twitter Bots Are a Major Source of Climate Disinformation",
@@ -417,7 +494,8 @@
     "topic": "social bot",
     "project_id": [
       "botometer"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Disinformation Machine for Trump Targets Remaining Swing States",
@@ -428,7 +506,8 @@
     "topic": "manipulation",
     "project_id": [
       "hoaxy"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Twitter Bots Are Spreading Massive Amounts of COVID-19 Misinformation",
@@ -439,7 +518,8 @@
     "topic": "misinformation",
     "project_id": [
       "yang2020prevalence"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Republicans Are Spreading Voter Fraud Disinformation in an Election They're Not Even Running In",
@@ -450,7 +530,8 @@
     "topic": "manipulation",
     "project_id": [
       "hoaxy"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Conspiracy theories swirl over canceled Iowa poll, pushed by Sanders and Yang supporters",
@@ -461,7 +542,8 @@
     "topic": "manipulation",
     "project_id": [
       "hoaxy"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "How Twitter's Algorithm Poured Gas on the Bernie-Warren Spat",
@@ -472,7 +554,8 @@
     "topic": "manipulation",
     "project_id": [
       "hoaxy"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "A '#NeverWarren' hashtag portended a Democratic squabble. Data showed otherwise",
@@ -483,7 +566,8 @@
     "topic": "manipulation",
     "project_id": [
       "hoaxy"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Bushfires, bots and arson claims: Australia flung in the global disinformation spotlight ",
@@ -494,7 +578,8 @@
     "topic": "social bot",
     "project_id": [
       "botometer"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "As Sondland testified, a misleading Ukraine story spread among conservatives on social media",
@@ -505,7 +590,8 @@
     "topic": "misinformation",
     "project_id": [
       "hoaxy"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "Exclusive: Twitter deletes over 10,000 accounts that sought to discourage U.S. voting",
@@ -517,7 +603,8 @@
     "project_id": [
       "botometer",
       "hoaxy"
-    ]
+    ],
+    "toshow": true
   },
   {
     "title": "How Syria's White Helmets became victims of an online propaganda machine",
@@ -528,6 +615,7 @@
     "topic": "manipulation",
     "project_id": [
       "hoaxy"
-    ]
+    ],
+    "toshow": true
   }
 ]
