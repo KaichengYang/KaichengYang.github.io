@@ -1,5 +1,10 @@
 [
   {
+    "date": "Jul 17, 2022",
+    "type": "personal_news",
+    "msg": "I'll attend IC2S2 in-persion. Come and say hi!"
+  },
+  {
     "date": "Jul 1, 2022",
     "type": "new_pub",
     "msg": "Our paper <b>How Twitter data sampling biases U.S. voter behavior characterizations</b> <a href='https://doi.org/10.7717/peerj-cs.1025' target='_blank'><i class='far fa-file-pdf'></i></a> was published in PeerJ Computer Science"
