@@ -1,5 +1,17 @@
 [
   {
+    "title": "Snopes Tips: How to Spot Social Media Bots",
+    "url": "https://www.snopes.com/articles/435482/spot-a-bot/",
+    "outlet": "Snopes",
+    "date": "Jul 25, 2022",
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer"
+    ],
+    "toshow": true
+  },
+  {
     "title": "Elon Musk tries to squirm out of US$44b Twitter deal",
     "url": "https://ia.acs.org.au/article/2022/elon-musk-tries-to-squirm-out-of-us-44b-twitter-deal.html",
     "outlet": "Information Age",
