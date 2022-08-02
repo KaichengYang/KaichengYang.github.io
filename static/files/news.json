@@ -1,5 +1,10 @@
 [
   {
+    "date": "Aug 2, 2022",
+    "type": "personal_news",
+    "msg": "I <a href='https://citap.unc.edu/announcing-the-2022-23-citap-affiliate-community/' target='_blank'>became</a> an affiliate at Center for Information, Technology, and Public Life, UNC-Chapel Hill"
+  },
+  {
     "date": "Jul 1, 2022",
     "type": "new_pub",
     "msg": "Our paper <b>How Twitter data sampling biases U.S. voter behavior characterizations</b> <a href='https://doi.org/10.7717/peerj-cs.1025' target='_blank'><i class='far fa-file-pdf'></i></a> was published in PeerJ Computer Science"

@@ -1,5 +1,29 @@
 [
   {
+    "title": "Joe Biden, Bots and British Soccer—What's Behind Mystery Twitter Campaign?",
+    "url": "https://www.newsweek.com/joe-biden-bots-british-soccerwhats-behind-mystery-twitter-campaign-1729099",
+    "outlet": "Newsweek",
+    "date": "Aug 2, 2022",
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer"
+    ],
+    "toshow": true
+  },
+  {
+    "title": "Monkeypox Is Not a Sexually Transmitted Infection: What Experts Want You to Know",
+    "url": "https://www.healthline.com/health-news/monkeypox-is-not-a-sexually-transmitted-infection-what-experts-want-you-to-know",
+    "outlet": "Healthline",
+    "date": "Jul 28, 2022",
+    "type": "coverage",
+    "topic": "misinformation",
+    "project_id": [
+      "pierri2020impact"
+    ],
+    "toshow": true
+  },
+  {
     "title": "Snopes Tips: How to Spot Social Media Bots",
     "url": "https://www.snopes.com/articles/435482/spot-a-bot/",
     "outlet": "Snopes",
