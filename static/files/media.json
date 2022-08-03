@@ -1,8 +1,20 @@
 [
   {
-    "title": "Joe Biden, Bots and British Soccer—What's Behind Mystery Twitter Campaign?",
+    "title": "Why Do These Weird Tweets About Joe Biden Keep Repeating?",
     "url": "https://www.newsweek.com/joe-biden-bots-british-soccerwhats-behind-mystery-twitter-campaign-1729099",
     "outlet": "Newsweek",
+    "date": "Aug 2, 2022",
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer"
+    ],
+    "toshow": true
+  },
+  {
+    "title": "Do You Have Fake Followers? 4 Tools to Analyze Your Twitter Account",
+    "url": "https://www.inc.com/arafat-kabir/bots-social-media-twitter-elon-musk.html",
+    "outlet": "Inc Magazine",
     "date": "Aug 2, 2022",
     "type": "coverage",
     "topic": "social bot",
