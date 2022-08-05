@@ -1,5 +1,29 @@
 [
   {
+    "title": "Musk’s countersuit contains aggressive new claims. Twitter is rebutting them.",
+    "url": "https://www.washingtonpost.com/technology/2022/08/04/elon-musk-twitter/",
+    "outlet": "The Washington Post",
+    "date": "Aug 4, 2022",
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer"
+    ],
+    "toshow": true
+  },
+  {
+    "title": "Musk Says Twitter Committed Fraud in Dispute Over Fake Accounts",
+    "url": "https://www.nytimes.com/2022/08/04/technology/musk-twitter-fraud.html",
+    "outlet": "The New York Times",
+    "date": "Aug 4, 2022",
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer"
+    ],
+    "toshow": true
+  },
+  {
     "title": "Why Do These Weird Tweets About Joe Biden Keep Repeating?",
     "url": "https://www.newsweek.com/joe-biden-bots-british-soccerwhats-behind-mystery-twitter-campaign-1729099",
     "outlet": "Newsweek",
