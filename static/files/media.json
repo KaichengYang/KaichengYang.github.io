@@ -1,6 +1,42 @@
 [
   {
-    "title": "Musk’s countersuit contains aggressive new claims. Twitter is rebutting them.",
+    "title": "Elon Musk accuses Twitter of fraud for hiding real number of fake accounts",
+    "url": "https://finance.yahoo.com/news/elon-musk-accuses-twitter-of-fraud-fake-accounts-073225706.html",
+    "outlet": "Yahoo News",
+    "date": "Aug 5, 2022",
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer"
+    ],
+    "toshow": true
+  },
+  {
+    "title": "Elon Musk's legal team has publicly filed its official response to Twitter's lawsuit",
+    "url": "https://www.cnn.com/2022/08/05/tech/elon-musk-twitter-suit-answer/index.html",
+    "outlet": "CNN",
+    "date": "Aug 5, 2022",
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer"
+    ],
+    "toshow": true
+  },
+  {
+    "title": "Twitter-Musk drama escalates as both sides hurl claims of bad behavior in new filings",
+    "url": "https://www.cnbc.com/2022/08/05/twitter-musk-drama-escalates-in-legal-filings-claiming-bad-behavior.html",
+    "outlet": "CNBC",
+    "date": "Aug 5, 2022",
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer"
+    ],
+    "toshow": true
+  },
+  {
+    "title": "Musk's countersuit contains aggressive new claims. Twitter is rebutting them.",
     "url": "https://www.washingtonpost.com/technology/2022/08/04/elon-musk-twitter/",
     "outlet": "The Washington Post",
     "date": "Aug 4, 2022",
