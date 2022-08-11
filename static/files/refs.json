@@ -1,5 +1,30 @@
 [
   {
+    "title": "Comparing Measures of Centrality in Bipartite Social Networks: A Study of Drug Seeking for Opioid Analgesics",
+    "authors": "<u>Yang, K. C.</u>, Aronson, B., Odabas, M., Ahn, Y. Y., & Perry, B.",
+    "year": [
+      2022
+    ],
+    "type": [
+      "journal"
+    ],
+    "venue": "Forthcoming in PLoS one.",
+    "highlight": [
+      "highlight"
+    ],
+    "topic": [
+      "opioid",
+      "netsci"
+    ],
+    "id": "aronson2020comparing",
+    "links": [
+      {
+        "name": "SocArXiv",
+        "url": "https://doi.org/10.31235/osf.io/hazvs"
+      }
+    ]
+  },
+  {
     "authors": "<u>Yang, K. C.</u>, Ferrara, E. & Menczer, F.",
     "year": [
       2022
@@ -691,31 +716,6 @@
       {
         "name": "Dataset",
         "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Z0TMBW"
-      }
-    ]
-  },
-  {
-    "title": "Comparing Measures of Centrality in Bipartite Social Networks: A Study of Drug Seeking for Opioid Analgesics",
-    "authors": "<u>Yang, K. C.</u>, Aronson, B., Odabas, M., Ahn, Y. Y., & Perry, B.",
-    "year": [
-      2020
-    ],
-    "type": [
-      "preprint"
-    ],
-    "venue": "In submission.",
-    "highlight": [
-      "highlight"
-    ],
-    "topic": [
-      "opioid",
-      "netsci"
-    ],
-    "id": "aronson2020comparing",
-    "links": [
-      {
-        "name": "SocArXiv",
-        "url": "https://doi.org/10.31235/osf.io/hazvs"
       }
     ]
   },

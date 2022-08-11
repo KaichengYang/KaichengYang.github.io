@@ -1,5 +1,17 @@
 [
   {
+    "title": "Elon Musk’s Twitter lawsuit: what you need to know",
+    "url": "https://www.theguardian.com/technology/2022/aug/10/elon-musk-prepares-war-chest-for-44bn-twitter-sale-verdict",
+    "outlet": "The Guardian",
+    "date": "Aug 10, 2022",
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer"
+    ],
+    "toshow": true
+  },
+  {
     "title": "Elon Musk is doubling down with potentially strong fraud claims against Twitter",
     "url": "https://finance.yahoo.com/news/elon-musk-is-doubling-down-with-fraud-claims-against-twitter-154516063.html",
     "outlet": "Yahoo Finance",
