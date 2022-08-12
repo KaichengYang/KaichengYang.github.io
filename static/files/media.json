@@ -1,6 +1,6 @@
 [
   {
-    "title": "Elon Musk’s Twitter lawsuit: what you need to know",
+    "title": "Elon Musk's Twitter lawsuit: what you need to know",
     "url": "https://www.theguardian.com/technology/2022/aug/10/elon-musk-prepares-war-chest-for-44bn-twitter-sale-verdict",
     "outlet": "The Guardian",
     "date": "Aug 10, 2022",
@@ -48,6 +48,30 @@
     "date": "Aug 8, 2022",
     "type": "interview",
     "topic": "social bot",
+    "toshow": true
+  },
+  {
+    "title": "Elon Musk challenges Twitter CEO to a 'public debate' on fake accounts",
+    "url": "https://www.engadget.com/elon-musk-debate-challenge-twitter-ceo-parag-agrawal-204636417.html",
+    "outlet": "Engadget",
+    "date": "Aug 6, 2022",
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer"
+    ],
+    "toshow": true
+  },
+  {
+    "title": "Elon Musk challenges Twitter CEO to a 'public debate' about bots",
+    "url": "https://www.theverge.com/2022/8/6/23294852/elon-musk-challenges-twitter-ceo-public-debate-bots-parag-agrawal",
+    "outlet": "The Verge",
+    "date": "Aug 6, 2022",
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer"
+    ],
     "toshow": true
   },
   {
@@ -297,6 +321,18 @@
     "title": "Elon Musk's Twitter Bot Problem Is Fake News",
     "url": "https://www.wsj.com/articles/elon-musks-twitter-bot-problem-is-fake-news-11652868000",
     "outlet": "The Wall Street Journal",
+    "date": "May 18, 2022",
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer"
+    ],
+    "toshow": true
+  },
+  {
+    "title": "Why It's So Hard to Count Twitter Bots",
+    "url": "https://www.wired.com/story/twitter-musk-bots/",
+    "outlet": "Wired",
     "date": "May 18, 2022",
     "type": "coverage",
     "topic": "social bot",
