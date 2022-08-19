@@ -1,5 +1,33 @@
 [
   {
+    "title": "Doubts cast over Elon Musk's Twitter bot claims",
+    "url": "https://www.bbc.com/news/technology-62571733",
+    "outlet": "BBC",
+    "date": "Aug 19, 2022",
+    "year": [
+      2022
+    ],
+    "type": "interview",
+    "topic": "social bot",
+    "toshow": true,
+    "highlight": true
+  },
+  {
+    "title": "Elezioni, la battaglia social dietro le linee. Così i partiti guadagnano visibilità",
+    "url": "https://www.quotidiano.net/elezioni/politiche-2022-social-bot-partiti-1.7987822",
+    "outlet": "Quotidiano Nazionale",
+    "date": "Aug 17, 2022",
+    "year": [
+      2022
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botamp"
+    ],
+    "toshow": true
+  },
+  {
     "title": "Elon Musk's Twitter lawsuit: what you need to know",
     "url": "https://www.theguardian.com/technology/2022/aug/10/elon-musk-prepares-war-chest-for-44bn-twitter-sale-verdict",
     "outlet": "The Guardian",
@@ -213,7 +241,8 @@
     "type": "coverage",
     "topic": "social bot",
     "project_id": [
-      "botometer"
+      "botometer",
+      "botamp"
     ],
     "toshow": true,
     "highlight": true
