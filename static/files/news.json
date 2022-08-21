@@ -1,5 +1,10 @@
 [
   {
+    "date": "Aug 20, 2022",
+    "type": "new_pub",
+    "msg": "Our paper <b>Botometer 101: social bot practicum for computational social scientists</b> <a href='https://doi.org/10.1007/s42001-022-00177-5' target='_blank'><i class='far fa-file-pdf'></i></a> was published in Journal of Computational Social Science"
+  },
+  {
     "date": "Aug 19, 2022",
     "type": "personal_news",
     "msg": "I shared with <a href='https://www.bbc.com/news/technology-62571733' target='_blank'>BBC</a> and <a href='https://www.cnn.com/2022/08/09/tech/elon-musk-twitter-botometer/index.html' target='_blank'>CNN</a> my thoughts on the use of <a href='https://botometer.osome.iu.edu/' target='_blank'>Botometer</a> by Musk's team in his dispute with Twitter recently"

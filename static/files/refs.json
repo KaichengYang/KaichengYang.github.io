@@ -38,8 +38,12 @@
     "highlight": [],
     "title": "Botometer 101: Social bot practicum for computational social scientists",
     "id": "yang2022botometer",
-    "venue": "Forthcoming in Journal of Computational Social Science.",
+    "venue": "Journal of Computational Social Science.",
     "links": [
+      {
+        "url": "https://doi.org/10.1007/s42001-022-00177-5",
+        "name": "DOI"
+      },
       {
         "url": "https://arxiv.org/abs/2201.01608",
         "name": "arXiv"
