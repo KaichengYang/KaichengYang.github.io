@@ -1,6 +1,6 @@
 [
   {
-    "title": "Comparing Measures of Centrality in Bipartite Social Networks: A Study of Drug Seeking for Opioid Analgesics",
+    "title": "Comparing measures of centrality in bipartite patient-prescriber networks: A study of drug seeking for opioid analgesics",
     "authors": "<u>Yang, K. C.</u>, Aronson, B., Odabas, M., Ahn, Y. Y., & Perry, B.",
     "year": [
       2022
@@ -8,7 +8,7 @@
     "type": [
       "journal"
     ],
-    "venue": "Forthcoming in PLoS one.",
+    "venue": "PLoS one, 17(8), p.e0273569.",
     "highlight": [
       "highlight"
     ],
@@ -16,8 +16,12 @@
       "opioid",
       "netsci"
     ],
-    "id": "aronson2020comparing",
+    "id": "yang2022comparing",
     "links": [
+      {
+        "name": "DOI",
+        "url": "https://doi.org/10.1371/journal.pone.0273569"
+      },
       {
         "name": "SocArXiv",
         "url": "https://doi.org/10.31235/osf.io/hazvs"

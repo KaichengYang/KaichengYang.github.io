@@ -1,5 +1,10 @@
 [
   {
+    "date": "Aug 30, 2022",
+    "type": "new_pub",
+    "msg": "Our paper <b>Comparing measures of centrality in bipartite patient-prescriber networks: A study of drug seeking for opioid analgesics</b> <a href='https://doi.org/10.1371/journal.pone.0273569' target='_blank'><i class='far fa-file-pdf'></i></a> was published in PLoS ONE"
+  },
+  {
     "date": "Aug 20, 2022",
     "type": "new_pub",
     "msg": "Our paper <b>Botometer 101: social bot practicum for computational social scientists</b> <a href='https://doi.org/10.1007/s42001-022-00177-5' target='_blank'><i class='far fa-file-pdf'></i></a> was published in Journal of Computational Social Science"
