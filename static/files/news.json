@@ -1,5 +1,10 @@
 [
   {
+    "date": "Sep 7, 2022",
+    "type": "new_preprint",
+    "msg": "New preprint <b>One year of COVID-19 vaccine misinformation on Twitter</b> <a href='https://arxiv.org/abs/2209.01675' target='_blank'><i class='ai ai-arxiv ai-1x'></i></a> available"
+  },
+  {
     "date": "Aug 30, 2022",
     "type": "new_pub",
     "msg": "Our paper <b>Comparing measures of centrality in bipartite patient-prescriber networks: A study of drug seeking for opioid analgesics</b> <a href='https://doi.org/10.1371/journal.pone.0273569' target='_blank'><i class='far fa-file-pdf'></i></a> was published in PLoS ONE"

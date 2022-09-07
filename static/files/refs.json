@@ -1,5 +1,28 @@
 [
   {
+    "title": "One year of COVID-19 vaccine misinformation on Twitter",
+    "authors": "Pierri, F., DeVerna, M., <u>Yang, K. C.</u>, Axelrod, D., Bryden, J., & Menczer, F.",
+    "year": [
+      2022
+    ],
+    "type": [
+      "preprint"
+    ],
+    "venue": "In submission.",
+    "highlight": [],
+    "topic": [
+      "socialmedia",
+      "covid"
+    ],
+    "id": "pierri2022one",
+    "links": [
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2209.01675"
+      }
+    ]
+  },
+  {
     "title": "Comparing measures of centrality in bipartite patient-prescriber networks: A study of drug seeking for opioid analgesics",
     "authors": "<u>Yang, K. C.</u>, Aronson, B., Odabas, M., Ahn, Y. Y., & Perry, B.",
     "year": [
@@ -29,7 +52,7 @@
     ]
   },
   {
-    "authors": "<u>Yang, K. C.</u>, Ferrara, E. & Menczer, F.",
+    "authors": "<u>Yang, K. C.</u>, Ferrara, E., & Menczer, F.",
     "year": [
       2022
     ],
@@ -155,7 +178,7 @@
     ]
   },
   {
-    "authors": "Duan, Z., Li, J., Lukito, J., <u>Yang, K. C.</u>, Chen, F., Shah, D. V. & Yang, S.",
+    "authors": "Duan, Z., Li, J., Lukito, J., <u>Yang, K. C.</u>, Chen, F., Shah, D. V., & Yang, S.",
     "title": "Algorithmic Agents in the Hybrid Media System: Social Bots, Selective Amplification and Partisan News about COVID-19",
     "year": [
       2022
