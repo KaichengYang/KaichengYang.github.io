@@ -1,5 +1,21 @@
 [
   {
+    "title": "Here's how Elon Musk calculated the number of bots on Twitter",
+    "url": "https://www.cnn.com/videos/business/2022/09/12/botometer-twitter-bots-elon-musk-explained-jg-orig.cnn-business",
+    "outlet": "CNN",
+    "date": "Sep 13, 2022",
+    "year": [
+      2022
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer"
+    ],
+    "toshow": true,
+    "highlight": false
+  },
+  {
     "title": "Doubts cast over Elon Musk's Twitter bot claims",
     "url": "https://www.bbc.com/news/technology-62571733",
     "outlet": "BBC",
