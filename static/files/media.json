@@ -1,6 +1,19 @@
 [
   {
-    "title": "IU researcher talks misinformation on TikTok",
+    "title": "This Student's Side Project Will Help Decide Musk vs. Twitter",
+    "url": "https://www.wired.com/story/musk-twitter-botometer/",
+    "outlet": "Wired",
+    "date": "Sep 17, 2022",
+    "year": [
+      2022
+    ],
+    "type": "interview",
+    "topic": "social bot",
+    "toshow": true,
+    "highlight": true
+  },
+  {
+    "title": "IUB researcher talks misinformation on TikTok",
     "url": "https://www.wishtv.com/news/local-news/iupui-researcher-talks-misinformation-on-tiktok/",
     "outlet": "WISH-TV",
     "date": "Sep 22, 2022",
