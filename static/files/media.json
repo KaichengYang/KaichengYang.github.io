@@ -1,9 +1,36 @@
 [
   {
+    "title": "Bot Hunting Is All About the Vibes",
+    "url": "https://www.wired.com/story/bot-hunting-is-all-about-the-vibes/",
+    "outlet": "Wired",
+    "date": "Sep 30, 2022",
+    "year": [
+      2022
+    ],
+    "type": "interview",
+    "topic": "social bot",
+    "toshow": true
+  },
+  {
+    "title": "Twitter moves to formally censure suitor Elon Musk for destroying evidence",
+    "url": "https://www.washingtontimes.com/news/2022/sep/29/twitter-accuses-would-be-buyer-elon-musk-destroyin/",
+    "outlet": "The Washington Times",
+    "date": "Sep 29, 2022",
+    "year": [
+      2022
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "toshow": true,
+    "project_id": [
+      "botometer"
+    ]
+  },
+  {
     "title": "This Student's Side Project Will Help Decide Musk vs. Twitter",
     "url": "https://www.wired.com/story/musk-twitter-botometer/",
     "outlet": "Wired",
-    "date": "Sep 17, 2022",
+    "date": "Sep 27, 2022",
     "year": [
       2022
     ],
