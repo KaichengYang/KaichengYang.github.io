@@ -1,5 +1,21 @@
 [
   {
+    "title": "Elon Musk commissioned this bot analysis in his fight with Twitter. Now it shows what he could face if he takes over the platform",
+    "url": "https://www.cnn.com/2022/10/10/tech/elon-musk-twitter-bot-analysis-cyabra/index.html",
+    "outlet": "CNN",
+    "date": "Oct 10, 2022",
+    "year": [
+      2022
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer"
+    ],
+    "toshow": true,
+    "highlight": false
+  },
+  {
     "title": "Bot Hunting Is All About the Vibes",
     "url": "https://www.wired.com/story/bot-hunting-is-all-about-the-vibes/",
     "outlet": "Wired",
