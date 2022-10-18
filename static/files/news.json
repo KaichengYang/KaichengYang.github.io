@@ -1,5 +1,10 @@
 [
   {
+    "date": "Oct 18, 2022",
+    "type": "talk",
+    "msg": "I gave a talk about my work on COVID-19 misinformation at the <a href='https://meetings.informs.org/wordpress/indianapolis2022/' target='_blank'>2022 INFORMS Annual Meeting</a>"
+  },
+  {
     "date": "Oct 5, 2022",
     "type": "new_preprint",
     "msg": "New preprint <b>Exposure to social bots amplifies perceptual biases and regulation propensity</b> <a href='https://osf.io/ap2qf/' target='_blank'><i class='ai ai-osf ai-1x'></i></a> available"
