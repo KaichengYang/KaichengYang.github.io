@@ -1,5 +1,20 @@
 [
   {
+    "title": "How to finetune your Twitter settings if worried about your account under Elon Musk",
+    "url": "https://www.usatoday.com/story/tech/2022/10/30/twitter-privacy-settings-musk/10646540002/",
+    "outlet": "USA Today",
+    "date": "Oct 30, 2022",
+    "year": [
+      2022
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botamp"
+    ],
+    "toshow": true
+  },
+  {
     "title": "Experts grade Facebook, TikTok, Twitter, YouTube on readiness to handle midterm election misinformation",
     "url": "https://theconversation.com/experts-grade-facebook-tiktok-twitter-youtube-on-readiness-to-handle-midterm-election-misinformation-191249",
     "outlet": "The Conversation",
