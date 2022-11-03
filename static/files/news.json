@@ -1,5 +1,10 @@
 [
   {
+    "date": "Nov 3, 2022",
+    "type": "new_tool",
+    "msg": "Check out our new tool <a href='https://osome.iu.edu/tools/midterm22' target='_blank'>US Midterm 2022 dashboard</a>, which tracks the top misinformation sources and spreaders on multiple social media platforms"
+  },
+  {
     "date": "Oct 18, 2022",
     "type": "talk",
     "msg": "I gave a talk about my work on COVID-19 misinformation at the <a href='https://meetings.informs.org/wordpress/indianapolis2022/' target='_blank'>2022 INFORMS Annual Meeting</a>"

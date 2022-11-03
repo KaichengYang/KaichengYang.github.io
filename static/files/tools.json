@@ -36,6 +36,18 @@
     ]
   },
   {
+    "id": "midterm22",
+    "title": "US Midterm 2022 dashboard",
+    "image": "midterm22",
+    "msg": "Tracks the top misinformation spreaders and sources for US 2022 midterm elections",
+    "links": [
+      {
+        "url": "https://osome.iu.edu/tools/midterm22/",
+        "name": "US Midterm 2022 dashboard"
+      }
+    ]
+  },
+  {
     "id": "hoaxy",
     "title": "Hoaxy",
     "image": "hoaxy",
