@@ -1,5 +1,20 @@
 [
   {
+    "title": "Twitter Blue chaos - how to spot a fake Twitter account posing as a real person",
+    "url": "https://www.dailystar.co.uk/tech/news/twitter-blue-chaos-how-spot-28464192",
+    "outlet": "The Daily Star",
+    "date": "Nov 11, 2022",
+    "year": [
+      2022
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer"
+    ],
+    "toshow": true
+  },
+  {
     "title": "How to finetune your Twitter settings if worried about your account under Elon Musk",
     "url": "https://www.usatoday.com/story/tech/2022/10/30/twitter-privacy-settings-musk/10646540002/",
     "outlet": "USA Today",
