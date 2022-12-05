@@ -109,7 +109,7 @@
     "highlight": [],
     "title": "Botometer 101: Social bot practicum for computational social scientists",
     "id": "yang2022botometer",
-    "venue": "Journal of Computational Social Science.",
+    "venue": "Journal of Computational Social Science, 5, 1511-1528.",
     "links": [
       {
         "url": "https://doi.org/10.1007/s42001-022-00177-5",
@@ -164,7 +164,7 @@
     ],
     "highlight": [],
     "title": "The Manufacture of Partisan Echo Chambers by Follow Train Abuse on Twitter",
-    "venue": "Proceedings of the International AAAI Conference on Web and Social Media (ICWSM).",
+    "venue": "Proceedings of the International AAAI Conference on Web and Social Media (ICWSM), vol. 16, pp. 1017-1028.",
     "id": "lugo2020manufacture",
     "links": [
       {
@@ -394,7 +394,7 @@
       "covid"
     ],
     "highlight": [],
-    "venue": "Proceedings of the International AAAI Conference on Web and Social Media (ICWSM).",
+    "venue": "Proceedings of the International AAAI Conference on Web and Social Media (ICWSM), pp. 992-999.",
     "title": "CoVaxxy: A Collection of English-Language Twitter Posts About COVID-19 Vaccines",
     "id": "deverna2021covaxxy",
     "links": [
