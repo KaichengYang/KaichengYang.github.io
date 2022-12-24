@@ -1,5 +1,10 @@
 [
   {
+    "date": "Dec 24, 2022",
+    "type": "general",
+    "msg": "We are organizing the <a href='https://cy-soc.github.io/2023/' target='_blank'>CySoc2023 Workshop</a> at ACM Web Conference, if you work on topics related to cyber social threats such as misinformation, toxicity, and extremism, be sure to check out the  and the CFP. Deadline is Feb. 6, 2023."
+  },
+  {
     "date": "Nov 3, 2022",
     "type": "new_tool",
     "msg": "Check out our new tool <a href='https://osome.iu.edu/tools/midterm22' target='_blank'>US Midterm 2022 dashboard</a>, which tracks the top misinformation sources and spreaders on multiple social media platforms"

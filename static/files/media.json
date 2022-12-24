@@ -1,5 +1,20 @@
 [
   {
+    "title": "Fact Check: Did Zelensky's Wife Go on $40K Shopping Spree in Paris?",
+    "url": "https://www.newsweek.com/zelenska-zelensky-ukraine-russia-paris-france-shopping-spree-1768736",
+    "outlet": "Newsweek",
+    "date": "Dec 21, 2022",
+    "year": [
+      2022
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer"
+    ],
+    "toshow": true
+  },
+  {
     "title": "We're witnessing the brain death of Twitter",
     "url": "https://www.technologyreview.com/2022/12/15/1065013/twitter-brain-death/",
     "outlet": "MIT Technology Review",
