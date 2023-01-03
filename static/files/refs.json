@@ -1,5 +1,35 @@
 [
   {
+    "authors": "Xue, L., & <u>Yang, K. C.</u>, Cui, P. B., & Di, Z.",
+    "year": [
+      2023
+    ],
+    "type": [
+      "preprint"
+    ],
+    "topic": [
+      "netsci"
+    ],
+    "highlight": [],
+    "title": "Network localization strength regulates innovation diffusion with macro-level social influence",
+    "id": "xue2023network",
+    "venue": "In submission.",
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2301.00151",
+        "name": "arXiv"
+      },
+      {
+        "url": "https://github.com/LeyangXue/InnovationDiffusion",
+        "name": "GitHub"
+      },
+      {
+        "url": "https://data.mendeley.com/datasets/d848h7rcdg",
+        "name": "Dataset"
+      }
+    ]
+  },
+  {
     "authors": "Yan, H., & <u>Yang, K. C.</u>, Shanahan, J., & Menczer, F.",
     "year": [
       2022
