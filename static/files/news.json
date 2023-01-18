@@ -2,6 +2,11 @@
   {
     "date": "Jan 3, 2022",
     "type": "new_preprint",
+    "msg": "New preprint <b>A multi-platform collection of social media posts about the 2022 U.S. midterm elections</b> <a href='https://arxiv.org/abs/2301.06287' target='_blank'><i class='ai ai-arxiv ai-1x'></i></a> <a href='https://github.com/osome-iu/MEIU22' target='_blank'><i class='fab fa-github-square'></i></a> available"
+  },
+  {
+    "date": "Jan 3, 2022",
+    "type": "new_preprint",
     "msg": "New preprint <b>Network localization strength regulates innovation diffusion with macro-level social influence</b> <a href='https://arxiv.org/abs/2301.00151' target='_blank'><i class='ai ai-arxiv ai-1x'></i></a> available"
   },
   {
