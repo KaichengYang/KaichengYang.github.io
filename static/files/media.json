@@ -1,5 +1,20 @@
 [
   {
+    "title": "The Twitter bias hearings point to favoritism, but not for liberals",
+    "url": "https://thehill.com/opinion/technology/3852594-the-twitter-bias-hearings-point-to-favoritism-but-not-for-liberals/",
+    "outlet": "The Hill",
+    "date": "Feb 10, 2023",
+    "year": [
+      2023
+    ],
+    "type": "coverage",
+    "topic": "social_media_bias",
+    "project_id": [
+        "chen2021neutral"
+    ],
+    "toshow": true
+  },
+  {
     "title": "Elon Musk pledged transparency at Twitter. But he's walling off researchers",
     "url": "https://www.cnn.com/2023/02/09/tech/musk-twitter-transparency-researchers/index.html",
     "outlet": "CNN",
@@ -11,6 +26,21 @@
     "topic": "social bot",
     "toshow": true,
     "highlight": true
+  },
+  {
+    "title": "How dangerous is AI? Regulate it before it’s too late",
+    "url": "https://thehill.com/opinion/technology/3849751-how-dangerous-is-ai-regulate-it-before-its-too-late/",
+    "outlet": "The Hill",
+    "date": "Feb 8, 2023",
+    "year": [
+      2023
+    ],
+    "type": "coverage",
+    "topic": "misinformation",
+    "project_id": [
+        "pierri2020impact"
+    ],
+    "toshow": true
   },
   {
     "title": "Twitter API Changes Set to Disrupt Public Interest Research",

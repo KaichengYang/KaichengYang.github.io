@@ -1,5 +1,10 @@
 [
   {
+    "date": "Feb 10, 2023",
+    "type": "personal_news",
+    "msg": "I'll give a talk 'Fantastic Bots and How to Find Them' at the <a href='https://computational.journalism.wisc.edu' target='_blank'>Computational Methods Research Group at U Wisconsin-Madison</a>. You can register <a href='https://www.eventbrite.com/e/cmrg-brownbag-fantastic-bots-and-how-to-find-them-kai-cheng-yang-tickets-542245840907' target='_blank'>here</a>."
+  },
+  {
     "date": "Feb 9, 2023",
     "type": "personal_news",
     "msg": "I shared with <a href='https://www.cnn.com/2023/02/09/tech/musk-twitter-transparency-researchers/index.html' target='_blank'>CNN</a> and <a href='https://techpolicy.press/twitter-api-changes-set-to-disrupt-public-interest-research/' target='_blank'>Tech Policy Press</a> my thoughts on how Twitter's decision to charge their API could impact our tools such as Botometer"
