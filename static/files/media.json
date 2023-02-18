@@ -1,5 +1,17 @@
 [
   {
+    "title": "Twitter's restrictive API may leave researchers out in the cold",
+    "url": "https://techcrunch.com/2023/02/14/twitters-restrictive-api-may-leave-researchers-out-in-the-cold/",
+    "outlet": "TechCrunch",
+    "date": "Feb 14, 2023",
+    "year": [
+      2023
+    ],
+    "type": "quotation",
+    "topic": "social bot",
+    "toshow": true
+  },
+  {
     "title": "The Twitter bias hearings point to favoritism, but not for liberals",
     "url": "https://thehill.com/opinion/technology/3852594-the-twitter-bias-hearings-point-to-favoritism-but-not-for-liberals/",
     "outlet": "The Hill",
@@ -10,7 +22,7 @@
     "type": "coverage",
     "topic": "social_media_bias",
     "project_id": [
-        "chen2021neutral"
+      "chen2021neutral"
     ],
     "toshow": true
   },
@@ -38,7 +50,7 @@
     "type": "coverage",
     "topic": "misinformation",
     "project_id": [
-        "pierri2020impact"
+      "pierri2020impact"
     ],
     "toshow": true
   },
