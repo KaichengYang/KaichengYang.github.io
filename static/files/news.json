@@ -1,8 +1,13 @@
 [
   {
-    "date": "Feb 17, 2023",
+    "date": "Feb 24, 2022",
+    "type": "new_pub",
+    "msg": "Our paper <b>One Year of COVID-19 Vaccine Misinformation on Twitter: Longitudinal Study</b> <a href='https://doi.org/10.2196/42227' target='_blank'><i class='far fa-file-pdf'></i></a> was published in Journal of Medical Internet Research"
+  },
+  {
+    "date": "Feb 21, 2023",
     "type": "talk",
-    "msg": "I gave my talk 'Fantastic Bots and How to Find Them' at the <a href='https://computational.journalism.wisc.edu' target='_blank'>Computational Methods Research Group at U Wisconsin-Madison</a>."
+    "msg": "I gave my talk 'Fantastic Bots and How to Find Them' at the <a href='https://computational.journalism.wisc.edu' target='_blank'>Computational Methods Research Group at U Wisconsin-Madison</a> and <a href='https://www.ifi.uzh.ch/en/scg.html' target='_blank'>Social Computing Group at University of Zurich</a>"
   },
   {
     "date": "Feb 9, 2023",

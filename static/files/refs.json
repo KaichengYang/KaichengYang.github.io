@@ -1,14 +1,14 @@
 [
   {
-    "title": "One year of COVID-19 vaccine misinformation on Twitter",
+    "title": "One Year of COVID-19 Vaccine Misinformation on Twitter: Longitudinal Study",
     "authors": "Pierri, F., DeVerna, M., <u>Yang, K. C.</u>, Axelrod, D., Bryden, J., & Menczer, F.",
     "year": [
       2023
     ],
     "type": [
-      "preprint"
+      "journal"
     ],
-    "venue": "Forthcoming in Journal of Medical Internet Research.",
+    "venue": "Journal of Medical Internet Research, 25, e42227.",
     "highlight": [],
     "topic": [
       "socialmedia",
@@ -18,7 +18,7 @@
     "links": [
       {
         "name": "DOI",
-        "url": "https://doi.org/10.2196/42227"
+        "url": "https://doi.org/10.2196/40685"
       },
       {
         "name": "arXiv",
@@ -123,29 +123,6 @@
       {
         "url": "https://doi.org/10.31219/osf.io/3cf4j",
         "name": "DOI"
-      }
-    ]
-  },
-  {
-    "title": "One year of COVID-19 vaccine misinformation on Twitter",
-    "authors": "Pierri, F., DeVerna, M., <u>Yang, K. C.</u>, Axelrod, D., Bryden, J., & Menczer, F.",
-    "year": [
-      2022
-    ],
-    "type": [
-      "preprint"
-    ],
-    "venue": "In submission.",
-    "highlight": [],
-    "topic": [
-      "socialmedia",
-      "covid"
-    ],
-    "id": "pierri2022one",
-    "links": [
-      {
-        "name": "arXiv",
-        "url": "https://arxiv.org/abs/2209.01675"
       }
     ]
   },
