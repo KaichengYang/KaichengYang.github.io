@@ -12,7 +12,9 @@
     "highlight": [],
     "topic": [
       "socialmedia",
-      "covid"
+      "misinformation",
+      "covid",
+      "bot"
     ],
     "id": "pierri2023one",
     "links": [
@@ -35,7 +37,8 @@
       "preprint"
     ],
     "topic": [
-      "socialmedia"
+      "socialmedia",
+      "politics"
     ],
     "highlight": [],
     "title": "A multi-platform collection of social media posts about the 2022 U.S. midterm elections",
@@ -91,7 +94,8 @@
       "preprint"
     ],
     "topic": [
-      "socialmedia"
+      "socialmedia",
+      "bot"
     ],
     "highlight": [],
     "title": "Exposure to social bots amplifies perceptual biases and regulation propensity",
@@ -164,7 +168,8 @@
       "journal"
     ],
     "topic": [
-      "socialmedia"
+      "socialmedia",
+      "bot"
     ],
     "highlight": [],
     "title": "Botometer 101: Social bot practicum for computational social scientists",
@@ -195,7 +200,10 @@
     ],
     "venue": "PeerJ Computer Science, 8:e1025.",
     "topic": [
-      "socialmedia"
+      "socialmedia",
+      "bot",
+      "misinformation",
+      "politics"
     ],
     "highlight": [],
     "title": "How Twitter data sampling biases U.S. voter behavior characterizations",
@@ -220,7 +228,10 @@
       "conf"
     ],
     "topic": [
-      "socialmedia"
+      "socialmedia",
+      "politics",
+      "bot",
+      "misinformation"
     ],
     "highlight": [],
     "title": "The Manufacture of Partisan Echo Chambers by Follow Train Abuse on Twitter",
@@ -247,7 +258,8 @@
       "other"
     ],
     "topic": [
-      "socialmedia"
+      "socialmedia",
+      "bot"
     ],
     "highlight": [],
     "id": "yang2022how",
@@ -269,7 +281,10 @@
       "journal"
     ],
     "topic": [
-      "socialmedia"
+      "socialmedia",
+      "bot",
+      "misinformation",
+      "covid"
     ],
     "highlight": [],
     "id": "duan2022algorithmic",
@@ -292,7 +307,8 @@
     "venue": "Scientific Reports. 12(1), 5966.",
     "topic": [
       "socialmedia",
-      "covid"
+      "covid",
+      "misinformation"
     ],
     "highlight": [],
     "title": "Online misinformation is linked to early COVID-19 vaccination hesitancy and refusal",
@@ -310,7 +326,11 @@
         "url": "https://github.com/osome-iu/CoVaxxy-Misinfo",
         "name": "GitHub"
       }
-    ]
+    ],
+    "hornor": {
+      "url": "https://www.nature.com/collections/jhjibhhicg",
+      "text": "Top 100 downloaded papers for Scientific Reports in 2022"
+    }
   },
   {
     "title": "Substitution of Nonpharmacologic Therapy With Opioid Prescribing for Pain During the COVID-19 Pandemic",
@@ -374,7 +394,10 @@
       "journal"
     ],
     "topic": [
-      "socialmedia"
+      "socialmedia",
+      "bot",
+      "politics",
+      "misinformation"
     ],
     "highlight": [],
     "title": "Neutral bots probe political bias on social media",
@@ -426,7 +449,8 @@
       "journal"
     ],
     "topic": [
-      "opioid"
+      "opioid",
+      "netsci"
     ],
     "highlight": [
       "highlight"
@@ -486,7 +510,9 @@
     ],
     "topic": [
       "socialmedia",
-      "covid"
+      "covid",
+      "misinformation",
+      "bot"
     ],
     "highlight": [
       "highlight"
@@ -514,7 +540,8 @@
       "journal"
     ],
     "topic": [
-      "socialmedia"
+      "socialmedia",
+      "misinformation"
     ],
     "highlight": [],
     "title": "Tackling misinformation: What researchers could do with social media data",
@@ -536,7 +563,8 @@
       "journal"
     ],
     "topic": [
-      "socialmedia"
+      "socialmedia",
+      "bot"
     ],
     "highlight": [
       "highlight"
@@ -564,7 +592,8 @@
       "conf"
     ],
     "topic": [
-      "socialmedia"
+      "socialmedia",
+      "bot"
     ],
     "highlight": [],
     "title": "Detection of Novel Social Bots by Ensembles of Specialized Classifiers",
@@ -603,7 +632,9 @@
     ],
     "topic": [
       "socialmedia",
-      "covid"
+      "covid",
+      "misinformation",
+      "bot"
     ],
     "highlight": [],
     "title": "Prevalence of Low-Credibility Information on Twitter During the COVID-19 Outbreak",
@@ -629,7 +660,8 @@
       "conf"
     ],
     "topic": [
-      "socialmedia"
+      "socialmedia",
+      "bot"
     ],
     "highlight": [],
     "title": "BotSlayer: DIY Real-Time Influence Campaign Detection",
@@ -655,7 +687,8 @@
       "conf"
     ],
     "topic": [
-      "socialmedia"
+      "socialmedia",
+      "bot"
     ],
     "highlight": [
       "highlight"
@@ -696,7 +729,8 @@
       "journal"
     ],
     "topic": [
-      "socialmedia"
+      "socialmedia",
+      "bot"
     ],
     "highlight": [],
     "id": "hui2019botslayer",
@@ -721,7 +755,8 @@
       "conf"
     ],
     "topic": [
-      "socialmedia"
+      "socialmedia",
+      "bot"
     ],
     "highlight": [],
     "title": "Bot Electioneering Volume: visualizing social bot activity during elections",
@@ -751,7 +786,8 @@
       "journal"
     ],
     "topic": [
-      "socialmedia"
+      "socialmedia",
+      "bot"
     ],
     "highlight": [],
     "title": "Arming the public with artificial intelligence to counter social bots",
@@ -789,7 +825,9 @@
       "journal"
     ],
     "topic": [
-      "socialmedia"
+      "socialmedia",
+      "bot",
+      "misinformation"
     ],
     "highlight": [],
     "title": "The spread of low-credibility content by social bots",
