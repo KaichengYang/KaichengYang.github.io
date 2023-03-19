@@ -1,5 +1,35 @@
 [
   {
+    "authors": "DeVerna, M. R., Aiyappa, R., Zhao, W., Pote, M., Truong, B. T., Axelrod, D., Pessianzadeh, A., Kachwala, Z., Kim, M., Seckin, O. C., Kim, M., Gandhi, S., Manikonda, A., Pierri, F., Menczer, F. & <u>Yang, K. C.</u>",
+    "year": [
+      2023
+    ],
+    "type": [
+      "preprint"
+    ],
+    "topic": [
+      "socialmedia",
+      "politics"
+    ],
+    "highlight": [],
+    "title": "A multi-platform collection of social media posts about the 2022 U.S. midterm elections",
+    "id": "deverna2023multiplatform",
+    "venue": "Forthcoming in ICWSM23.",
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2301.06287",
+        "name": "arXiv"
+      },
+      {
+        "url": "https://github.com/osome-iu/MEIU22",
+        "name": "GitHub"
+      }
+    ],
+    "altmetric": {
+      "arxiv_id": "2301.06287"
+    }
+  },
+  {
     "title": "One Year of COVID-19 Vaccine Misinformation on Twitter: Longitudinal Study",
     "authors": "Pierri, F., DeVerna, M., <u>Yang, K. C.</u>, Axelrod, D., Bryden, J., & Menczer, F.",
     "year": [
@@ -20,40 +50,16 @@
     "links": [
       {
         "name": "DOI",
-        "url": "https://doi.org/10.2196/40685"
+        "url": "https://doi.org/10.2196/42227"
       },
       {
         "name": "arXiv",
         "url": "https://arxiv.org/abs/2209.01675"
       }
-    ]
-  },
-  {
-    "authors": "DeVerna, M. R., Aiyappa, R., Zhao, W., Pote, M., Truong, B. T., Axelrod, D., Pessianzadeh, A., Kachwala, Z., Kim, M., Seckin, O. C., Kim, M., Gandhi, S., Manikonda, A., Pierri, F., Menczer, F. & <u>Yang, K. C.</u>",
-    "year": [
-      2023
     ],
-    "type": [
-      "preprint"
-    ],
-    "topic": [
-      "socialmedia",
-      "politics"
-    ],
-    "highlight": [],
-    "title": "A multi-platform collection of social media posts about the 2022 U.S. midterm elections",
-    "id": "deverna2023multiplatform",
-    "venue": "In submission.",
-    "links": [
-      {
-        "url": "https://arxiv.org/abs/2301.06287",
-        "name": "arXiv"
-      },
-      {
-        "url": "https://github.com/osome-iu/MEIU22",
-        "name": "GitHub"
-      }
-    ]
+    "altmetric": {
+      "doi_id": "10.2196/42227"
+    }
   },
   {
     "authors": "Xue, L., <u>Yang, K. C.</u>, Cui, P. B., & Di, Z.",
@@ -83,7 +89,10 @@
         "url": "https://data.mendeley.com/datasets/d848h7rcdg",
         "name": "Dataset"
       }
-    ]
+    ],
+    "altmetric": {
+      "arxiv_id": "2301.00151"
+    }
   },
   {
     "authors": "Yan, H., <u>Yang, K. C.</u>, Shanahan, J., & Menczer, F.",
@@ -106,7 +115,10 @@
         "url": "https://doi.org/10.31219/osf.io/ap2qf",
         "name": "DOI"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.31219/osf.io/ap2qf"
+    }
   },
   {
     "authors": "Yan, H., & <u>Yang, K. C.</u>",
@@ -128,7 +140,10 @@
         "url": "https://doi.org/10.31219/osf.io/3cf4j",
         "name": "DOI"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.31219/osf.io/3cf4j"
+    }
   },
   {
     "title": "Comparing measures of centrality in bipartite patient-prescriber networks: A study of drug seeking for opioid analgesics",
@@ -157,7 +172,10 @@
         "name": "SocArXiv",
         "url": "https://doi.org/10.31235/osf.io/hazvs"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1371/journal.pone.0273569"
+    }
   },
   {
     "authors": "<u>Yang, K. C.</u>, Ferrara, E., & Menczer, F.",
@@ -188,7 +206,10 @@
         "url": "https://github.com/osome-iu/Botometer101",
         "name": "GitHub"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1007/s42001-022-00177-5"
+    }
   },
   {
     "authors": "<u>Yang, K. C.</u>, Hui, P. M., & Menczer, F.",
@@ -217,7 +238,10 @@
         "url": "https://arxiv.org/abs/2006.01447",
         "name": "arXiv"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.7717/peerj-cs.1025"
+    }
   },
   {
     "authors": "Torres-Lugo, C., <u>Yang, K. C.</u>, & Menczer, F.",
@@ -239,14 +263,17 @@
     "id": "lugo2020manufacture",
     "links": [
       {
-        "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/19354",
+        "url": "https://doi.org/10.1609/icwsm.v16i1.19354",
         "name": "DOI"
       },
       {
         "url": "https://arxiv.org/abs/2010.13691",
         "name": "arXiv"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1609/icwsm.v16i1.19354"
+    }
   },
   {
     "authors": "<u>Yang, K. C.</u>, & Menczer, F.",
@@ -294,7 +321,10 @@
         "name": "DOI",
         "url": "https://doi.org/10.1093/hcr/hqac012"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1093/hcr/hqac012"
+    }
   },
   {
     "authors": "Pierri, F., Perry, B., DeVerna, M., <u>Yang, K. C.</u>, Flammini, A. , Menczer, F., & Bryden, J.",
@@ -330,6 +360,9 @@
     "hornor": {
       "url": "https://www.nature.com/collections/jhjibhhicg",
       "text": "Top 100 downloaded papers for Scientific Reports in 2022"
+    },
+    "altmetric": {
+      "doi_id": "10.1038/s41598-022-10070-w"
     }
   },
   {
@@ -353,7 +386,10 @@
         "name": "DOI",
         "url": "https://doi.org/10.1001/jamanetworkopen.2021.38453"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1001/jamanetworkopen.2021.38453"
+    }
   },
   {
     "authors": "Zhang, Y. J., <u>Yang, K. C.</u>, & Radicchi, F.",
@@ -383,7 +419,10 @@
         "url": "https://github.com/yijiaozhang/hypercompare",
         "name": "GitHub"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1103/PhysRevE.104.044315"
+    }
   },
   {
     "authors": "Chen, W., Pacheco, D., <u>Yang, K. C.</u>, & Menczer, F.",
@@ -416,7 +455,10 @@
         "url": "https://github.com/IUNetSci/DrifterBot",
         "name": "GitHub"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1038/s41467-021-25738-6"
+    }
   },
   {
     "title": "Use of and Comorbidities Associated With Diagnostic Codes for COVID-19 in US Health Insurance Claims",
@@ -438,7 +480,10 @@
         "name": "DOI",
         "url": "https://doi.org/10.1001/jamanetworkopen.2021.24643"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1001/jamanetworkopen.2021.24643"
+    }
   },
   {
     "authors": "Perry, B., Odabas, M., <u>Yang, K. C.</u>, Lee, B., Kaminski, P., Aronson, B., Ahn, Y. Y., Oser, C., Freeman, P., & Talbert, J.",
@@ -463,7 +508,10 @@
         "url": " https://doi.org/10.1111/add.15635",
         "name": "DOI"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1111/add.15635"
+    }
   },
   {
     "authors": "DeVerna, M., Pierri, F., Truong, B. T., Bollenbacher, J., Axelrod, D., Loynes, N., Torres-Lugo, C., <u>Yang, K.-C.</u>, Menczer, F., & Bryden, J.",
@@ -483,7 +531,7 @@
     "id": "deverna2021covaxxy",
     "links": [
       {
-        "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/18122",
+        "url": "https://doi.org/10.1609/icwsm.v15i1.18122",
         "name": "DOI"
       },
       {
@@ -498,7 +546,10 @@
         "url": "https://github.com/osome-iu/CoVaxxy",
         "name": "Dataset"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1609/icwsm.v15i1.18122"
+    }
   },
   {
     "authors": "<u>Yang, K. C.</u>, Pierri, F.,  Hui, P. M., Axelrod, D., Torres-Lugo, C., Bryden, J., & Menczer, F.",
@@ -529,7 +580,10 @@
         "url": "https://arxiv.org/abs/2012.09353",
         "name": "arXiv"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1177/20539517211013861"
+    }
   },
   {
     "authors": "Pasquetto, I., Swire-Thompson, B., Amazeen, M.A., Benevenuto, F., Brashier,…<u>Yang, K.C.</u>",
@@ -552,7 +606,10 @@
         "url": "https://doi.org/10.37016/mr-2020-49",
         "name": "DOI"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.37016/mr-2020-49"
+    }
   },
   {
     "authors": "Yan, H., <u>Yang, K. C.</u>, Menczer, F., & Shanahan, J.",
@@ -581,7 +638,10 @@
         "url": "https://doi.org/10.31235/osf.io/gf7jb",
         "name": "SocArXiv"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1177/1461444820942744"
+    }
   },
   {
     "authors": "Sayyadiharikandeh, M., Varol, O., <u>Yang, K. C.</u>, Flammini, A., & Menczer, F.",
@@ -620,7 +680,10 @@
         "url": "https://botometer.osome.iu.edu/bot-repository/",
         "name": "Dataset"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1145/3340531.3412698"
+    }
   },
   {
     "authors": "<u>Yang, K. C.</u>, Torres-Lugo, C., & Menczer, F.",
@@ -669,14 +732,17 @@
     "venue": "Proceedings of the International AAAI Conference on Web and Social Media (ICWSM), vol. 14, pp. 980-982.",
     "links": [
       {
-        "url": "https://www.aaai.org/ojs/index.php/ICWSM/article/view/7370",
+        "url": "https://doi.org/10.1609/icwsm.v14i1.7370",
         "name": "DOI"
       },
       {
         "url": "https://osome.iu.edu/tools/botslayer/",
         "name": "BotSlayer"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1609/icwsm.v14i1.7370"
+    }
   },
   {
     "authors": "<u>Yang, K. C.</u>, Varol, O., Hui, P. M., & Menczer, F.",
@@ -717,7 +783,10 @@
         "url": "https://botometer.osome.iu.edu/bot-repository/",
         "name": "Dataset"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1609/aaai.v34i01.5460"
+    }
   },
   {
     "title": "BotSlayer: real-time detection of bot amplification on Twitter",
@@ -744,7 +813,10 @@
         "name": "GitHub",
         "url": "https://github.com/IUNetSci/BotSlayer-CE"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.21105/joss.01706"
+    }
   },
   {
     "authors": "<u>Yang, K. C.</u>, Hui, P. M., & Menczer, F.",
@@ -775,7 +847,10 @@
         "url": "https://botometer.osome.iu.edu/bev/",
         "name": "BEV"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1145/3308560.3316499"
+    }
   },
   {
     "authors": "<u>Yang, K. C.</u>, Varol, O., Davis, C. A., Ferrara, E., Flammini, A., & Menczer, F.",
@@ -814,7 +889,10 @@
         "url": "https://botometer.osome.iu.edu/bot-repository/",
         "name": "Dataset"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1002/hbe2.115"
+    }
   },
   {
     "authors": "Shao, C., Ciampaglia, G. L., Varol, O., <u>Yang, K. C.</u>, Flammini, A., & Menczer, F.",
@@ -842,7 +920,10 @@
         "url": "https://github.com/IUNetSci/HoaxyBots",
         "name": "GitHub"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1038/s41467-018-06930-7"
+    }
   },
   {
     "title": "Systematic Evaluation of State Policy Interventions Targeting the US Opioid Epidemic, 2007-2018",
@@ -868,7 +949,10 @@
         "name": "Dataset",
         "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Z0TMBW"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1001/jamanetworkopen.2020.36687"
+    }
   },
   {
     "authors": "Perry, B., <u>Yang, K. C.</u>, Kaminski, P., Odabas, M., Park, J., Martel, M., Oser, C., Freeman, P., Ahn, Y. Y., & Talbert, J.",
@@ -891,7 +975,10 @@
         "url": "https://doi.org/10.1371/journal.pone.0223849",
         "name": "DOI"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1371/journal.pone.0223849"
+    }
   },
   {
     "title": "Persona2vec: A Flexible Multi-role Representations Learning Framework for Graphs",
@@ -921,7 +1008,10 @@
         "url": "https://github.com/jisungyoon/persona2vec",
         "name": "GitHub"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.7717/peerj-cs.439"
+    }
   },
   {
     "title": "Model-free hidden geometry of complex networks",
@@ -947,7 +1037,10 @@
         "url": "https://arxiv.org/abs/2011.08103",
         "name": "arXiv"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1103/PhysRevE.103.012305"
+    }
   },
   {
     "title": "BiRank: Fast and Flexible Ranking on Bipartite Networks with R and Python",
@@ -981,7 +1074,10 @@
         "url": "https://cran.r-project.org/web/packages/birankr/index.html",
         "name": "CRAN"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.21105/joss.02315"
+    }
   },
   {
     "title": "Advantage of being multicomponent and spatial: Multipartite viruses colonize structured populations with lower thresholds",
@@ -1004,7 +1100,10 @@
         "url": "https://doi.org/10.1103/PhysRevLett.123.138101",
         "name": "DOI"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1103/PhysRevLett.123.138101"
+    }
   },
   {
     "title": "Expansion of cooperatively growing populations: Optimal migration rates and habitat network structures",
@@ -1026,6 +1125,9 @@
         "url": "https://doi.org/10.1103/PhysRevE.95.012306",
         "name": "DOI"
       }
-    ]
+    ],
+    "altmetric": {
+      "doi_id": "10.1103/PhysRevE.95.012306"
+    }
   }
 ]
