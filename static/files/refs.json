@@ -357,10 +357,16 @@
         "name": "GitHub"
       }
     ],
-    "hornor": {
-      "url": "https://www.nature.com/collections/jhjibhhicg",
-      "text": "Top 100 downloaded papers for Scientific Reports in 2022"
-    },
+    "hornors": [
+      {
+        "url": "https://www.nature.com/collections/jhjibhhicg",
+        "text": "Top 100 downloaded papers for Scientific Reports in 2022"
+      },
+      {
+        "url": "https://www.whitehouse.gov/wp-content/uploads/2023/03/ERP-2023.pdf",
+        "text": "Cited by the 2023 Economic Report of the President (Biden-Harris Administration)"
+      }
+    ],
     "altmetric": {
       "doi_id": "10.1038/s41598-022-10070-w"
     }
