@@ -1,5 +1,35 @@
 [
   {
+    "authors": "<u>Yang, K. C.</u> & Menczer, F.",
+    "year": [
+      2023
+    ],
+    "type": [
+      "preprint"
+    ],
+    "topic": [
+      "misinformation",
+      "llm"
+    ],
+    "highlight": [],
+    "title": "Large language models can rate news outlet credibility",
+    "id": "yang2023large",
+    "venue": "In submission.",
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2304.00228",
+        "name": "arXiv"
+      },
+      {
+        "url": "https://github.com/osome-iu/ChatGPT_domain_rating",
+        "name": "GitHub"
+      }
+    ],
+    "altmetric": {
+      "arxiv_id": "2304.00228"
+    }
+  },
+  {
     "authors": "DeVerna, M. R., Aiyappa, R., Zhao, W., Pote, M., Truong, B. T., Axelrod, D., Pessianzadeh, A., Kachwala, Z., Kim, M., Seckin, O. C., Kim, M., Gandhi, S., Manikonda, A., Pierri, F., Menczer, F. & <u>Yang, K. C.</u>",
     "year": [
       2023
