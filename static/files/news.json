@@ -1,13 +1,18 @@
 [
   {
     "date": "Apr 3, 2023",
+    "type": "general",
+    "msg": "Please read my <a href='https://independenttechresearch.org/letter-twitters-new-api-plans-will-devastate-public-interest-research' target='_blank'>open letter</a> with the <a href='https://independenttechresearch.org' target='_blank'>Coalition for Independent Technology Research</a> regarding Twitter's decesion to discontinue free API access"
+  },
+  {
+    "date": "Apr 3, 2023",
     "type": "new_preprint",
     "msg": "New preprint <b>Large language models can rate news outlet credibility</b> <a href='https://arxiv.org/abs/2304.00228' target='_blank'><i class='ai ai-arxiv ai-1x'></i></a> available"
   },
   {
     "date": "Mar 21, 2022",
     "type": "general",
-    "msg": "Our paper <b>Online misinformation is linked to early COVID-19 vaccination hesitancy and refusal</b> <a href='https://doi.org/10.1038/s41598-022-10070-w' target='_blank'><i class='far fa-file-pdf'></i></a> was listed Scientific Reports' <a href='https://www.nature.com/collections/jhjibhhicg' target='_blank'>Top 100 most downloaded articles of 2022</a> and cited by the <a href='https://www.whitehouse.gov/wp-content/uploads/2023/03/ERP-2023.pdf' target='_blank'>2023 Economic Report of the President (Biden-Harris Administration)</a>."
+    "msg": "Our paper <b>Online misinformation is linked to early COVID-19 vaccination hesitancy and refusal</b> <a href='https://doi.org/10.1038/s41598-022-10070-w' target='_blank'><i class='far fa-file-pdf'></i></a> was listed Scientific Reports' <a href='https://www.nature.com/collections/jhjibhhicg' target='_blank'>Top 100 most downloaded articles of 2022</a> and cited by the <a href='https://www.whitehouse.gov/wp-content/uploads/2023/03/ERP-2023.pdf' target='_blank'>2023 Economic Report of the President (Biden-Harris Administration)</a>"
   },
   {
     "date": "Feb 24, 2022",
