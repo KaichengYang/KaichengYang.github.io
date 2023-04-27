@@ -1,5 +1,10 @@
 [
   {
+    "date": "Apr 27, 2023",
+    "type": "general",
+    "msg": "I'll be attending the WebConf23 in Austin Texas organizing <a href='https://cy-soc.github.io/2023/' target='_blank'>CySoc2023 Workshop</a>, please come and say hi"
+  },
+  {
     "date": "Apr 3, 2023",
     "type": "general",
     "msg": "Please read my <a href='https://independenttechresearch.org/letter-twitters-new-api-plans-will-devastate-public-interest-research' target='_blank'>open letter</a> with the <a href='https://independenttechresearch.org' target='_blank'>Coalition for Independent Technology Research</a> regarding Twitter's decesion to discontinue free API access"
