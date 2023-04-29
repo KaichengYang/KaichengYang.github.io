@@ -1,5 +1,10 @@
 [
   {
+    "date": "Apr 28, 2023",
+    "type": "personal_news",
+    "msg": "I defended my PhD dissertation 🎉🎉🎉"
+  },
+  {
     "date": "Apr 27, 2023",
     "type": "general",
     "msg": "I'll be attending the WebConf23 in Austin Texas organizing <a href='https://cy-soc.github.io/2023/' target='_blank'>CySoc2023 Workshop</a>, please come and say hi"
