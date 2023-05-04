@@ -1,13 +1,18 @@
 [
   {
+    "date": "May 4, 2023",
+    "type": "general",
+    "msg": "I'm guest-editing a special issue <a href='https://www.springeropen.com/collections/CACST' target='_blank'>Computational Approaches for Cyber Social Threats</a> at <a href='https://epjdatascience.springeropen.com' target='_blank'>EPJ Data Science</a>; the submission deadline is 15 Sep 2023"
+  },
+  {
+    "date": "May 4, 2023",
+    "type": "general",
+    "msg": "I attended the WebConf23 in Austin, Texas organizing <a href='https://cy-soc.github.io/2023/' target='_blank'>CySoc2023 Workshop</a>"
+  },
+  {
     "date": "Apr 28, 2023",
     "type": "personal_news",
     "msg": "I defended my PhD dissertation 🎉🎉🎉"
-  },
-  {
-    "date": "Apr 27, 2023",
-    "type": "general",
-    "msg": "I'll be attending the WebConf23 in Austin Texas organizing <a href='https://cy-soc.github.io/2023/' target='_blank'>CySoc2023 Workshop</a>, please come and say hi"
   },
   {
     "date": "Apr 3, 2023",
