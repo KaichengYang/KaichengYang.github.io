@@ -11,7 +11,9 @@
       "misinformation",
       "llm"
     ],
-    "highlight": [],
+    "highlight": [
+      "highlight"
+    ],
     "title": "Large language models can rate news outlet credibility",
     "id": "yang2023large",
     "venue": "In submission.",
@@ -136,7 +138,9 @@
       "socialmedia",
       "bot"
     ],
-    "highlight": [],
+    "highlight": [
+      "highlight"
+    ],
     "title": "Exposure to social bots amplifies perceptual biases and regulation propensity",
     "id": "yan2022exposure",
     "venue": "In submission.",
@@ -185,9 +189,7 @@
       "journal"
     ],
     "venue": "PLoS one, 17(8), p.e0273569.",
-    "highlight": [
-      "highlight"
-    ],
+    "highlight": [],
     "topic": [
       "opioid",
       "netsci"
@@ -219,7 +221,9 @@
       "socialmedia",
       "bot"
     ],
-    "highlight": [],
+    "highlight": [
+      "highlight"
+    ],
     "title": "Botometer 101: Social bot practicum for computational social scientists",
     "id": "yang2022botometer",
     "venue": "Journal of Computational Social Science, 5, 1511-1528.",
@@ -533,9 +537,7 @@
       "opioid",
       "netsci"
     ],
-    "highlight": [
-      "highlight"
-    ],
+    "highlight": [],
     "title": "New means, new measures: Assessing prescription drug seeking indicators over ten years of the opioid epidemic",
     "id": "perry2021new",
     "venue": "Addiction.  117(1), 195-204.",
