@@ -1,5 +1,10 @@
 [
   {
+    "date": "Apr 3, 2023",
+    "type": "general",
+    "msg": "Please read my <a href='https://independenttechresearch.org/reddit-data-access-letter/' target='_blank'>open letter</a> with the <a href='https://independenttechresearch.org' target='_blank'>Coalition for Independent Technology Research</a> regarding Reddit's decesion to restrict its data access"
+  },
+  {
     "date": "May 4, 2023",
     "type": "general",
     "msg": "I'm guest-editing a special issue <a href='https://www.springeropen.com/collections/CACST' target='_blank'>Computational Approaches for Cyber Social Threats</a> at <a href='https://epjdatascience.springeropen.com' target='_blank'>EPJ Data Science</a>; the submission deadline is 15 Sep 2023"
