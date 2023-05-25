@@ -1,5 +1,21 @@
 [
   {
+    "title": "A new Twitter policy cripples journalists’ efforts to halt disinformation",
+    "url": "https://thehill.com/opinion/technology/4015509-a-new-twitter-policy-cripples-journalists-efforts-to-halt-disinformation",
+    "outlet": "The Hill",
+    "date": "May 23, 2023",
+    "year": [
+      2023
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+    "botometer",
+    "hoaxy"
+    ],
+    "toshow": true
+  },
+  {
     "title": "Analysis finds hate speech has significantly increased on twitter",
     "url": "https://phys.org/news/2023-04-analysis-speech-significantly-twitter.html",
     "outlet": "Phys Org",
