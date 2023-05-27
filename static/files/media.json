@@ -1,5 +1,21 @@
 [
   {
+    "title": "Twitter is making researchers delete data it gave them unless they pay $42,000",
+    "url": "https://inews.co.uk/news/twitter-researchers-delete-data-unless-pay-2364535",
+    "outlet": "i News",
+    "date": "May 25, 2023",
+    "year": [
+      2023
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+    "botometer",
+    "hoaxy"
+    ],
+    "toshow": true
+  },
+  {
     "title": "A new Twitter policy cripples journalists’ efforts to halt disinformation",
     "url": "https://thehill.com/opinion/technology/4015509-a-new-twitter-policy-cripples-journalists-efforts-to-halt-disinformation",
     "outlet": "The Hill",
