@@ -1,5 +1,33 @@
 [
   {
+    "title": "Twitter just closed the book on academic research",
+    "url": "https://www.theverge.com/2023/5/31/23739084/twitter-elon-musk-api-policy-chilling-academic-research",
+    "outlet": "The Verge",
+    "date": "May 31, 2023",
+    "year": [
+      2023
+    ],
+    "type": "quotation",
+    "topic": "social bot",
+    "toshow": true,
+    "highlight": true
+  },
+  {
+    "title": "Temu's meteoric rise is fueled by social media, but some accounts promoting the shopping app appear to be fake — here's what experts say",
+    "url": "https://www.businessinsider.com/temu-boosted-by-social-media-ambassadors-some-accounts-look-fake-2023-5",
+    "outlet": "Business Insider",
+    "date": "May 29, 2023",
+    "year": [
+      2023
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "botometer"
+    ],
+    "toshow": true
+  },
+  {
     "title": "Twitter is making researchers delete data it gave them unless they pay $42,000",
     "url": "https://inews.co.uk/news/twitter-researchers-delete-data-unless-pay-2364535",
     "outlet": "i News",
@@ -10,8 +38,8 @@
     "type": "coverage",
     "topic": "social bot",
     "project_id": [
-    "botometer",
-    "hoaxy"
+      "botometer",
+      "hoaxy"
     ],
     "toshow": true
   },
@@ -26,8 +54,8 @@
     "type": "coverage",
     "topic": "social bot",
     "project_id": [
-    "botometer",
-    "hoaxy"
+      "botometer",
+      "hoaxy"
     ],
     "toshow": true
   },
@@ -42,7 +70,7 @@
     "type": "coverage",
     "topic": "social bot",
     "project_id": [
-    "botometer"
+      "botometer"
     ],
     "toshow": true
   },

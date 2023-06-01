@@ -1,6 +1,11 @@
 [
   {
-    "date": "Apr 3, 2023",
+    "date": "May 31, 2023",
+    "type": "general",
+    "msg": "Please read the <a href='https://www.theverge.com/2023/5/31/23739084/twitter-elon-musk-api-policy-chilling-academic-research' target='_blank'>The Verge</a> and <a href='https://inews.co.uk/news/twitter-researchers-delete-data-unless-pay-2364535' target='_blank'>iNews</a> stories on how Twitter's decision to charge their API could impact research and tools such as Botometer"
+  },
+  {
+    "date": "May 5, 2023",
     "type": "general",
     "msg": "Please read my <a href='https://independenttechresearch.org/reddit-data-access-letter/' target='_blank'>open letter</a> with the <a href='https://independenttechresearch.org' target='_blank'>Coalition for Independent Technology Research</a> regarding Reddit's decesion to restrict its data access"
   },
