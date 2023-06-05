@@ -1,5 +1,10 @@
 [
   {
+    "date": "Jun 5, 2023",
+    "type": "new_pub",
+    "msg": "Our paper <b>A Multi-Platform Collection of Social Media Posts about the 2022 U.S. Midterm Elections </b> <a href='https://ojs.aaai.org/index.php/ICWSM/article/view/22205' target='_blank'><i class='far fa-file-pdf'></i></a> was published in the Proceedings of ICWSM"
+  },
+  {
     "date": "May 31, 2023",
     "type": "general",
     "msg": "Please read the <a href='https://www.theverge.com/2023/5/31/23739084/twitter-elon-musk-api-policy-chilling-academic-research' target='_blank'>The Verge</a> and <a href='https://inews.co.uk/news/twitter-researchers-delete-data-unless-pay-2364535' target='_blank'>iNews</a> stories on how Twitter's decision to charge their API could impact research and tools such as Botometer"
