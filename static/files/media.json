@@ -1,5 +1,22 @@
 [
   {
+    "title": "Musk Promised Transparency, Then Hid Twitter Data",
+    "url": "https://www.washingtonpost.com/business/2023/06/09/elon-musk-says-twitter-transparency-builds-trust-it-s-all-talk-no-action/b448bdc4-06b7-11ee-b74a-5bdd335d4fa2_story.html",
+    "outlet": "The Washington Post",
+    "date": "Jun 9, 2023",
+    "year": [
+      2023
+    ],
+    "project_id": [
+      "botometer",
+      "hoaxy"
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "toshow": true,
+    "highlight": false
+  },
+  {
     "title": "Twitter just closed the book on academic research",
     "url": "https://www.theverge.com/2023/5/31/23739084/twitter-elon-musk-api-policy-chilling-academic-research",
     "outlet": "The Verge",
