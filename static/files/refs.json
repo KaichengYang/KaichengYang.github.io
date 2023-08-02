@@ -1,5 +1,41 @@
 [
   {
+    "authors": "<u>Yang, K. C.</u> & Menczer, F.",
+    "year": [
+      2023
+    ],
+    "type": [
+      "preprint"
+    ],
+    "topic": [
+      "bot",
+      "llm"
+    ],
+    "highlight": [
+      "highlight"
+    ],
+    "title": "Anatomy of an AI-powered malicious social botnet",
+    "id": "yang2023anatomy",
+    "venue": "In submission.",
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2307.16336",
+        "name": "arXiv"
+      },
+      {
+        "url": "https://github.com/osome-iu/AIBot_fox8",
+        "name": "GitHub"
+      },
+      {
+        "url": "https://doi.org/10.5281/zenodo.8035289",
+        "name": "Dataset"
+      }
+    ],
+    "altmetric": {
+      "arxiv_id": "2307.16336"
+    }
+  },
+  {
     "authors": "Aiyappa, R., DeVerna, M. R., Pote, M., Tran Truong, B., Zhao, W., Axelrod, D., Pessianzadeh, A., Kachwala, Z., Kim, M., Can Seckin, O., Kim, M., Gandhi, S., Manikonda, A., Pierri, F., Menczer, F., & <u>Yang, K.-C.</u>",
     "year": [
       2023
@@ -665,9 +701,7 @@
       "socialmedia",
       "bot"
     ],
-    "highlight": [
-      "highlight"
-    ],
+    "highlight": [],
     "title": "Asymmetrical Perceptions of Partisan Political Bots",
     "id": "yan2020asymmetrical",
     "venue": "New Media & Society, 23(10), 3016-3037.",

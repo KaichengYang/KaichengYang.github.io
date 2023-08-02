@@ -1,5 +1,10 @@
 [
   {
+    "date": "Aug 2, 2023",
+    "type": "new_preprint",
+    "msg": "New preprint <b>Anatomy of an AI-powered malicious social botnet</b> <a href='https://arxiv.org/abs/2307.16336' target='_blank'><i class='ai ai-arxiv ai-1x'></i></a> available"
+  },
+  {
     "date": "Jun 5, 2023",
     "type": "new_pub",
     "msg": "Our paper <b>A Multi-Platform Collection of Social Media Posts about the 2022 U.S. Midterm Elections </b> <a href='https://ojs.aaai.org/index.php/ICWSM/article/view/22205' target='_blank'><i class='far fa-file-pdf'></i></a> was published in the Proceedings of ICWSM"
