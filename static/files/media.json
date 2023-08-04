@@ -1,5 +1,37 @@
 [
   {
+    "title": "Researchers Identify False Twitter Personas Likely Powered by ChatGPT",
+    "url": "https://techpolicy.press/researchers-identify-false-twitter-personas-likely-powered-by-chatgpt/",
+    "outlet": "Tech Policy Press",
+    "date": "Aug 3, 2023",
+    "year": [
+      2023
+    ],
+    "project_id": [
+        "yang2023anatomy"
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "toshow": true,
+    "highlight": true
+  },
+  {
+    "title": "Elon Musk Tweets And Bots Boosted Price Of Altcoins Listed On FTX, Study Suggests",
+    "url": "https://www.forbes.com/sites/antoniopequenoiv/2023/08/02/elon-musk-tweets-and-bots-boosted-price-of-altcoins-listed-on-ftx-study-suggests/?sh=225453164b1d",
+    "outlet": "Forbes",
+    "date": "Aug 2, 2023",
+    "year": [
+      2023
+    ],
+    "project_id": [
+        "botometer"
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "toshow": true,
+    "highlight": false
+  },
+  {
     "title": "Musk's Twitter rate limits could undermine new CEO, ad experts say",
     "url": "https://www.reuters.com/business/media-telecom/musks-twitter-rate-limits-could-undermine-new-ceo-ad-experts-say-2023-07-03/",
     "outlet": "Reuters",
