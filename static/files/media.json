@@ -1,5 +1,21 @@
 [
   {
+    "title": "Worldcoin just officially launched. Here’s why it’s already being investigated",
+    "url": "https://www.technologyreview.com/2023/08/07/1077250/worldcoin-officially-launched-why-its-being-investigated/",
+    "outlet": "MIT Technology Review",
+    "date": "Aug 7, 2023",
+    "year": [
+      2023
+    ],
+    "project_id": [
+        "yang2023anatomy"
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "toshow": true,
+    "highlight": false
+  },
+  {
     "title": "Researchers Identify False Twitter Personas Likely Powered by ChatGPT",
     "url": "https://techpolicy.press/researchers-identify-false-twitter-personas-likely-powered-by-chatgpt/",
     "outlet": "Tech Policy Press",
