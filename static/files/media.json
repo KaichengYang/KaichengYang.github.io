@@ -1,5 +1,20 @@
 [
   {
+    "title": "AI is ruining the internet",
+    "url": "https://www.businessinsider.com/ai-scam-spam-hacking-ruining-internet-chatgpt-privacy-misinformation-2023-8",
+    "outlet": "Business Insider",
+    "date": "Aug 8, 2023",
+    "year": [
+      2023
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "yang2023anatomy"
+    ],
+    "toshow": true
+  },
+  {
     "title": "Worldcoin just officially launched. Here’s why it’s already being investigated",
     "url": "https://www.technologyreview.com/2023/08/07/1077250/worldcoin-officially-launched-why-its-being-investigated/",
     "outlet": "MIT Technology Review",
