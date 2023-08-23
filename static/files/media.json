@@ -1,5 +1,51 @@
 [
   {
+    "title": "Crypto bot network powered by ChatGPT uncovered on X",
+    "url": "https://mashable.com/article/twitter-x-crypto-botnet-chatgpt-research",
+    "outlet": "Mashable",
+    "date": "Aug 21, 2023",
+    "year": [
+      2023
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "yang2023anatomy"
+    ],
+    "toshow": true
+  },
+  {
+    "title": "Scammers Used ChatGPT to Unleash a Crypto Botnet on X",
+    "url": "https://www.wired.com/story/chat-gpt-crypto-botnet-scam/",
+    "outlet": "Wired",
+    "date": "Aug 21, 2023",
+    "year": [
+      2023
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "yang2023anatomy"
+    ],
+    "toshow": true,
+    "highlight": true
+  },
+  {
+    "title": "Large language models can rate news outlet credibility",
+    "url": "https://www.rstreet.org/commentary/large-language-models-can-rate-news-outlet-credibility/",
+    "outlet": "RStreet",
+    "date": "Aug 21, 2023",
+    "year": [
+      2023
+    ],
+    "type": "coverage",
+    "topic": "llm",
+    "project_id": [
+      "yang2023large"
+    ],
+    "toshow": true
+  },
+  {
     "title": "AI is ruining the internet",
     "url": "https://www.businessinsider.com/ai-scam-spam-hacking-ruining-internet-chatgpt-privacy-misinformation-2023-8",
     "outlet": "Business Insider",
@@ -44,7 +90,7 @@
     "type": "coverage",
     "topic": "social bot",
     "toshow": true,
-    "highlight": true
+    "highlight": false
   },
   {
     "title": "Elon Musk Tweets And Bots Boosted Price Of Altcoins Listed On FTX, Study Suggests",

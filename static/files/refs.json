@@ -1,5 +1,37 @@
 [
   {
+    "authors": "DeVerna, M. R., Yan, H. Y., <u>Yang, K. C.</u>, & Menczer, F.",
+    "year": [
+      2023
+    ],
+    "type": [
+      "preprint"
+    ],
+    "topic": [
+      "misinformation",
+      "llm"
+    ],
+    "highlight": [
+      "highlight"
+    ],
+    "title": "Artificial intelligence is ineffective and potentially harmful for fact checking",
+    "id": "deverna2023artificial",
+    "venue": "In submission.",
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2308.10800",
+        "name": "arXiv"
+      },
+      {
+        "url": "https://github.com/osome-iu/AI_fact_checking",
+        "name": "GitHub"
+      }
+    ],
+    "altmetric": {
+      "arxiv_id": "2308.10800"
+    }
+  },
+  {
     "authors": "<u>Yang, K. C.</u> & Menczer, F.",
     "year": [
       2023
@@ -9,7 +41,8 @@
     ],
     "topic": [
       "bot",
-      "llm"
+      "llm",
+      "socialmedia"
     ],
     "highlight": [
       "highlight"
