@@ -1,5 +1,36 @@
 [
   {
+    "title": "Scientists found over 1,000 AI bots on X stealing selfies to create fake accounts",
+    "url": "https://nypost.com/2023/08/24/scientists-found-1140-ai-bots-on-x-creating-fake-profiles/",
+    "outlet": "New York Post",
+    "date": "Aug 24, 2023",
+    "year": [
+      2023
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "yang2023anatomy"
+    ],
+    "toshow": true
+  },
+  {
+    "title": "Scientists found more than 1,000 AI spam bots trying to scam people and steal their social media profiles — and regulators can't keep up",
+    "url": "https://www.businessinsider.com/social-media-flooded-spammy-ai-content-2023-8",
+    "outlet": "Business Insider",
+    "date": "Aug 24, 2023",
+    "year": [
+      2023
+    ],
+    "type": "quotation",
+    "topic": "social bot",
+    "project_id": [
+      "yang2023anatomy"
+    ],
+    "toshow": true,
+    "highlight": true
+  },
+  {
     "title": "Crypto bot network powered by ChatGPT uncovered on X",
     "url": "https://mashable.com/article/twitter-x-crypto-botnet-chatgpt-research",
     "outlet": "Mashable",
