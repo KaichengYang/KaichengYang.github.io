@@ -1,5 +1,20 @@
 [
   {
+    "title": "Researchers: AI-Generated Spam Bots Are Flooding Social Media, Scamming Humans",
+    "url": "https://www.breitbart.com/tech/2023/08/24/researchers-ai-generated-spam-bots-are-flooding-social-media-scamming-humans/",
+    "outlet": "Breitbart", 
+    "date": "Aug 24, 2023",
+    "year": [
+      2023
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "yang2023anatomy"
+    ],
+    "toshow": true
+  },
+  {
     "title": "Scientists found over 1,000 AI bots on X stealing selfies to create fake accounts",
     "url": "https://nypost.com/2023/08/24/scientists-found-1140-ai-bots-on-x-creating-fake-profiles/",
     "outlet": "New York Post",
