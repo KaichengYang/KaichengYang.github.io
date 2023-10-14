@@ -48,6 +48,62 @@
     ]
   },
   {
+    "id": "vmfd",
+    "title": "vMFD",
+    "image": "vmfd",
+    "msg": "Infer moral appeals from text",
+    "links": [
+      {
+        "url": "https://github.com/ZeningDuan/vMFD",
+        "name": "GitHub"
+      },
+      {
+        "url": "https://pypi.org/project/vMFD/",
+        "name": "PyPI"
+      }
+    ]
+  },
+  {
+    "id": "birank",
+    "title": "BiRank",
+    "image": "birank",
+    "msg": "Bipartite network PageRank",
+    "links": [
+      {
+        "url": "https://github.com/BrianAronson/birankr",
+        "name": "GitHub"
+      },
+      {
+        "url": "https://pypi.org/project/birankpy/",
+        "name": "PyPI"
+      },
+      {
+        "url": "https://cran.r-project.org/web/packages/birankr/index.html",
+        "name": "CRAN"
+      }
+    ]
+  },
+  {
+    "id": "scicolor",
+    "title": "Scicolor",
+    "image": "scicolor",
+    "msg": "A collection of color maps for scientific visualization",
+    "links": [
+      {
+        "url": "https://github.com/yang3kc/scicolor",
+        "name": "GitHub"
+      },
+      {
+        "url": "https://pypi.org/project/scicolor/",
+        "name": "PyPI"
+      },
+      {
+        "url": "https://yang3kc.github.io/scicolor/",
+        "name": "Scicolor Color Picker"
+      }
+    ]
+  },
+  {
     "id": "hoaxy",
     "title": "Hoaxy",
     "image": "hoaxy",
@@ -76,26 +132,6 @@
     ]
   },
   {
-    "id": "birank",
-    "title": "BiRank",
-    "image": "birank",
-    "msg": "Bipartite network PageRank",
-    "links": [
-      {
-        "url": "https://github.com/BrianAronson/birankr",
-        "name": "GitHub"
-      },
-      {
-        "url": "https://pypi.org/project/birankpy/",
-        "name": "PyPI"
-      },
-      {
-        "url": "https://cran.r-project.org/web/packages/birankr/index.html",
-        "name": "CRAN"
-      }
-    ]
-  },
-  {
     "id": "osometweet",
     "title": "OSoMeTweet",
     "image": "osometweet",
@@ -108,26 +144,6 @@
       {
         "url": "https://pypi.org/project/osometweet/",
         "name": "PyPI"
-      }
-    ]
-  },
-  {
-    "id": "scicolor",
-    "title": "Scicolor",
-    "image": "scicolor",
-    "msg": "A collection of color maps for scientific visualization",
-    "links": [
-      {
-        "url": "https://github.com/yangkcatiu/scicolor",
-        "name": "GitHub"
-      },
-      {
-        "url": "https://pypi.org/project/scicolor/",
-        "name": "PyPI"
-      },
-      {
-        "url": "https://yangkcatiu.github.io/scicolor/",
-        "name": "Scicolor Color Picker"
       }
     ]
   },
