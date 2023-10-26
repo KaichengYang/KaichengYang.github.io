@@ -1,5 +1,36 @@
 [
   {
+    "title": "The GitHub Black Market That Helps Coders Cheat the Popularity Contest",
+    "url": "https://www.wired.com/story/github-stars-black-market-coders-cheat/",
+    "outlet": "Wired",
+    "date": "Oct 24, 2023",
+    "year": [
+      2023
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "yang2023anatomy"
+    ],
+    "toshow": true,
+    "highlight": false
+  },
+  {
+    "title": "RFK Jr. spent years stoking fear and mistrust of vaccines. These people were hurt by his work",
+    "url": "https://apnews.com/article/rfk-kennedy-election-vaccines-2ccde2df146f57b5e8c26e8494f0a16a",
+    "outlet": "AP News",
+    "date": "Oct 18, 2023",
+    "year": [
+      2023
+    ],
+    "type": "coverage",
+    "topic": "misinformation",
+    "project_id": [
+      "covaxxy"
+    ],
+    "toshow": true
+  },
+  {
     "title": "A disturbing AI phenomenon could completely upend the internet as we know it",
     "url": "https://www.businessinsider.com/ai-model-collapse-threatens-to-break-internet-2023-8",
     "outlet": "Business Insider",
