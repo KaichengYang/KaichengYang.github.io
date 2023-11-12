@@ -25,6 +25,10 @@
       {
         "url": "https://github.com/osome-iu/AI_fact_checking",
         "name": "GitHub"
+      },
+      {
+        "url": "https://chat.openai.com/g/g-fuEoRgOsG-ai-fact-checking-paper",
+        "name": "GPT"
       }
     ],
     "altmetric": {
@@ -62,6 +66,10 @@
       {
         "url": "https://doi.org/10.5281/zenodo.8035289",
         "name": "Dataset"
+      },
+      {
+        "url": "https://chat.openai.com/g/g-WbF9uM0T4-fox8-botnet-paper",
+        "name": "GPT"
       }
     ],
     "altmetric": {

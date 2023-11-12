@@ -1,8 +1,13 @@
 [
   {
-    "date": "Nov 7, 2023",
+    "date": "Nov 12, 2023",
+    "type": "new_tool",
+    "msg": "I released two GPTs, <a href='https://chat.openai.com/g/g-fuEoRgOsG-ai-fact-checking-paper' target='_blank'>one</a> for the <a href='https://arxiv.org/abs/2308.10800' target='_blank'>AI fact-checking paper</a> and <a href='https://chat.openai.com/g/g-WbF9uM0T4-fox8-botnet-paper' target='_blank'>one</a> for the <a href='https://arxiv.org/abs/2307.16336' target='_blank'>AI-powered botnet paper</a>. You can learn more about the papers by talking to the GPT bots (requires ChatGPT Plus subscription)"
+  },
+  {
+    "date": "Nov 10, 2023",
     "type": "general",
-    "msg": "I'll be vising UMass Amherst later this week. I'll give a <a href='https://www.cics.umass.edu/event/20231108/equate-talk-fantastic-bots-and-how-find-them' target='_blank'>talk</a> on Nov. 8, then attend <a href='https://tada2023.org/' target='_blank'>TADA 2023</a>"
+    "msg": "I visted UMass Amherst. I gave a <a href='https://www.cics.umass.edu/event/20231108/equate-talk-fantastic-bots-and-how-find-them' target='_blank'>talk</a> on Nov. 8 and attend <a href='https://tada2023.org/' target='_blank'>TADA 2023</a>"
   },
   {
     "date": "Nov 6, 2023",
