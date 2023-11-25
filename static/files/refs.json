@@ -1,5 +1,35 @@
 [
   {
+    "authors": "Yan, H., & <u>Yang, K. C.</u>",
+    "year": [
+      2023
+    ],
+    "type": [
+      "other"
+    ],
+    "topic": [
+      "socialmedia",
+      "bot"
+    ],
+    "highlight": [],
+    "title": "The landscape of social bot research: a critical appraisal",
+    "id": "yan2022landscape",
+    "venue": "Handbook of Critical Studies of Artificial Intelligence.",
+    "links": [
+      {
+        "url": "https://doi.org/10.4337/9781803928562.00073",
+        "name": "DOI"
+      },
+      {
+        "url": "https://doi.org/10.31219/osf.io/3cf4j",
+        "name": "OSF"
+      }
+    ],
+    "altmetric": {
+      "doi_id": "10.31219/osf.io/3cf4j"
+    }
+  },
+  {
     "authors": "DeVerna, M. R., Yan, H. Y., <u>Yang, K. C.</u>, & Menczer, F.",
     "year": [
       2023
@@ -9,7 +39,7 @@
     ],
     "topic": [
       "misinformation",
-      "llm"
+      "genai"
     ],
     "highlight": [
       "highlight"
@@ -45,7 +75,7 @@
     ],
     "topic": [
       "bot",
-      "llm",
+      "genai",
       "socialmedia"
     ],
     "highlight": [
@@ -74,6 +104,38 @@
     ],
     "altmetric": {
       "arxiv_id": "2307.16336"
+    }
+  },
+  {
+    "authors": "Yan, H., <u>Yang, K. C.</u>, Shanahan, J., & Menczer, F.",
+    "year": [
+      2023
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "socialmedia",
+      "bot"
+    ],
+    "highlight": [
+      "highlight"
+    ],
+    "title": "Exposure to social bots amplifies perceptual biases and regulation propensity",
+    "id": "yan2022exposure",
+    "venue": "Scientific Reports. 13(1), 20707.",
+    "links": [
+      {
+        "url": "https://doi.org/10.1038/s41598-023-46630-x",
+        "name": "DOI"
+      },
+      {
+        "url": "https://doi.org/10.31219/osf.io/ap2qf",
+        "name": "OSF"
+      }
+    ],
+    "altmetric": {
+      "doi_id": "10.1038/s41598-023-46630-x"
     }
   },
   {
@@ -143,7 +205,7 @@
     ],
     "topic": [
       "misinformation",
-      "llm"
+      "genai"
     ],
     "highlight": [
       "highlight"
@@ -228,59 +290,6 @@
     ],
     "altmetric": {
       "arxiv_id": "2301.00151"
-    }
-  },
-  {
-    "authors": "Yan, H., <u>Yang, K. C.</u>, Shanahan, J., & Menczer, F.",
-    "year": [
-      2022
-    ],
-    "type": [
-      "preprint"
-    ],
-    "topic": [
-      "socialmedia",
-      "bot"
-    ],
-    "highlight": [
-      "highlight"
-    ],
-    "title": "Exposure to social bots amplifies perceptual biases and regulation propensity",
-    "id": "yan2022exposure",
-    "venue": "In submission.",
-    "links": [
-      {
-        "url": "https://doi.org/10.31219/osf.io/ap2qf",
-        "name": "DOI"
-      }
-    ],
-    "altmetric": {
-      "doi_id": "10.31219/osf.io/ap2qf"
-    }
-  },
-  {
-    "authors": "Yan, H., & <u>Yang, K. C.</u>",
-    "year": [
-      2023
-    ],
-    "type": [
-      "preprint"
-    ],
-    "topic": [
-      "socialmedia"
-    ],
-    "highlight": [],
-    "title": "The landscape of social bot research: a critical appraisal",
-    "id": "yan2022landscape",
-    "venue": "Forthcoming in Handbook of Critical Studies of Artificial Intelligence.",
-    "links": [
-      {
-        "url": "https://doi.org/10.31219/osf.io/3cf4j",
-        "name": "DOI"
-      }
-    ],
-    "altmetric": {
-      "doi_id": "10.31219/osf.io/3cf4j"
     }
   },
   {

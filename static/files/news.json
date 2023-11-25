@@ -1,5 +1,15 @@
 [
   {
+    "date": "Nov 25, 2023",
+    "type": "new_pub",
+    "msg": "Our paper <b>Exposure to social bots amplifies perceptual biases and regulation propensity</b> <a href='https://doi.org/10.1038/s41598-023-46630-x' target='_blank'><i class='far fa-file-pdf'></i></a> was published in Scientific Reports"
+  },
+  {
+    "date": "Nov 14, 2023",
+    "type": "new_pub",
+    "msg": "Our book chapter <b>The landscape of social bot research: a critical appraisal </b> <a href='https://doi.org/10.4337/9781803928562.00073' target='_blank'><i class='far fa-file-pdf'></i></a> was published in the <a href='https://www.elgaronline.com/edcollbook/book/9781803928562/9781803928562.xml' target='_blank'>Handbook of Critical Studies of Artificial Intelligence</a>"
+  },
+  {
     "date": "Nov 12, 2023",
     "type": "new_tool",
     "msg": "I released two GPTs, <a href='https://chat.openai.com/g/g-fuEoRgOsG-ai-fact-checking-paper' target='_blank'>one</a> for the <a href='https://arxiv.org/abs/2308.10800' target='_blank'>AI fact-checking paper</a> and <a href='https://chat.openai.com/g/g-WbF9uM0T4-fox8-botnet-paper' target='_blank'>one</a> for the <a href='https://arxiv.org/abs/2307.16336' target='_blank'>AI-powered botnet paper</a>. You can learn more about the papers by talking to the GPT bots (requires ChatGPT Plus subscription)"
