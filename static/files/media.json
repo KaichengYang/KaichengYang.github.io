@@ -1,5 +1,21 @@
 [
   {
+    "title": "How generative AI could help foreign adversaries influence U.S. elections",
+    "url": "https://www.politifact.com/article/2023/dec/05/how-generative-ai-could-help-foreign-adversaries-i/",
+    "outlet": "PolitiFact",
+    "date": "Dec 5, 2023",
+    "year": [
+      2023
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "yang2023anatomy"
+    ],
+    "toshow": true,
+    "highlight": false
+  },
+  {
     "title": "Exclusive: Elon Musk's X restructuring curtails disinformation research, spurs legal fears",
     "url": "https://www.reuters.com/technology/elon-musks-x-restructuring-curtails-disinformation-research-spurs-legal-fears-2023-11-06/",
     "outlet": "Reuters",
@@ -61,7 +77,7 @@
   {
     "title": "Researchers: AI-Generated Spam Bots Are Flooding Social Media, Scamming Humans",
     "url": "https://www.breitbart.com/tech/2023/08/24/researchers-ai-generated-spam-bots-are-flooding-social-media-scamming-humans/",
-    "outlet": "Breitbart", 
+    "outlet": "Breitbart",
     "date": "Aug 24, 2023",
     "year": [
       2023
