@@ -1,5 +1,30 @@
 [
   {
+    "authors": "Duan, Z., Shao, A., Hu, Y., Lee, H., Liao, X., Suh Y. J., Kim, J., <u>Yang, K. C.</u>, Chen, K., & Yang, S.",
+    "year": [
+      2023
+    ],
+    "type": [
+      "preprint"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
+    "highlight": [],
+    "title": "Constructing Vec-tionaries to Extract Latent Message Features from Texts: A Case Study of Moral Appeals",
+    "id": "duan2023constructing",
+    "venue": "In submission.",
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2312.05990",
+        "name": "arXiv"
+      }
+    ],
+    "altmetric": {
+      "arxiv_id": "2312.05990"
+    }
+  },
+  {
     "authors": "Yan, H., & <u>Yang, K. C.</u>",
     "year": [
       2023

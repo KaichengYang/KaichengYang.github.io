@@ -1,5 +1,10 @@
 [
   {
+    "date": "Dec 11, 2023",
+    "type": "new_preprint",
+    "msg": "New preprint <b>Constructing Vec-tionaries to Extract Latent Message Features from Texts: A Case Study of Moral Appeals</b> <a href='https://arxiv.org/abs/2312.05990' target='_blank'><i class='ai ai-arxiv ai-1x'></i></a> available"
+  },
+  {
     "date": "Nov 25, 2023",
     "type": "new_pub",
     "msg": "Our paper <b>Exposure to social bots amplifies perceptual biases and regulation propensity</b> <a href='https://doi.org/10.1038/s41598-023-46630-x' target='_blank'><i class='far fa-file-pdf'></i></a> was published in Scientific Reports"
