@@ -1,5 +1,31 @@
 [
   {
+    "authors": "<u>Yang, K. C.</u>, Varol, O., Nwala, A. C., Sayyadiharikandeh, M., Ferrara, E., Flammini, A., & Menczer, F.",
+    "year": [
+      2024
+    ],
+    "type": [
+      "other"
+    ],
+    "topic": [
+      "socialmedia",
+      "bot"
+    ],
+    "highlight": [],
+    "title": "Social Bots: Detection and Challenges",
+    "id": "yang2023socialbot",
+    "venue": "Forthcoming in Handbook of Computational Social Science.",
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2312.17423",
+        "name": "arXiv"
+      }
+    ],
+    "altmetric": {
+      "doi_id": "2312.17423"
+    }
+  },
+  {
     "authors": "Duan, Z., Shao, A., Hu, Y., Lee, H., Liao, X., Suh Y. J., Kim, J., <u>Yang, K. C.</u>, Chen, K., & Yang, S.",
     "year": [
       2023
