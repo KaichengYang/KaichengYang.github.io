@@ -1,5 +1,46 @@
 [
   {
+    "authors": "<u>Yang, K. C.</u>, Singh, D., & Menczer, F.",
+    "year": [
+      2024
+    ],
+    "type": [
+      "preprint"
+    ],
+    "topic": [
+      "genai",
+      "socialmedia",
+      "bot"
+    ],
+    "highlight": [
+      "highlight"
+    ],
+    "title": "Characteristics and prevalence of fake social media profiles with AI-generated faces",
+    "id": "yang2024characteristics",
+    "venue": "In submission.",
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2401.02627",
+        "name": "arXiv"
+      },
+      {
+        "url": "https://github.com/osome-iu/fake_gan_accounts",
+        "name": "GitHub"
+      },
+      {
+        "url": "https://doi.org/10.5281/zenodo.10436889",
+        "name": "Dataset"
+      },
+      {
+        "url": "https://chat.openai.com/g/g-TRp4eKw4j-social-media-accounts-with-ai-generated-faces",
+        "name": "GPT"
+      }
+    ],
+    "altmetric": {
+      "arxiv_id": "2401.02627"
+    }
+  },
+  {
     "authors": "<u>Yang, K. C.</u>, Varol, O., Nwala, A. C., Sayyadiharikandeh, M., Ferrara, E., Flammini, A., & Menczer, F.",
     "year": [
       2024
@@ -173,9 +214,7 @@
       "socialmedia",
       "bot"
     ],
-    "highlight": [
-      "highlight"
-    ],
+    "highlight": [],
     "title": "Exposure to social bots amplifies perceptual biases and regulation propensity",
     "id": "yan2022exposure",
     "venue": "Scientific Reports. 13(1), 20707.",
@@ -771,9 +810,7 @@
       "misinformation",
       "bot"
     ],
-    "highlight": [
-      "highlight"
-    ],
+    "highlight": [],
     "title": "The COVID-19 Infodemic: Twitter versus Facebook",
     "venue": "Big Data & Society.",
     "id": "yang2021covid",

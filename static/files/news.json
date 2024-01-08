@@ -1,5 +1,15 @@
 [
   {
+    "date": "Jan 8, 2024",
+    "type": "new_preprint",
+    "msg": "New preprint <b>Characteristics and prevalence of fake social media profiles with AI-generated faces</b> <a href='https://arxiv.org/abs/2401.02627' target='_blank'><i class='ai ai-arxiv ai-1x'></i></a> available. You can chat with the paper through this <a href='https://chat.openai.com/g/g-TRp4eKw4j-social-media-accounts-with-ai-generated-faces' target='_blank'>GPT</a>"
+  },
+  {
+    "date": "Jan 4, 2024",
+    "type": "personal_news",
+    "msg": "Accepted to <a href='https://openai.com/form/researcher-access-program' target='_blank'>OpenAI 's Researcher Access Program</a>. The awarded credits will help me study the societal impact and misuse potential of the GPT series models"
+  },
+  {
     "date": "Dec 11, 2023",
     "type": "new_preprint",
     "msg": "New preprint <b>Constructing Vec-tionaries to Extract Latent Message Features from Texts: A Case Study of Moral Appeals</b> <a href='https://arxiv.org/abs/2312.05990' target='_blank'><i class='ai ai-arxiv ai-1x'></i></a> available"
