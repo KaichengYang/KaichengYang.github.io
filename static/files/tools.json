@@ -1,7 +1,7 @@
 [
   {
     "id": "botometer",
-    "title": "Botometer",
+    "title": "Botometer X",
     "image": "botometer",
     "msg": "Detect bot-like Twitter accounts",
     "links": [
@@ -12,10 +12,6 @@
       {
         "url": "https://rapidapi.com/OSoMe/api/botometer-pro",
         "name": "API"
-      },
-      {
-        "url": "https://botometer.osome.iu.edu/botometerlite",
-        "name": "BotometerLite"
       },
       {
         "url": "https://pypi.org/project/botometer/",

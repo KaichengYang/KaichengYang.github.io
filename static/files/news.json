@@ -1,8 +1,13 @@
 [
   {
+    "date": "Feb 20, 2024",
+    "type": "new_tool",
+    "msg": "We revived Botometer and rebranded it to <a href='https://botometer.osome.iu.edu/' target='_blank'>Botometer X</a>. Check it out!"
+  },
+  {
     "date": "Feb 07, 2024",
     "type": "general",
-    "msg": "We are organizing the <a href='https://cy-soc.github.io/2024/' target='_blank'>CySoc2024 Workshop</a> at <a href='https://www.icwsm.org/2024/index.html/' target='_blank'>ICWSM 2024</a>, CFP coming soon"
+    "msg": "We are organizing the <a href='https://cy-soc.github.io/2024/' target='_blank'>CySoc2024 Workshop</a> at <a href='https://www.icwsm.org/2024/index.html/' target='_blank'>ICWSM 2024</a>, check out the CFP on our website!"
   },
   {
     "date": "Jan 8, 2024",
