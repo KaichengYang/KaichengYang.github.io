@@ -1,5 +1,45 @@
 [
   {
+    "title": "AI Spam Threatens the Internet—AI Can Also Protect It",
+    "url": "https://spectrum.ieee.org/ai-detection",
+    "outlet": "IEEE Spectrum",
+    "date": "Feb 26, 2024",
+    "year": [
+      2024
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "toshow": true,
+    "project_id": [
+      "yang2024characteristics"
+    ]
+  },
+  {
+    "title": "Who trolled Amber?",
+    "url": "https://www.tortoisemedia.com/2024/02/26/depp-v-heard-who-trolled-amber/",
+    "outlet": "Tortoise",
+    "date": "Feb 26, 2024",
+    "year": [
+      2024
+    ],
+    "type": "interview",
+    "topic": "social media",
+    "toshow": true
+  },
+  {
+    "title": "How AI May Meddle With The Election Year",
+    "url": "https://youtu.be/PU3G4xCIxVI?si=VOhBVZRlxk-pKzte",
+    "outlet": "Time",
+    "date": "Feb 25, 2024",
+    "year": [
+      2024
+    ],
+    "type": "interview",
+    "topic": "ai",
+    "toshow": true,
+    "highlight": true
+  },
+  {
     "title": "How generative AI could help foreign adversaries influence U.S. elections",
     "url": "https://www.politifact.com/article/2023/dec/05/how-generative-ai-could-help-foreign-adversaries-i/",
     "outlet": "PolitiFact",
