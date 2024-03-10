@@ -1,5 +1,20 @@
 [
   {
+    "title": "Deepfakes pose a serious threat to the integrity of elections — what will it take to protect democracy?",
+    "url": "https://www.abc.net.au/religion/uri-gal-how-to-protect-democracy-from-deepfakes/103542478",
+    "outlet": "ABC",
+    "date": "Mar 3, 2024",
+    "year": [
+      2024
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "toshow": true,
+    "project_id": [
+      "shao2018spread"
+    ]
+  },
+  {
     "title": "AI Spam Threatens the Internet—AI Can Also Protect It",
     "url": "https://spectrum.ieee.org/ai-detection",
     "outlet": "IEEE Spectrum",
@@ -38,6 +53,21 @@
     "topic": "ai",
     "toshow": true,
     "highlight": true
+  },
+  {
+    "title": "How AI Bots Could Sabotage 2024 Elections around the World",
+    "url": "https://www.scientificamerican.com/article/how-ai-bots-could-sabotage-2024-elections-around-the-world/",
+    "outlet": "Scientific American",
+    "date": "Feb 13, 2024",
+    "year": [
+      2024
+    ],
+    "type": "coverage",
+    "topic":"social bot",
+    "toshow": true,
+    "project_id": [
+      "shao2018spread"
+    ]
   },
   {
     "title": "How generative AI could help foreign adversaries influence U.S. elections",
