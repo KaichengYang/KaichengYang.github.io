@@ -1,5 +1,20 @@
 [
   {
+    "title": "Let’s not make the same mistakes with AI that we made with social media",
+    "url": "https://www.technologyreview.com/2024/03/13/1089729/lets-not-make-the-same-mistakes-with-ai-that-we-made-with-social-media/",
+    "outlet": "MIT Technology Review",
+    "date": "Mar 13, 2024",
+    "year": [
+      2024
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "yang2023anatomy"
+    ],
+    "toshow": true
+  },
+  {
     "title": "Deepfakes pose a serious threat to the integrity of elections — what will it take to protect democracy?",
     "url": "https://www.abc.net.au/religion/uri-gal-how-to-protect-democracy-from-deepfakes/103542478",
     "outlet": "ABC",

@@ -1,5 +1,10 @@
 [
   {
+    "date": "Mar 13, 2024",
+    "type": "media",
+    "msg": "Check out the <a href='https://spectrum.ieee.org/ai-detection' target='_blank'>IEEE Spectrum</a> and <a href='https://www.technologyreview.com/2024/03/13/1089729/lets-not-make-the-same-mistakes-with-ai-that-we-made-with-social-media/' target='_blank'>MIT Technology Review</a> stories that feature our studies on AI-powered inauthentic accounts on social media"
+  },
+  {
     "date": "Feb 28, 2024",
     "type": "media",
     "msg": "Check out the <a href='https://podcasts.apple.com/us/podcast/who-trolled-amber/id1590561275' target='_blank'>'Who Trolled Amber'</a> podcast series produced by Tortoise. I helped with the data analyses and shared my insights on inauthentic online actors"
