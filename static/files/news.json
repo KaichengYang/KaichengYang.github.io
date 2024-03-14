@@ -1,5 +1,10 @@
 [
   {
+    "date": "Mar 14, 2024",
+    "type": "general",
+    "msg": "If you have applied to access data from large social media platforms such as Facebook and Twitter, please consider participating our <a href='https://independenttechresearch.org/introducing-the-dsa-data-access-audit/' target='_blank'>DSA Data Access Audit</a> to help the public understand the state of data access"
+  },
+  {
     "date": "Mar 13, 2024",
     "type": "media",
     "msg": "Check out the <a href='https://spectrum.ieee.org/ai-detection' target='_blank'>IEEE Spectrum</a> and <a href='https://www.technologyreview.com/2024/03/13/1089729/lets-not-make-the-same-mistakes-with-ai-that-we-made-with-social-media/' target='_blank'>MIT Technology Review</a> stories that feature our studies on AI-powered inauthentic accounts on social media"
