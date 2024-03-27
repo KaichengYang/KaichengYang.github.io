@@ -1,5 +1,10 @@
 [
   {
+    "date": "Mar 27, 2024",
+    "type": "media",
+    "msg": "Check out our new Tech Policy Press <a href='https://www.techpolicy.press/what-does-crowdtangles-demise-signal-for-data-access-under-the-dsa/'>piece</a> regarding the sunset of CrowdTangle and our <a href='https://independenttechresearch.org/introducing-the-dsa-data-access-audit/' target='_blank'>DSA Data Access Audit</a>"
+  },
+  {
     "date": "Mar 25, 2024",
     "type": "general",
     "msg": "Our <a href='https://www.reuters.com/technology/elon-musks-x-restructuring-curtails-disinformation-research-spurs-legal-fears-2023-11-06/' target='_blank'>survey</a> regarding the status of research projects relying on Twitter data was <a href='https://storage.courtlistener.com/recap/gov.uscourts.cand.416212/gov.uscourts.cand.416212.75.0.pdf' target='_blank'>cited in the court ruling</a> that <a href='https://counterhate.com/blog/elon-musk-vs-ccdh-nonprofit-wins-dismissal-of-baseless-and-intimidatory-lawsuit' target='_blank'>dismissed all allegations</a>  of Twitter/X against CCDH"
