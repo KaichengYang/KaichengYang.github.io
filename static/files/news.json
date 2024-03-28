@@ -1,5 +1,10 @@
 [
   {
+    "date": "Mar 28, 2023",
+    "type": "new_preprint",
+    "msg": "New preprint <b>Demystifying misconceptions in social bots research</b> <a href='https://arxiv.org/abs/2303.17251' target='_blank'><i class='ai ai-arxiv ai-1x'></i></a> available"
+  },
+  {
     "date": "Mar 27, 2024",
     "type": "media",
     "msg": "Check out our new Tech Policy Press <a href='https://www.techpolicy.press/what-does-crowdtangles-demise-signal-for-data-access-under-the-dsa/'>piece</a> regarding the sunset of CrowdTangle and our <a href='https://independenttechresearch.org/introducing-the-dsa-data-access-audit/' target='_blank'>DSA Data Access Audit</a>"

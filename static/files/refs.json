@@ -1,5 +1,93 @@
 [
   {
+    "authors": "Cresci, S., <u>Yang, K. C.</u>, Spognardi, A., Di Pietro, R., Menczer, F. & Petrocchi, M.",
+    "year": [
+      2024
+    ],
+    "type": [
+      "preprint"
+    ],
+    "topic": [
+      "bot"
+    ],
+    "highlight": [],
+    "title": "Demystifying misconceptions in social bots research",
+    "id": "cresci2024demystifying",
+    "venue": "In submission.",
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2303.17251",
+        "name": "arXiv"
+      }
+    ],
+    "altmetric": {
+      "arxiv_id": "2303.17251"
+    }
+  },
+  {
+    "authors": "Brown, M. A., Lukito, J. & <u>Yang, K. C.</u>",
+    "title": "What Does CrowdTangle's Demise Signal for Data Access Under the DSA?",
+    "year": [
+      2024
+    ],
+    "type": [
+      "other"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
+    "highlight": [],
+    "id": "brown2024crowdtangle",
+    "venue": "Tech Policy Press.",
+    "links": [
+      {
+        "name": "link",
+        "url": "https://www.techpolicy.press/what-does-crowdtangles-demise-signal-for-data-access-under-the-dsa"
+      }
+    ]
+  },
+  {
+    "authors": "<u>Yang, K. C.</u> & Menczer, F.",
+    "year": [
+      2024
+    ],
+    "type": [
+      "preprint"
+    ],
+    "topic": [
+      "bot",
+      "genai",
+      "socialmedia"
+    ],
+    "highlight": [
+      "highlight"
+    ],
+    "title": "Anatomy of an AI-powered malicious social botnet",
+    "id": "yang2023anatomy",
+    "venue": "Forthcoming in Journal of Quantitative Description: Digital Media.",
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2307.16336",
+        "name": "arXiv"
+      },
+      {
+        "url": "https://github.com/osome-iu/AIBot_fox8",
+        "name": "GitHub"
+      },
+      {
+        "url": "https://doi.org/10.5281/zenodo.8035289",
+        "name": "Dataset"
+      },
+      {
+        "url": "https://chat.openai.com/g/g-WbF9uM0T4-fox8-botnet-paper",
+        "name": "GPT"
+      }
+    ],
+    "altmetric": {
+      "arxiv_id": "2307.16336"
+    }
+  },
+  {
     "authors": "<u>Yang, K. C.</u>, Singh, D., & Menczer, F.",
     "year": [
       2024
@@ -159,47 +247,6 @@
     ],
     "altmetric": {
       "arxiv_id": "2308.10800"
-    }
-  },
-  {
-    "authors": "<u>Yang, K. C.</u> & Menczer, F.",
-    "year": [
-      2023
-    ],
-    "type": [
-      "preprint"
-    ],
-    "topic": [
-      "bot",
-      "genai",
-      "socialmedia"
-    ],
-    "highlight": [
-      "highlight"
-    ],
-    "title": "Anatomy of an AI-powered malicious social botnet",
-    "id": "yang2023anatomy",
-    "venue": "In submission.",
-    "links": [
-      {
-        "url": "https://arxiv.org/abs/2307.16336",
-        "name": "arXiv"
-      },
-      {
-        "url": "https://github.com/osome-iu/AIBot_fox8",
-        "name": "GitHub"
-      },
-      {
-        "url": "https://doi.org/10.5281/zenodo.8035289",
-        "name": "Dataset"
-      },
-      {
-        "url": "https://chat.openai.com/g/g-WbF9uM0T4-fox8-botnet-paper",
-        "name": "GPT"
-      }
-    ],
-    "altmetric": {
-      "arxiv_id": "2307.16336"
     }
   },
   {
