@@ -1,6 +1,11 @@
 [
   {
-    "date": "Mar 28, 2023",
+    "date": "Apr 23, 2024",
+    "type": "general",
+    "msg": "I'm featured in Mozilla's new <a href='https://aidatabase.mozilla.org/ai-intersections-database/northeastern-university/' target='_blank'>AI Intersections Database</a>, which maps where AI impacts meet social justice issues and catalogs the people and organizations working to make AI equitable for all"
+  },
+  {
+    "date": "Mar 28, 2024",
     "type": "new_preprint",
     "msg": "New preprint <b>Demystifying misconceptions in social bots research</b> <a href='https://arxiv.org/abs/2303.17251' target='_blank'><i class='ai ai-arxiv ai-1x'></i></a> available"
   },
