@@ -1,5 +1,30 @@
 [
   {
+    "authors": "Scarano, S., Vasudevan, V., Samory, M., <u>Yang, K. C.</u>, Yang, J. & Grabowicz, P. A.",
+    "year": [
+      2024
+    ],
+    "type": [
+      "preprint"
+    ],
+    "topic": [
+      "socialmedia"
+    ],
+    "highlight": [],
+    "title": "Election Polls on Social Media: Prevalence, Biases, and Voter Fraud Beliefs",
+    "id": "scarano2024election",
+    "venue": "In submission.",
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2405.11146",
+        "name": "arXiv"
+      }
+    ],
+    "altmetric": {
+      "arxiv_id": "2405.11146"
+    }
+  },
+  {
     "authors": "Cresci, S., <u>Yang, K. C.</u>, Spognardi, A., Di Pietro, R., Menczer, F. & Petrocchi, M.",
     "year": [
       2024
