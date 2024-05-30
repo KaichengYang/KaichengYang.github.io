@@ -1,5 +1,50 @@
 [
   {
+    "authors": "<u>Yang, K. C.</u> & Menczer, F.",
+    "year": [
+      2024
+    ],
+    "type": [
+      "journal"
+    ],
+    "topic": [
+      "bot",
+      "genai",
+      "socialmedia"
+    ],
+    "highlight": [
+      "highlight"
+    ],
+    "title": "Anatomy of an AI-powered malicious social botnet",
+    "id": "yang2023anatomy",
+    "venue": "Journal of Quantitative Description: Digital Media, 4.",
+    "links": [
+      {
+        "url": "https://doi.org/10.51685/jqd.2024.icwsm.7",
+        "name": "DOI"
+      },
+      {
+        "url": "https://arxiv.org/abs/2307.16336",
+        "name": "arXiv"
+      },
+      {
+        "url": "https://github.com/osome-iu/AIBot_fox8",
+        "name": "GitHub"
+      },
+      {
+        "url": "https://doi.org/10.5281/zenodo.8035289",
+        "name": "Dataset"
+      },
+      {
+        "url": "https://chat.openai.com/g/g-WbF9uM0T4-fox8-botnet-paper",
+        "name": "GPT"
+      }
+    ],
+    "altmetric": {
+      "arxiv_id": "2307.16336"
+    }
+  },
+  {
     "authors": "Scarano, S., Vasudevan, V., Samory, M., <u>Yang, K. C.</u>, Yang, J. & Grabowicz, P. A.",
     "year": [
       2024
@@ -70,47 +115,6 @@
         "url": "https://www.techpolicy.press/what-does-crowdtangles-demise-signal-for-data-access-under-the-dsa"
       }
     ]
-  },
-  {
-    "authors": "<u>Yang, K. C.</u> & Menczer, F.",
-    "year": [
-      2024
-    ],
-    "type": [
-      "preprint"
-    ],
-    "topic": [
-      "bot",
-      "genai",
-      "socialmedia"
-    ],
-    "highlight": [
-      "highlight"
-    ],
-    "title": "Anatomy of an AI-powered malicious social botnet",
-    "id": "yang2023anatomy",
-    "venue": "Forthcoming in Journal of Quantitative Description: Digital Media.",
-    "links": [
-      {
-        "url": "https://arxiv.org/abs/2307.16336",
-        "name": "arXiv"
-      },
-      {
-        "url": "https://github.com/osome-iu/AIBot_fox8",
-        "name": "GitHub"
-      },
-      {
-        "url": "https://doi.org/10.5281/zenodo.8035289",
-        "name": "Dataset"
-      },
-      {
-        "url": "https://chat.openai.com/g/g-WbF9uM0T4-fox8-botnet-paper",
-        "name": "GPT"
-      }
-    ],
-    "altmetric": {
-      "arxiv_id": "2307.16336"
-    }
   },
   {
     "authors": "<u>Yang, K. C.</u>, Singh, D., & Menczer, F.",
