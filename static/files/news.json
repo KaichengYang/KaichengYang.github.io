@@ -5,6 +5,11 @@
     "msg": "I attended <a href='https://www.icwsm.org/2024/index.html/' target='_blank'>ICWSM 2024</a> in Buffalo, NY. On Jun 3, I co-organized the <a href='https://cy-soc.github.io/2024/' target='_blank'>CySoc workshop</a>. On Jun 4, I presented our paper <b>Anatomy of an AI-powered malicious social botnet</b> <a href='https://doi.org/10.51685/jqd.2024.icwsm.7' target='_blank'><i class='far fa-file-pdf'></i></a>"
   },
   {
+    "date": "Jun 1, 2024",
+    "type": "new_pub",
+    "msg": "Our paper <b>Introduction to National Internet Observatory</b> <a href='https://doi.org/10.36190/2024.73' target='_blank'><i class='far fa-file-pdf'></i></a> was published in the Companion Proceedings of the ICWSM Data Challenge"
+  },
+  {
     "date": "May 29, 2024",
     "type": "new_pub",
     "msg": "Our paper <b>Anatomy of an AI-powered malicious social botnet</b> <a href='https://doi.org/10.51685/jqd.2024.icwsm.7' target='_blank'><i class='far fa-file-pdf'></i></a> was published in Journal of Quantitative Description: Digital Media"

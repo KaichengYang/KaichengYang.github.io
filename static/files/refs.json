@@ -1,5 +1,30 @@
 [
   {
+    "authors": "Feal, A., Gleason, J., Goel, P., Radford, J., <u>Yang, K.-C.</u>, Basl, J., Meyer, M., Choffnes, D., Wilson, C. & Lazer, D.",
+    "year": [
+      2024
+    ],
+    "type": [
+      "conf"
+    ],
+    "topic": [
+      "nio"
+    ],
+    "highlight": [],
+    "title": "Introduction to National Internet Observatory",
+    "id": "feal2024introduction",
+    "venue": "Proceedings ICWSM Data Challenge.",
+    "links": [
+      {
+        "url": "https://doi.org/10.36190/2024.73",
+        "name": "DOI"
+      }
+    ],
+    "altmetric": {
+      "doi_id": "10.36190/2024.73"
+    }
+  },
+  {
     "authors": "<u>Yang, K. C.</u> & Menczer, F.",
     "year": [
       2024
