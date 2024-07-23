@@ -1,8 +1,13 @@
 [
   {
-    "date": "Jul 8, 2024",
+    "date": "Jul 22, 2024",
+    "type": "media",
+    "msg": "Check out the <a href='https://www.nbcnews.com/tech/internet/hunting-ai-bots-four-words-trick-rcna161318' target='_blank'>NBC News</a> and <a href='https://sherwood.news/tech/elon-musk-didnt-rid-twitter-of-bots-x-is-paying-armies-of-them-for-slop/' target='_blank'>Sherwood News</a> stories on AI-powered bots on Twitter and how users leverage 'prompt injection' techniques to flag them, featuring my comments and our work"
+  },
+  {
+    "date": "Jul 20, 2024",
     "type": "general",
-    "msg": "I will attend <a href='https://ic2s2-2024.org/' target='_blank'>IC2S2</a> at Philadelphia, PA. Come and see me there!"
+    "msg": "I attended <a href='https://ic2s2-2024.org/' target='_blank'>IC2S2</a> at Philadelphia, PA. I delivered one <a href='https://osome.iu.edu/events/ic2s2-2024-workshop' target='_blank'>tutorial</a>, three talks. My coauthors delivered two talks and presented three posters. See the Twitter threads for details: <a href='https://x.com/yang3kc/status/1813670555075375385' target='_blank'>thread 1</a>, <a href='https://x.com/yang3kc/status/1814053567340445814' target='_blank'>thread 2</a>, and <a href='https://x.com/yang3kc/status/1814058601180492195' target='_blank'>thread 3</a>."
   },
   {
     "date": "Jun 8, 2024",

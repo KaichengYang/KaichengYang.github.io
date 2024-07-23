@@ -1,5 +1,33 @@
 [
   {
+    "title": "Elon Musk didn’t rid Twitter of bots. X is paying armies of them for slop",
+    "url": "https://sherwood.news/tech/elon-musk-didnt-rid-twitter-of-bots-x-is-paying-armies-of-them-for-slop/",
+    "outlet": "Sherwood News",
+    "date": "July 17, 2024",
+    "year": [
+      2024
+    ],
+    "type": "quotation",
+    "project_id": [
+      "yang2023anatomy", "yang2024characteristics"
+    ],
+    "topic": "social bot",
+    "toshow": true
+  },
+  {
+    "title": "Hunting for AI bots? These four words could do the trick",
+    "url": "https://www.nbcnews.com/tech/internet/hunting-ai-bots-four-words-trick-rcna161318",
+    "outlet": "NBC News",
+    "date": "July 14, 2024",
+    "year": [
+      2024
+    ],
+    "type": "quotation",
+    "topic": "social bot",
+    "toshow": true,
+    "highlight": true
+  },
+  {
     "title": "The 'dead internet theory' makes eerie claims about an AI-run web. The truth is more sinister",
     "url": "https://theconversation.com/the-dead-internet-theory-makes-eerie-claims-about-an-ai-run-web-the-truth-is-more-sinister-229609",
     "outlet": "The Conversation",
