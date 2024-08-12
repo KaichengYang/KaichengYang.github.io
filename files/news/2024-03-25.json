@@ -1,0 +1,37 @@
+{
+  "date": "2024-03-25",
+  "type": "general",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Our"
+    },
+    {
+      "type": "link",
+      "msg": "survey",
+      "link": "https://www.reuters.com/technology/elon-musks-x-restructuring-curtails-disinformation-research-spurs-legal-fears-2023-11-06/"
+    },
+    {
+      "type": "string",
+      "msg": "regarding the status of research projects relying on Twitter data was"
+    },
+    {
+      "type": "link",
+      "msg": "cited in the court ruling",
+      "link": "https://storage.courtlistener.com/recap/gov.uscourts.cand.416212/gov.uscourts.cand.416212.75.0.pdf"
+    },
+    {
+      "type": "string",
+      "msg": "that"
+    },
+    {
+      "type": "link",
+      "msg": "dismissed all allegations",
+      "link": "https://counterhate.com/blog/elon-musk-vs-ccdh-nonprofit-wins-dismissal-of-baseless-and-intimidatory-lawsuit"
+    },
+    {
+      "type": "string",
+      "msg": "of Twitter/X against CCDH"
+    }
+  ]
+}

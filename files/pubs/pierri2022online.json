@@ -1,0 +1,54 @@
+{
+  "authors_string": "Pierri, F., Perry, B., DeVerna, M., <u>Yang, K. C.</u>, Flammini, A. , Menczer, F., & Bryden, J.",
+  "authors": [
+    {"id": "fpierri"},
+    {"id": "bperry"},
+    {"id": "mdeverna"},
+    {"id": "kcyang", "annotation": ["highlight"]},
+    {"id": "aflammini"},
+    {"id": "fmenczer"},
+    {"id": "jbryden"}
+  ],
+  "year": [
+    2022
+  ],
+  "date": "2022-04-26",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "socialmedia",
+    "covid",
+    "misinformation"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.1038/s41598-022-10070-w",
+      "name": "DOI"
+    },
+    {
+      "url": "https://arxiv.org/abs/2104.10635",
+      "name": "arXiv"
+    },
+    {
+      "url": "https://github.com/osome-iu/CoVaxxy-Misinfo",
+      "name": "GitHub"
+    }
+  ],
+  "hornors": [
+    {
+      "url": "https://www.nature.com/collections/jhjibhhicg",
+      "text": "Top 100 downloaded papers for Scientific Reports in 2022"
+    },
+    {
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2023/03/ERP-2023.pdf",
+      "text": "Cited by the 2023 Economic Report of the President (Biden-Harris Administration)"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1038/s41598-022-10070-w"
+  },
+  "bibtex_string": "@article{pierri2022online,\n\ttitle={Online misinformation is linked to early COVID-19 vaccination hesitancy and refusal},\n\tauthor={Pierri, Francesco and Perry, Brea L and DeVerna, Matthew R and Yang, Kai-Cheng and Flammini, Alessandro and Menczer, Filippo and Bryden, John},\n\tjournal={Scientific reports},\n\tvolume={12},\n\tnumber={1},\n\tpages={5966},\n\tyear={2022},\n\tpublisher={Nature Publishing Group UK London}}",
+  "abstract": "Widespread uptake of vaccines is necessary to achieve herd immunity. However, uptake rates have varied across U.S. states during the first six months of the COVID-19 vaccination program. Misbeliefs may play an important role in vaccine hesitancy, and there is a need to understand relationships between misinformation, beliefs, behaviors, and health outcomes. Here we investigate the extent to which COVID-19 vaccination rates and vaccine hesitancy are associated with levels of online misinformation about vaccines. We also look for evidence of directionality from online misinformation to vaccine hesitancy. We find a negative relationship between misinformation and vaccination uptake rates. Online misinformation is also correlated with vaccine hesitancy rates taken from survey data. Associations between vaccine outcomes and misinformation remain significant when accounting for political as well as demographic and socioeconomic factors. While vaccine hesitancy is strongly associated with Republican vote share, we observe that the effect of online misinformation on hesitancy is strongest across Democratic rather than Republican counties. Granger causality analysis shows evidence for a directional relationship from online misinformation to vaccine hesitancy. Our results support a need for interventions that address misbeliefs, allowing individuals to make better-informed health decisions."
+}

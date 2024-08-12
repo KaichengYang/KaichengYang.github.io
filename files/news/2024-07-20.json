@@ -1,0 +1,45 @@
+{
+  "date": "2024-07-20",
+  "type": "general",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "I attended"
+    },
+    {
+      "type": "link",
+      "msg": "IC2S2",
+      "link": "https://ic2s2-2024.org/"
+    },
+    {
+      "type": "string",
+      "msg": "at Philadelphia, PA. I delivered one"
+    },
+    {
+      "type": "link",
+      "msg": "tutorial",
+      "link": "https://osome.iu.edu/events/ic2s2-2024-workshop"
+    },
+    {
+      "type": "string",
+      "msg": "and three talks. My coauthors delivered two talks and presented three posters. See the Twitter threads for details:"
+    },
+    {
+      "type": "link",
+      "msg": "thread 1",
+      "link": "https://x.com/yang3kc/status/1813670555075375385",
+      "punctuation": ","
+    },
+    {
+      "type": "link",
+      "msg": "thread 2",
+      "link": "https://x.com/yang3kc/status/1814053567340445814",
+      "punctuation": ","
+    },
+    {
+      "type": "link",
+      "msg": "thread 3",
+      "link": "https://x.com/yang3kc/status/1814058601180492195"
+    }
+  ]
+}

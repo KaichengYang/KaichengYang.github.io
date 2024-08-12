@@ -1,0 +1,36 @@
+{
+  "authors": [
+    {"id": "hyan"},
+    {"id": "kcyang", "annotation": ["highlight"] },
+    {"id": "jshanahan"},
+    {"id": "fmenczer"}
+  ],
+  "year": [
+    2023
+  ],
+  "date": "2023-11-24",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "socialmedia",
+    "bot"
+  ],
+  "highlight": [],
+  "venue": "Scientific Reports. 13(1), 20707.",
+  "links": [
+    {
+      "url": "https://doi.org/10.1038/s41598-023-46630-x",
+      "name": "DOI"
+    },
+    {
+      "url": "https://doi.org/10.31219/osf.io/ap2qf",
+      "name": "OSF"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1038/s41598-023-46630-x"
+  },
+  "bibtex_string": "@article{yan2023exposure,\n\ttitle={Exposure to social bots amplifies perceptual biases and regulation propensity},\n\tauthor={Yan, Harry Yaojun and Yang, Kai-Cheng and Shanahan, James and Menczer, Filippo},\n\tjournal={Scientific Reports},\n\tvolume={13},\n\tnumber={1},\n\tpages={20707},\n\tyear={2023},\n\tpublisher={Nature Publishing Group UK London}}",
+  "abstract": "Automated accounts on social media that impersonate real users, often called “social bots,” have received a great deal of attention from academia and the public. Here we present experiments designed to investigate public perceptions and policy preferences about social bots, in particular how they are affected by exposure to bots. We find that before exposure, participants have some biases: they tend to overestimate the prevalence of bots and see others as more vulnerable to bot influence than themselves. These biases are amplified after bot exposure. Furthermore, exposure tends to impair judgment of bot-recognition self-efficacy and increase propensity toward stricter bot-regulation policies among participants. Decreased self-efficacy and increased perceptions of bot influence on others are significantly associated with these policy preference changes. We discuss the relationship between perceptions about social bots and growing dissatisfaction with the polluted social media environment."
+}

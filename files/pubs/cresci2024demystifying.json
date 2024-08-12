@@ -1,0 +1,32 @@
+{
+  "authors": [
+    {"id": "scresci"},
+    {"id": "kcyang", "annotation": "highlight"},
+    {"id": "aspognardi"},
+    {"id": "rdipietro"},
+    {"id": "fmenczer"},
+    {"id": "mpetrocchi"}
+  ],
+  "year": [
+    2024
+  ],
+  "date": "2024-03-27",
+  "type": [
+    "preprint"
+  ],
+  "topic": [
+    "bot"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://arxiv.org/abs/2303.17251",
+      "name": "arXiv"
+    }
+  ],
+  "altmetric": {
+    "arxiv_id": "2303.17251"
+  },
+  "bibtex_string": "@misc{cresci2024demystifying,\n\ttitle={Demystifying Misconceptions in Social Bots Research},\n\tauthor={Stefano Cresci and Kai-Cheng Yang and Angelo Spognardi and Roberto Di Pietro and Filippo Menczer and Marinella Petrocchi},\n\tyear={2024},\n\teprint={2303.17251},\n\tarchivePrefix={arXiv},\n\tprimaryClass={cs.SI},\n\turl={https://arxiv.org/abs/2303.17251},journal={arXiv:2303.17251}}",
+  "abstract": "Research on social bots aims at advancing knowledge and providing solutions to one of the most debated forms of online manipulation. Yet, social bot research is plagued by widespread biases, hyped results, and misconceptions that set the stage for ambiguities, unrealistic expectations, and seemingly irreconcilable findings. Overcoming such issues is instrumental towards ensuring reliable solutions and reaffirming the validity of the scientific method. In this contribution, we review some recent results in social bots research, highlighting and revising factual errors as well as methodological and conceptual biases. More importantly, we demystify common misconceptions, addressing fundamental points on how social bots research is discussed. Our analysis surfaces the need to discuss research about online disinformation and manipulation in a rigorous, unbiased, and responsible way. This article bolsters such effort by identifying and refuting common fallacious arguments used by both proponents and opponents of social bots research, as well as providing directions toward sound methodologies for future research in the field."
+}

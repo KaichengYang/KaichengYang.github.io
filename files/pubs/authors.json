@@ -1,0 +1,242 @@
+{
+  "kcyang": {
+    "full_name": "Kai-Cheng Yang",
+    "abbr_name": "Yang, K.C.",
+    "link": "https://www.kaichengyang.me"
+  },
+  "fmenczer": {
+    "full_name": "Filippo Menczer",
+    "abbr_name": "Menczer, F.",
+    "link": "https://cnets.indiana.edu/fil"
+  },
+  "afeal": {
+    "full_name": "Alvaro Feal",
+    "abbr_name": "Feal, A.",
+    "link": "https://feal94.github.io"
+  },
+  "jgleason": {
+    "full_name": "Jeffrey Gleason",
+    "abbr_name": "Gleason, J.",
+    "link": "https://jlgleason.github.io"
+  },
+  "pgoel": {
+    "full_name": "Pranav Goel",
+    "abbr_name": "Goel, P.",
+    "link": "https://pranav-goel.github.io"
+  },
+  "jradford": {
+    "full_name": "Jason Radford",
+    "abbr_name": "Radford, J.",
+    "link": "https://www.networkscienceinstitute.org/people/jason-radford"
+  },
+  "jbasl": {
+    "full_name": "John Basl",
+    "abbr_name": "Basl, J.",
+    "link": "https://johnbasl.net"
+  },
+  "mmeyer": {
+    "full_name": "Michelle Meyer",
+    "abbr_name": "Meyer, M.",
+    "link": "https://www.michellenmeyer.com"
+  },
+  "dchoffnes": {
+    "full_name": "David Choffnes",
+    "abbr_name": "Choffnes, D.",
+    "link": "https://david.choffnes.com/"
+  },
+  "cwilson": {
+    "full_name": "Christo Wilson",
+    "abbr_name": "Wilson, C.",
+    "link": "https://cbw.sh"
+  },
+  "dlazer": {
+    "full_name": "David Lazer",
+    "abbr_name": "Lazer, D.",
+    "link": "https://lazerlab.net"
+  },
+  "sscarano": {
+    "full_name": "Stephen Scarano",
+    "abbr_name": "Scarano, S.",
+    "link": "https://stephentemp.github.io"
+  },
+  "vvasudevan": {
+    "full_name": "Vijayalakshmi Vasudevan",
+    "abbr_name": "Vasudevan, V.",
+    "link": "https://scholar.google.com/citations?user=unJFUVoAAAAJ&hl=en&oi=ao"
+  },
+  "msamory": {
+    "full_name": "Mattia Samory",
+    "abbr_name": "Samory, M.",
+    "link": "https://hide-ous.github.io/aboutme"
+  },
+  "jyang": {
+    "full_name": "JungHwan Yang",
+    "abbr_name": "Yang, J.",
+    "link": "https://communication.illinois.edu/directory/profile/junghwan"
+  },
+  "pgrabowicz": {
+    "full_name": "Przemyslaw A. Grabowicz",
+    "abbr_name": "Grabowicz, P. A.",
+    "link": "https://przemyslslaw.github.io"
+  },
+  "scresci": {
+    "full_name": "Stefano Cresci",
+    "abbr_name": "Cresci, S.",
+    "link": "https://www.iit.cnr.it/stefano.cresci"
+  },
+  "aspognardi": {
+    "full_name": "Angelo Spognardi",
+    "abbr_name": "Spognardi, A.",
+    "link": "https://angelospognardi.site.uniroma1.it"
+  },
+  "rdipietro": {
+    "full_name": "Roberto Di Pietro",
+    "abbr_name": "Pietro, R.",
+    "link": "https://cri-lab.net/"
+  },
+  "mpetrocchi": {
+    "full_name": "Marinella Petrocchi",
+    "abbr_name": "Petrocchi, M.",
+    "link": "https://www.iit.cnr.it/marinella.petrocchi"
+  },
+  "dsingh": {
+    "full_name": "Danishjeet Singh",
+    "abbr_name": "Singh, D.",
+    "link": "https://singhdan.me"
+  },
+  "hyan": {
+    "full_name": "Harry Yan",
+    "abbr_name": "Yan, H.",
+    "link": "https://scholar.google.com/citations?user=tBCQR_8AAAAJ&hl=en&oi=ao"
+  },
+  "mdeverna": {
+    "full_name": "Matthew DeVerna",
+    "abbr_name": "DeVerna, M. R.",
+    "link": "https://www.matthewdeverna.com"
+  },
+  "jshanahan": {
+    "full_name": "James Shanahan",
+    "abbr_name": "Shanahan, J.",
+    "link": "https://scholar.google.com/citations?user=CjtVXhEAAAAJ&hl=en&oi=ao"
+  },
+  "raiyappa": {
+    "full_name": "Rachith Aiyappa",
+    "abbr_name": "Aiyappa, R.",
+    "link": "https://rachithaiyappa.github.io"
+  },
+  "mpote": {
+    "full_name": "Manita Pote",
+    "abbr_name": "Pote, M.",
+    "link": "https://manitapote.github.io"
+  },
+  "btruong": {
+    "full_name": "Bao Tran Truong",
+    "abbr_name": "Tran, B. T.",
+    "link": "https://btrantruong.github.io"
+  },
+  "wzhao": {
+    "full_name": "Wanying Zhao",
+    "abbr_name": "Zhao, W.",
+    "link": "https://sites.google.com/view/chubbyland-wz"
+  },
+  "daxelrod": {
+    "full_name": "David Axelrod",
+    "abbr_name": "Axelrod, D.",
+    "link": "https://scholar.google.com/citations?user=a46vJcYAAAAJ&hl=en&oi=ao"
+  },
+  "apessianzadeh": {
+    "full_name": "Aria Pessianzadeh",
+    "abbr_name": "Pessianzadeh, A.",
+    "link": "https://scholar.google.com/citations?user=9XOCsOUAAAAJ&hl=en"
+  },
+  "zkachwala": {
+    "full_name": "Zoher Kachwala",
+    "abbr_name": "Kachwala, Z.",
+    "link": "https://zoher15.github.io"
+  },
+  "mkim": {
+    "full_name": "Munjung Kim",
+    "abbr_name": "Kim, M.",
+    "link": "https://munjungkim.github.io"
+  },
+  "ocseckin": {
+    "full_name": "Ozgur Can Seckin",
+    "abbr_name": "Seckin, O. C.",
+    "link": "https://www.ozgurcanseckin.com"
+  },
+  "mkim2": {
+    "full_name": "Minsuk Kim",
+    "abbr_name": "Kim, M.",
+    "link": "https://sites.google.com/view/danielhankim/home"
+  },
+  "sgandhi": {
+    "full_name": "Sunny Gandhi",
+    "abbr_name": "Gandhi, S.",
+    "link": "https://startupiu.luddy.indiana.edu/about/sunny-gandhi.html"
+  },
+  "amanikonda": {
+    "full_name": "Amrutha Manikonda",
+    "abbr_name": "Manikonda, A.",
+    "link": "https://www.linkedin.com/in/amruthamanikonda"
+  },
+  "fpierri": {
+    "full_name": "Francesco Pierri",
+    "abbr_name": "Pierri, F.",
+    "link": "https://pierri.faculty.polimi.it"
+  },
+  "jbryden": {
+    "full_name": "John Bryden",
+    "abbr_name": "Bryden, J.",
+    "link": "https://jbryden.co.uk"
+  },
+  "eferrara": {
+    "full_name": "Emilio Ferrara",
+    "abbr_name": "Ferrara, E.",
+    "link": "http://www.emilio.ferrara.name"
+  },
+  "ctlugo": {
+    "full_name": "Christopher Torres-Lugo",
+    "abbr_name": "Torres-Lugo, C.",
+    "link": "https://scholar.google.com/citations?user=FmhLgVQAAAAJ&hl=en&oi=ao"
+  },
+  "zduan": {
+    "full_name": "Zening Duan",
+    "abbr_name": "Duan, Z.",
+    "link": "https://journalism.wisc.edu/news/staff/duan-zening"
+  },
+  "jli": {
+    "full_name": "Jianing Li",
+    "abbr_name": "Li, J.",
+    "link": "https://scholar.google.com/citations?user=fLEX53cAAAAJ&hl=en&oi=sra"
+  },
+  "jlukito": {
+    "full_name": "Josephine Lukito",
+    "abbr_name": "Lukito, J.",
+    "link": "https://www.jlukito.com"
+  },
+  "fchen": {
+    "full_name": "Fan Chen",
+    "abbr_name": "Chen, F.",
+    "link": "https://www.chenfan.org"
+  },
+  "dshah": {
+    "full_name": "Dhavan V. Shah",
+    "abbr_name": "Shah, D. V.",
+    "link": "https://dshah.journalism.wisc.edu"
+  },
+  "syang": {
+    "full_name": "Sijia Yang",
+    "abbr_name": "Yang, S.",
+    "link": "https://journalism.wisc.edu/news/staff/yang-sijia"
+  },
+  "bperry": {
+    "full_name": "Brea L. Perry",
+    "abbr_name": "Perry, B. L.",
+    "link": "https://sociology.indiana.edu/about/faculty/perry-brea.html"
+  },
+  "aflammini": {
+    "full_name": "Alessandro Flammini",
+    "abbr_name": "Flammini, A.",
+    "link": "https://cnets.indiana.edu/aflammin"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2024-06-08",
+  "type": "general",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "I attended"
+    },
+    {
+      "type": "link",
+      "msg": "ICWSM 2024",
+      "link": "https://www.icwsm.org/2024/index.html/"
+    },
+    {
+      "type": "string",
+      "msg": "at Buffalo, NY. On Jun 3, I co-organized the"
+    },
+    {
+      "type": "link",
+      "msg": "CySoc workshop",
+      "link": "https://cy-soc.github.io/2024/"
+    },
+    {
+      "type": "string",
+      "msg": "On Jun 4, I presented our paper"
+    },
+    {
+      "type": "paper",
+      "msg": "Anatomy of an AI-powered malicious social botnet",
+      "link": "https://doi.org/10.51685/jqd.2024.icwsm.7"
+    }
+  ]
+}

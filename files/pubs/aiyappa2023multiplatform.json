@@ -1,0 +1,54 @@
+{
+  "authors_string": "Aiyappa, R., DeVerna, M. R., Pote, M., Tran Truong, B., Zhao, W., Axelrod, D., Pessianzadeh, A., Kachwala, Z., Kim, M., Can Seckin, O., Kim, M., Gandhi, S., Manikonda, A., Pierri, F., Menczer, F., & <u>Yang, K.-C.</u>",
+  "authors": [
+    {"id": "raiyappa"},
+    {"id": "mdeverna"},
+    {"id": "mpote"},
+    {"id": "btruong"},
+    {"id": "wzhao"},
+    {"id": "daxelrod"},
+    {"id": "apessianzadeh"},
+    {"id": "zkachwala"},
+    {"id": "mkim"},
+    {"id": "ocseckin"},
+    {"id": "mkim"},
+    {"id": "sgandhi"},
+    {"id": "amanikonda"},
+    {"id": "fpierri"},
+    {"id": "fmenczer"},
+    {"id": "kcyang", "annotation": ["corresponding_author", "highlight"]}
+  ],
+  "year": [
+    2023
+  ],
+  "date": "2023-06-02",
+  "type": [
+    "conf"
+  ],
+  "topic": [
+    "socialmedia",
+    "politics"
+  ],
+  "highlight": [],
+  "id": "aiyappa2023multiplatform",
+  "venue": "Proceedings of the International AAAI Conference on Web and Social Media (ICWSM), vol. 17, pp. 981-989.",
+  "links": [
+    {
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/22205",
+      "name": "DOI"
+    },
+    {
+      "url": "https://arxiv.org/abs/2301.06287",
+      "name": "arXiv"
+    },
+    {
+      "url": "https://github.com/osome-iu/MEIU22",
+      "name": "GitHub"
+    }
+  ],
+  "altmetric": {
+    "arxiv_id": "2301.06287"
+  },
+  "bibtex_string": "@article{aiyappa2023multiplatform,\n\ttitle={A Multi-Platform Collection of Social Media Posts about the 2022 U.S. Midterm Elections},\n\tvolume={17},\n\turl={https://ojs.aaai.org/index.php/ICWSM/article/view/22205},\n\tDOI={10.1609/icwsm.v17i1.22205},\n\tnumber={1},\n\tjournal={Proceedings of the International AAAI Conference on Web and Social Media},\n\tauthor={Aiyappa, Rachith and DeVerna, Matthew R. and Pote, Manita and Tran Truong, Bao and Zhao, Wanying and Axelrod, David and Pessianzadeh, Aria and Kachwala, Zoher and Kim, Munjung and Can Seckin, Ozgur and Kim, Minsuk and Gandhi, Sunny and Manikonda, Amrutha and Pierri, Francesco and Menczer, Filippo and Yang, Kai-Cheng},\n\tyear={2023},\n\tmonth={Jun.},\n\tpages={981-989}}",
+  "abstract": "Social media are utilized by millions of citizens to discuss important political issues. Politicians use these platforms to connect with the public and broadcast policy positions. Therefore, data from social media has enabled many studies of political discussion. While most analyses are limited to data from individual platforms, people are embedded in a larger information ecosystem spanning multiple social networks. Here we describe and provide access to the Indiana University 2022 U.S. Midterms Multi-Platform Social Media Dataset (MEIU22), a collection of social media posts from Twitter, Facebook, Instagram, Reddit, and 4chan. MEIU22 links to posts about the midterm elections based on a comprehensive list of keywords and tracks the social media accounts of 1,011 candidates from October 1 to December 25, 2022. We also publish the source code of our pipeline to enable similar multi-platform research projects."
+}
