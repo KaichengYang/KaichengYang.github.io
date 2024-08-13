@@ -1,0 +1,19 @@
+{
+  "date": "2024-08-12",
+  "type": "new_preprint",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "New preprint"
+    },
+    {
+      "type": "paper",
+      "msg": "Accuracy and Political Bias of News Source Credibility Ratings by Large Language Models",
+      "link": "https://arxiv.org/abs/2304.00228"
+    },
+    {
+      "type": "string",
+      "msg": "available"
+    }
+  ]
+}
