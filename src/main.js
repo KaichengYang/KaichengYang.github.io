@@ -8,9 +8,10 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
-import { faUserSecret, faEnvelope, faFile, faBookmark, faCircleArrowLeft, faCircleArrowRight, faLink } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faTwitter, faGoogleScholar, faResearchgate } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faFile, faBookmark, faCircleArrowLeft, faCircleArrowRight, faLink, faDatabase, faUser, faCircleUser, faDownload } from '@fortawesome/free-solid-svg-icons'
+import { faFilePdf as faFilePdfRegular, faUser as faUserRegular, faCircleUser as faCircleUserRegular, faEnvelope as faEnvelopeRegular, faCopy as faCopyRegular, faCircleXmark as faCircleXmarkRegular} from '@fortawesome/free-regular-svg-icons'
+import { faLinkedin, faTwitter, faGoogleScholar, faResearchgate, faGithub } from '@fortawesome/free-brands-svg-icons'
 /* add icons to the library */
-library.add(faUserSecret, faEnvelope, faFile, faBookmark, faLinkedin, faTwitter, faGoogleScholar, faResearchgate, faCircleArrowLeft, faCircleArrowRight, faLink)
+library.add(faEnvelope, faFile, faBookmark, faLinkedin, faTwitter, faGoogleScholar, faResearchgate, faCircleArrowLeft, faCircleArrowRight, faLink, faFilePdfRegular, faDatabase, faGithub, faUser, faCircleUser, faUserRegular, faCircleUserRegular, faEnvelopeRegular, faCopyRegular, faCircleXmarkRegular, faDownload)
 
 createApp(App).use(router).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
