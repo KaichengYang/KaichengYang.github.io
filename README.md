@@ -6,14 +6,8 @@ npm install
 npm run dev
 ```
 
-Build the project:
-```sh
-make clean
-make build
-```
-
 
 # TODO
 
-- [] Add more refs
-- [] Handle books
+- [ ] Add more refs
+- [ ] Handle books
