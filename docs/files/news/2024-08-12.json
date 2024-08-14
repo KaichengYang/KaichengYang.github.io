@@ -13,7 +13,20 @@
     },
     {
       "type": "string",
-      "msg": "available"
+      "msg": "available."
+    },
+    {
+      "type": "string",
+      "msg": "Check out my Twitter"
+    },
+    {
+      "type": "link",
+      "msg": "thread",
+      "link": "https://x.com/yang3kc/status/1823404980126261262"
+    },
+    {
+      "type": "string",
+      "msg": "for more details"
     }
   ]
 }
