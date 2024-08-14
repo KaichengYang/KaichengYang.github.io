@@ -4,7 +4,7 @@
     <div class="grid grid-cols-1 md:grid-cols-3">
       <!-- photo -->
       <div class="col-span-full md:col-span-1">
-        <h2 class="text-2xl font-bold text-center my-4">Photo</h2>
+        <h2 class="text-2xl font-bold text-center mb-2 mt-8">Photo</h2>
         <div class="flex justify-center">
           <img src="/photos/avatar_01.png" alt="Avatar" class="w-2/3 h-auto">
         </div>
@@ -20,7 +20,7 @@
 
       <!-- short bio -->
       <div class="col-span-full md:col-span-2 text-center md:text-left">
-        <h2 class="text-2xl font-bold my-4 text-center">Short bio</h2>
+        <h2 class="text-2xl font-bold mb-2 mt-8 text-center">Short bio</h2>
         <div class="col-span-full flex justify-center">
         <p class="prose" id="short-bio">
           {{ bio.short }}
@@ -32,7 +32,7 @@
       </div>
       <!-- longer bio -->
       <div class="col-span-full text-center md:text-left">
-        <h2 class="text-2xl font-bold my-4 text-center">Longer bio</h2>
+        <h2 class="text-2xl font-bold mb-2 mt-8 text-center">Longer bio</h2>
         <p class="prose">
           {{ bio.long }}
         </p>
