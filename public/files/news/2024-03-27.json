@@ -1,0 +1,24 @@
+{
+  "date": "2024-03-27",
+  "type": "media",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Check out our new Tech Policy Press"
+    },
+    {
+      "type": "link",
+      "msg": "piece",
+      "link": "https://www.techpolicy.press/what-does-crowdtangles-demise-signal-for-data-access-under-the-dsa/"
+    },
+    {
+      "type": "string",
+      "msg": "regarding the sunset of CrowdTangle and our"
+    },
+    {
+      "type": "link",
+      "msg": "DSA Data Access Audit",
+      "link": "https://independenttechresearch.org/introducing-the-dsa-data-access-audit/"
+    }
+  ]
+}

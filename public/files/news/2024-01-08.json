@@ -1,0 +1,10 @@
+{
+  "date": "2024-01-08",
+  "type": "new_preprint",
+  "msgs": [
+    {"type": "string", "msg": "New preprint"},
+    {"type": "paper", "msg": "Characteristics and prevalence of fake social media profiles with AI-generated faces", "link": "https://arxiv.org/abs/2401.02627"},
+    {"type": "string", "msg": "available. You can chat with the paper through this"},
+    {"type": "link", "msg": "GPT", "link": "https://chat.openai.com/g/g-TRp4eKw4j-social-media-accounts-with-ai-generated-faces"}
+  ]
+}

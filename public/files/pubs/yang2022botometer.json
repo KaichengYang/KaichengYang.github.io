@@ -1,0 +1,39 @@
+{
+  "authors_string": "<u>Yang, K. C.</u>, Ferrara, E., & Menczer, F.",
+  "authors": [
+    {"id": "kcyang", "annotation": ["corresponding_author", "highlight"]},
+    {"id": "eferrara"},
+    {"id": "fmenczer"}
+  ],
+  "year": [
+    2022
+  ],
+  "date": "2022-10-20",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "socialmedia",
+    "bot"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.1007/s42001-022-00177-5",
+      "name": "DOI"
+    },
+    {
+      "url": "https://arxiv.org/abs/2201.01608",
+      "name": "arXiv"
+    },
+    {
+      "url": "https://github.com/osome-iu/Botometer101",
+      "name": "GitHub"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1007/s42001-022-00177-5"
+  },
+  "bibtex_string": "@article{yang2022botometer,\n\ttitle={Botometer 101: Social bot practicum for computational social scientists},\n\tauthor={Yang, Kai-Cheng and Ferrara, Emilio and Menczer, Filippo},\n\tjournal={Journal of computational social science},\n\tvolume={5},\n\tnumber={2},\n\tpages={1511--1528},\n\tyear={2022},\n\tpublisher={Springer}}",
+  "abstract": "Social bots have become an important component of online social media. Deceptive bots, in particular, can manipulate online discussions of important issues ranging from elections to public health, threatening the constructive exchange of information. Their ubiquity makes them an interesting research subject and requires researchers to properly handle them when conducting studies using social media data. Therefore, it is important for researchers to gain access to bot detection tools that are reliable and easy to use. This paper aims to provide an introductory tutorial of Botometer, a public tool for bot detection on Twitter, for readers who are new to this topic and may not be familiar with programming and machine learning. We introduce how Botometer works, the different ways users can access it, and present a case study as a demonstration. Readers can use the case study code as a template for their own research. We also discuss recommended practice for using Botometer."
+}

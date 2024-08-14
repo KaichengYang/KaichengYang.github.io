@@ -1,0 +1,49 @@
+{
+  "authors": [
+    {
+      "id": "kcyang",
+      "annotation": ["corresponding_author", "highlight"]
+    },
+    {
+      "id": "fmenczer"
+    }
+  ],
+  "date": "2024-05-29",
+  "year": [
+    2024
+  ],
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "bot",
+    "genai",
+    "socialmedia"
+  ],
+  "highlight": [
+    "highlight"
+  ],
+  "links": [
+    {
+      "url": "https://doi.org/10.51685/jqd.2024.icwsm.7",
+      "name": "DOI"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.16336",
+      "name": "arXiv"
+    },
+    {
+      "url": "https://github.com/osome-iu/AIBot_fox8",
+      "name": "GitHub"
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.8035289",
+      "name": "Dataset"
+    }
+  ],
+  "altmetric": {
+    "arxiv_id": "2307.16336"
+  },
+  "bibtex_string": "@article{yang2024anatomy,\n\ttitle={Anatomy of an AI-powered malicious social botnet},\n\tvolume={4},\n\turl={https://journalqd.org/article/view/5848},\n\tDOI={10.51685/jqd.2024.icwsm.7},\n\tjournal={Journal of Quantitative Description: Digital Media },\n\tauthor={Yang, Kai-Cheng and Menczer, Filippo},\n\tyear={2024},\n\tmonth={May}}",
+  "abstract": "Large language models (LLMs) exhibit impressive capabilities in generating realistic text across diverse subjects. Concerns have been raised that they could be utilized to produce fake content with a deceptive intention, although evidence thus far remains anecdotal. This paper presents a case study about a Twitter botnet that appears to employ ChatGPT to generate human-like content. Through heuristics, we identify 1,140 accounts and validate them via manual annotation. These accounts form a dense cluster of fake personas that exhibit similar behaviors, including posting machine-generated content and stolen images, and engage with each other through replies and retweets. ChatGPT-generated content promotes suspicious websites and spreads harmful comments. While the accounts in the AI botnet can be detected through their coordination patterns, current state-of-the-art LLM content classifiers fail to discriminate between them and human accounts in the wild. These findings highlight the threats posed by AI-enabled social bots."
+}

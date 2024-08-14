@@ -1,0 +1,162 @@
+[
+  {
+    "id": "botometer",
+    "title": "Botometer X",
+    "image": "botometer",
+    "msg": "Detect bot-like Twitter accounts",
+    "links": [
+      {
+        "url": "https://botometer.osome.iu.edu/",
+        "name": "Web interface"
+      },
+      {
+        "url": "https://rapidapi.com/OSoMe/api/botometer-pro",
+        "name": "API"
+      },
+      {
+        "url": "https://pypi.org/project/botometer/",
+        "name": "Python library"
+      }
+    ]
+  },
+  {
+    "id": "botamp",
+    "title": "BotAmp",
+    "image": "botamp",
+    "msg": "Compare the bot amplification levels of two sets of tweets",
+    "links": [
+      {
+        "url": "https://botometer.osome.iu.edu/botamp/",
+        "name": "BotAmp"
+      }
+    ]
+  },
+  {
+    "id": "midterm22",
+    "title": "US Midterm 2022 dashboard",
+    "image": "midterm22",
+    "msg": "Tracks the top misinformation spreaders and sources for US 2022 midterm elections",
+    "links": [
+      {
+        "url": "https://osome.iu.edu/tools/midterm22/",
+        "name": "US Midterm 2022 dashboard"
+      }
+    ]
+  },
+  {
+    "id": "vmfd",
+    "title": "vMFD",
+    "image": "vmfd",
+    "msg": "Infer moral appeals from text",
+    "links": [
+      {
+        "url": "https://github.com/ZeningDuan/vMFD",
+        "name": "GitHub"
+      },
+      {
+        "url": "https://pypi.org/project/vMFD/",
+        "name": "PyPI"
+      }
+    ]
+  },
+  {
+    "id": "birank",
+    "title": "BiRank",
+    "image": "birank",
+    "msg": "Bipartite network PageRank",
+    "links": [
+      {
+        "url": "https://github.com/BrianAronson/birankr",
+        "name": "GitHub"
+      },
+      {
+        "url": "https://pypi.org/project/birankpy/",
+        "name": "PyPI"
+      },
+      {
+        "url": "https://cran.r-project.org/web/packages/birankr/index.html",
+        "name": "CRAN"
+      }
+    ]
+  },
+  {
+    "id": "scicolor",
+    "title": "Scicolor",
+    "image": "scicolor",
+    "msg": "A collection of color maps for scientific visualization",
+    "links": [
+      {
+        "url": "https://github.com/yang3kc/scicolor",
+        "name": "GitHub"
+      },
+      {
+        "url": "https://pypi.org/project/scicolor/",
+        "name": "PyPI"
+      },
+      {
+        "url": "https://yang3kc.github.io/scicolor/",
+        "name": "Scicolor Color Picker"
+      }
+    ]
+  },
+  {
+    "id": "hoaxy",
+    "title": "Hoaxy",
+    "image": "hoaxy",
+    "msg": "Visualize the spread of claims and fact checking",
+    "links": [
+      {
+        "url": "https://hoaxy.osome.iu.edu/",
+        "name": "Hoaxy"
+      }
+    ]
+  },
+  {
+    "id": "covaxxy",
+    "title": "CoVaxxy",
+    "image": "covaxxy",
+    "msg": "Dashboard for COVID-19 vaccine Twitter discussion",
+    "links": [
+      {
+        "url": "https://osome.iu.edu/tools/covaxxy",
+        "name": "CoVaxxy"
+      },
+      {
+        "url": "https://github.com/osome-iu/CoVaxxy",
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
+    "id": "osometweet",
+    "title": "OSoMeTweet",
+    "image": "osometweet",
+    "msg": "Python package to access Twitter's V2 API",
+    "links": [
+      {
+        "url": "https://github.com/osome-iu/osometweet",
+        "name": "GitHub"
+      },
+      {
+        "url": "https://pypi.org/project/osometweet/",
+        "name": "PyPI"
+      }
+    ]
+  },
+  {
+    "id": "botslayer",
+    "title": "BotSlayer",
+    "image": "botslayer",
+    "msg": "Detect coordination and bot amplification",
+    "links": [
+      {
+        "url": "https://osome.iu.edu/tools/botslayer/",
+        "name": "BotSlayer"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/IUNetSci/BotSlayer-CE"
+      }
+    ]
+  }
+]

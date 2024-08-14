@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .link {
+  @apply font-normal;
+  @apply hover:text-primary;
+  @apply hover:decoration-2;
+} */
+
+.link {
+  @apply font-normal;
+  @apply text-primary;
+  @apply hover:text-gray-500;
+  @apply hover:decoration-2;
+}
