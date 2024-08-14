@@ -6,7 +6,10 @@
         <div class="flex flex-col items-center">
           <img :src="photo.src" :alt="photo.alt" class="object-cover w-[200px] md:w-[300px]">
           <a :href="photo.src" download>
-            <button class="btn btn-outline btn-primary mt-4 mb-8 mr-2">Download photo</button>
+            <button class="btn btn-outline btn-primary mt-4 mb-8 mr-2">
+              <font-awesome-icon :icon="['fas', 'download']" />
+              Download photo
+            </button>
           </a>
         </div>
       </div>

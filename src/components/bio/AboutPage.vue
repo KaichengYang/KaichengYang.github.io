@@ -10,7 +10,9 @@
         </div>
         <div class="flex justify-center">
           <a href="/photos/avatar_01.png" download>
-            <button class="btn btn-outline btn-primary mt-4 mr-2">Download photo</button>
+            <button class="btn btn-outline btn-primary mt-4 mr-2">
+              <font-awesome-icon :icon="['fas', 'download']" />
+              Download photo</button>
           </a>
           <router-link to="/photos">
             <button class="btn btn-outline btn-primary mt-4">More photos</button>
@@ -27,7 +29,9 @@
         </p>
         </div>
         <div class="flex justify-center">
-          <button class="btn btn-outline btn-primary mt-2" @click="copyToClipboard(bio.short)">Copy short bio</button>
+          <button class="btn btn-outline btn-primary mt-2" @click="copyToClipboard(bio.short)">
+            <font-awesome-icon :icon="['far', 'copy']" />
+            Copy short bio</button>
         </div>
       </div>
       <!-- longer bio -->
@@ -37,7 +41,9 @@
           {{ bio.long }}
         </p>
         <div class="flex justify-center">
-          <button class="btn btn-outline btn-primary mt-2" @click="copyToClipboard(bio.long)">Copy longer bio</button>
+          <button class="btn btn-outline btn-primary mt-2" @click="copyToClipboard(bio.long)">
+            <font-awesome-icon :icon="['far', 'copy']" />
+            Copy longer bio</button>
         </div>
       </div>
     </div>

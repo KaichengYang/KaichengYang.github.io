@@ -4,10 +4,16 @@
     <p><b>{{ pub_obj.bibtex.entryTags.title }}</b></p>
     <!-- authors  -->
     <p>
-      <span v-for="(author, index) in pub_obj.authors" :key="author.id" :class="{'font-bold': author.annotation && author.annotation.includes('highlight')}">
-        <a :href="author.info.link" target="_blank" class="underline text-primary">{{ author.info.abbr_name }}</a>
+      🧑‍💻️
+      <span v-for="(author, index) in pub_obj.authors" :key="author.id" >
+        <a :href="author.info.link" target="_blank" class="underline text-primary" :class="{'font-bold': author.annotation && author.annotation.includes('highlight')}">
+          <font-awesome-icon v-if="author.annotation && author.annotation.includes('highlight')" :icon="['fas', 'circle-user']" />
+          <font-awesome-icon v-else :icon="['far', 'circle-user']" />
+          {{ author.info.abbr_name }}
+          <!-- <font-awesome-icon v-if="author.annotation && author.annotation.includes('corresponding_author')" :icon="['far', 'envelope']" /> -->
+        </a>
         <span v-if="author.annotation && author.annotation.includes('corresponding_author')"></span>
-        <span v-if="index != pub_obj.authors.length - 1">, </span>
+        <span v-if="index != pub_obj.authors.length - 1"> | </span>
       </span>
     </p>
     <!-- venue  -->
@@ -17,14 +23,19 @@
     <span v-if="pub_obj.links">
       🔗
       <span v-for="(link, index) in pub_obj.links" :key="index">
-        <a v-bind:href="link.url" target="_blank" class="link"> {{ link.name }} </a>
+        <a v-bind:href="link.url" target="_blank" class="link">
+          <font-awesome-icon v-if="link.name === 'DOI' || link.name === 'arXiv' || link.name === 'OSF'" :icon="['far', 'file-pdf']" />
+          <font-awesome-icon v-else-if="link.name === 'Dataset'" :icon="['fas', 'database']" />
+          <font-awesome-icon v-else-if="link.name === 'GitHub'" :icon="['fab', 'github']" />
+          <font-awesome-icon v-else :icon="['fas', 'link']" />
+          {{ link.name }} </a>
         <span v-if="index != pub_obj.links.length - 1"> | </span>
       </span>
       <br>
     </span>
     <!-- media -->
     <span v-if="pub_obj.media.length > 0">
-      📰
+      🗞
       <span v-for="(media, index) in pub_obj.media" :key="index">
         <a v-bind:href="media.url" target="_blank" class="link"> {{ media.outlet }} </a>
         <span v-if="index != pub_obj.media.length - 1"> | </span>
@@ -42,8 +53,12 @@
             <pre class="whitespace-pre-wrap"><code>{{ pub_obj.bibtex_string }}</code></pre>
           </div>
           <div class="modal-action">
-            <button class="btn btn-outline btn-primary" @click="copyToClipboard(pub_obj.bibtex_string, 'Bibtex')">Copy Bibtex</button>
-            <button class="btn btn-outline btn-primary" @click="closeModal">Close</button>
+            <button class="btn btn-outline btn-primary" @click="copyToClipboard(pub_obj.bibtex_string, 'Bibtex')">
+              <font-awesome-icon :icon="['far', 'copy']" />
+              Copy Bibtex</button>
+            <button class="btn btn-outline btn-primary" @click="closeModal">
+              <font-awesome-icon :icon="['far', 'circle-xmark']" />
+              Close</button>
           </div>
         </div>
         <form method="dialog" class="modal-backdrop" @click="closeModal">
@@ -54,8 +69,12 @@
         <div class="modal-box w-11/12 max-w-4xl">
           <p class="prose">{{ pub_obj.abstract }}</p>
           <div class="modal-action">
-            <button class="btn btn-outline btn-primary" @click="copyToClipboard(pub_obj.abstract, 'Abstract')">Copy Abstract</button>
-            <button class="btn btn-outline btn-primary" @click="closeModal">Close</button>
+            <button class="btn btn-outline btn-primary" @click="copyToClipboard(pub_obj.abstract, 'Abstract')">
+              <font-awesome-icon :icon="['far', 'copy']" />
+              Copy Abstract</button>
+            <button class="btn btn-outline btn-primary" @click="closeModal">
+              <font-awesome-icon :icon="['far', 'circle-xmark']" />
+              Close</button>
           </div>
         </div>
         <form method="dialog" class="modal-backdrop" @click="closeModal">
