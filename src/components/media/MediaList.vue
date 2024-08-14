@@ -25,7 +25,7 @@
     <div class="font-mono col-span-full md:col-span-1 text-center">
       <span v-if="media.type == 'interview'" class="badge mt-1 text-white w-28" style="background-color: #006298;">Interview</span>
       <span v-if="media.type == 'quotation'" class="badge mt-1 text-white w-28" style="background-color: #006298;">Quotation</span>
-      <span v-if="media.type == 'coverage' && media.ref" class="badge mt-1 text-white w-28" style="background-color: #ac4142;">Mentioning</span>
+      <span v-if="media.type == 'coverage' && media.ref" class="badge mt-1 text-white w-28" style="background-color: #ac4142;">Featuring</span>
     </div>
     <!-- ref -->
     <div class="prose col-span-full md:col-span-4 text-center md:text-left">
