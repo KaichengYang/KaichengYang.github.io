@@ -1,0 +1,49 @@
+{
+  "authors": [
+    {"id": "kcyang", "annotation": ["highlight"]},
+    {"id": "ovarol"},
+    {"id": "cadavis"},
+    {"id": "eferrara"},
+    {"id": "aflammini"},
+    {"id": "fmenczer"}
+  ],
+  "year": [
+    2019
+  ],
+  "date": "2019-02-06",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "socialmedia",
+    "bot"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.1002/hbe2.115",
+      "name": "DOI"
+    },
+    {
+      "url": "https://arxiv.org/abs/1901.00912",
+      "name": "arXiv"
+    },
+    {
+      "url": "https://botometer.osome.iu.edu/",
+      "name": "Botometer"
+    },
+    {
+      "url": "https://rapidapi.com/OSoMe/api/botometer-pro",
+      "name": "API"
+    },
+    {
+      "url": "https://botometer.osome.iu.edu/bot-repository/",
+      "name": "Dataset"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1002/hbe2.115"
+  },
+  "bibtex_string": "@article{yang2018arming,\n\tauthor = {Yang, Kai-Cheng and Varol, Onur and Davis, Clayton A. and Ferrara, Emilio and Flammini, Alessandro and Menczer, Filippo},\n\ttitle = {Arming the public with artificial intelligence to counter social bots},\n\tjournal = {Human Behavior and Emerging Technologies},\n\tvolume = {1},\n\tnumber = {1},\n\tpages = {48-61},\n\tdoi = {https://doi.org/10.1002/hbe2.115},\n\turl = {https://onlinelibrary.wiley.com/doi/abs/10.1002/hbe2.115},\n\teprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/hbe2.115},\n\tyear = {2019}}",
+  "abstract": "The increased relevance of social media in our daily life has been accompanied by efforts to manipulate online conversations and opinions. Deceptive social bots—automated or semi-automated accounts designed to impersonate humans—have been successfully exploited for these kinds of abuse. Researchers have responded by developing artificial intelligence (AI) tools to arm the public in the fight against social bots. Here we review the literature on different types of bots, their impact, and detection methods. We use the case study of Botometer, a popular bot detection tool developed at Indiana University, to illustrate how people interact with AI countermeasures. A user experience survey suggests that bot detection has become an integral part of the social media experience for many users. However, barriers in interpreting the output of AI tools can lead to fundamental misunderstandings. The arms race between machine learning methods to develop sophisticated bots and effective countermeasures makes it necessary to update the training data and features of detection tools. We again use the Botometer case to illustrate both algorithmic and interpretability improvements of bot scores, designed to meet user expectations. We conclude by discussing how future AI developments may affect the fight between malicious bots and the public."
+}

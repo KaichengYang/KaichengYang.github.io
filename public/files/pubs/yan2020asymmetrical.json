@@ -1,0 +1,35 @@
+{
+  "authors": [
+    {"id": "hyan"},
+    {"id": "kcyang", "annotation": ["highlight"]},
+    {"id": "fmenczer"},
+    {"id": "jshanahan"}
+  ],
+  "year": [
+    2021
+  ],
+  "date": "2020-07-16",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "socialmedia",
+    "bot"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.1177/1461444820942744",
+      "name": "DOI"
+    },
+    {
+      "url": "https://doi.org/10.31235/osf.io/gf7jb",
+      "name": "SocArXiv"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1177/1461444820942744"
+  },
+  "bibtex_string": "@article{yan2021asymmetrical,\n\tauthor = {Harry Yaojun Yan and Kai-Cheng Yang and Filippo Menczer and James Shanahan},\n\ttitle ={Asymmetrical perceptions of partisan political bots},\n\tjournal = {New Media & Society},\n\tvolume = {23},\n\tnumber = {10},\n\tpages = {3016-3037},\n\tyear = {2021},\n\tdoi = {10.1177/1461444820942744},\n\tURL = {https://doi.org/10.1177/1461444820942744},\n\teprint = {https://doi.org/10.1177/1461444820942744}}",
+  "abstract": "Political bots are social media algorithms that impersonate political actors and interact with other users, aiming to influence public opinion. This study investigates the ability to differentiate bots with partisan personas from humans on Twitter. Our online experiment (N=656) explores how various characteristics of the participants and of the stimulus profiles bias recognition accuracy. The analysis reveals asymmetrical partisan-motivated reasoning, in that conservative profiles appear to be more confusing and Republican participants perform less well in the recognition task. Moreover, Republican users are more likely to confuse conservative bots with humans, whereas Democratic users are more likely to confuse conservative human users with bots. We discuss implications for how partisan identities affect motivated reasoning and how political bots exacerbate political polarization."
+}

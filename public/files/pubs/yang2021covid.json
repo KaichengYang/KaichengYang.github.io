@@ -1,0 +1,40 @@
+{
+  "authors": [
+    {"id": "kcyang", "annotation": ["highlight", "corresponding_author"]},
+    {"id": "fpierri"},
+    {"id": "pmhui"},
+    {"id": "daxelrod"},
+    {"id": "ctlugo"},
+    {"id": "jbryden"},
+    {"id": "fmenczer"}
+  ],
+  "year": [
+    2021
+  ],
+  "date": "2021-05-05",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "socialmedia",
+    "covid",
+    "misinformation",
+    "bot"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.1177/20539517211013861",
+      "name": "DOI"
+    },
+    {
+      "url": "https://arxiv.org/abs/2012.09353",
+      "name": "arXiv"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1177/20539517211013861"
+  },
+  "bibtex_string": "@article{yang2021covid,\n\tauthor = {Kai-Cheng Yang and Francesco Pierri and Pik-Mai Hui and David Axelrod and Christopher Torres-Lugo and John Bryden and Filippo Menczer},\n\ttitle ={The COVID-19 Infodemic: Twitter versus Facebook},\n\tjournal = {Big Data & Society},\n\tvolume = {8},\n\tnumber = {1},\n\tpages = {20539517211013861},\n\tyear = {2021},\n\tdoi = {10.1177/20539517211013861},\n\tURL = {https://doi.org/10.1177/20539517211013861},\n\teprint = {https://doi.org/10.1177/20539517211013861}}",
+  "abstract": "The global spread of the novel coronavirus is affected by the spread of related misinformation—the so-called COVID-19 Infodemic—that makes populations more vulnerable to the disease through resistance to mitigation efforts. Here, we analyze the prevalence and diffusion of links to low-credibility content about the pandemic across two major social media platforms, Twitter and Facebook. We characterize cross-platform similarities and differences in popular sources, diffusion patterns, influencers, coordination, and automation. Comparing the two platforms, we find divergence among the prevalence of popular low-credibility sources and suspicious videos. A minority of accounts and pages exert a strong influence on each platform. These misinformation 'superspreaders' are often associated with the low-credibility sources and tend to be verified by the platforms. On both platforms, there is evidence of coordinated sharing of Infodemic content. The overt nature of this manipulation points to the need for societal-level solutions in addition to mitigation strategies within the platforms. However, we highlight limits imposed by inconsistent data-access policies on our capability to study harmful manipulations of information ecosystems."
+}

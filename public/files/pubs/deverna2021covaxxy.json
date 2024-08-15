@@ -1,0 +1,49 @@
+{
+  "authors": [
+    {"id": "mdeverna"},
+    {"id": "fpierri"},
+    {"id": "btruong"},
+    {"id": "jbollenbacher"},
+    {"id": "daxelrod"},
+    {"id": "nloynes"},
+    {"id": "ctlugo"},
+    {"id": "kcyang", "annotation": ["highlight"]},
+    {"id": "fmenczer"},
+    {"id": "jbryden"}
+  ],
+  "year": [
+    2021
+  ],
+  "date": "2021-05-22",
+  "type": [
+    "conf"
+  ],
+  "topic": [
+    "socialmedia",
+    "covid"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.1609/icwsm.v15i1.18122",
+      "name": "DOI"
+    },
+    {
+      "url": "https://arxiv.org/abs/2101.07694",
+      "name": "arXiv"
+    },
+    {
+      "url": "https://osome.iuni.iu.edu/tools/covaxxy",
+      "name": "CoVaxxy"
+    },
+    {
+      "url": "https://github.com/osome-iu/CoVaxxy",
+      "name": "Dataset"
+    }
+  ],
+  "altmetric": {
+    "arxiv_id": "2101.07694"
+  },
+  "bibtex_string": "@article{deverna2021covaxxy,\n\ttitle={CoVaxxy: A Collection of English-Language Twitter Posts About COVID-19 Vaccines},\n\tvolume={15},\n\turl={https://ojs.aaai.org/index.php/ICWSM/article/view/18122},\n\tDOI={10.1609/icwsm.v15i1.18122},\n\tnumber={1},\n\tjournal={Proceedings of the International AAAI Conference on Web and Social Media},\n\tauthor={DeVerna, Matthew R. and Pierri, Francesco and Truong, Bao Tran and Bollenbacher, John and Axelrod, David and Loynes, Niklas and Torres-Lugo, Christopher and Yang, Kai-Cheng and Menczer, Filippo and Bryden, John},\n\tyear={2021},\n\tmonth={May},\n\tpages={992-999}}",
+  "abstract": "With a substantial proportion of the population currently hesitant to take the COVID-19 vaccine, it is important that people have access to accurate information. However, there is a large amount of low-credibility information about vaccines spreading on social media. In this paper, we present the CoVaxxy dataset, a growing collection of English-language Twitter posts about COVID-19 vaccines. Using one week of data, we provide statistics regarding the numbers of tweets over time, the hashtags used, and the websites shared. We also illustrate how these data might be utilized by performing an analysis of the prevalence over time of high- and low-credibility sources, topic groups of hashtags, and geographical distributions. Additionally, we develop and present the CoVaxxy dashboard, allowing people to visualize the relationship between COVID-19 vaccine adoption and U.S. geo-located posts in our dataset. This dataset can be used to study the impact of online information on COVID-19 health outcomes (e.g., vaccine uptake) and our dashboard can help with exploration of the data."
+}

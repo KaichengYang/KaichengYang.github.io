@@ -1,0 +1,49 @@
+{
+  "authors": [
+    {"id": "kcyang", "annotation": ["highlight", "corresponding_author"]},
+    {"id": "ovarol"},
+    {"id": "pmhui"},
+    {"id": "fmenczer"}
+  ],
+  "year": [
+    2020
+  ],
+  "date": "2020-04-03",
+  "type": [
+    "conf"
+  ],
+  "topic": [
+    "socialmedia",
+    "bot"
+  ],
+  "highlight": [
+    "highlight"
+  ],
+  "links": [
+    {
+      "url": "https://doi.org/10.1609/aaai.v34i01.5460",
+      "name": "DOI"
+    },
+    {
+      "url": "https://arxiv.org/abs/1911.09179",
+      "name": "arXiv"
+    },
+    {
+      "url": "https://botometer.osome.iu.edu",
+      "name": "BotometerX"
+    },
+    {
+      "url": "https://rapidapi.com/OSoMe/api/botometer-pro",
+      "name": "API"
+    },
+    {
+      "url": "https://botometer.osome.iu.edu/bot-repository/",
+      "name": "Dataset"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1609/aaai.v34i01.5460"
+  },
+  "bibtex_string": "@article{yang2020scalable,\n\ttitle={Scalable and Generalizable Social Bot Detection through Data Selection},\n\tvolume={34},\n\turl={https://ojs.aaai.org/index.php/AAAI/article/view/5460},\n\tDOI={10.1609/aaai.v34i01.5460},\n\tnumber={01},\n\tjournal={Proceedings of the AAAI Conference on Artificial Intelligence},\n\tauthor={Yang, Kai-Cheng and Varol, Onur and Hui, Pik-Mai and Menczer, Filippo},\n\tyear={2020},\n\tmonth={Apr.},\n\tpages={1096-1103}}",
+  "abstract": "Efficient and reliable social bot classification is crucial for detecting information manipulation on social media. Despite rapid development, state-of-the-art bot detection models still face generalization and scalability challenges, which greatly limit their applications. In this paper we propose a framework that uses minimal account metadata, enabling efficient analysis that scales up to handle the full stream of public tweets of Twitter in real time. To ensure model accuracy, we build a rich collection of labeled datasets for training and validation. We deploy a strict validation system so that model performance on unseen datasets is also optimized, in addition to traditional cross-validation. We find that strategically selecting a subset of training data yields better model accuracy and generalization than exhaustively training on all available data. Thanks to the simplicity of the proposed model, its logic can be interpreted to provide insights into social bot characteristics."
+}

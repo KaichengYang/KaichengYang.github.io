@@ -1,0 +1,48 @@
+{
+  "authors": [
+    {"id": "msayyadi"},
+    {"id": "ovarol"},
+    {"id": "kcyang", "annotated": ["highlight"]},
+    {"id": "aflammini"},
+    {"id": "fmenczer"}
+  ],
+  "year": [
+    2020
+  ],
+  "date": "2020-10-19",
+  "type": [
+    "conf"
+  ],
+  "topic": [
+    "socialmedia",
+    "bot"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.1145/3340531.3412698",
+      "name": "DOI"
+    },
+    {
+      "url": "https://arxiv.org/abs/2006.06867",
+      "name": "arXiv"
+    },
+    {
+      "url": "https://botometer.osome.iu.edu/",
+      "name": "Botometer"
+    },
+    {
+      "url": "https://rapidapi.com/OSoMe/api/botometer-pro",
+      "name": "API"
+    },
+    {
+      "url": "https://botometer.osome.iu.edu/bot-repository/",
+      "name": "Dataset"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1145/3340531.3412698"
+  },
+  "bibtex_string": "@inproceedings{sayyadi2020detection,\n\tauthor = {Sayyadiharikandeh, Mohsen and Varol, Onur and Yang, Kai-Cheng and Flammini, Alessandro and Menczer, Filippo},\n\ttitle = {Detection of Novel Social Bots by Ensembles of Specialized Classifiers},\n\tyear = {2020},\n\tisbn = {9781450368599},\n\tpublisher = {Association for Computing Machinery},\n\taddress = {New York, NY, USA},\n\turl = {https://doi.org/10.1145/3340531.3412698},\n\tdoi = {10.1145/3340531.3412698},\n\tbooktitle = {Proceedings of the 29th ACM International Conference on Information & Knowledge Management},\n\tpages = {2725–2732},\n\tnumpages = {8},\n\tlocation = {Virtual Event, Ireland},\n\tseries = {CIKM '20}}",
+  "abstract": "Malicious actors create inauthentic social media accounts controlled in part by algorithms, known as social bots, to disseminate misinformation and agitate online discussion. While researchers have developed sophisticated methods to detect abuse, novel bots with diverse behaviors evade detection. We show that different types of bots are characterized by different behavioral features. As a result, supervised learning techniques suffer severe performance deterioration when attempting to detect behaviors not observed in the training data. Moreover, tuning these models to recognize novel bots requires retraining with a significant amount of new annotations, which are expensive to obtain. To address these issues, we propose a new supervised learning method that trains classifiers specialized for each class of bots and combines their decisions through the maximum rule. The ensemble of specialized classifiers (ESC) can better generalize, leading to an average improvement of 56% in F1 score for unseen accounts across datasets. Furthermore, novel bot behaviors are learned with fewer labeled examples during retraining. We deployed ESC in the newest version of Botometer, a popular tool to detect social bots in the wild, with a cross-validation AUC of 0.99."
+}

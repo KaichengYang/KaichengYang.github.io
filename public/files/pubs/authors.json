@@ -238,5 +238,90 @@
     "full_name": "Alessandro Flammini",
     "abbr_name": "Flammini, A.",
     "link": "https://cnets.indiana.edu/aflammin"
+  },
+  "ashao": {
+    "full_name": "Anqi Shao",
+    "abbr_name": "Shao, A.",
+    "link": "https://anqishao.com"
+  },
+  "yhu": {
+    "full_name": "Yicheng Hu",
+    "abbr_name": "Hu, Y.",
+    "link": "https://scholar.google.com/citations?user=eli1fWUAAAAJ&hl=en&oi=ao"
+  },
+  "hlee": {
+    "full_name": "Heysung Lee",
+    "abbr_name": "Lee, H.",
+    "link": "https://scholar.google.com/citations?user=YcF4ANIAAAAJ&hl=en&oi=ao"
+  },
+  "xliao": {
+    "full_name": "Xining Liao",
+    "abbr_name": "Liao, X.",
+    "link": "https://scholar.google.com/citations?user=eY0cR8QAAAAJ&hl=en&oi=ao"
+  },
+  "yjsuh": {
+    "full_name": "Yoo Ji Suh",
+    "abbr_name": "Suh, Y. J.",
+    "link": "https://scholar.google.com/citations?user=E7Z1IboAAAAJ&hl=en&oi=ao"
+  },
+  "jkim": {
+    "full_name": "Jisoo Kim",
+    "abbr_name": "Kim, J.",
+    "link": "https://scholar.google.com/citations?hl=en&user=YxN3n_0AAAAJ"
+  },
+  "kchen": {
+    "full_name": "Kaiping Chen",
+    "abbr_name": "Chen, K.",
+    "link": "https://www.kaipingchen.com/"
+  },
+  "wchen": {
+    "full_name": "Wen Chen",
+    "abbr_name": "Chen, W.",
+    "link": "https://roisevege.github.io/"
+  },
+  "dpacheco": {
+    "full_name": "Diogo Pacheco",
+    "abbr_name": "Pacheco, D.",
+    "link": "https://diogofpacheco.github.io/"
+  },
+  "glciampaglia": {
+    "full_name": "Giovanni Luca Ciampaglia",
+    "abbr_name": "Ciampaglia, G. L.",
+    "link": "https://glciampaglia.com/"
+  },
+  "cshao": {
+    "full_name": "Chengcheng Shao",
+    "abbr_name": "Shao, C.",
+    "link": "https://shaochengcheng.github.io/"
+  },
+  "pmhui": {
+    "full_name": "Pik-Mai Hui",
+    "abbr_name": "Hui, P. M.",
+    "link": "https://scholar.google.com/citations?user=Hu8tz84AAAAJ&hl=en&oi=ao"
+  },
+  "msayyadi": {
+    "full_name": "Mohsen Sayyadi",
+    "abbr_name": "Sayyadi, M.",
+    "link": "https://www.linkedin.com/in/mohsen-sayyadi-755955a3/"
+  },
+  "cadavis": {
+    "full_name": "Clayton A Davis",
+    "abbr_name": "Davis, C. A.",
+    "link": "https://clayadavis.net/"
+  },
+  "ovarol": {
+    "full_name": "Onur Varol",
+    "abbr_name": "Varol, O.",
+    "link": "http://www.onurvarol.com/"
+  },
+  "jbollenbacher": {
+    "full_name": "John Bollenbacher",
+    "abbr_name": "Bollenbacher, J.",
+    "link": "https://jbollenbacher.github.io/"
+  },
+  "nloynes": {
+    "full_name": "Niklas Loynes",
+    "abbr_name": "Loynes, N.",
+    "link": "http://www.nikloynes.com/"
   }
 }

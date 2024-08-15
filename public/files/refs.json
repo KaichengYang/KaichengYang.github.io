@@ -1,37 +1,5 @@
 [
   {
-    "authors": "<u>Yang, K. C.</u> & Menczer, F.",
-    "year": [
-      2024
-    ],
-    "type": [
-      "preprint"
-    ],
-    "topic": [
-      "misinformation",
-      "genai"
-    ],
-    "highlight": [
-      "highlight"
-    ],
-    "title": "Accuracy and political bias of news source credibility ratings by large language models",
-    "id": "yang2024accuracy",
-    "venue": "In submission.",
-    "links": [
-      {
-        "url": "https://arxiv.org/abs/2304.00228",
-        "name": "arXiv"
-      },
-      {
-        "url": "https://github.com/osome-iu/llm_domain_rating",
-        "name": "GitHub"
-      }
-    ],
-    "altmetric": {
-      "arxiv_id": "2304.00228"
-    }
-  },
-  {
     "authors": "Alexander, J. H., Nanda, P. H., <u>Yang, K. C.</u> & Sarvghad, A.",
     "year": [
       2024
@@ -61,126 +29,6 @@
     }
   },
   {
-    "authors": "Feal, A., Gleason, J., Goel, P., Radford, J., <u>Yang, K.-C.</u>, Basl, J., Meyer, M., Choffnes, D., Wilson, C. & Lazer, D.",
-    "year": [
-      2024
-    ],
-    "type": [
-      "conf"
-    ],
-    "topic": [
-      "nio"
-    ],
-    "highlight": [],
-    "title": "Introduction to National Internet Observatory",
-    "id": "feal2024introduction",
-    "venue": "Proceedings of ICWSM Data Challenge Workshop.",
-    "links": [
-      {
-        "url": "https://doi.org/10.36190/2024.73",
-        "name": "DOI"
-      }
-    ],
-    "altmetric": {
-      "doi_id": "10.36190/2024.73"
-    }
-  },
-  {
-    "authors": "<u>Yang, K. C.</u> & Menczer, F.",
-    "year": [
-      2024
-    ],
-    "type": [
-      "journal"
-    ],
-    "topic": [
-      "bot",
-      "genai",
-      "socialmedia"
-    ],
-    "highlight": [
-      "highlight"
-    ],
-    "title": "Anatomy of an AI-powered malicious social botnet",
-    "id": "yang2024anatomy",
-    "venue": "Journal of Quantitative Description: Digital Media, 4.",
-    "links": [
-      {
-        "url": "https://doi.org/10.51685/jqd.2024.icwsm.7",
-        "name": "DOI"
-      },
-      {
-        "url": "https://arxiv.org/abs/2307.16336",
-        "name": "arXiv"
-      },
-      {
-        "url": "https://github.com/osome-iu/AIBot_fox8",
-        "name": "GitHub"
-      },
-      {
-        "url": "https://doi.org/10.5281/zenodo.8035289",
-        "name": "Dataset"
-      },
-      {
-        "url": "https://chat.openai.com/g/g-WbF9uM0T4-fox8-botnet-paper",
-        "name": "GPT"
-      }
-    ],
-    "altmetric": {
-      "arxiv_id": "2307.16336"
-    }
-  },
-  {
-    "authors": "Scarano, S., Vasudevan, V., Samory, M., <u>Yang, K. C.</u>, Yang, J. & Grabowicz, P. A.",
-    "year": [
-      2024
-    ],
-    "type": [
-      "preprint"
-    ],
-    "topic": [
-      "socialmedia"
-    ],
-    "highlight": [],
-    "title": "Election Polls on Social Media: Prevalence, Biases, and Voter Fraud Beliefs",
-    "id": "scarano2024election",
-    "venue": "Forthcoming in Proceedings of the International AAAI Conference on Web and Social Media.",
-    "links": [
-      {
-        "url": "https://arxiv.org/abs/2405.11146",
-        "name": "arXiv"
-      }
-    ],
-    "altmetric": {
-      "arxiv_id": "2405.11146"
-    }
-  },
-  {
-    "authors": "Cresci, S., <u>Yang, K. C.</u>, Spognardi, A., Di Pietro, R., Menczer, F. & Petrocchi, M.",
-    "year": [
-      2024
-    ],
-    "type": [
-      "preprint"
-    ],
-    "topic": [
-      "bot"
-    ],
-    "highlight": [],
-    "title": "Demystifying misconceptions in social bots research",
-    "id": "cresci2024demystifying",
-    "venue": "In submission.",
-    "links": [
-      {
-        "url": "https://arxiv.org/abs/2303.17251",
-        "name": "arXiv"
-      }
-    ],
-    "altmetric": {
-      "arxiv_id": "2303.17251"
-    }
-  },
-  {
     "authors": "Brown, M. A., Lukito, J. & <u>Yang, K. C.</u>",
     "title": "What Does CrowdTangle's Demise Signal for Data Access Under the DSA?",
     "year": [
@@ -201,47 +49,6 @@
         "url": "https://www.techpolicy.press/what-does-crowdtangles-demise-signal-for-data-access-under-the-dsa"
       }
     ]
-  },
-  {
-    "authors": "<u>Yang, K. C.</u>, Singh, D., & Menczer, F.",
-    "year": [
-      2024
-    ],
-    "type": [
-      "preprint"
-    ],
-    "topic": [
-      "genai",
-      "socialmedia",
-      "bot"
-    ],
-    "highlight": [
-      "highlight"
-    ],
-    "title": "Characteristics and prevalence of fake social media profiles with AI-generated faces",
-    "id": "yang2024characteristics",
-    "venue": "Accepted by Journal of Online Trust and Safety.",
-    "links": [
-      {
-        "url": "https://arxiv.org/abs/2401.02627",
-        "name": "arXiv"
-      },
-      {
-        "url": "https://github.com/osome-iu/fake_gan_accounts",
-        "name": "GitHub"
-      },
-      {
-        "url": "https://doi.org/10.5281/zenodo.10436889",
-        "name": "Dataset"
-      },
-      {
-        "url": "https://chat.openai.com/g/g-TRp4eKw4j-social-media-accounts-with-ai-generated-faces",
-        "name": "GPT"
-      }
-    ],
-    "altmetric": {
-      "arxiv_id": "2401.02627"
-    }
   },
   {
     "authors": "<u>Yang, K. C.</u>, Varol, O., Nwala, A. C., Sayyadiharikandeh, M., Ferrara, E., Flammini, A., & Menczer, F.",
@@ -267,35 +74,6 @@
     ],
     "altmetric": {
       "doi_id": "2312.17423"
-    }
-  },
-  {
-    "authors": "Duan, Z., Shao, A., Hu, Y., Lee, H., Liao, X., Suh Y. J., Kim, J., <u>Yang, K. C.</u>, Chen, K., & Yang, S.",
-    "year": [
-      2023
-    ],
-    "type": [
-      "preprint"
-    ],
-    "topic": [
-      "socialmedia"
-    ],
-    "highlight": [],
-    "title": "Constructing Vec-tionaries to Extract Latent Message Features from Texts: A Case Study of Moral Appeals",
-    "id": "duan2023constructing",
-    "venue": "Conditionally accepted by Political Analysis.",
-    "links": [
-      {
-        "url": "https://arxiv.org/abs/2312.05990",
-        "name": "arXiv"
-      },
-      {
-        "url": "https://github.com/ZeningDuan/vMFD",
-        "name": "GitHub"
-      }
-    ],
-    "altmetric": {
-      "arxiv_id": "2312.05990"
     }
   },
   {
@@ -418,72 +196,6 @@
     ]
   },
   {
-    "authors": "Aiyappa, R., DeVerna, M. R., Pote, M., Tran Truong, B., Zhao, W., Axelrod, D., Pessianzadeh, A., Kachwala, Z., Kim, M., Can Seckin, O., Kim, M., Gandhi, S., Manikonda, A., Pierri, F., Menczer, F., & <u>Yang, K.-C.</u>",
-    "year": [
-      2023
-    ],
-    "type": [
-      "conf"
-    ],
-    "topic": [
-      "socialmedia",
-      "politics"
-    ],
-    "highlight": [],
-    "title": "A Multi-Platform Collection of Social Media Posts about the 2022 U.S. Midterm Elections",
-    "id": "aiyappa2023multiplatform",
-    "venue": "Proceedings of the International AAAI Conference on Web and Social Media (ICWSM), vol. 17, pp. 981-989.",
-    "links": [
-      {
-        "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/22205",
-        "name": "DOI"
-      },
-      {
-        "url": "https://arxiv.org/abs/2301.06287",
-        "name": "arXiv"
-      },
-      {
-        "url": "https://github.com/osome-iu/MEIU22",
-        "name": "GitHub"
-      }
-    ],
-    "altmetric": {
-      "arxiv_id": "2301.06287"
-    }
-  },
-  {
-    "title": "One Year of COVID-19 Vaccine Misinformation on Twitter: Longitudinal Study",
-    "authors": "Pierri, F., DeVerna, M., <u>Yang, K. C.</u>, Axelrod, D., Bryden, J., & Menczer, F.",
-    "year": [
-      2023
-    ],
-    "type": [
-      "journal"
-    ],
-    "venue": "Journal of Medical Internet Research, 25, e42227.",
-    "highlight": [],
-    "topic": [
-      "socialmedia",
-      "misinformation",
-      "covid",
-      "bot"
-    ],
-    "id": "pierri2023one",
-    "links": [
-      {
-        "name": "DOI",
-        "url": "https://doi.org/10.2196/42227"
-      },
-      {
-        "name": "arXiv",
-        "url": "https://arxiv.org/abs/2209.01675"
-      }
-    ],
-    "altmetric": {
-      "doi_id": "10.2196/42227"
-    }
-  },
-  {
     "authors": "Xue, L., <u>Yang, K. C.</u>, Cui, P. B., & Di, Z.",
     "year": [
       2023
@@ -547,42 +259,6 @@
     }
   },
   {
-    "authors": "<u>Yang, K. C.</u>, Ferrara, E., & Menczer, F.",
-    "year": [
-      2022
-    ],
-    "type": [
-      "journal"
-    ],
-    "topic": [
-      "socialmedia",
-      "bot"
-    ],
-    "highlight": [
-      "highlight"
-    ],
-    "title": "Botometer 101: Social bot practicum for computational social scientists",
-    "id": "yang2022botometer",
-    "venue": "Journal of Computational Social Science, 5, 1511-1528.",
-    "links": [
-      {
-        "url": "https://doi.org/10.1007/s42001-022-00177-5",
-        "name": "DOI"
-      },
-      {
-        "url": "https://arxiv.org/abs/2201.01608",
-        "name": "arXiv"
-      },
-      {
-        "url": "https://github.com/osome-iu/Botometer101",
-        "name": "GitHub"
-      }
-    ],
-    "altmetric": {
-      "doi_id": "10.1007/s42001-022-00177-5"
-    }
-  },
-  {
     "authors": "<u>Yang, K. C.</u>, Hui, P. M., & Menczer, F.",
     "year": [
       2022
@@ -615,38 +291,6 @@
     }
   },
   {
-    "authors": "Torres-Lugo, C., <u>Yang, K. C.</u>, & Menczer, F.",
-    "year": [
-      2022
-    ],
-    "type": [
-      "conf"
-    ],
-    "topic": [
-      "socialmedia",
-      "politics",
-      "bot",
-      "misinformation"
-    ],
-    "highlight": [],
-    "title": "The Manufacture of Partisan Echo Chambers by Follow Train Abuse on Twitter",
-    "venue": "Proceedings of the International AAAI Conference on Web and Social Media (ICWSM), vol. 16, pp. 1017-1028.",
-    "id": "lugo2020manufacture",
-    "links": [
-      {
-        "url": "https://doi.org/10.1609/icwsm.v16i1.19354",
-        "name": "DOI"
-      },
-      {
-        "url": "https://arxiv.org/abs/2010.13691",
-        "name": "arXiv"
-      }
-    ],
-    "altmetric": {
-      "doi_id": "10.1609/icwsm.v16i1.19354"
-    }
-  },
-  {
     "authors": "<u>Yang, K. C.</u>, & Menczer, F.",
     "title": "How many bots are on Twitter? The question is difficult to answer and misses the point",
     "year": [
@@ -668,79 +312,6 @@
         "url": "https://theconversation.com/how-many-bots-are-on-twitter-the-question-is-difficult-to-answer-and-misses-the-point-183425"
       }
     ]
-  },
-  {
-    "authors": "Duan, Z., Li, J., Lukito, J., <u>Yang, K. C.</u>, Chen, F., Shah, D. V., & Yang, S.",
-    "title": "Algorithmic Agents in the Hybrid Media System: Social Bots, Selective Amplification and Partisan News about COVID-19",
-    "year": [
-      2022
-    ],
-    "type": [
-      "journal"
-    ],
-    "topic": [
-      "socialmedia",
-      "bot",
-      "misinformation",
-      "covid"
-    ],
-    "highlight": [],
-    "id": "duan2022algorithmic",
-    "venue": "Human Communication Research. 48(3), 516-542.",
-    "links": [
-      {
-        "name": "DOI",
-        "url": "https://doi.org/10.1093/hcr/hqac012"
-      }
-    ],
-    "altmetric": {
-      "doi_id": "10.1093/hcr/hqac012"
-    }
-  },
-  {
-    "authors": "Pierri, F., Perry, B., DeVerna, M., <u>Yang, K. C.</u>, Flammini, A. , Menczer, F., & Bryden, J.",
-    "year": [
-      2022
-    ],
-    "type": [
-      "journal"
-    ],
-    "venue": "Scientific Reports. 12(1), 5966.",
-    "topic": [
-      "socialmedia",
-      "covid",
-      "misinformation"
-    ],
-    "highlight": [],
-    "title": "Online misinformation is linked to early COVID-19 vaccination hesitancy and refusal",
-    "id": "pierri2020impact",
-    "links": [
-      {
-        "url": "https://doi.org/10.1038/s41598-022-10070-w",
-        "name": "DOI"
-      },
-      {
-        "url": "https://arxiv.org/abs/2104.10635",
-        "name": "arXiv"
-      },
-      {
-        "url": "https://github.com/osome-iu/CoVaxxy-Misinfo",
-        "name": "GitHub"
-      }
-    ],
-    "hornors": [
-      {
-        "url": "https://www.nature.com/collections/jhjibhhicg",
-        "text": "Top 100 downloaded papers for Scientific Reports in 2022"
-      },
-      {
-        "url": "https://www.whitehouse.gov/wp-content/uploads/2023/03/ERP-2023.pdf",
-        "text": "Cited by the 2023 Economic Report of the President (Biden-Harris Administration)"
-      }
-    ],
-    "altmetric": {
-      "doi_id": "10.1038/s41598-022-10070-w"
-    }
   },
   {
     "title": "Substitution of Nonpharmacologic Therapy With Opioid Prescribing for Pain During the COVID-19 Pandemic",
@@ -802,42 +373,6 @@
     }
   },
   {
-    "authors": "Chen, W., Pacheco, D., <u>Yang, K. C.</u>, & Menczer, F.",
-    "year": [
-      2021
-    ],
-    "type": [
-      "journal"
-    ],
-    "topic": [
-      "socialmedia",
-      "bot",
-      "politics",
-      "misinformation"
-    ],
-    "highlight": [],
-    "title": "Neutral bots probe political bias on social media",
-    "id": "chen2021neutral",
-    "venue": "Nature Communications, 12(1), 5580.",
-    "links": [
-      {
-        "name": "DOI",
-        "url": "https://doi.org/10.1038/s41467-021-25738-6"
-      },
-      {
-        "url": "https://arxiv.org/abs/2005.08141",
-        "name": "arXiv"
-      },
-      {
-        "url": "https://github.com/IUNetSci/DrifterBot",
-        "name": "GitHub"
-      }
-    ],
-    "altmetric": {
-      "doi_id": "10.1038/s41467-021-25738-6"
-    }
-  },
-  {
     "title": "Use of and Comorbidities Associated With Diagnostic Codes for COVID-19 in US Health Insurance Claims",
     "authors": "<u>Yang, K. C.</u>, Lee, B., Ahn, Y. Y., & Perry, B.",
     "year": [
@@ -889,76 +424,6 @@
     }
   },
   {
-    "authors": "DeVerna, M., Pierri, F., Truong, B. T., Bollenbacher, J., Axelrod, D., Loynes, N., Torres-Lugo, C., <u>Yang, K.-C.</u>, Menczer, F., & Bryden, J.",
-    "year": [
-      2021
-    ],
-    "type": [
-      "conf"
-    ],
-    "topic": [
-      "socialmedia",
-      "covid"
-    ],
-    "highlight": [],
-    "venue": "Proceedings of the International AAAI Conference on Web and Social Media (ICWSM), pp. 992-999.",
-    "title": "CoVaxxy: A Collection of English-Language Twitter Posts About COVID-19 Vaccines",
-    "id": "deverna2021covaxxy",
-    "links": [
-      {
-        "url": "https://doi.org/10.1609/icwsm.v15i1.18122",
-        "name": "DOI"
-      },
-      {
-        "url": "https://arxiv.org/abs/2101.07694",
-        "name": "arXiv"
-      },
-      {
-        "url": "https://osome.iuni.iu.edu/tools/covaxxy",
-        "name": "CoVaxxy"
-      },
-      {
-        "url": "https://github.com/osome-iu/CoVaxxy",
-        "name": "Dataset"
-      }
-    ],
-    "altmetric": {
-      "doi_id": "10.1609/icwsm.v15i1.18122"
-    }
-  },
-  {
-    "authors": "<u>Yang, K. C.</u>, Pierri, F.,  Hui, P. M., Axelrod, D., Torres-Lugo, C., Bryden, J., & Menczer, F.",
-    "year": [
-      2021
-    ],
-    "type": [
-      "journal"
-    ],
-    "topic": [
-      "socialmedia",
-      "covid",
-      "misinformation",
-      "bot"
-    ],
-    "highlight": [],
-    "title": "The COVID-19 Infodemic: Twitter versus Facebook",
-    "venue": "Big Data & Society.",
-    "id": "yang2021covid",
-    "links": [
-      {
-        "url": "https://doi.org/10.1177/20539517211013861",
-        "name": "DOI"
-      },
-      {
-        "url": "https://arxiv.org/abs/2012.09353",
-        "name": "arXiv"
-      }
-    ],
-    "altmetric": {
-      "doi_id": "10.1177/20539517211013861"
-    }
-  },
-  {
     "authors": "Pasquetto, I., Swire-Thompson, B., Amazeen, M.A., Benevenuto, F., Brashier,…<u>Yang, K.C.</u>",
     "year": [
       2020
@@ -983,107 +448,6 @@
     "altmetric": {
       "doi_id": "10.37016/mr-2020-49"
     }
-  },
-  {
-    "authors": "Yan, H., <u>Yang, K. C.</u>, Menczer, F., & Shanahan, J.",
-    "year": [
-      2021
-    ],
-    "type": [
-      "journal"
-    ],
-    "topic": [
-      "socialmedia",
-      "bot"
-    ],
-    "highlight": [],
-    "title": "Asymmetrical Perceptions of Partisan Political Bots",
-    "id": "yan2020asymmetrical",
-    "venue": "New Media & Society, 23(10), 3016-3037.",
-    "links": [
-      {
-        "url": "https://doi.org/10.1177/1461444820942744",
-        "name": "DOI"
-      },
-      {
-        "url": "https://doi.org/10.31235/osf.io/gf7jb",
-        "name": "SocArXiv"
-      }
-    ],
-    "altmetric": {
-      "doi_id": "10.1177/1461444820942744"
-    }
-  },
-  {
-    "authors": "Sayyadiharikandeh, M., Varol, O., <u>Yang, K. C.</u>, Flammini, A., & Menczer, F.",
-    "year": [
-      2020
-    ],
-    "type": [
-      "conf"
-    ],
-    "topic": [
-      "socialmedia",
-      "bot"
-    ],
-    "highlight": [],
-    "title": "Detection of Novel Social Bots by Ensembles of Specialized Classifiers",
-    "id": "sayyadi2020detection",
-    "venue": "Proceedings of the 29th ACM International Conference on Information & Knowledge Management (CIKM), pp. 2725-2732.",
-    "links": [
-      {
-        "url": "https://doi.org/10.1145/3340531.3412698",
-        "name": "DOI"
-      },
-      {
-        "url": "https://arxiv.org/abs/2006.06867",
-        "name": "arXiv"
-      },
-      {
-        "url": "https://botometer.osome.iu.edu/",
-        "name": "Botometer"
-      },
-      {
-        "url": "https://rapidapi.com/OSoMe/api/botometer-pro",
-        "name": "API"
-      },
-      {
-        "url": "https://botometer.osome.iu.edu/bot-repository/",
-        "name": "Dataset"
-      }
-    ],
-    "altmetric": {
-      "doi_id": "10.1145/3340531.3412698"
-    }
-  },
-  {
-    "authors": "<u>Yang, K. C.</u>, Torres-Lugo, C., & Menczer, F.",
-    "year": [
-      2020
-    ],
-    "type": [
-      "conf"
-    ],
-    "topic": [
-      "socialmedia",
-      "covid",
-      "misinformation",
-      "bot"
-    ],
-    "highlight": [],
-    "title": "Prevalence of Low-Credibility Information on Twitter During the COVID-19 Outbreak",
-    "id": "yang2020prevalence",
-    "venue": "Proceedings of ICWSM International Workshop on Cyber Social Threats (CySoc).",
-    "links": [
-      {
-        "url": "https://doi.org/10.36190/2020.16",
-        "name": "DOI"
-      },
-      {
-        "url": "https://arxiv.org/abs/2004.14484",
-        "name": "arXiv"
-      }
-    ]
   },
   {
     "authors": "Hui, P. M., <u>Yang, K. C.</u>, Torres-Lugo, C., & Menczer, F.",
@@ -1113,50 +477,6 @@
     ],
     "altmetric": {
       "doi_id": "10.1609/icwsm.v14i1.7370"
-    }
-  },
-  {
-    "authors": "<u>Yang, K. C.</u>, Varol, O., Hui, P. M., & Menczer, F.",
-    "year": [
-      2020
-    ],
-    "type": [
-      "conf"
-    ],
-    "topic": [
-      "socialmedia",
-      "bot"
-    ],
-    "highlight": [
-      "highlight"
-    ],
-    "title": "Scalable and Generalizable Social Bot Detection through Data Selection",
-    "id": "yang2020scalable",
-    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), vol. 34, pp. 1096--1103.",
-    "links": [
-      {
-        "url": "https://doi.org/10.1609/aaai.v34i01.5460",
-        "name": "DOI"
-      },
-      {
-        "url": "https://arxiv.org/abs/1911.09179",
-        "name": "arXiv"
-      },
-      {
-        "url": "https://botometer.osome.iu.edu/botometerlite",
-        "name": "BotometerLite"
-      },
-      {
-        "url": "https://rapidapi.com/OSoMe/api/botometer-pro",
-        "name": "API"
-      },
-      {
-        "url": "https://botometer.osome.iu.edu/bot-repository/",
-        "name": "Dataset"
-      }
-    ],
-    "altmetric": {
-      "doi_id": "10.1609/aaai.v34i01.5460"
     }
   },
   {
@@ -1221,79 +541,6 @@
     ],
     "altmetric": {
       "doi_id": "10.1145/3308560.3316499"
-    }
-  },
-  {
-    "authors": "<u>Yang, K. C.</u>, Varol, O., Davis, C. A., Ferrara, E., Flammini, A., & Menczer, F.",
-    "year": [
-      2019
-    ],
-    "type": [
-      "journal"
-    ],
-    "topic": [
-      "socialmedia",
-      "bot"
-    ],
-    "highlight": [],
-    "title": "Arming the public with artificial intelligence to counter social bots",
-    "id": "yang2018arming",
-    "venue": "Human Behavior and Emerging Technologies. 2019;e115.",
-    "links": [
-      {
-        "url": "https://doi.org/10.1002/hbe2.115",
-        "name": "DOI"
-      },
-      {
-        "url": "https://arxiv.org/abs/1901.00912",
-        "name": "arXiv"
-      },
-      {
-        "url": "https://botometer.osome.iu.edu/",
-        "name": "Botometer"
-      },
-      {
-        "url": "https://rapidapi.com/OSoMe/api/botometer-pro",
-        "name": "API"
-      },
-      {
-        "url": "https://botometer.osome.iu.edu/bot-repository/",
-        "name": "Dataset"
-      }
-    ],
-    "altmetric": {
-      "doi_id": "10.1002/hbe2.115"
-    }
-  },
-  {
-    "authors": "Shao, C., Ciampaglia, G. L., Varol, O., <u>Yang, K. C.</u>, Flammini, A., & Menczer, F.",
-    "year": [
-      2018
-    ],
-    "type": [
-      "journal"
-    ],
-    "topic": [
-      "socialmedia",
-      "bot",
-      "misinformation"
-    ],
-    "highlight": [],
-    "title": "The spread of low-credibility content by social bots",
-    "id": "shao2018spread",
-    "venue": "Nature Communications, 9(1), 4787.",
-    "links": [
-      {
-        "url": "https://doi.org/10.1038/s41467-018-06930-7",
-        "name": "DOI"
-      },
-      {
-        "url": "https://github.com/IUNetSci/HoaxyBots",
-        "name": "GitHub"
-      }
-    ],
-    "altmetric": {
-      "doi_id": "10.1038/s41467-018-06930-7"
     }
   },
   {
