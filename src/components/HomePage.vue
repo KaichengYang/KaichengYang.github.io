@@ -33,7 +33,7 @@
     <div class="divider divider-primary" />
 
     <!-- Tools -->
-    <h2 class="text-4xl font-medium mb-4 flex justify-center" id="tools">Tools</h2>
+    <h2 class="text-4xl font-medium mb-4 flex justify-center" id="tools">Selected tools</h2>
     <ToolList :is_home="true" />
 
   </div>
