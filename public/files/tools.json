@@ -42,6 +42,30 @@
     ]
   },
   {
+    "id": "arxiv_digest",
+    "title": "Daily arXiv digest",
+    "image": "arxiv_digest",
+    "msg": "Use ChatGPT to select interesting arXiv papers every day",
+    "links": [
+      {
+        "url": "https://github.com/yang3kc/daily_arxiv_digest",
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
+    "id": "llm_css",
+    "title": "LLM-CSS",
+    "image": "llm_css",
+    "msg": "Collection of recommendations and code examples for querying LLMs for computational social science tasks",
+    "links": [
+      {
+        "url": "https://github.com/yang3kc/llm_for_css",
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
     "id": "vmfd",
     "title": "vMFD",
     "image": "vmfd",
