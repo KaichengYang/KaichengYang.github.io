@@ -1,3 +1,17 @@
+<script setup>
+import { ref } from 'vue';
+
+const pages = ref([
+  {name: 'Home', path: '/', is_external: false},
+  {name: 'Publications', path: '/pubs', is_external: false},
+  {name: 'News', path: '/news', is_external: false},
+  {name: 'Media', path: '/media', is_external: false},
+  {name: 'Tools', path: '/tools', is_external: false},
+  {name: 'CV', path: '/files/cv.pdf', is_external: true},
+  {name: 'About', path: '/about', is_external: false},
+]);
+</script>
+
 <template>
   <div class="navbar bg-primary">
       <!-- drop down menu  -->
@@ -8,30 +22,20 @@
           </svg>
         </div>
         <ul tabindex="0" class="menu dropdown-content bg-primary rounded-xl z-[1] mt-6 w-auto p-2 drop-shadow-md">
-          <li><router-link to="/" class="btn btn-ghost text-white text-xl font-medium py-2">Home</router-link></li>
-          <li><router-link to="/pubs" class="btn btn-ghost text-white text-xl font-medium py-2">Publications</router-link></li>
-          <li><router-link to="/news" class="btn btn-ghost text-white text-xl font-medium py-2">News</router-link></li>
-          <li><router-link to="/media" class="btn btn-ghost text-white text-xl font-medium py-2">Media</router-link></li>
-          <li><a href="/files/cv.pdf" class="btn btn-ghost text-white text-xl font-medium py-2">CV</a></li>
-          <li><router-link to="/about" class="btn btn-ghost text-white text-xl font-medium py-2">About</router-link></li>
+          <li v-for="page in pages" :key="page.path">
+            <router-link v-if="!page.is_external" :to="page.path" class="btn btn-ghost text-white text-xl font-medium py-2">{{ page.name }}</router-link>
+            <a v-else :href="page.path" class="btn btn-ghost text-white text-xl font-medium py-2">{{ page.name }}</a>
+          </li>
         </ul>
       </div>
       <!-- normal menu  -->
       <div class="container mx-auto max-w-screen-lg flex items-center justify-center">
         <div class="items-center hidden md:flex">
-            <router-link to="/" class="btn btn-ghost text-white text-xl font-medium mr-1 py-2">Home</router-link>
-            <router-link to="/pubs" class="btn btn-ghost text-white text-xl font-medium mr-1 py-2">Publications</router-link>
-            <router-link to="/news" class="btn btn-ghost text-white text-xl font-medium mr-1 py-2">News</router-link>
-            <router-link to="/media" class="btn btn-ghost text-white text-xl font-medium mr-1 py-2">Media</router-link>
-            <a href="/files/cv.pdf" class="btn btn-ghost text-white text-xl font-medium py-2">CV</a>
-            <router-link to="/about" class="btn btn-ghost text-white text-xl font-medium py-2">About</router-link>
+          <template v-for="page in pages" :key="page.path">
+            <router-link v-if="!page.is_external" :to="page.path" class="btn btn-ghost text-white text-xl font-medium mr-1 py-2">{{ page.name }}</router-link>
+            <a v-else :href="page.path" class="btn btn-ghost text-white text-xl font-medium mr-1 py-2">{{ page.name }}</a>
+          </template>
         </div>
       </div>
   </div>
 </template>
-
-<script setup>
-</script>
-
-<style scoped>
-</style>
