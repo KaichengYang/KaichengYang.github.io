@@ -29,6 +29,13 @@
     <!-- Media -->
     <h2 class="text-4xl font-medium mb-4 flex justify-center" id="media">Selected media coverage</h2>
     <MediaList :is_home="true" />
+
+    <div class="divider divider-primary" />
+
+    <!-- Tools -->
+    <h2 class="text-4xl font-medium mb-4 flex justify-center" id="tools">Tools</h2>
+    <ToolList :is_home="true" />
+
   </div>
   <Footer />
 </template>
@@ -40,6 +47,7 @@ import NewsList from '@/components/news/NewsList.vue'
 import PubsList from '@/components/pubs/PubsList.vue'
 import MediaList from '@/components/media/MediaList.vue'
 import Footer from '@/components/nav/Footer.vue'
+import ToolList from '@/components/tool/ToolList.vue'
 </script>
 
 <style scoped>

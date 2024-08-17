@@ -4,6 +4,7 @@
     "title": "Botometer X",
     "image": "botometer",
     "msg": "Detect bot-like Twitter accounts",
+    "highlight": ["highlight"],
     "links": [
       {
         "url": "https://botometer.osome.iu.edu/",
@@ -15,31 +16,28 @@
       },
       {
         "url": "https://pypi.org/project/botometer/",
-        "name": "Python library"
+        "name": "PyPI"
       }
     ]
   },
   {
-    "id": "botamp",
-    "title": "BotAmp",
-    "image": "botamp",
-    "msg": "Compare the bot amplification levels of two sets of tweets",
+    "id": "scicolor",
+    "title": "Scicolor Color Picker",
+    "image": "scicolor",
+    "msg": "A collection of color schemes for scientific visualization",
+    "highlight": ["highlight"],
     "links": [
       {
-        "url": "https://botometer.osome.iu.edu/botamp/",
-        "name": "BotAmp"
-      }
-    ]
-  },
-  {
-    "id": "midterm22",
-    "title": "US Midterm 2022 dashboard",
-    "image": "midterm22",
-    "msg": "Tracks the top misinformation spreaders and sources for US 2022 midterm elections",
-    "links": [
+        "url": "https://yang3kc.github.io/scicolor/",
+        "name": "Web interface"
+      },
       {
-        "url": "https://osome.iu.edu/tools/midterm22/",
-        "name": "US Midterm 2022 dashboard"
+        "url": "https://github.com/yang3kc/scicolor",
+        "name": "GitHub"
+      },
+      {
+        "url": "https://pypi.org/project/scicolor/",
+        "name": "PyPI"
       }
     ]
   },
@@ -76,86 +74,6 @@
       {
         "url": "https://cran.r-project.org/web/packages/birankr/index.html",
         "name": "CRAN"
-      }
-    ]
-  },
-  {
-    "id": "scicolor",
-    "title": "Scicolor",
-    "image": "scicolor",
-    "msg": "A collection of color maps for scientific visualization",
-    "links": [
-      {
-        "url": "https://github.com/yang3kc/scicolor",
-        "name": "GitHub"
-      },
-      {
-        "url": "https://pypi.org/project/scicolor/",
-        "name": "PyPI"
-      },
-      {
-        "url": "https://yang3kc.github.io/scicolor/",
-        "name": "Scicolor Color Picker"
-      }
-    ]
-  },
-  {
-    "id": "hoaxy",
-    "title": "Hoaxy",
-    "image": "hoaxy",
-    "msg": "Visualize the spread of claims and fact checking",
-    "links": [
-      {
-        "url": "https://hoaxy.osome.iu.edu/",
-        "name": "Hoaxy"
-      }
-    ]
-  },
-  {
-    "id": "covaxxy",
-    "title": "CoVaxxy",
-    "image": "covaxxy",
-    "msg": "Dashboard for COVID-19 vaccine Twitter discussion",
-    "links": [
-      {
-        "url": "https://osome.iu.edu/tools/covaxxy",
-        "name": "CoVaxxy"
-      },
-      {
-        "url": "https://github.com/osome-iu/CoVaxxy",
-        "name": "GitHub"
-      }
-    ]
-  },
-  {
-    "id": "osometweet",
-    "title": "OSoMeTweet",
-    "image": "osometweet",
-    "msg": "Python package to access Twitter's V2 API",
-    "links": [
-      {
-        "url": "https://github.com/osome-iu/osometweet",
-        "name": "GitHub"
-      },
-      {
-        "url": "https://pypi.org/project/osometweet/",
-        "name": "PyPI"
-      }
-    ]
-  },
-  {
-    "id": "botslayer",
-    "title": "BotSlayer",
-    "image": "botslayer",
-    "msg": "Detect coordination and bot amplification",
-    "links": [
-      {
-        "url": "https://osome.iu.edu/tools/botslayer/",
-        "name": "BotSlayer"
-      },
-      {
-        "name": "GitHub",
-        "url": "https://github.com/IUNetSci/BotSlayer-CE"
       }
     ]
   }

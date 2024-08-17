@@ -55,6 +55,7 @@
                 <!-- <a class="text-primary" href="#project">research projects</a> and -->
                 <a class="link" href="#pubs">publications</a> to learn more.
                 These works have been <a class="link" href="#media">covered</a> by various media outlets.
+                You might also find some of my <a class="link" href="#tools">tools</a> useful.
             </p>
         </div>
     </div>
