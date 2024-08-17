@@ -5,6 +5,8 @@ import NewsPage from '@/components/news/NewsPage.vue'
 import MediaPage from '@/components/media/MediaPage.vue'
 import PhotoPage from '@/components/bio/PhotoPage.vue'
 import PubsPage from '@/components/pubs/PubsPage.vue'
+import FailurePage from '@/components/failure/FailurePage.vue'
+
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -14,6 +16,7 @@ const router = createRouter({
     { path: '/news', component: NewsPage },
     { path: '/media', component: MediaPage },
     { path: '/photos', component: PhotoPage },
+    { path: '/failures', component: FailurePage },
     { path: "/:pathMatch(.*)*", component: HomePage }
   ]
 })

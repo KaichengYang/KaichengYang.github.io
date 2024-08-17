@@ -11,6 +11,10 @@
     <h2 class="text-4xl font-medium mb-4 flex justify-center" id="news">News</h2>
     <NewsList :is_home="true" />
 
+    <div class="prose text-center mt-4">
+      You can also checkout <router-link to="/failures" class="link">my failures</router-link>
+    </div>
+
     <div class="divider divider-primary" />
 
     <!-- Pubs -->
