@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { inject } from 'vue';
 import ToolBlock from '@/components/tool/ToolBlock.vue'
 import BackForth from '@/components/nav/BackForth.vue'
 
@@ -12,15 +12,7 @@ defineProps({
 });
 
 // data
-const tools = ref([]);
-
-// methods
-onMounted(() => {
-  fetch("/files/tools.json")
-    .then(response => response.json())
-    .then(data => tools.value = data);
-});
-
+const tools = inject('tool_list');
 </script>
 
 <template>

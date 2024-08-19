@@ -18,10 +18,12 @@ library.add(faEnvelope, faFile, faBookmark, faLinkedin, faTwitter, faGoogleSchol
 
 async function initApp() {
   const pub_list = ref([]);
-  const [authors, pub_index, media] = await Promise.all([
+  const tool_list = ref([]);
+  const [authors, pub_index, media, tools] = await Promise.all([
     fetch('/files/pubs/authors.json').then(response => response.json()),
     fetch('/files/pubs/pubs_index.json').then(response => response.json()),
-    fetch('/files/media.json').then(response => response.json())
+    fetch('/files/media.json').then(response => response.json()),
+    fetch('/files/tools.json').then(response => response.json())
   ]);
 
   pub_list.value = await Promise.all(pub_index.map(async pub_file_name => {
@@ -40,11 +42,13 @@ async function initApp() {
     });
     return pub;
   }));
+  tool_list.value = tools;
 
   createApp(App)
     .use(router)
     .component('font-awesome-icon', FontAwesomeIcon)
     .provide('pub_list', pub_list)
+    .provide('tool_list', tool_list)
     .mount('#app');
 }
 
