@@ -20,12 +20,20 @@ async function initApp() {
   const pub_list = ref([]);
   const tool_list = ref([]);
   const media_list = ref([]);
-  const [authors, pub_index, media, tools] = await Promise.all([
+  const news_list = ref([]);
+  const [news_index, authors, pub_index, media, tools] = await Promise.all([
+    fetch('/files/news/news_index.json').then(response => response.json()),
     fetch('/files/pubs/authors.json').then(response => response.json()),
     fetch('/files/pubs/pubs_index.json').then(response => response.json()),
     fetch('/files/media.json').then(response => response.json()),
-    fetch('/files/tools.json').then(response => response.json())
+    fetch('/files/tools.json').then(response => response.json()),
   ]);
+
+  news_list.value = await Promise.all(news_index.map(async news_file_name => {
+    const response = await fetch(`/files/news/${news_file_name}`);
+    const news = await response.json();
+    return news;
+  }));
 
   pub_list.value = await Promise.all(pub_index.map(async pub_file_name => {
     const response = await fetch(`/files/pubs/${pub_file_name}`);
@@ -70,6 +78,7 @@ async function initApp() {
   createApp(App)
     .use(router)
     .component('font-awesome-icon', FontAwesomeIcon)
+    .provide('news_list', news_list)
     .provide('pub_list', pub_list)
     .provide('tool_list', tool_list)
     .provide('media_list', media_list)
