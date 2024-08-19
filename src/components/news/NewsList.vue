@@ -24,7 +24,7 @@ const color_text_map = {
   "media": {"color": "#DF3603", "text": "Media"},
 };
 
-
+// methods
 const news_to_show = computed(() => {
   news_list.value.sort((a, b) => new Date(b.date) - new Date(a.date));
   if (props.is_home) {
