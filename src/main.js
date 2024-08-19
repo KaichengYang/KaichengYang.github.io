@@ -37,7 +37,7 @@ async function initApp() {
     });
     pub.media_list = [];
     media.forEach(media_item => {
-      if (media_item.project_id == pub.id) {
+      if (media_item.project_id && media_item.project_id.indexOf(pub.id) >= 0) {
         pub.media_list.push(media_item);
       }
     });
