@@ -51,6 +51,7 @@ async function initApp() {
     });
     return pub;
   }));
+
   tool_list.value = tools;
 
   media_list.value = media.map(media_item => {
@@ -66,7 +67,7 @@ async function initApp() {
     pub_list.value.forEach(pub => {
       if (media_item.project_id && media_item.project_id.indexOf(pub.id) >= 0) {
         media_item.ref.push({
-          "title": pub.title,
+          "title": pub.bibtex.entryTags.title,
           "link": pub.links[0]
         });
       }
