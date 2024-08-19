@@ -19,6 +19,7 @@ library.add(faEnvelope, faFile, faBookmark, faLinkedin, faTwitter, faGoogleSchol
 async function initApp() {
   const pub_list = ref([]);
   const tool_list = ref([]);
+  const media_list = ref([]);
   const [authors, pub_index, media, tools] = await Promise.all([
     fetch('/files/pubs/authors.json').then(response => response.json()),
     fetch('/files/pubs/pubs_index.json').then(response => response.json()),
@@ -44,11 +45,34 @@ async function initApp() {
   }));
   tool_list.value = tools;
 
+  media_list.value = media.map(media_item => {
+    media_item.ref = [];
+    tools.forEach(tool => {
+      if (media_item.project_id && media_item.project_id.indexOf(tool.id) >= 0) {
+        media_item.ref.push({
+          "title": tool.title,
+          "link": tool.links[0]
+        });
+      }
+    });
+    pub_list.value.forEach(pub => {
+      if (media_item.project_id && media_item.project_id.indexOf(pub.id) >= 0) {
+        media_item.ref.push({
+          "title": pub.title,
+          "link": pub.links[0]
+        });
+      }
+    });
+    return media_item;
+  });
+
+
   createApp(App)
     .use(router)
     .component('font-awesome-icon', FontAwesomeIcon)
     .provide('pub_list', pub_list)
     .provide('tool_list', tool_list)
+    .provide('media_list', media_list)
     .mount('#app');
 }
 
