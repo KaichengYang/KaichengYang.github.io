@@ -1,7 +1,9 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
-import './app.css'
+import { createApp, ref } from 'vue'
+import App from '@/App.vue'
+import router from '@/router'
+import '@/app.css'
+
+import bibtexParse from '@orcid/bibtex-parse-js';
 
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -14,4 +16,36 @@ import { faLinkedin, faTwitter, faGoogleScholar, faResearchgate, faGithub, faPyt
 /* add icons to the library */
 library.add(faEnvelope, faFile, faBookmark, faLinkedin, faTwitter, faGoogleScholar, faResearchgate, faCircleArrowLeft, faCircleArrowRight, faLink, faFilePdfRegular, faDatabase, faGithub, faUser, faCircleUser, faUserRegular, faCircleUserRegular, faEnvelopeRegular, faCopyRegular, faCircleXmarkRegular, faDownload, faPython, faRProject)
 
-createApp(App).use(router).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
+async function initApp() {
+  const pub_list = ref([]);
+  const [authors, pub_index, media] = await Promise.all([
+    fetch('/files/pubs/authors.json').then(response => response.json()),
+    fetch('/files/pubs/pubs_index.json').then(response => response.json()),
+    fetch('/files/media.json').then(response => response.json())
+  ]);
+
+  pub_list.value = await Promise.all(pub_index.map(async pub_file_name => {
+    const response = await fetch(`/files/pubs/${pub_file_name}`);
+    const pub = await response.json();
+    pub.bibtex = bibtexParse.toJSON(pub.bibtex_string)[0];
+    pub.id = pub.bibtex.citationKey;
+    pub.authors.forEach(author => {
+      author.info = authors[author.id];
+    });
+    pub.media_list = [];
+    media.forEach(media_item => {
+      if (media_item.project_id == pub.id) {
+        pub.media_list.push(media_item);
+      }
+    });
+    return pub;
+  }));
+
+  createApp(App)
+    .use(router)
+    .component('font-awesome-icon', FontAwesomeIcon)
+    .provide('pub_list', pub_list)
+    .mount('#app');
+}
+
+initApp();

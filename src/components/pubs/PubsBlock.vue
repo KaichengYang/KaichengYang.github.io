@@ -34,11 +34,11 @@
       <br>
     </span>
     <!-- media -->
-    <span v-if="pub_obj.media.length > 0">
+    <span v-if="pub_obj.media_list.length > 0">
       🗞
-      <span v-for="(media, index) in pub_obj.media" :key="index">
+      <span v-for="(media, index) in pub_obj.media_list" :key="index">
         <a v-bind:href="media.url" target="_blank" class="link"> {{ media.outlet }} </a>
-        <span v-if="index != pub_obj.media.length - 1"> | </span>
+        <span v-if="index != pub_obj.media_list.length - 1"> | </span>
       </span>
       <br>
     </span>
