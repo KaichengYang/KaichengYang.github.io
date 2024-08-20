@@ -24,10 +24,12 @@ const show_modal = ref(null);
 
 // methods to control modal
 const openModal = (projectId) => {
+  console.log(projectId);
   show_modal.value = projectId;
 };
 
 const closeModal = () => {
+  console.log('close');
   show_modal.value = null;
 };
 
@@ -66,8 +68,8 @@ const closeModal = () => {
       <template v-if="media.type == 'coverage' && media.ref">
         <template v-for="(ref, index) in media.ref" :key="index">
           <template v-if="index > 0"> and </template>
-          <span target="_blank" class="text-gray-400 font-normal hover:decoration-2" @click="openModal(ref.project_id)"> {{ ref.obj.title }}</span>
-          <dialog :class="{'modal modal-open': show_modal === ref.project_id}" @close="closeModal">
+          <a target="_blank" class="text-gray-400 font-normal hover:decoration-2" @click="openModal(ref.obj.id)"> {{ ref.obj.title }}</a>
+          <dialog :class="{'modal modal-open': show_modal === ref.obj.id}" @close="closeModal">
             <div class="modal-box w-11/12 max-w-4xl bg-white">
               <div v-if="ref.type == 'tool'" class="not-prose">
                 <ToolBlock :tool_obj="ref.obj" />
