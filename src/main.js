@@ -70,7 +70,6 @@ async function initApp() {
     return news;
   }));
 
-  // console.log(news_list.value);
 
   media_list.value = media.map(media_item => {
     media_item.ref = [];

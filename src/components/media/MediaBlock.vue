@@ -24,12 +24,10 @@ const show_modal = ref(null);
 
 // methods to control modal
 const openModal = (projectId) => {
-  console.log(projectId);
   show_modal.value = projectId;
 };
 
 const closeModal = () => {
-  console.log('close');
   show_modal.value = null;
 };
 

@@ -27,6 +27,7 @@
           <font-awesome-icon v-if="link.name === 'DOI' || link.name === 'arXiv' || link.name === 'OSF'" :icon="['far', 'file-pdf']" />
           <font-awesome-icon v-else-if="link.name === 'Dataset'" :icon="['fas', 'database']" />
           <font-awesome-icon v-else-if="link.name === 'GitHub'" :icon="['fab', 'github']" />
+          <font-awesome-icon v-else-if="link.name === 'Twitter'" :icon="['fab', 'twitter']" />
           <font-awesome-icon v-else :icon="['fas', 'link']" />
           {{ link.name }} </a>
         <span v-if="index != pub_obj.links.length - 1"> | </span>
@@ -119,7 +120,6 @@ export default defineComponent({
     openModal(id, type) {
       this.show_modal = id;
       this.show_modal_type = type;
-      console.log(this.show_modal);
     },
     closeModal() {
       this.show_modal = null;
