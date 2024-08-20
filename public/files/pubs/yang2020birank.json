@@ -1,0 +1,41 @@
+{
+  "authors": [
+    {"id": "kcyang", "annotation": ["highlight"]},
+    {"id": "baronson"},
+    {"id": "yyahn"}
+  ],
+  "year": [
+    2020
+  ],
+  "date": "2020-07-10",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "netsci"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.21105/joss.02315",
+      "name": "DOI"
+    },
+    {
+      "url": "https://github.com/BrianAronson/birankr",
+      "name": "GitHub"
+    },
+    {
+      "url": "https://pypi.org/project/birankpy/",
+      "name": "PyPI"
+    },
+    {
+      "url": "https://cran.r-project.org/web/packages/birankr/index.html",
+      "name": "CRAN"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.21105/joss.02315"
+  },
+  "bibtex_string": "@article{yang2020birank,\n\tdoi = {10.21105/joss.02315},\n\turl = {https://doi.org/10.21105/joss.02315},\n\tyear = {2020},\n\tpublisher = {The Open Journal},\n\tvolume = {5},\n\tnumber = {51},\n\tpages = {2315},\n\tauthor = {Kai-Cheng Yang and Brian Aronson and Yong-Yeol Ahn},\n\ttitle = {BiRank: Fast and Flexible Ranking on Bipartite Networks with R and Python},\n\tjournal = {Journal of Open Source Software}}",
+  "abstract": "BiRank: Fast and Flexible Ranking on Bipartite Networks with R and Python."
+}

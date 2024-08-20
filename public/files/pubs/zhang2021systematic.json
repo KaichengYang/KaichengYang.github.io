@@ -1,0 +1,37 @@
+{
+  "authors": [
+    {"id": "yjzhang"},
+    {"id": "kcyang", "annotation": ["highlight"]},
+    {"id": "fradicchi"}
+  ],
+  "year": [
+    2021
+  ],
+  "date": "2021-10-22",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "netsci"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.1103/PhysRevE.104.044315",
+      "name": "DOI"
+    },
+    {
+      "url": "https://arxiv.org/abs/2106.10198",
+      "name": "arXiv"
+    },
+    {
+      "url": "https://github.com/yijiaozhang/hypercompare",
+      "name": "GitHub"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1103/PhysRevE.104.044315"
+  },
+  "bibtex_string": "@article{zhang2021systematic,\n\ttitle = {Systematic comparison of graph embedding methods in practical tasks},\n\tauthor = {Zhang, Yi-Jiao and Yang, Kai-Cheng and Radicchi, Filippo},\n\tjournal = {Physical Review E},\n\tvolume = {104},\n\tissue = {4},pages = {044315},\n\tnumpages = {13},\n\tyear = {2021},\n\tmonth = {Oct},\n\tpublisher = {American Physical Society},\n\tdoi = {10.1103/PhysRevE.104.044315},\n\turl = {https://link.aps.org/doi/10.1103/PhysRevE.104.044315}}",
+  "abstract": "Network embedding techniques aim to represent structural properties of graphs in geometric space. Those representations are considered useful in downstream tasks such as link prediction and clustering. However, the number of graph embedding methods available on the market is large, and practitioners face the nontrivial choice of selecting the proper approach for a given application. The present work attempts to close this gap of knowledge through a systematic comparison of 11 different methods for graph embedding. We consider methods for embedding networks in the hyperbolic and Euclidean metric spaces, as well as nonmetric community-based embedding methods. We apply these methods to embed more than 100 real-world and synthetic networks. Three common downstream tasks — mapping accuracy, greedy routing, and link prediction — are considered to evaluate the quality of the various embedding methods. Our results show that some Euclidean embedding methods excel in greedy routing. As for link prediction, community-based and hyperbolic embedding methods yield an overall performance that is superior to that of Euclidean-space-based approaches. We compare the running time for different methods and further analyze the impact of different network characteristics such as degree distribution, modularity, and clustering coefficients on the quality of the embedding results. We release our evaluation framework to provide a standardized benchmark for arbitrary embedding methods."
+}

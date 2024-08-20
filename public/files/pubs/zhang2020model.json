@@ -1,0 +1,33 @@
+{
+  "authors": [
+    {"id": "yjzhang"},
+    {"id": "kcyang", "annotation": ["highlight"]},
+    {"id": "fradicchi"}
+  ],
+  "year": [
+    2021
+  ],
+  "date": "2021-01-14",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "netsci"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.1103/PhysRevE.103.012305",
+      "name": "DOI"
+    },
+    {
+      "url": "https://arxiv.org/abs/2011.08103",
+      "name": "arXiv"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1103/PhysRevE.103.012305"
+  },
+  "bibtex_string": "@article{zhang2021model,\n\ttitle = {Model-free hidden geometry of complex networks},\n\tauthor = {Zhang, Yi-Jiao and Yang, Kai-Cheng and Radicchi, Filippo},\n\tjournal = {Physical Review E},\n\tvolume = {103},\n\tissue = {1},\n\tpages = {012305},\n\tnumpages = {14},\n\tyear = {2021},\n\tmonth = {Jan},\n\tpublisher = {American Physical Society},\n\tdoi = {10.1103/PhysRevE.103.012305},\n\turl = {https://link.aps.org/doi/10.1103/PhysRevE.103.012305}}",
+  "abstract": "The fundamental idea of embedding a network in a metric space is rooted in the principle of proximity preservation. Nodes are mapped into points of the space with pairwise distance that reflects their proximity in the network. Popular methods employed in network embedding either rely on implicit approximations of the principle of proximity preservation or implement it by enforcing the geometry of the embedding space, thus hindering geometric properties that networks may spontaneously exhibit. Here we take advantage of a model-free embedding method explicitly devised for preserving pairwise proximity and characterize the geometry emerging from the mapping of several networks, both real and synthetic. We show that the learned embedding has simple and intuitive interpretations: the distance of a node from the geometric center is representative for its closeness centrality, and the relative positions of nodes reflect the community structure of the network. Proximity can be preserved in relatively low-dimensional embedding spaces, and the hidden geometry displays optimal performance in guiding greedy navigation regardless of the specific network topology. We finally show that the mapping provides a natural description of contagion processes on networks, with complex spatiotemporal patterns represented by waves propagating from the geometric center to the periphery. The findings deepen our understanding of the model-free hidden geometry of complex networks."
+}

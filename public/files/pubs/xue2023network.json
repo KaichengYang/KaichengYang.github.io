@@ -1,0 +1,40 @@
+{
+  "authors_string": "Xue, L., <u>Yang, K. C.</u>, Cui, P. B., & Di, Z.",
+  "authors": [
+    {"id": "lxue"},
+    {"id": "kcyang", "annotation": ["highlight"]},
+    {"id": "pcui"},
+    {"id": "zdi"}
+  ],
+  "year": [
+    2023
+  ],
+  "date": "2022-12-31",
+  "type": [
+    "preprint"
+  ],
+  "topic": [
+    "netsci"
+  ],
+  "highlight": [],
+  "venue": "In submission.",
+  "links": [
+    {
+      "url": "https://arxiv.org/abs/2301.00151",
+      "name": "arXiv"
+    },
+    {
+      "url": "https://github.com/LeyangXue/InnovationDiffusion",
+      "name": "GitHub"
+    },
+    {
+      "url": "https://data.mendeley.com/datasets/d848h7rcdg",
+      "name": "Dataset"
+    }
+  ],
+  "altmetric": {
+    "arxiv_id": "2301.00151"
+  },
+  "bibtex_string": "@misc{xue2022network,\n\ttitle={Network localization strength regulates innovation diffusion with macro-level social influence},\n\tauthor={Leyang Xue and Kai-Cheng Yang and Peng-Bi Cui and Zengru Di},\n\tyear={2022},\n\teprint={2301.00151},\n\tarchivePrefix={arXiv},\n\tprimaryClass={physics.soc-ph},\n\turl={https://arxiv.org/abs/2301.00151},\n\tjournal={arXiv:2301.00151}}",
+  "abstract": "Innovation diffusion in the networked population is an essential process that drives the progress of human society. Despite the recent advances in network science, a fundamental understanding of network properties that regulate such processes is still lacking. Focusing on an innovation diffusion model with pairwise transmission and macro-level social influence, i.e., more adopters in the networked population lead to a higher adoption tendency among the remaining individuals, we observe discontinuous phase transitions when the influence is sufficiently strong. Through extensive analyses of a large corpus of empirical networks, we show that the tricritical point depends on the network localization strength, which our newly proposed metric can effectively quantify. The metric reveals the deep connection between the critical and tricritical points and further indicates a trade-off: networks that allow less attractive products to prevail tend to yield slower diffusion and lower market penetration and verse versa. Guided by this trade-off, we demonstrate how marketers can rewire the networks to modulate product diffusion according to their needs."
+}

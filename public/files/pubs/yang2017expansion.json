@@ -1,0 +1,30 @@
+{
+  "authors": [
+    {"id": "kcyang", "annotation": ["highlight"]},
+    {"id": "zhwu"},
+    {"id": "pholme"},
+    {"id": "enonaka"}
+  ],
+  "year": [
+    2017
+  ],
+  "date": "2017-01-10",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "netsci"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.1103/PhysRevE.95.012306",
+      "name": "DOI"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1103/PhysRevE.95.012306"
+  },
+  "bibtex_string": "@article{yang2017expansion,\n\ttitle = {Expansion of cooperatively growing populations: Optimal migration rates and habitat network structures},\n\tauthor = {Yang, Kai-Cheng and Wu, Zhi-Xi and Holme, Petter and Nonaka, Etsuko},\n\tjournal = {Phys. Rev. E},\n\tvolume = {95},\n\tissue = {1},\n\tpages = {012306},\n\tnumpages = {11},\n\tyear = {2017},\n\tmonth = {Jan},\n\tpublisher = {American Physical Society},\n\tdoi = {10.1103/PhysRevE.95.012306},\n\turl = {https://link.aps.org/doi/10.1103/PhysRevE.95.012306}}",
+  "abstract": "Range expansion of species is driven by the interactions among individual- and population-level processes and the spatial pattern of habitats. In this work we study how cooperatively growing populations spread on networks representing the skeleton of complex landscapes. By separating the slow and fast variables of the expansion process, we are able to give analytical predictions for the critical conditions that divide the dynamic behaviors into different phases (extinction, localized survival, and global expansion). We observe a resonance phenomenon in how the critical condition depends on the expansion rate, indicating the existence of an optimal strategy for global expansion. We derive the conditions for such optimal migration in locally treelike graphs and numerically study other structured networks. Our results highlight the importance of both the underlying interaction pattern and migration rate of the expanding populations for range expansion. We also discuss potential applications of the results to biological control and conservation."
+}

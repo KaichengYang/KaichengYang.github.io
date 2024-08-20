@@ -1,0 +1,31 @@
+{
+  "authors": [
+    {"id": "yjzhang"},
+    {"id": "zhwu"},
+    {"id": "pholme"},
+    {"id": "kcyang", "annotation": ["highlight"]}
+  ],
+  "year": [
+    2019
+  ],
+  "date": "2019-09-26",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "netsci"
+  ],
+  "highlight": [],
+  "note": "Editors' Suggestion",
+  "links": [
+    {
+      "url": "https://doi.org/10.1103/PhysRevLett.123.138101",
+      "name": "DOI"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1103/PhysRevLett.123.138101"
+  },
+  "bibtex_string": "@article{zhang2019advantage,\n\ttitle = {Advantage of Being Multicomponent and Spatial: Multipartite Viruses Colonize Structured Populations with Lower Thresholds},\n\tauthor = {Zhang, Yi-Jiao and Wu, Zhi-Xi and Holme, Petter and Yang, Kai-Cheng},\n\tjournal = {Physical Review Letters},\n\tvolume = {123},\n\tissue = {13},\n\tpages = {138101},\n\tnumpages = {6},\n\tyear = {2019},\n\tmonth = {Sep},\n\tpublisher = {American Physical Society},\n\tdoi = {10.1103/PhysRevLett.123.138101},\n\turl = {https://link.aps.org/doi/10.1103/PhysRevLett.123.138101}}",
+  "abstract": "Multipartite viruses have a genome divided into different disconnected viral particles. A majority of multipartite viruses infect plants; very few target animals. To understand why, we use a simple, network-based susceptible-latent-infectious-recovered model. We show both analytically and numerically that, provided that the average degree of the contact network exceeds a critical value, even in the absence of an explicit microscopic advantage, multipartite viruses have a lower threshold to colonizing network-structured populations compared to a well-mixed population. We further corroborate this finding on two-dimensional lattice networks, which better represent the typical contact structures of plants."
+}

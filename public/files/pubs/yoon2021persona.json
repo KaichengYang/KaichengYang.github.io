@@ -1,0 +1,38 @@
+{
+  "authors": [
+    {"id": "jyoon"},
+    {"id": "kcyang", "annotation": ["highlight"]},
+    {"id": "wsjung"},
+    {"id": "yyahn"}
+  ],
+  "year": [
+    2021
+  ],
+  "date": "2021-03-31",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "netsci"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.7717/peerj-cs.439",
+      "name": "DOI"
+    },
+    {
+      "url": "https://arxiv.org/abs/2006.04941",
+      "name": "arXiv"
+    },
+    {
+      "url": "https://github.com/jisungyoon/persona2vec",
+      "name": "GitHub"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.7717/peerj-cs.439"
+  },
+  "bibtex_string": "@article{yoon2021persona,\n\ttitle = {Persona2vec: a flexible multi-role representations learning framework for graphs},\n\tauthor = {Yoon, Jisung and Yang, Kai-Cheng and Jung, Woo-Sung and Ahn, Yong-Yeol},\n\tyear = 2021,\n\tmonth = mar,\n\tvolume = 7,\n\tpages = {e439},\n\tjournal = {PeerJ Computer Science},\n\tissn = {2376-5992},\n\turl = {https://doi.org/10.7717/peerj-cs.439},\n\tdoi = {10.7717/peerj-cs.439}}",
+  "abstract": "Graph embedding techniques, which learn low-dimensional representations of a graph, are achieving state-of-the-art performance in many graph mining tasks. Most existing embedding algorithms assign a single vector to each node, implicitly assuming that a single representation is enough to capture all characteristics of the node. However, across many domains, it is common to observe pervasively overlapping community structure, where most nodes belong to multiple communities, playing different roles depending on the contexts. Here, we propose \texttt{persona2vec}, a graph embedding framework that efficiently learns multiple representations of nodes based on their structural contexts. Using link prediction-based evaluation, we show that our framework is significantly faster than the existing state-of-the-art model while achieving better performance."
+}

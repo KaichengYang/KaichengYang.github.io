@@ -1,0 +1,37 @@
+{
+  "authors_string": "Lee, B., <u>Yang, K. C.</u>, Kaminski, P., Ahn, Y. Y., Peng, S., Odabas, M., Gupta, S., Green, H. & Perry, B.",
+  "authors": [
+    {"id": "blee"},
+    {"id": "kcyang", "annotation": ["highlight"]},
+    {"id": "pkaminski"},
+    {"id": "yyahn"},
+    {"id": "speng"},
+    {"id": "modabas"},
+    {"id": "sgupta"},
+    {"id": "hgreen"},
+    {"id": "bperry"}
+  ],
+  "year": [
+    2021
+  ],
+  "date": "2021-12-10",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "covid",
+    "opioid"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "name": "DOI",
+      "url": "https://doi.org/10.1001/jamanetworkopen.2021.38453"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1001/jamanetworkopen.2021.38453"
+  },
+  "bibtex_string": "@article{lee2021substitution,\n\tauthor = {Lee, Byungkyu and Yang, Kai-Cheng and Kaminski, Patrick and Peng, Siyun and Odabas, Meltem and Gupta, Sumedha and Green, Harold D., Jr and Ahn, Yong-Yeol and Perry, Brea L.},\n\ttitle = {Substitution of Nonpharmacologic Therapy With Opioid Prescribing for Pain During the COVID-19 Pandemic},\n\tjournal = {JAMA Network Open},\n\tvolume = {4},\n\tnumber = {12},\n\tpages = {e2138453-e2138453},\n\tyear = {2021},\n\tmonth = {12},\n\tissn = {2574-3805},\n\tdoi = {10.1001/jamanetworkopen.2021.38453},\n\turl = {https://doi.org/10.1001/jamanetworkopen.2021.38453}}",
+  "abstract": "During the pandemic, access to medical care unrelated to COVID-19 was limited because of concerns about viral spread and corresponding policies. It is critical to assess how these conditions affected modes of pain treatment, given the addiction risks of prescription opioids.To assess the trends in opioid prescription and nonpharmacologic therapy (ie, physical therapy and complementary medicine) for pain management during the COVID-19 pandemic in 2020 compared with the patterns in 2019.This retrospective, cross-sectional study used weekly claims data from 24 million US patients in a nationwide commercial insurance database (Optum’s deidentified Clinformatics Data Mart Database) from January 1, 2019, to September 31, 2020. Among patients with diagnoses of limb, extremity, or joint pain, back pain, and neck pain for each week, patterns of treatment use were identified and evaluated. Data analysis was performed from April 1, 2021, to September 31, 2021.The main outcomes of interest were weekly rates of opioid prescriptions, the strength and duration of related opioid prescriptions, and the use of nonpharmacologic therapy. Transition rates between different treatment options before the outbreak and during the early months of the pandemic were also assessed.A total of 21 430 339 patients (mean [SD] age, 48.6 [24.0] years; 10 960 507 [51.1\\%] female; 909 061 [4.2\\%] Asian, 1 688 690 [7.9\\%] Black, 2 276 075 [10.6\\%] Hispanic, 11 192 789 [52.2\\%] White, and 5 363 724 [25.0\\%] unknown) were enrolled during the first 3 quarters in 2019 and 20 759 788 (mean [SD] age, 47.0 [23.8] years; 10 695 690 [51.5\\%] female; 798 037 [3.8\\%] Asian; 1 508 023 [7.3\\%] Black, 1 976 248 [9.5\\%] Hispanic, 10 059 597 [48.5\\%] White, and 6 417 883 [30.9\\%] unknown) in the first 3 quarters of 2020. During the COVID-19 pandemic, the proportion of patients receiving a pain diagnosis was smaller than that for the same period in 2019 (mean difference, −15.9\\%; 95\\% CI, −16.1\\% to −15.8\\%). Patients with pain were more likely to receive opioids (mean difference, 3.5\\%; 95\\% CI, 3.3\\%-3.7\\%) and less likely to receive nonpharmacologic therapy (mean difference, −6.0\\%; 95\\% CI, −6.3\\% to −5.8\\%), and opioid prescriptions were longer and more potent during the early pandemic in 2020 relative to 2019 (mean difference, 1.07 days; 95\\% CI, 1.02-1.17 days; mean difference, 0.96 morphine milligram equivalents; 95\\% CI, 0.76-1.20). Analysis of individuals’ transitions between treatment options for pain found that patients were more likely to transition out of nonpharmacologic therapy, replacing it with opioid prescriptions for pain management during the COVID-19 pandemic than in the year before.Nonpharmacologic therapy is a benign treatment for pain often recommended instead of opioid therapy. The decrease in nonpharmacologic therapy and increase in opioid prescription during the COVID-19 pandemic found in this cross-sectional study, especially given longer days of prescription and more potent doses, may exacerbate the US opioid epidemic. These findings suggest that it is imperative to investigate the implications of limited medical access on treatment substitution, which may increase patient risk, and implement policies and guidelines to prevent those substitutions."
+}

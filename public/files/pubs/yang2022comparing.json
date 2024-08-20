@@ -1,0 +1,36 @@
+{
+  "authors": [
+    {"id": "kcyang", "annotation": ["highlight"]},
+    {"id": "baronson"},
+    {"id": "modabas"},
+    {"id": "yyahn"},
+    {"id": "bperry"}
+  ],
+  "year": [
+    2022
+  ],
+  "date": "2022-08-30",
+  "type": [
+    "journal"
+  ],
+  "highlight": [],
+  "topic": [
+    "opioid",
+    "netsci"
+  ],
+  "links": [
+    {
+      "name": "DOI",
+      "url": "https://doi.org/10.1371/journal.pone.0273569"
+    },
+    {
+      "name": "SocArXiv",
+      "url": "https://doi.org/10.31235/osf.io/hazvs"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1371/journal.pone.0273569"
+  },
+  "bibtex_string": "@article{yang2022comparing,\n\tdoi = {10.1371/journal.pone.0273569},\n\tauthor = {Yang, Kai-Cheng AND Aronson, Brian AND Odabas, Meltem AND Ahn, Yong-Yeol AND Perry, Brea L.},\n\tjournal = {PLOS ONE},\n\tpublisher = {Public Library of Science},\n\ttitle = {Comparing measures of centrality in bipartite patient-prescriber networks: A study of drug seeking for opioid analgesics},\n\tyear = {2022},\n\tmonth = {08},\n\tvolume = {17},\n\turl = {https://doi.org/10.1371/journal.pone.0273569},\n\tpages = {1-22},\n\tnumber = {8}}",
+  "abstract": "Visiting multiple prescribers is a common method for obtaining prescription opioids for nonmedical use and has played an important role in fueling the United States opioid epidemic, leading to increased drug use disorder and overdose. Recent studies show that centrality of the bipartite network formed by prescription ties between patients and prescribers of opioids is a promising indicator for drug seeking. However, node prominence in bipartite networks is typically estimated with methods that do not fully account for the two-mode topology of the underlying network. Although several algorithms have been proposed recently to address this challenge, it is unclear how these algorithms perform on real-world networks. Here, we compare their performance in the context of identifying opioid drug seeking behaviors by applying them to massive bipartite networks of patients and providers extracted from insurance claims data. We find that two variants of bipartite centrality are significantly better predictors of subsequent opioid overdose than traditional centrality estimates. Moreover, we show that incorporating non-network attributes such as the potency of the opioid prescriptions into the measures can further improve their performance. These findings can be reproduced on different datasets. Our results demonstrate the potential of bipartiteness-aware indices for identifying patterns of high-risk behavior."
+}

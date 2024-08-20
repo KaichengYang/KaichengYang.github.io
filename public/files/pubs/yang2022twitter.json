@@ -1,0 +1,34 @@
+{
+  "authors": [
+    {"id": "kcyang", "annotation": ["highlight", "corresponding_author"]},
+    {"id": "pmhui"},
+    {"id": "fmenczer"}
+  ],
+  "year": [
+    2022
+  ],
+  "date": "2022-07-01",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "socialmedia",
+    "bias"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.7717/peerj-cs.1025",
+      "name": "DOI"
+    },
+    {
+      "url": "https://arxiv.org/abs/2006.01447",
+      "name": "arXiv"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.7717/peerj-cs.1025"
+  },
+  "bibtex_string": "@article{yang2022twitter,\n\ttitle = {How Twitter data sampling biases U.S. voter behavior characterizations},\n\tauthor = {Yang, Kai-Cheng and Hui, Pik-Mai and Menczer, Filippo},\n\tyear = 2022,\n\tmonth = jul,\n\tvolume = 8,\n\tpages = {e1025},\n\tjournal = {PeerJ Computer Science},\n\tissn = {2376-5992},url = {https://doi.org/10.7717/peerj-cs.1025},\n\tdoi = {10.7717/peerj-cs.1025}}",
+  "abstract": "Online social media are key platforms for the public to discuss political issues. As a result, researchers have used data from these platforms to analyze public opinions and forecast election results. The literature has shown that due to inauthentic actors such as malicious social bots and trolls, not every message is a genuine expression from a legitimate user. However, the prevalence of inauthentic activities in social data streams is still unclear, making it difficult to gauge biases of analyses based on such data. In this article, we aim to close this gap using Twitter data from the 2018 U.S. midterm elections. We propose an efficient and low-cost method to identify voters on Twitter and systematically compare their behaviors with different random samples of accounts. We find that some accounts flood the public data stream with political content, drowning the voice of the majority of voters. As a result, these hyperactive accounts are over-represented in volume samples. Hyperactive accounts are more likely to exhibit various suspicious behaviors and to share low-credibility information compared to likely voters. Our work provides insights into biased voter characterizations when using social media data to analyze political issues."
+}
