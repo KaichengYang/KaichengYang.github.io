@@ -24,11 +24,7 @@
       🔗
       <span v-for="(link, index) in pub_obj.links" :key="index">
         <a v-bind:href="link.url" target="_blank" class="link">
-          <font-awesome-icon v-if="link.name === 'DOI' || link.name === 'arXiv' || link.name === 'OSF'" :icon="['far', 'file-pdf']" />
-          <font-awesome-icon v-else-if="link.name === 'Dataset'" :icon="['fas', 'database']" />
-          <font-awesome-icon v-else-if="link.name === 'GitHub'" :icon="['fab', 'github']" />
-          <font-awesome-icon v-else-if="link.name === 'Twitter'" :icon="['fab', 'twitter']" />
-          <font-awesome-icon v-else :icon="['fas', 'link']" />
+          <font-awesome-icon :icon="[getIcon(link.name).prefix, getIcon(link.name).icon]" />
           {{ link.name }} </a>
         <span v-if="index != pub_obj.links.length - 1"> | </span>
       </span>
@@ -113,10 +109,55 @@ export default defineComponent({
       show_modal: null,
       show_modal_type: null,
       showToast: false,
-      toastMessage: ''
+      toastMessage: '',
+      icon_mapping: {
+        "DOI": {
+          prefix: "far",
+          icon: "file-pdf"
+        },
+        "arXiv": {
+          prefix: "far",
+          icon: "file-pdf"
+        },
+        "OSF": {
+          prefix: "far",
+          icon: "file-pdf"
+        },
+        "SocArXiv": {
+          prefix: "far",
+          icon: "file-pdf"
+        },
+        "GitHub": {
+          prefix: "fab",
+          icon: "github"
+        },
+        "PyPI": {
+          prefix: "fab",
+          icon: "python"
+        },
+        "CRAN": {
+          prefix: "fab",
+          icon: "r-project"
+        },
+        "Twitter": {
+          prefix: "fab",
+          icon: "twitter"
+        },
+        "Dataset": {
+          prefix: "fas",
+          icon: "database"
+        },
+        "default": {
+          prefix: "fas",
+          icon: "link"
+        }
+      }
     };
   },
   methods: {
+    getIcon(link_name) {
+      return this.icon_mapping[link_name] || this.icon_mapping["default"];
+    },
     openModal(id, type) {
       this.show_modal = id;
       this.show_modal_type = type;
