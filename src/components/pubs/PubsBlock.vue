@@ -6,7 +6,7 @@
     <p>
       🧑‍💻️
       <span v-for="(author, index) in pub_obj.authors" :key="author.id" >
-        <a :href="author.info.link" target="_blank" class="underline text-primary" :class="{'font-bold': author.annotation && author.annotation.includes('highlight')}">
+        <a :href="author.info.link" target="_blank" class="link" :class="{'font-bold': author.annotation && author.annotation.includes('highlight')}">
           <font-awesome-icon v-if="author.annotation && author.annotation.includes('highlight')" :icon="['fas', 'circle-user']" />
           <font-awesome-icon v-else :icon="['far', 'circle-user']" />
           {{ author.info.abbr_name }}
