@@ -100,5 +100,17 @@
         "name": "CRAN"
       }
     ]
+  },
+  {
+    "id": "hoaxy",
+    "title": "Hoaxy",
+    "image": "hoaxy",
+    "msg": "A tool for tracking the spread of rumors on social media",
+    "links": [
+      {
+        "url": "https://hoaxy.osome.iu.edu/",
+        "name": "Web interface"
+      }
+    ]
   }
 ]
