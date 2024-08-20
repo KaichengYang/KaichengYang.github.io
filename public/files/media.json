@@ -153,7 +153,7 @@
     ],
     "type": "coverage",
     "topic": "social media",
-    "toshow": true,
+    "toshow": false,
     "highlight": false
   },
   {
@@ -183,7 +183,7 @@
     "type": "coverage",
     "topic": "misinformation",
     "project_id": [
-      "covaxxy"
+      "deverna2021covaxxy"
     ],
     "toshow": true
   },
@@ -559,7 +559,7 @@
     "type": "coverage",
     "topic": "misinformation",
     "project_id": [
-      "pierri2020impact"
+      "pierri2022online"
     ],
     "toshow": true
   },
@@ -649,7 +649,7 @@
     "project_id": [
       "botamp"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Experts grade Facebook, TikTok, Twitter, YouTube on readiness to handle midterm election misinformation",
@@ -788,7 +788,7 @@
     "project_id": [
       "botamp"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Elon Musk's Twitter lawsuit: what you need to know",
@@ -1021,9 +1021,9 @@
     "type": "coverage",
     "topic": "misinformation",
     "project_id": [
-      "pierri2020impact"
+      "pierri2022online"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Snopes Tips: How to Spot Social Media Bots",
@@ -1085,9 +1085,9 @@
     "type": "coverage",
     "topic": "misinformation",
     "project_id": [
-      "pierri2020impact"
+      "pierri2022online"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Bots: What are they and how could they mess up Elon Musk's $44 billion Twitter deal?",
@@ -1103,7 +1103,7 @@
       "botamp",
       "yang2022how"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Elon Musk pressured Twitter to give him access to a 'firehose' of data to evaluate bots. Now what?",
@@ -1183,9 +1183,9 @@
     "type": "coverage",
     "topic": "misinformation",
     "project_id": [
-      "covaxxy"
+      "deverna2021covaxxy"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Elon Musk will either pay far less for Twitter or use fake accounts as an excuse to walk away, experts say",
@@ -1311,7 +1311,7 @@
     "type": "coverage",
     "topic": "misinformation",
     "project_id": [
-      "pierri2020impact"
+      "pierri2022online"
     ],
     "toshow": true,
     "highlight": true
@@ -1327,9 +1327,9 @@
     "type": "coverage",
     "topic": "misinformation",
     "project_id": [
-      "pierri2020impact"
+      "pierri2022online"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Elon Musk's comments about Twitter don't square with the social media platform's reality",
@@ -1372,7 +1372,7 @@
     "type": "coverage",
     "topic": "misinformation",
     "project_id": [
-      "pierri2020impact"
+      "pierri2022online"
     ],
     "toshow": true
   },
@@ -1402,7 +1402,7 @@
     "type": "coverage",
     "topic": "misinformation",
     "project_id": [
-      "pierri2020impact"
+      "pierri2022online"
     ],
     "toshow": true
   },
@@ -1432,9 +1432,9 @@
     "type": "coverage",
     "topic": "misinformation",
     "project_id": [
-      "pierri2020impact"
+      "pierri2022online"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Twitter bots helped build the cult of Elon Musk and Tesla. But who's creating them?",
@@ -1474,7 +1474,7 @@
     "type": "coverage",
     "topic": "misinformation",
     "project_id": [
-      "covaxxy"
+      "deverna2021covaxxy"
     ],
     "toshow": true
   },
@@ -1491,7 +1491,7 @@
     "project_id": [
       "lee2021systematic"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Misinformation is being spread alongside our news stories. What can we do about it?",
@@ -1521,7 +1521,7 @@
     "project_id": [
       "lee2021substitution"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Pain Treated More With Opioids, Less With Physical Therapy, During COVID-19 Pandemic",
@@ -1536,7 +1536,7 @@
     "project_id": [
       "lee2021substitution"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "How a Kennedy built an anti-vaccine juggernaut amid COVID-19",
@@ -1549,7 +1549,7 @@
     "type": "coverage",
     "topic": "misinformation",
     "project_id": [
-      "covaxxy"
+      "deverna2021covaxxy"
     ],
     "toshow": true
   },
@@ -1566,7 +1566,7 @@
     "project_id": [
       "lee2021substitution"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Political bias on Twitter comes from users, not the platform",
@@ -1609,7 +1609,7 @@
     "type": "coverage",
     "topic": "misinformation",
     "project_id": [
-      "covaxxy"
+      "deverna2021covaxxy"
     ],
     "toshow": true
   },
@@ -1626,7 +1626,7 @@
     "project_id": [
       "lee2021systematic"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "As America exits pandemic, white conservatives at risk of suffering indefinitely",
@@ -1639,7 +1639,7 @@
     "type": "coverage",
     "topic": "misinformation",
     "project_id": [
-      "covaxxy"
+      "deverna2021covaxxy"
     ],
     "toshow": true
   },
@@ -1654,7 +1654,7 @@
     "type": "coverage",
     "topic": "misinformation",
     "project_id": [
-      "covaxxy"
+      "deverna2021covaxxy"
     ],
     "toshow": true
   },
@@ -1671,7 +1671,7 @@
     "project_id": [
       "lee2021systematic"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Twitter Bots Are a Major Source of Climate Disinformation",
