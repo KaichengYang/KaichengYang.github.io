@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, onMounted, inject } from 'vue';
+import { ref, computed, onMounted, inject, onUpdated } from 'vue';
 import BackForth from '@/components/nav/BackForth.vue';
 import PubsBlock from '@/components/pubs/PubsBlock.vue';
 
@@ -13,17 +13,33 @@ const props = defineProps({
 
 // data
 const isHome = props.is_home;
-const authors = ref({});
+const topic_to_show = ref("all");
+const topic_dict = {
+  "all": {"name": "All"},
+  "genai": {"name": "💡 Generative AI"},
+  "bot": {"name": "🤖 Social bot"},
+  "bias": {"name": "🔀 Algorithmic bias"},
+  "misinformation": {"name": "📢 Misinformation"},
+  "netsci": {"name": "🕸 Network science"},
+  "opioid": {"name": "💊 Opioid crisis"},
+};
+
 const pub_list = inject('pub_list', ref([]));
 
 // computed
 const pubChunkToShow = computed(() => {
   pub_list.value.sort((a, b) => new Date(b.date) - new Date(a.date));
+  let pubChunk = [];
   if (isHome) {
-    return pub_list.value.filter(pub => pub.highlight.length > 0);
+    pubChunk = pub_list.value.filter(pub => pub.highlight.length > 0);
   } else {
-    return pub_list.value;
+    if (topic_to_show.value === "all") {
+      pubChunk = pub_list.value;
+    } else {
+      pubChunk = pub_list.value.filter(pub => pub.topic.includes(topic_to_show.value));
+    }
   }
+  return pubChunk;
 });
 
 // methods
@@ -32,9 +48,18 @@ onMounted(() => {
   _altmetric_embed_init();
 });
 
+onUpdated(() => {
+  _altmetric_embed_init();
+});
+
 </script>
 
 <template>
+  <div v-if="!isHome" class="flex flex-wrap justify-center gap-1">
+    <template v-for="topic in Object.keys(topic_dict)" :key="topic">
+      <button class="btn btn-sm btn-outline btn-primary" :class="{'btn-active': topic_to_show === topic}" @click="topic_to_show = topic" >{{ topic_dict[topic].name }}</button>
+    </template>
+  </div>
   <hr class="col-span-full my-3">
   <div v-for="pub in pubChunkToShow" :key="pub.id" class="grid grid-cols-1 md:grid-cols-7 md:gap-x-4">
     <!-- date  -->
