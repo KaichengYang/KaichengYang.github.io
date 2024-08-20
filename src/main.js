@@ -29,12 +29,6 @@ async function initApp() {
     fetch('/files/tools.json').then(response => response.json()),
   ]);
 
-  news_list.value = await Promise.all(news_index.map(async news_file_name => {
-    const response = await fetch(`/files/news/${news_file_name}`);
-    const news = await response.json();
-    return news;
-  }));
-
   pub_list.value = await Promise.all(pub_index.map(async pub_file_name => {
     const response = await fetch(`/files/pubs/${pub_file_name}`);
     const pub = await response.json();
@@ -54,6 +48,29 @@ async function initApp() {
   }));
 
   tool_list.value = tools;
+
+
+  news_list.value = await Promise.all(news_index.map(async news_file_name => {
+    const response = await fetch(`/files/news/${news_file_name}`);
+    const news = await response.json();
+    news.project = {};
+    for (const msg of news.msgs) {
+      if (msg.type == "pub") {
+        news.project = pub_list.value.find(pub => pub.id == msg.project_id);
+        news.project.type = "pub";
+        break;
+      } else if (msg.type == "tool") {
+        news.project = tool_list.value.find(tool => tool.id == msg.project_id);
+        news.project.type = "tool";
+        break;
+      } else {
+        news.project = null;
+      }
+    }
+    return news;
+  }));
+
+  // console.log(news_list.value);
 
   media_list.value = media.map(media_item => {
     media_item.ref = [];
