@@ -42,7 +42,7 @@ const get_icon = (link_name) => {
       <h1 class="text-2xl font-bold">{{ tool_obj.title }}</h1>
       <p class="text-lg prose">{{ tool_obj.msg }}</p>
       <span v-for="(link, index) in tool_obj.links" :key="link.url">
-        <a :href="link.url" class="link">
+        <a :href="link.url" class="link" target="_blank">
           <font-awesome-icon :icon="[get_icon(link.name).prefix, get_icon(link.name).icon]" />
           {{ link.name }}
         </a>
