@@ -7,9 +7,8 @@
       "msg": "New preprint"
     },
     {
-      "type": "paper",
-      "msg": "Accuracy and Political Bias of News Source Credibility Ratings by Large Language Models",
-      "link": "https://arxiv.org/abs/2304.00228"
+      "type": "pub",
+      "project_id": "yang2024accuracy"
     },
     {
       "type": "string",
