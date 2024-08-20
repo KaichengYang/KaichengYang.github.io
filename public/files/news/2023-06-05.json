@@ -1,1 +1,18 @@
-{"date": "2023-06-05", "type": "new_pub", "msgs": [{"type": "string", "msg": "Our paper"}, {"type": "paper", "msg": "A Multi-Platform Collection of Social Media Posts about the 2022 U.S. Midterm Elections", "link": "https://ojs.aaai.org/index.php/ICWSM/article/view/22205"}, {"type": "string", "msg": "was published in the Proceedings of ICWSM"}]}
+{
+  "date": "2023-06-05",
+  "type": "new_pub",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Our paper"
+    },
+    {
+      "type": "pub",
+      "project_id": "aiyappa2023multiplatform"
+    },
+    {
+      "type": "string",
+      "msg": "was published in the Proceedings of ICWSM"
+    }
+  ]
+}

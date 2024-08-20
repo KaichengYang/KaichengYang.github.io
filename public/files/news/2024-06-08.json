@@ -25,9 +25,8 @@
       "msg": "On Jun 4, I presented our paper"
     },
     {
-      "type": "paper",
-      "msg": "Anatomy of an AI-powered malicious social botnet",
-      "link": "https://doi.org/10.51685/jqd.2024.icwsm.7"
+      "type": "pub",
+      "project_id": "yang2024anatomy"
     }
   ]
 }

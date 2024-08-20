@@ -7,9 +7,8 @@
       "msg": "New preprint"
     },
     {
-      "type": "paper",
-      "msg": "Election Polls on Social Media: Prevalence, Biases, and Voter Fraud Beliefs",
-      "link": "https://arxiv.org/abs/2405.11146"
+      "type": "pub",
+      "project_id": "scarano2024election"
     },
     {
       "type": "string",

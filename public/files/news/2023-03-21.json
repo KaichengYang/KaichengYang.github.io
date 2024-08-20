@@ -1,1 +1,18 @@
-{"date": "2023-03-21", "type": "general", "msgs": [{"type": "string", "msg": "Our paper"}, {"type": "paper", "msg": "Online misinformation is linked to early COVID-19 vaccination hesitancy and refusal", "link": "https://doi.org/10.1038/s41598-022-10070-w"}, {"type": "string", "msg": "was listed Scientific Reports'"}, {"type": "link", "msg": "Top 100 most downloaded articles of 2022", "link": "https://www.nature.com/collections/jhjibhhicg"}, {"type": "string", "msg": "and cited by the"}, {"type": "link", "msg": "2023 Economic Report of the President (Biden-Harris Administration)", "link": "https://www.whitehouse.gov/wp-content/uploads/2023/03/ERP-2023.pdf"}]}
+{
+  "date": "2023-03-21",
+  "type": "general",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Our paper"
+    },
+    {
+      "type": "pub",
+      "project_id": "pierri2022online"
+    },
+    {
+      "type": "string",
+      "msg": "was listed Scientific Reports' Top 100 most downloaded articles of 2022"
+    }
+  ]
+}

@@ -1,1 +1,9 @@
-{"date": "2023-12-11", "type": "new_preprint", "msgs": [{"type": "string", "msg": "New preprint"}, {"type": "paper", "msg": "Constructing Vec-tionaries to Extract Latent Message Features from Texts: A Case Study of Moral Appeals", "link": "https://arxiv.org/abs/2312.05990"}, {"type": "string", "msg": "available"}]}
+{
+  "date": "2023-12-11",
+  "type": "new_preprint",
+  "msgs": [
+    {"type": "string", "msg": "New preprint"},
+    {"type": "pub", "project_id": "duan2024constructing"},
+    {"type": "string", "msg": "available"}
+  ]
+}

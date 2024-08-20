@@ -7,9 +7,8 @@
       "msg": "Our paper"
     },
     {
-      "type": "paper",
-      "msg": "Introduction to National Internet Observatory",
-      "link": "https://doi.org/10.36190/2024.73"
+      "type": "pub",
+      "project_id": "feal2024introduction"
     },
     {
       "type": "string",
