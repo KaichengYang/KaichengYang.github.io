@@ -1,5 +1,7 @@
 <script setup>
 import { ref } from 'vue';
+import ToolBlock from '@/components/tool/ToolBlock.vue'
+import PubBlock from '@/components/pubs/PubsBlock.vue'
 
 // props
 const props = defineProps({
@@ -16,6 +18,18 @@ const background_color = ref({
   quotation: "#006298",
   coverage: "#ac4142",
 });
+
+// modal state
+const show_modal = ref(null);
+
+// methods to control modal
+const openModal = (projectId) => {
+  show_modal.value = projectId;
+};
+
+const closeModal = () => {
+  show_modal.value = null;
+};
 
 </script>
 
@@ -52,7 +66,22 @@ const background_color = ref({
       <template v-if="media.type == 'coverage' && media.ref">
         <template v-for="(ref, index) in media.ref" :key="index">
           <template v-if="index > 0"> and </template>
-          <a :href="ref.link.url" target="_blank" class="text-gray-400 font-normal hover:decoration-2"> {{ ref.title }}</a>
+          <span target="_blank" class="text-gray-400 font-normal hover:decoration-2" @click="openModal(ref.project_id)"> {{ ref.obj.title }}</span>
+          <dialog :class="{'modal modal-open': show_modal === ref.project_id}" @close="closeModal">
+            <div class="modal-box w-11/12 max-w-4xl bg-white">
+              <div v-if="ref.type == 'tool'" class="not-prose">
+                <ToolBlock :tool_obj="ref.obj" />
+              </div>
+              <div v-else class="not-prose">
+                <PubBlock :pub_obj="ref.obj" />
+              </div>
+              <div class="modal-action">
+                <button class="btn btn-outline btn-primary" @click="closeModal">
+                  <font-awesome-icon :icon="['far', 'circle-xmark']" />
+                  Close</button>
+              </div>
+            </div>
+          </dialog>
         </template>
       </template>
     </div>

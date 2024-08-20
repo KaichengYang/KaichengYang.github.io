@@ -40,6 +40,7 @@ async function initApp() {
     const pub = await response.json();
     pub.bibtex = bibtexParse.toJSON(pub.bibtex_string)[0];
     pub.id = pub.bibtex.citationKey;
+    pub.title = pub.bibtex.entryTags.title;
     pub.authors.forEach(author => {
       author.info = authors[author.id];
     });
@@ -59,16 +60,16 @@ async function initApp() {
     tools.forEach(tool => {
       if (media_item.project_id && media_item.project_id.indexOf(tool.id) >= 0) {
         media_item.ref.push({
-          "title": tool.title,
-          "link": tool.links[0]
+          "obj": tool,
+          "type": "tool"
         });
       }
     });
     pub_list.value.forEach(pub => {
       if (media_item.project_id && media_item.project_id.indexOf(pub.id) >= 0) {
         media_item.ref.push({
-          "title": pub.bibtex.entryTags.title,
-          "link": pub.links[0]
+          "obj": pub,
+          "type": "pub"
         });
       }
     });
