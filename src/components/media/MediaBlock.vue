@@ -70,11 +70,11 @@ const closeModal = () => {
           <template v-if="index > 0"> and </template>
           <a target="_blank" class="text-gray-400 font-normal hover:decoration-2" @click="openModal(ref.obj.id)"> {{ ref.obj.title }}</a>
           <dialog :class="{'modal modal-open': show_modal === ref.obj.id}" @close="closeModal">
-            <div class="modal-box w-11/12 max-w-4xl bg-white">
-              <div v-if="ref.type == 'tool'" class="not-prose">
+            <div class="modal-box w-11/12 max-w-3xl bg-white">
+              <div v-if="ref.type == 'tool'" class="not-prose py-2">
                 <ToolBlock :tool_obj="ref.obj" />
               </div>
-              <div v-else class="not-prose">
+              <div v-else class="not-prose py-2">
                 <PubBlock :pub_obj="ref.obj" />
               </div>
               <div class="modal-action">
