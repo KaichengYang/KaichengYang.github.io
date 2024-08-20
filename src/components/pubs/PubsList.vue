@@ -18,7 +18,7 @@ const topic_dict = {
   "all": {"name": "All"},
   "genai": {"name": "💡 Generative AI"},
   "bot": {"name": "🤖 Social bot"},
-  "bias": {"name": "🔀 Algorithmic bias"},
+  "bias": {"name": "🔀 System bias"},
   "misinformation": {"name": "📢 Misinformation"},
   "netsci": {"name": "🕸 Network science"},
   "opioid": {"name": "💊 Opioid crisis"},
