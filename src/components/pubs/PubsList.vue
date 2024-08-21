@@ -60,7 +60,7 @@ onUpdated(() => {
 
 <template>
   <div v-if="!isHome" class="flex flex-wrap justify-center gap-1">
-    <p class="prose">Topics:</p>
+    <p class="prose">Topic:</p>
     <template v-for="topic in Object.keys(topic_dict)" :key="topic">
       <button class="btn btn-sm btn-outline btn-primary" :class="{'btn-active': topic_to_show === topic}" @click="topic_to_show = topic" >{{ topic_dict[topic].name }}</button>
     </template>
