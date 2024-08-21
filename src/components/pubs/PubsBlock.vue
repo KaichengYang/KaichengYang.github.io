@@ -10,7 +10,6 @@
           <font-awesome-icon v-if="author.annotation && author.annotation.includes('highlight')" :icon="['fas', 'circle-user']" />
           <font-awesome-icon v-else :icon="['far', 'circle-user']" />
           {{ author.info.abbr_name }}
-          <!-- <font-awesome-icon v-if="author.annotation && author.annotation.includes('corresponding_author')" :icon="['far', 'envelope']" /> -->
         </a>
         <span v-if="author.annotation && author.annotation.includes('corresponding_author')"></span>
         <span v-if="index != pub_obj.authors.length - 1"> | </span>
