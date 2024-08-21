@@ -1,0 +1,38 @@
+{
+  "authors": [
+    {"id": "bperry"},
+    {"id": "kcyang", "annotation": ["highlight"]},
+    {"id": "pkaminski"},
+    {"id": "modabas"},
+    {"id": "jpark"},
+    {"id": "mmartel"},
+    {"id": "coser"},
+    {"id": "pfreeman"},
+    {"id": "yyahn"},
+    {"id": "jtalbert"}
+  ],
+  "year": [
+    2019
+  ],
+  "date": "2019-10-25",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "opioid",
+    "netsci",
+    "method"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.1371/journal.pone.0223849",
+      "name": "DOI"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1371/journal.pone.0223849"
+  },
+  "bibtex_string": "@article{perry2019co,\n\tdoi = {10.1371/journal.pone.0223849},\n\tauthor = {Perry, Brea L. AND Yang, Kai Cheng AND Kaminski, Patrick AND Odabas, Meltem AND Park, Jaehyuk AND Martel, Michelle AND Oser, Carrie B. AND Freeman, Patricia R. AND Ahn, Yong-Yeol AND Talbert, Jeffery},\n\tjournal = {PLOS ONE},\n\tpublisher = {Public Library of Science},\n\ttitle = {Co-prescription network reveals social dynamics of opioid doctor shopping},\n\tyear = {2019},\n\tmonth = {10},\n\tvolume = {14},\n\turl = {https://doi.org/10.1371/journal.pone.0223849},\n\tpages = {1-16},\n\tnumber = {10}}",
+  "abstract": "This paper examines network prominence in a co-prescription network as an indicator of opioid doctor shopping (i.e., fraudulent solicitation of opioids from multiple prescribers). Using longitudinal data from a large commercially insured population, we construct a network where a tie between patients is weighted by the number of shared opioid prescribers. Given prior research suggesting that doctor shopping may be a social process, we hypothesize that active doctor shoppers will occupy central structural positions in this network. We show that network prominence, operationalized using PageRank, is associated with more opioid prescriptions, higher predicted risk for dangerous morphine dosage, opioid overdose, and opioid use disorder, controlling for number of prescribers and other variables. Moreover, as a patient’s prominence increases over time, so does their risk for these outcomes, compared to their own average level of risk. Results highlight the importance of co-prescription networks in characterizing high-risk social dynamics."
+}

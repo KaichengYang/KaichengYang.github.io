@@ -413,5 +413,45 @@
     "full_name": "Etsuko Nonaka",
     "abbr_name": "Nonaka, E.",
     "link": "https://scholar.google.com/citations?user=noD_LaMAAAAJ&hl=en"
+  },
+  "coser": {
+    "full_name": "Carrie B. Oser",
+    "abbr_name": "Oser, C. B.",
+    "link": "https://scholar.google.com/citations?user=WY_1tesAAAAJ&hl=en&oi=ao"
+  },
+  "pfreeman": {
+    "full_name": "Patricia R. Freeman",
+    "abbr_name": "Freeman, P. R.",
+    "link": "https://scholar.google.com/citations?hl=en&user=CcC-LPYAAAAJ"
+  },
+  "jtalbert": {
+    "full_name": "Jeffery C. Talbert",
+    "abbr_name": "Talbert, J. C.",
+    "link": "https://scholar.google.com/citations?user=5H0Y89gAAAAJ&hl=en"
+  },
+  "jpark": {
+    "full_name": "Jaehyuk Park",
+    "abbr_name": "Park, J.",
+    "link": "https://scholar.google.com/citations?user=n_qVDQQAAAAJ&hl=en&oi=ao"
+  },
+  "mmartel": {
+    "full_name": "Michelle Martel",
+    "abbr_name": "Martel, M.",
+    "link": "https://psychology.as.uky.edu/users/mmma245"
+  },
+  "hksmr_authors": {
+    "full_name": "Authors hidden due to space constraints",
+    "abbr_name": "...",
+    "link": "https://doi.org/10.37016/mr-2020-49"
+  },
+  "ivpasquetto": {
+    "full_name": "Irene V. Pasquetto",
+    "abbr_name": "Pasquetto, I. V.",
+    "link": "https://irenepasquetto.github.io"
+  },
+  "bswirethompson": {
+    "full_name": "Briony Swire-Thompson",
+    "abbr_name": "Swire-Thompson, B.",
+    "link": "https://brionyswire.com"
   }
 }

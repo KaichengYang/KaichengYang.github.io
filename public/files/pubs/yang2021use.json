@@ -1,0 +1,30 @@
+{
+  "authors": [
+    {"id": "kcyang", "annotation": ["corresponding_author", "highlight"]},
+    {"id": "blee"},
+    {"id": "yyahn"},
+    {"id": "bperry"}
+  ],
+  "year": [
+    2021
+  ],
+  "date": "2021-09-08",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "covid"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "name": "DOI",
+      "url": "https://doi.org/10.1001/jamanetworkopen.2021.24643"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1001/jamanetworkopen.2021.24643"
+  },
+  "bibtex_string": "@article{yang2021use,\n\tauthor = {Yang, Kai-Cheng and Lee, Byungkyu and Ahn, Yong-Yeol and Perry, Brea L.},\n\ttitle = {Use of and Comorbidities Associated With Diagnostic Codes for COVID-19 in US Health Insurance Claims},\n\tjournal = {JAMA Network Open},\n\tvolume = {4},\n\tnumber = {9},\n\tpages = {e2124643-e2124643},\n\tyear = {2021},\n\tmonth = {09},\n\tissn = {2574-3805},\n\tdoi = {10.1001/jamanetworkopen.2021.24643},\n\turl = {https://doi.org/10.1001/jamanetworkopen.2021.24643}}",
+  "abstract": "Accurate identification of COVID-19 diagnosis in patient medical records is essential for studies using administrative data to examine morbidity, mortality, and risk factors associated with COVID-19. Before April 1, 2020, the Centers for Disease Control and Prevention suggested using the existing International Statistical Classification of Diseases, Tenth Revision, Clinical Modification (ICD-10-CM) code B97.29 (other coronavirus as the cause of diseases classified elsewhere) as the primary diagnostic code for patients infected with COVID-19. On April 1, 2020, a new code U07.1 (2019-nCoV acute respiratory disease) was added to ICD-10-CM and was rapidly adopted by hospitals.4 Our study examined how nonhospital and hospital health care professionals have used these diagnostic codes in practice using a national medical claims data set in the US. We analyzed the comorbidities associated with COVID-19 diagnosis to assess the specificity of the legacy code and the importance of using both codes."
+}

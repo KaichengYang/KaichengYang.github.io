@@ -1,0 +1,33 @@
+{
+  "authors": [
+    {"id": "hyan"},
+    {"id": "kcyang", "annotation": ["corresponding_author", "highlight"]}
+  ],
+  "year": [
+    2023
+  ],
+  "date": "2023-11-14",
+  "type": [
+    "other"
+  ],
+  "topic": [
+    "socialmedia",
+    "bot"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.4337/9781803928562.00073",
+      "name": "DOI"
+    },
+    {
+      "url": "https://doi.org/10.31219/osf.io/3cf4j",
+      "name": "OSF"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.31219/osf.io/3cf4j"
+  },
+  "bibtex_string": "@inbook {yan2023landscape,\n\tauthor = {Harry Yaojun Yan and Kai-Cheng Yang},\n\ttitle = {The landscape of social bot research: a critical appraisal},\n\tbooktitle = {Handbook of Critical Studies of Artificial Intelligence},\n\tyear = {2023},\n\tpublisher = {Edward Elgar Publishing},\n\taddress = {Cheltenham, UK},\n\tisbn = {9781803928562},\n\tdoi = {10.4337/9781803928562.00073},\n\tpages={716 - 725},\n\turl = {https://www.elgaronline.com/view/book/9781803928562/book-part-9781803928562-73.xml}}",
+  "abstract": "Malicious social bots that emulate real users with explicit political personas have been manipulating various online discussions around critical issues such as elections and pandemic prevention. In response to public concerns, social media platforms deployed more aggressive countermeasures, forcing bots to adopt state-of-the-art artificial intelligence technologies and more complex behaviors to evade detection. As researchers also continue proposing more sophisticated machine learning models to identify bots, their production and detection now evolve into a technology competition. In this chapter, we survey the related research body with a critical lens and demonstrate that existing scholarly efforts mainly focus on technology-assisted bot detection and bot behavior characterization, whereas research on human-bot interactions is lacking. We argue that such interactions not only exacerbate human cognitive biases but also contribute to the current authoritarian culture. In addition to pure technological solutions to bot-related issues, we call for more human-centered countermeasures."
+}

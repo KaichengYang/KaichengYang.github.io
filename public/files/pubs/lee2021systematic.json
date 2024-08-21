@@ -1,0 +1,35 @@
+{
+  "authors": [
+    {"id": "blee"},
+    {"id": "wzhao"},
+    {"id": "kcyang", "annotation": ["highlight"]},
+    {"id": "yyahn"},
+    {"id": "bperry"}
+  ],
+  "year": [
+    2021
+  ],
+  "date": "2021-02-12",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "opioid"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "name": "DOI",
+      "url": "https://doi.org/10.1001/jamanetworkopen.2020.36687"
+    },
+    {
+      "name": "Dataset",
+      "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Z0TMBW"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1001/jamanetworkopen.2020.36687"
+  },
+  "bibtex_string": "@article{lee2021systematic,\n\tauthor = {Lee, Byungkyu and Zhao, Wanying and Yang, Kai-Cheng and Ahn, Yong-Yeol and Perry, Brea L.},\n\ttitle = {Systematic Evaluation of State Policy Interventions Targeting the US Opioid Epidemic, 2007-2018},\n\tjournal = {JAMA Network Open},\n\tvolume = {4},\n\tnumber = {2},\n\tpages = {e2036687-e2036687},\n\tyear = {2021},\n\tmonth = {02},\n\tissn = {2574-3805},\n\tdoi = {10.1001/jamanetworkopen.2020.36687},\n\turl = {https://doi.org/10.1001/jamanetworkopen.2020.36687}}",
+  "abstract": "In response to the increase in opioid overdose deaths in the United States, many states recently have implemented supply-controlling and harm-reduction policy measures. To date, an updated policy evaluation that considers the full policy landscape has not been conducted.To evaluate 6 US state-level drug policies to ascertain whether they are associated with a reduction in indicators of prescription opioid abuse, the prevalence of opioid use disorder and overdose, the prescription of medication-assisted treatment (MAT), and drug overdose deaths.This cross-sectional study used drug overdose mortality data from 50 states obtained from the National Vital Statistics System and claims data from 23 million commercially insured patients in the US between 2007 and 2018. Difference-in-differences analysis using panel matching was conducted to evaluate the prevalence of indicators of prescription opioid abuse, opioid use disorder and overdose diagnosis, the prescription of MAT, and drug overdose deaths before and after implementation of 6 state-level policies targeting the opioid epidemic. A random-effects meta-analysis model was used to summarize associations over time for each policy and outcome pair. The data analysis was conducted July 12, 2020.State-level drug policy changes to address the increase of opioid-related overdose deaths included prescription drug monitoring program (PDMP) access, mandatory PDMPs, pain clinic laws, prescription limit laws, naloxone access laws, and Good Samaritan laws.The outcomes of interests were quarterly state-level mortality from drug overdoses, known indicators for prescription opioid abuse and doctor shopping, MAT, and prevalence of drug overdose and opioid use disorder.This cross-sectional study of drug overdose mortality data and insurance claims data from 23 million commercially insured patients (12 582 378 female patients [55.1%]; mean [SD] age, 45.9 [19.9] years) in the US between 2007 and 2018 found that mandatory PDMPs were associated with decreases in the proportion of patients taking opioids (−0.729%; 95% CI, −1.011% to −0.447%), with overlapping opioid claims (−0.027%; 95% CI, −0.038% to −0.017%), with daily morphine milligram equivalent greater than 90 (−0.095%; 95% CI, −0.150% to −0.041%), and who engaged in drug seeking (−0.002%; 95% CI, −0.003% to −0.001%). The proportion of patients receiving MAT increased after the enactment of mandatory PDMPs (0.015%; 95% CI, 0.002% to 0.028%), pain clinic laws (0.013%, 95% CI, 0.005%-0.021%), and prescription limit laws (0.034%, 95% CI, 0.020% to 0.049%). Mandatory PDMPs were associated with a decrease in the number of overdose deaths due to natural opioids (−518.5 [95% CI, −728.5 to −308.5] per 300 million people) and methadone (−122.7 [95% CI, −207.5 to −37.8] per 300 million people). Prescription drug monitoring program access policies showed similar results, although these policies were also associated with increases in overdose deaths due to synthetic opioids (380.3 [95% CI, 149.6-610.8] per 300 million people) and cocaine (103.7 [95% CI, 28.0-179.5] per 300 million people). Except for the negative association between prescription limit laws and synthetic opioid deaths (−723.9 [95% CI, −1419.7 to −28.1] per 300 million people), other policies were associated with increasing overdose deaths, especially those attributed to non–prescription opioids such as synthetic opioids and heroin. This includes a positive association between naloxone access laws and the number of deaths attributed to synthetic opioids (1338.2 [95% CI, 662.5 to 2014.0] per 300 million people).Although this study found that existing state policies were associated with reduced misuse of prescription opioids, they may have the unintended consequence of motivating those with opioid use disorders to access the illicit drug market, potentially increasing overdose mortality. This finding suggests that there is no easy policy solution to reverse the epidemic of opioid dependence and mortality in the US."
+}

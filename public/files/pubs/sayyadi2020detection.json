@@ -2,7 +2,7 @@
   "authors": [
     {"id": "msayyadi"},
     {"id": "ovarol"},
-    {"id": "kcyang", "annotated": ["highlight"]},
+    {"id": "kcyang", "annotation": ["highlight"]},
     {"id": "aflammini"},
     {"id": "fmenczer"}
   ],
@@ -15,7 +15,8 @@
   ],
   "topic": [
     "socialmedia",
-    "bot"
+    "bot",
+    "method"
   ],
   "highlight": [],
   "links": [

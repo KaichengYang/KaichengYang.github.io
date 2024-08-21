@@ -1,0 +1,32 @@
+{
+  "authors": [
+    {"id": "ivpasquetto"},
+    {"id": "bswirethompson"},
+    {"id": "hksmr_authors"},
+    {"id": "kcyang", "annotation": ["highlight"]}
+  ],
+  "year": [
+    2020
+  ],
+  "date": "2020-12-01",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "socialmedia",
+    "misinformation"
+  ],
+  "highlight": [],
+  "id": "pasquetto2020tackling",
+  "links": [
+    {
+      "url": "https://doi.org/10.37016/mr-2020-49",
+      "name": "DOI"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.37016/mr-2020-49"
+  },
+  "bibtex_string": "@article{pasquetto2020trackling,\n\ttitle={Tackling misinformation: What researchers could do with social media data},\n\tauthor={Pasquetto, Irene V and Swire-Thompson, Briony and Amazeen, Michelle A and Benevenuto, Fabricio and Brashier, Nadia and Bond, Robert M and Bozarth, Lia C and Budak, Ceren and Ecker, Ullrich KH and ... and Yang, Kai-Cheng},\n\tjournal={The Harvard Kennedy School (HKS) Misinformation Review},\n\tyear={2020},\n\tvolume={1},\n\tnumber={8},\n\tdoi={10.37016/mr-2020-49}}",
+  "abstract": "Tackling misinformation: What researchers could do with social media data."
+}
