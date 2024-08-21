@@ -16,7 +16,9 @@
       </span>
     </p>
     <!-- venue  -->
+
     <p v-if="pub_obj.bibtex.entryTags.booktitle">🏠 {{ pub_obj.bibtex.entryTags.booktitle }} ({{ pub_obj.bibtex.entryTags.year }})</p>
+    <p v-else-if="pub_obj.bibtex.entryTags.school">🏠 {{ pub_obj.bibtex.entryTags.school }} ({{ pub_obj.bibtex.entryTags.type }}, {{ pub_obj.bibtex.entryTags.year }})</p>
     <p v-else>🏠 {{ pub_obj.bibtex.entryTags.journal }} ({{ pub_obj.bibtex.entryTags.year }})</p>
     <!-- links -->
     <span v-if="pub_obj.links">
@@ -111,6 +113,10 @@ export default defineComponent({
       toastMessage: '',
       icon_mapping: {
         "DOI": {
+          prefix: "far",
+          icon: "file-pdf"
+        },
+        "ProQuest": {
           prefix: "far",
           icon: "file-pdf"
         },
