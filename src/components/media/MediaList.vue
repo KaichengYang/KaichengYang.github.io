@@ -34,5 +34,5 @@ const media_to_show = computed(() => {
   <hr class="col-span-full my-3">
   <!-- {{ pub_list }} -->
   <MediaBlock v-for="media in media_to_show" :key="media.title" :media="media" />
-  <BackForth :is_home="is_home" target="/media"/>
+  <BackForth :is_home="is_home" target="/media" target_name="media coverage"/>
 </template>

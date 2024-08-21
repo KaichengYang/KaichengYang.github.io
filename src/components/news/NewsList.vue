@@ -55,6 +55,6 @@ const box_style = (item) => {
     <hr class="col-span-full my-3">
   </div>
   <div class="mt-2">
-    <BackForth :is_home="is_home" :target="'/news'"/>
+    <BackForth :is_home="is_home" :target="'/news'" target_name="news"/>
   </div>
 </template>

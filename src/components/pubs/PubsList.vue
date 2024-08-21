@@ -95,5 +95,5 @@ onUpdated(() => {
     </div>
     <hr class="col-span-full my-3">
   </div>
-  <BackForth :is_home="isHome" :target="'/pubs'"/>
+  <BackForth :is_home="isHome" :target="'/pubs'" target_name="publications"/>
 </template>

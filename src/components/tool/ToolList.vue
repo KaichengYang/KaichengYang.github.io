@@ -26,6 +26,6 @@ const tools = inject('tool_list');
 
   </div>
   <div class="mt-2  ">
-    <BackForth :is_home="is_home" :target="'/tools'" />
+    <BackForth :is_home="is_home" :target="'/tools'" target_name="tools"/>
   </div>
 </template>
