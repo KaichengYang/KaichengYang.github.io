@@ -5,9 +5,3 @@ Run the project in development mode:
 npm install
 npm run dev
 ```
-
-
-# TODO
-
-- [ ] Add more refs
-- [ ] Handle books
