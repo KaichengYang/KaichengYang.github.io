@@ -16,7 +16,16 @@
     },
     {
       "type": "string",
-      "msg": "This paper has been accepted by IEEE VIS 2024"
+      "msg": "This paper has been accepted by IEEE VIS 2024. Check out my Twitter"
+    },
+    {
+      "type": "link",
+      "msg": "thread",
+      "link": "https://x.com/yang3kc/status/1828072244351836217"
+    },
+    {
+      "type": "string",
+      "msg": "for details"
     }
   ]
 }
