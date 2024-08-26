@@ -1,3 +1,35 @@
+<script setup>
+import { ref, onMounted } from 'vue'
+import Navbar from '@/components/nav/Navbar.vue'
+import Footer from '@/components/nav/Footer.vue'
+
+const bio = ref({
+  short: '',
+  long: ''
+})
+const showToast = ref(false)
+
+onMounted(() => {
+  fetch('/files/bios.json')
+    .then(response => response.json())
+    .then(data => {
+      bio.value = data
+    })
+})
+
+const copyToClipboard = (bioText) => {
+  navigator.clipboard.writeText(bioText).then(() => {
+    console.log('Bio copied to clipboard!')
+    showToast.value = true
+    setTimeout(() => {
+      showToast.value = false
+    }, 3000)
+  }).catch(err => {
+    console.error('Failed to copy: ', err)
+  })
+}
+</script>
+
 <template>
   <Navbar />
   <div class="container mx-auto max-w-screen-lg">
@@ -73,47 +105,3 @@
   </div>
   <Footer />
 </template>
-
-<script>
-import Navbar from '@/components/nav/Navbar.vue'
-import Footer from '@/components/nav/Footer.vue'
-
-export default {
-  components: {
-    Navbar,
-    Footer
-  },
-  data () {
-    return {
-      bio: {
-        short: '',
-        long: ''
-      },
-      showToast: false
-    }
-  },
-  created() {
-    fetch('/files/bios.json')
-      .then(response => response.json())
-      .then(data => {
-        this.bio = data;
-      });
-  },
-  methods: {
-    copyToClipboard(bioText) {
-      navigator.clipboard.writeText(bioText).then(() => {
-        console.log('Bio copied to clipboard!');
-        this.showToast = true;
-        setTimeout(() => {
-          this.showToast = false;
-        }, 3000);
-      }).catch(err => {
-        console.error('Failed to copy: ', err);
-      });
-    }
-  }
-}
-</script>
-
-<style scoped>
-</style>
