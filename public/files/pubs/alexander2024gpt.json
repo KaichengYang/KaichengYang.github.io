@@ -18,7 +18,6 @@
     "genai"
   ],
   "highlight": ["highlight"],
-  "id": "alexander2024gpt",
   "links": [
     {
       "url": "https://arxiv.org/abs/2408.12617",
@@ -32,6 +31,6 @@
   "altmetric": {
     "arxiv_id": "2408.12617"
   },
-  "bibtex_string": "@misc{alexander2024gpt4,\n\ttitle={Can GPT-4 Models Detect Misleading Visualizations?},\n\tauthor={Jason Alexander and Priyal Nanda and Kai-Cheng Yang and Ali Sarvghad},\n\tyear={2024},\n\teprint={2408.12617},\n\tarchivePrefix={arXiv},\n\tprimaryClass={cs.CV},\n\turl={https://arxiv.org/abs/2408.12617},journal={arXiv:2408.12617, forthcoming in Proceedings of IEEE Visualization and Visual Analytics}}",
+  "bibtex_string": "@misc{alexander2024gpt,\n\ttitle={Can GPT-4 Models Detect Misleading Visualizations?},\n\tauthor={Jason Alexander and Priyal Nanda and Kai-Cheng Yang and Ali Sarvghad},\n\tyear={2024},\n\teprint={2408.12617},\n\tarchivePrefix={arXiv},\n\tprimaryClass={cs.CV},\n\turl={https://arxiv.org/abs/2408.12617},journal={arXiv:2408.12617, forthcoming in Proceedings of IEEE Visualization and Visual Analytics}}",
   "abstract": "The proliferation of misleading visualizations online, particularly during critical events like public health crises and elections, poses a significant risk. This study investigates the capability of GPT-4 models (4V, 4o, and 4o mini) to detect misleading visualizations. Utilizing a dataset of tweet-visualization pairs containing various visual misleaders, we test these models under four experimental conditions with different levels of guidance. We show that GPT-4 models can detect misleading visualizations with moderate accuracy without prior training (naive zero-shot) and that performance notably improves when provided with definitions of misleaders (guided zero-shot). However, a single prompt engineering technique does not yield the best results for all misleader types. Specifically, providing the models with misleader definitions and examples (guided few-shot) proves more effective for reasoning misleaders, while guided zero-shot performs better for design misleaders. This study underscores the feasibility of using large vision-language models to detect visual misinformation and the importance of prompt engineering for optimized detection accuracy."
 }
