@@ -453,5 +453,20 @@
     "full_name": "Briony Swire-Thompson",
     "abbr_name": "Swire-Thompson, B.",
     "link": "https://brionyswire.com"
+  },
+  "jhalexander": {
+    "full_name": "Jason Huang Alexander",
+    "abbr_name": "Alexander, J. H.",
+    "link": "https://www.linkedin.com/in/jason-huang-alexander-40b81a232"
+  },
+  "pnanda": {
+    "full_name": "Priyal Nanda",
+    "abbr_name": "Nanda, P.",
+    "link": "https://www.linkedin.com/in/priyal-nanda"
+  },
+  "asarvghad": {
+    "full_name": "Ali Sarvghad",
+    "abbr_name": "Sarvghad, A.",
+    "link": "https://groups.cs.umass.edu/asarv"
   }
 }
