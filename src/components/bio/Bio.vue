@@ -1,3 +1,41 @@
+<script setup>
+import { ref } from 'vue'
+
+const contact_links = ref([
+  {
+    name: 'Email',
+    icon: {prefix: 'fas', icon: 'envelope'},
+    link: 'mailto:yang3kc@gmail.com'
+  },
+  {
+    name: 'Google Scholar',
+    icon: {prefix: 'fab', icon: 'google-scholar'},
+    link: 'https://scholar.google.com/citations?hl=en&user=tqb96X8AAAAJ&view_op=list_works&sortby=pubdate'
+  },
+  {
+    name: 'ResearchGate',
+    icon: {prefix: 'fab', icon: 'researchgate'},
+    link: 'https://www.researchgate.net/profile/Kai-Cheng-Yang-3'
+  },
+  {
+    name: 'LinkedIn',
+    icon: {prefix: 'fab', icon: 'linkedin'},
+    link: 'https://www.linkedin.com/in/kaicheng-yang-43477213b/'
+  },
+  {
+    name: 'Twitter',
+    icon: {prefix: 'fab', icon: 'twitter'},
+    link: 'https://twitter.com/yang3kc'
+  },
+  {
+    name: 'Substack',
+    icon: {prefix: 'fas', icon: 'bookmark'},
+    link: 'https://yang3kc.substack.com'
+  }
+])
+
+</script>
+
 <template>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
   <!-- avatar -->
@@ -14,24 +52,11 @@
       </div>
       <!-- contact -->
       <div id="contact_container" class="mt-1">
-        <a href="mailto:yang3kc@gmail.com" class="text-primary mr-1">
-          <font-awesome-icon :icon="['fas', 'envelope']" class="text-2xl" />
-        </a>
-        <a href="https://scholar.google.com/citations?hl=en&user=tqb96X8AAAAJ&view_op=list_works&sortby=pubdate" class="text-primary mr-1" target="_blank">
-          <font-awesome-icon :icon="['fab', 'google-scholar']" class="text-2xl" />
-        </a>
-        <a href="https://www.researchgate.net/profile/Kai-Cheng-Yang-3" class="text-primary mr-1" target="_blank">
-          <font-awesome-icon :icon="['fab', 'researchgate']" class="text-2xl" />
-        </a>
-        <a href="https://www.linkedin.com/in/kaicheng-yang-43477213b/" class="text-primary mr-1" target="_blank">
-          <font-awesome-icon :icon="['fab', 'linkedin']" class="text-2xl" />
-        </a>
-        <a href="https://twitter.com/yang3kc" class="text-primary mr-1" target="_blank">
-          <font-awesome-icon :icon="['fab', 'twitter']" class="text-2xl" />
-        </a>
-        <a href="https://yang3kc.substack.com" class="text-primary mr-1" target="_blank">
-          <font-awesome-icon :icon="['fas', 'bookmark']" class="text-2xl" />
-        </a>
+        <template v-for="link in contact_links" :key="link.name">
+          <a :href="link.link" class="text-primary mr-1" target="_blank">
+            <font-awesome-icon :icon="[link.icon.prefix, link.icon.icon]" class="text-2xl" />
+          </a>
+        </template>
       </div>
     </div>
     <!-- bio -->
