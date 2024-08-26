@@ -1,3 +1,68 @@
+<script setup>
+import { ref, defineProps, defineEmits } from 'vue';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
+// props
+const props = defineProps({
+  pub_obj: {
+    type: Object,
+    required: true
+  },
+  is_home: {
+    type: Boolean,
+    required: false,
+    default: true
+  }
+});
+
+// data
+const show_modal = ref(null);
+const show_modal_type = ref(null);
+const showToast = ref(false);
+const toastMessage = ref('');
+
+const icon_mapping = {
+  "DOI": { prefix: "far", icon: "file-pdf" },
+  "ProQuest": { prefix: "far", icon: "file-pdf" },
+  "arXiv": { prefix: "far", icon: "file-pdf" },
+  "OSF": { prefix: "far", icon: "file-pdf" },
+  "SocArXiv": { prefix: "far", icon: "file-pdf" },
+  "GitHub": { prefix: "fab", icon: "github" },
+  "PyPI": { prefix: "fab", icon: "python" },
+  "CRAN": { prefix: "fab", icon: "r-project" },
+  "Twitter": { prefix: "fab", icon: "twitter" },
+  "Dataset": { prefix: "fas", icon: "database" },
+  "default": { prefix: "fas", icon: "link" }
+};
+
+// methods
+const getIcon = (link_name) => {
+  return icon_mapping[link_name] || icon_mapping["default"];
+};
+
+const openModal = (id, type) => {
+  show_modal.value = id;
+  show_modal_type.value = type;
+};
+
+const closeModal = () => {
+  show_modal.value = null;
+};
+
+const copyToClipboard = (content, content_type) => {
+  navigator.clipboard.writeText(content).then(() => {
+    showToast.value = true;
+    toastMessage.value = `${content_type} copied to clipboard!`;
+    console.log(toastMessage.value);
+    setTimeout(() => {
+      showToast.value = false;
+    }, 3000);
+  }).catch(err => {
+    console.error('Failed to copy: ', err);
+  });
+};
+</script>
+
 <template>
   <div class="text-center md:text-left">
     <!-- title -->
@@ -89,99 +154,3 @@
     </div>
   </div>
 </template>
-
-<script>
-import { defineComponent } from 'vue';
-export default defineComponent({
-  name: 'PubsBlock',
-  props: {
-    pub_obj: {
-      type: Object,
-      required: true
-    },
-    is_home: {
-      type: Boolean,
-      required: false,
-      default: true
-    }
-  },
-  data() {
-    return {
-      show_modal: null,
-      show_modal_type: null,
-      showToast: false,
-      toastMessage: '',
-      icon_mapping: {
-        "DOI": {
-          prefix: "far",
-          icon: "file-pdf"
-        },
-        "ProQuest": {
-          prefix: "far",
-          icon: "file-pdf"
-        },
-        "arXiv": {
-          prefix: "far",
-          icon: "file-pdf"
-        },
-        "OSF": {
-          prefix: "far",
-          icon: "file-pdf"
-        },
-        "SocArXiv": {
-          prefix: "far",
-          icon: "file-pdf"
-        },
-        "GitHub": {
-          prefix: "fab",
-          icon: "github"
-        },
-        "PyPI": {
-          prefix: "fab",
-          icon: "python"
-        },
-        "CRAN": {
-          prefix: "fab",
-          icon: "r-project"
-        },
-        "Twitter": {
-          prefix: "fab",
-          icon: "twitter"
-        },
-        "Dataset": {
-          prefix: "fas",
-          icon: "database"
-        },
-        "default": {
-          prefix: "fas",
-          icon: "link"
-        }
-      }
-    };
-  },
-  methods: {
-    getIcon(link_name) {
-      return this.icon_mapping[link_name] || this.icon_mapping["default"];
-    },
-    openModal(id, type) {
-      this.show_modal = id;
-      this.show_modal_type = type;
-    },
-    closeModal() {
-      this.show_modal = null;
-    },
-    copyToClipboard(content, content_type) {
-      navigator.clipboard.writeText(content).then(() => {
-        this.showToast = true;
-        this.toastMessage = `${content_type} copied to clipboard!`;
-        console.log(this.toastMessage);
-        setTimeout(() => {
-          this.showToast = false;
-        }, 3000);
-      }).catch(err => {
-        console.error('Failed to copy: ', err);
-      });
-    }
-  }
-});
-</script>
