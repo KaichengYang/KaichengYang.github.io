@@ -1,3 +1,13 @@
+<script setup>
+import Navbar from '@/components/nav/Navbar.vue'
+import Bio from '@/components/bio/Bio.vue'
+import NewsList from '@/components/news/NewsList.vue'
+import PubsList from '@/components/pubs/PubsList.vue'
+import MediaList from '@/components/media/MediaList.vue'
+import Footer from '@/components/nav/Footer.vue'
+import ToolList from '@/components/tool/ToolList.vue'
+</script>
+
 <template>
   <Navbar />
   <div class="container mx-auto max-w-screen-lg">
@@ -39,16 +49,3 @@
   </div>
   <Footer />
 </template>
-
-<script setup>
-import Navbar from '@/components/nav/Navbar.vue'
-import Bio from '@/components/bio/Bio.vue'
-import NewsList from '@/components/news/NewsList.vue'
-import PubsList from '@/components/pubs/PubsList.vue'
-import MediaList from '@/components/media/MediaList.vue'
-import Footer from '@/components/nav/Footer.vue'
-import ToolList from '@/components/tool/ToolList.vue'
-</script>
-
-<style scoped>
-</style>
