@@ -1,34 +1,5 @@
 [
   {
-    "authors": "Alexander, J. H., Nanda, P. H., <u>Yang, K. C.</u> & Sarvghad, A.",
-    "year": [
-      2024
-    ],
-    "type": [
-      "preprint"
-    ],
-    "topic": [
-      "misinformation",
-      "genai"
-    ],
-    "title": "Can GPT-4 Models Detect Misleading Visualizations?",
-    "id": "alexander2024gpt",
-    "venue": "Forthcoming in Proceedings of IEEE Visualization and Visual Analytics.",
-    "links": [
-      {
-        "url": "https://arxiv.org/abs/2304.00228",
-        "name": "arXiv"
-      },
-      {
-        "url": "https://ieeevis.org/year/2024/program/paper_v-short-1177.html",
-        "name": "Link"
-      }
-    ],
-    "altmetric": {
-      "arxiv_id": "2304.00228"
-    }
-  },
-  {
     "authors": "<u>Yang, K. C.</u>, Varol, O., Nwala, A. C., Sayyadiharikandeh, M., Ferrara, E., Flammini, A., & Menczer, F.",
     "year": [
       2024
