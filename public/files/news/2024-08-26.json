@@ -1,0 +1,22 @@
+{
+  "date": "2024-08-26",
+  "type": "new_preprint",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "New preprint"
+    },
+    {
+      "type": "pub",
+      "project_id": "alexander2024gpt"
+    },
+    {
+      "type": "string",
+      "msg": "available."
+    },
+    {
+      "type": "string",
+      "msg": "This paper has been accepted by IEEE VIS 2024"
+    }
+  ]
+}
