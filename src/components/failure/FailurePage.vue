@@ -1,7 +1,7 @@
 <script setup>
-    import Navbar from '@/components/nav/Navbar.vue'
-    import Footer from '@/components/nav/Footer.vue'
-    import FailureList from '@/components/failure/FailureList.vue'
+  import Navbar from '@/components/nav/Navbar.vue'
+  import Footer from '@/components/nav/Footer.vue'
+  import FailureList from '@/components/failure/FailureList.vue'
 </script>
 
 <template>
