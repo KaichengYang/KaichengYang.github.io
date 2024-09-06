@@ -1,0 +1,18 @@
+{
+  "date": "2024-09-06",
+  "type": "new_preprint",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "New preprint"
+    },
+    {
+      "type": "pub",
+      "project_id": "yan2024origin"
+    },
+    {
+      "type": "string",
+      "msg": "available"
+    }
+  ]
+}

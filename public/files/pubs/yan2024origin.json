@@ -1,0 +1,28 @@
+{
+  "authors": [
+    {"id": "hyan"},
+    {"id": "gmorrow"},
+    {"id": "kcyang", "annotation": ["highlight"]},
+    {"id": "jwihbey"}
+  ],
+  "year": [
+    2024
+  ],
+  "date": "2024-09-06",
+  "type": [
+    "preprint"
+  ],
+  "topic": ["misinformation", "genai"],
+  "highlight": ["highlight"],
+  "links": [
+    {
+      "url": "https://doi.org/10.31219/osf.io/cpy7v",
+      "name": "OSF"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.31219/osf.io/cpy7v"
+  },
+  "bibtex_string": "@misc{yan2024origin,\n\ttitle={The Origin of Public Concerns over AI-Supercharging Misinformation in the 2024 US Presidential Election},\n\tauthor={Harry Yanjun Yan and Garrett Morrow and Kai-Cheng Yang and John Wihbey},\n\tyear={2024},\n\tarchivePrefix={osf},\n\teprint={cpy7v},\n\turl={https://doi.org/10.31219/osf.io/cpy7v},\n\tjournal={osf:cpy7v}}",
+  "abstract": "Researchers and the media have highlighted the potential adverse effects of artificial intelligence (AI) on the 2024 US presidential election. To measure baseline public perceptions of this issue going into the election, this study surveyed 1,001 Americans and found that four out of five expressed concerns about the use of AI to spread election misinformation. Further analysis shows that direct interactions with Generative AI tools such as ChatGPT and DALL-E have a negligible impact on alleviating these concerns. Education levels and work experiences in STEM fields also showed no significant associations with concern levels. In contrast, learning about AI through news, particularly TV programs, significantly correlates with increased concern. The results suggest that more ubiquitous use of the tools will not necessarily make the public more critical of AI misinformation risk; rather, the data point to the vital role news will play in shaping public understanding of AI risks."
+}

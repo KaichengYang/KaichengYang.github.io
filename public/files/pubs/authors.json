@@ -468,5 +468,15 @@
     "full_name": "Ali Sarvghad",
     "abbr_name": "Sarvghad, A.",
     "link": "https://groups.cs.umass.edu/asarv"
+  },
+  "gmorrow": {
+    "full_name": "Garrett Morrow",
+    "abbr_name": "Morrow, G.",
+    "link": "https://garrettmorrow.com"
+  },
+  "jwihbey": {
+    "full_name": "John Wihbey",
+    "abbr_name": "Wihbey, J.",
+    "link": "https://camd.northeastern.edu/people/john-p-wihbey"
   }
 }
