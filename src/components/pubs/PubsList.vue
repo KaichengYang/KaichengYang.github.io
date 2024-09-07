@@ -27,6 +27,10 @@ const type_dict = {
   "dataset": { "name": "💾 Dataset" },
   "method": { "name": "🧪 Method" },
 }
+const highlight_dict = {
+  "all": {"name": "☀️ Highlight"},
+  "recent": {"name": "📅 Recent"}
+}
 
 const pub_list = inject('pub_list', ref([]));
 
@@ -35,7 +39,11 @@ const pubChunkToShow = computed(() => {
   pub_list.value.sort((a, b) => new Date(b.date) - new Date(a.date));
   let pubChunk = [];
   if (isHome) {
-    pubChunk = pub_list.value.filter(pub => pub.highlight.length > 0);
+    if (topic_to_show.value === "all") {
+      pubChunk = pub_list.value.filter(pub => pub.highlight.length > 0);
+    } else if (topic_to_show.value === "recent") {
+      pubChunk = pub_list.value.slice(0, 5);
+    }
   } else {
     if (topic_to_show.value === "all") {
       pubChunk = pub_list.value;
@@ -59,6 +67,13 @@ onUpdated(() => {
 </script>
 
 <template>
+  <!-- buttons for home page -->
+  <div v-if="isHome" class="flex flex-wrap justify-center gap-1">
+    <template v-for="highlight in Object.keys(highlight_dict)" :key="highlight">
+      <button class="btn btn-sm btn-outline btn-primary" :class="{'btn-active': topic_to_show === highlight}" @click="topic_to_show = highlight">{{ highlight_dict[highlight].name }}</button>
+    </template>
+  </div>
+  <!-- Buttons for topic and type -->
   <div v-if="!isHome" class="flex flex-wrap justify-center gap-1">
     <p class="prose">Topic:</p>
     <template v-for="topic in Object.keys(topic_dict)" :key="topic">
