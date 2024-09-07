@@ -15,7 +15,7 @@ const props = defineProps({
 const isHome = props.is_home;
 const topic_to_show = ref("all");
 const topic_dict = {
-  "all": {"name": "All"},
+  "all": {"name": " 🌐 All"},
   "genai": {"name": "💡 Generative AI"},
   "bot": {"name": "🤖 Social bot"},
   "bias": {"name": "🔀 System bias"},
@@ -28,7 +28,7 @@ const type_dict = {
   "method": { "name": "🧪 Method" },
 }
 const highlight_dict = {
-  "all": {"name": "☀️ Highlight"},
+  "all": {"name": "✨ Highlight"},
   "recent": {"name": "📅 Recent"}
 }
 
