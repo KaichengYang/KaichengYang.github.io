@@ -1,0 +1,19 @@
+{
+  "date": "2024-09-19",
+  "type": "media",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Check out the"
+    },
+    {
+      "type": "link",
+      "msg": "Tech Policy Press",
+      "link": "https://www.techpolicy.press/researchers-assess-origins-of-public-concerns-about-ai-in-the-2024-us-elections"
+    },
+    {
+      "type": "string",
+      "msg": "story on our work on public concerns about AI in the 2024 US elections"
+    }
+  ]
+}
