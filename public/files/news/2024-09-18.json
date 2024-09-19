@@ -4,6 +4,8 @@
   "msgs": [
     {"type": "string", "msg": "Our paper"},
     {"type": "pub", "project_id": "yang2024characteristics"},
-    {"type": "string", "msg": "was published in the Journal of Online Trust and Safety"}
+    {"type": "string", "msg": "was published in the Journal of Online Trust and Safety. I'll present it at the"},
+    {"type": "link", "msg": "Trust and Safety Research Conference", "link": "https://conferences.law.stanford.edu/tsrc"},
+    {"type": "string", "msg": "on Sep 26"}
   ]
 }
