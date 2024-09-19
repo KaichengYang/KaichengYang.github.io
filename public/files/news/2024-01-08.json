@@ -1,9 +1,0 @@
-{
-  "date": "2024-01-08",
-  "type": "new_preprint",
-  "msgs": [
-    {"type": "string", "msg": "New preprint"},
-    {"type": "pub", "project_id": "yang2024characteristics"},
-    {"type": "string", "msg": "available"}
-  ]
-}

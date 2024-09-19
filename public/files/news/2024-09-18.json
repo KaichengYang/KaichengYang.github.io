@@ -1,0 +1,9 @@
+{
+  "date": "2024-09-18",
+  "type": "new_pub",
+  "msgs": [
+    {"type": "string", "msg": "Our paper"},
+    {"type": "pub", "project_id": "yang2024characteristics"},
+    {"type": "string", "msg": "was published in the Journal of Online Trust and Safety"}
+  ]
+}
