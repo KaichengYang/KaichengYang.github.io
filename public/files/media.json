@@ -1,5 +1,20 @@
 [
   {
+    "title": "Så gjorde vi granskningen av Europe Invasion",
+    "url": "https://www.svt.se/nyheter/utrikes/sa-gjorde-vi-granskningen-av-europe-invasion",
+    "outlet": "SVT Nyheter",
+    "date": "2024-09-21",
+    "year": [
+      2024
+    ],
+    "type": "coverage",
+    "topic": "social media",
+    "project_id": [
+      "botometer"
+    ],
+    "toshow": true
+  },
+  {
     "title": "X Polls Skew Political Realities of US Presidential Elections",
     "url": "https://www.techpolicy.press/x-polls-skew-political-realities-of-us-presidential-elections/",
     "outlet": "Tech Policy Press",
