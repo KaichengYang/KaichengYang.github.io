@@ -1,5 +1,20 @@
 [
   {
+    "title": "How close are we to an accurate AI fake news detector?",
+    "url": "https://theconversation.com/how-close-are-we-to-an-accurate-ai-fake-news-detector-242309",
+    "outlet": "The Conversation",
+    "date": "2024-11-6",
+    "year": [
+      2024
+    ],
+    "type": "coverage",
+    "topic": "misinformation",
+    "project_id": [
+      "deverna2024factchecking"
+    ],
+    "toshow": true
+  },
+  {
     "title": "Beware Of AI Voting Assistants In Swing States In The 2024 U.S. Election",
     "url": "https://www.forbes.com/sites/dianaspehar/2024/11/03/beware-ai-voting-assistants-impact-on-swing-states-in-the-2024-us-election/",
     "outlet": "Forbes",
