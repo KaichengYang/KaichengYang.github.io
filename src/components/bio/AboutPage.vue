@@ -88,9 +88,9 @@ const copyToClipboard = (bioText) => {
           I created this website myself with the help of AI coding assistants.
         </p>
         <p class="prose">
-          It's currently implemented as a <a class="link" href="https://vuejs.org/">Vue.js</a> app, with <a class="link" href="https://tailwindcss.com/">Tailwind CSS</a> and <a class="link" href="https://daisyui.com/">daisyUI</a> for styling.
-          The icons are from <a class="link" href="https://fontawesome.com/">Font Awesome</a>.
-        It also uses <a class="link" href="https://github.com/ORCID/bibtexParseJs">@orcid/bibtexParseJs</a> to parse the BibTeX files.
+          It's currently implemented as a <a class="link" href="https://vuejs.org/" target="_blank">Vue.js</a> app, with <a class="link" href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a> and <a class="link" href="https://daisyui.com/" target="_blank">daisyUI</a> for styling.
+          The icons are from <a class="link" href="https://fontawesome.com/" target="_blank">Font Awesome</a>.
+          It also uses <a class="link" href="https://github.com/ORCID/bibtexParseJs" target="_blank">@orcid/bibtexParseJs</a> to parse the BibTeX files.
         </p>
       </div>
     </div>
