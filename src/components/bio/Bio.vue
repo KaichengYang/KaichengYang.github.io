@@ -28,6 +28,11 @@ const contact_links = ref([
     link: 'https://twitter.com/yang3kc'
   },
   {
+    name: 'Blue Sky',
+    icon: {prefix: 'fab', icon: 'bluesky'},
+    link: 'https://bsky.app/profile/yang3kc.bsky.social'
+  },
+  {
     name: 'Substack',
     icon: {prefix: 'fas', icon: 'bookmark'},
     link: 'https://yang3kc.substack.com'
