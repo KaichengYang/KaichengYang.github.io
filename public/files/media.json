@@ -1,5 +1,18 @@
 [
   {
+    "title": "On Facebook, Elon Musk is an invention superhero. But many of these posts are made-up and feature AI",
+    "url": "https://www.politifact.com/article/2024/nov/20/on-facebook-elon-musk-is-an-invention-superhero-bu/",
+    "outlet": "PolitiFact",
+    "date": "2024-11-20",
+    "year": [
+      2024
+    ],
+    "type": "quotation",
+    "topic": "ai",
+    "toshow": true,
+    "highlight": true
+  },
+  {
     "title": "How close are we to an accurate AI fake news detector?",
     "url": "https://theconversation.com/how-close-are-we-to-an-accurate-ai-fake-news-detector-242309",
     "outlet": "The Conversation",

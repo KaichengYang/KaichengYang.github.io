@@ -1,0 +1,19 @@
+{
+  "date": "2024-11-22",
+  "type": "media",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "My comments were quoted in a"
+    },
+    {
+      "type": "link",
+      "msg": "PolitiFact",
+      "link": "https://www.politifact.com/article/2024/nov/20/on-facebook-elon-musk-is-an-invention-superhero-bu/"
+    },
+    {
+      "type": "string",
+      "msg": "story on AI-generated posts on Facebook"
+    }
+  ]
+}
