@@ -4,6 +4,6 @@
   "msgs": [
     {"type": "string", "msg": "Our paper"},
     {"type": "pub", "project_id": "deverna2024factchecking"},
-    {"type": "string", "msg": "was published in PNAS."}
+    {"type": "string", "msg": "was published in PNAS"}
   ]
 }
