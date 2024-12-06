@@ -1,0 +1,9 @@
+{
+  "date": "2024-12-04",
+  "type": "new_pub",
+  "msgs": [
+    {"type": "string", "msg": "Our paper"},
+    {"type": "pub", "project_id": "alexander2024gpt"},
+    {"type": "string", "msg": "was published at IEEE VIS 2024"}
+  ]
+}
