@@ -13,6 +13,36 @@
     "highlight": true
   },
   {
+    "title": "Breaking Down RFK Jr.’s Vaccine Doublespeak",
+    "url": "https://www.rollingstone.com/culture/culture-features/rfk-jr-anti-vaxxer-history-1235169084/",
+    "outlet": "Rolling Stone",
+    "date": "2024-11-16",
+    "year": [
+      2024
+    ],
+    "type": "coverage",
+    "topic": "misinformation",
+    "project_id": [
+      "pierri2023one"
+    ],
+    "toshow": true
+  },
+  {
+    "title": "Robert F. Kennedy Jr. has a long record of promoting anti-vaccine views",
+    "url": "https://apnews.com/article/robert-f-kennedy-vaccines-trump-rfkjr-7f8dcb25de76a5a70710d22bbc63f6fa",
+    "outlet": "AP News",
+    "date": "2024-11-14",
+    "year": [
+      2024
+    ],
+    "type": "coverage",
+    "topic": "misinformation",
+    "project_id": [
+      "pierri2023one"
+    ],
+    "toshow": true
+  },
+  {
     "title": "How close are we to an accurate AI fake news detector?",
     "url": "https://theconversation.com/how-close-are-we-to-an-accurate-ai-fake-news-detector-242309",
     "outlet": "The Conversation",
