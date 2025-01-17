@@ -1,0 +1,40 @@
+{
+  "date": "2025-01-17",
+  "type": "new_preprint",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "New preprint"
+    },
+    {
+      "type": "pub",
+      "project_id": "yang2025domaindemo"
+    },
+    {
+      "type": "string",
+      "msg": "available."
+    },
+    {
+      "type": "string",
+      "msg": "Check out my Twitter"
+    },
+    {
+      "type": "link",
+      "msg": "thread",
+      "link": "https://x.com/yang3kc/status/1880276838897045685"
+    },
+    {
+      "type": "string",
+      "msg": "or listen to the"
+    },
+    {
+      "type": "link",
+      "msg": "podcast",
+      "link": "https://notebooklm.google.com/notebook/e275fc3f-f98c-4596-b129-212205727fff/audio"
+    },
+    {
+      "type": "string",
+      "msg": "for details."
+    }
+  ]
+}
