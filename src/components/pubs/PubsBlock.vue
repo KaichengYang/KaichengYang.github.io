@@ -32,6 +32,7 @@ const icon_mapping = {
   "CRAN": { prefix: "fab", icon: "r-project" },
   "Twitter": { prefix: "fab", icon: "twitter" },
   "Dataset": { prefix: "fas", icon: "database" },
+  "Podcast": { prefix: "fas", icon: "podcast" },
   "default": { prefix: "fas", icon: "link" }
 };
 

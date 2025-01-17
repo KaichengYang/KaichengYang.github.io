@@ -1,0 +1,64 @@
+{
+  "authors": [
+    {
+      "id": "kcyang",
+      "annotation": ["corresponding_author", "highlight"]
+    },
+    {
+      "id": "pgoel"
+    },
+    {
+      "id": "aquintanamathe"
+    },
+    {
+      "id": "lhorgan"
+    },
+    {
+      "id": "smccabe"
+    },
+    {
+      "id": "ngrinberg"
+    },
+    {
+      "id": "kjoseph"
+    },
+    {
+      "id": "dlazer"
+    }
+  ],
+  "date": "2025-01-17",
+  "year": [
+    2025
+  ],
+  "type": [
+    "preprint"
+  ],
+  "topic": [
+    "dataset",
+    "method"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://arxiv.org/abs/2501.09035",
+      "name": "arXiv"
+    },
+    {
+      "url": "https://github.com/LazerLab/DomainDemo",
+      "name": "GitHub"
+    },
+    {
+      "url": "https://x.com/yang3kc/status/1880276838897045685",
+      "name": "Twitter"
+    },
+    {
+      "url": "https://notebooklm.google.com/notebook/e275fc3f-f98c-4596-b129-212205727fff/audio",
+      "name": "Podcast"
+    }
+  ],
+  "altmetric": {
+    "arxiv_id": "2501.09035"
+  },
+  "bibtex_string": "@misc{yang2025domaindemo,\n\ttitle={DomainDemo: a dataset of domain-sharing activities among different demographic groups on Twitter},\n\tauthor={Kai-Cheng Yang and Pranav Goel and Alexi Quintana-Mathé and Luke Horgan and Stefan D. McCabe and Nir Grinberg and Kenneth Joseph and David Lazer},\n\tyear={2025},\n\teprint={2501.09035},\n\tarchivePrefix={arXiv},\n\tprimaryClass={cs.SI},\n\turl={https://arxiv.org/abs/2501.09035},\n\tjournal={arxiv:2501.09035}}",
+  "abstract": "Social media play a pivotal role in disseminating web content, particularly during elections, yet our understanding of the association between demographic factors and political discourse online remains limited. Here, we introduce a unique dataset, DomainDemo, linking domains shared on Twitter (X) with the demographic characteristics of associated users, including age, gender, race, political affiliation, and geolocation, from 2011 to 2022. This new resource was derived from a panel of over 1.5 million Twitter users matched against their U.S. voter registration records, facilitating a better understanding of a decade of information flows on one of the most prominent social media platforms and trends in political and public discourse among registered U.S. voters from different sociodemographic groups. By aggregating user demographic information onto the domains, we derive five metrics that provide critical insights into over 129,000 websites. In particular, the localness and partisan audience metrics quantify the domains' geographical reach and ideological orientation, respectively. These metrics show substantial agreement with existing classifications, suggesting the effectiveness and reliability of DomainDemo's approach."
+}

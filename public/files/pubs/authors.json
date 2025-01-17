@@ -478,5 +478,30 @@
     "full_name": "John Wihbey",
     "abbr_name": "Wihbey, J.",
     "link": "https://camd.northeastern.edu/people/john-p-wihbey"
+  },
+  "aquintanamathe": {
+    "full_name": "Alexi Quintana-Mathé",
+    "abbr_name": "Quintana-Mathé, A.",
+    "link": "https://scholar.google.com/citations?user=CfPeWzUAAAAJ&hl=en&oi=ao"
+  },
+  "lhorgan": {
+    "full_name": "Luke Horgan",
+    "abbr_name": "Horgan, L.",
+    "link": "https://cssh.northeastern.edu/person/luke-horgan/"
+  },
+  "smccabe": {
+    "full_name": "Stefan D. McCabe",
+    "abbr_name": "McCabe, S. D.",
+    "link": "https://sdmccabe.com/"
+  },
+  "ngrinberg": {
+    "full_name": "Nir Grinberg",
+    "abbr_name": "Grinberg, N.",
+    "link": "https://www.nirg.net/"
+  },
+  "kjoseph": {
+    "full_name": "Kenneth Joseph",
+    "abbr_name": "Joseph, K.",
+    "link": "https://cse.buffalo.edu/cubelab/people/"
   }
 }
