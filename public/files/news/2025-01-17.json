@@ -35,6 +35,19 @@
     {
       "type": "string",
       "msg": "for details."
+    },
+    {
+      "type": "string",
+      "msg": "You can also play with the"
+    },
+    {
+      "type": "link",
+      "msg": "interactive tool",
+      "link": "https://domaindemoexplorer.streamlit.app/"
+    },
+    {
+      "type": "string",
+      "msg": "to explore the dataset."
     }
   ]
 }
