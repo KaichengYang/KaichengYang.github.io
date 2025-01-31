@@ -1,5 +1,22 @@
 [
   {
+    "id": "domaindemo",
+    "title": "DomainDemo explorer",
+    "image": "domaindemo",
+    "msg": "Check user demographics of over 129,000 domains",
+    "highlight": ["highlight"],
+    "links": [
+      {
+        "url": "https://domaindemoexplorer.streamlit.app/",
+        "name": "Web interface"
+      },
+      {
+        "url": "https://github.com/LazerLab/DomainDemo",
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
     "id": "botometer",
     "title": "Botometer X",
     "image": "botometer",
