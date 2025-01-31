@@ -1,20 +1,20 @@
 {
   "authors": [
-    {"id": "hyan"},
-    {"id": "gmorrow"},
-    {"id": "kcyang", "annotation": ["highlight"]},
-    {"id": "jwihbey"}
+    { "id": "hyan" },
+    { "id": "gmorrow" },
+    { "id": "kcyang", "annotation": ["highlight"] },
+    { "id": "jwihbey" }
   ],
-  "year": [
-    2024
-  ],
-  "date": "2024-09-06",
-  "type": [
-    "preprint"
-  ],
+  "year": [2025],
+  "date": "2025-01-30",
+  "type": ["journal"],
   "topic": ["misinformation", "genai"],
   "highlight": [],
   "links": [
+    {
+      "url": "https://doi.org/10.37016/mr-2020-171",
+      "name": "DOI"
+    },
     {
       "url": "https://doi.org/10.31219/osf.io/cpy7v",
       "name": "OSF"
@@ -22,11 +22,15 @@
     {
       "url": "https://x.com/yang3kc/status/1833149935807545378",
       "name": "Twitter"
+    },
+    {
+      "url": "https://notebooklm.google.com/notebook/33e368dc-92c1-4042-a6c5-3cb583c0e79a/audio",
+      "name": "Podcast"
     }
   ],
   "altmetric": {
-    "doi_id": "10.31219/osf.io/cpy7v"
+    "doi_id": "10.37016/mr-2020-171"
   },
-  "bibtex_string": "@misc{yan2024origin,\n\ttitle={The Origin of Public Concerns over AI-Supercharging Misinformation in the 2024 US Presidential Election},\n\tauthor={Harry Yanjun Yan and Garrett Morrow and Kai-Cheng Yang and John Wihbey},\n\tyear={2024},\n\tarchivePrefix={osf},\n\teprint={cpy7v},\n\turl={https://doi.org/10.31219/osf.io/cpy7v},\n\tjournal={osf:cpy7v}}",
-  "abstract": "Researchers and the media have highlighted the potential adverse effects of artificial intelligence (AI) on the 2024 US presidential election. To measure baseline public perceptions of this issue going into the election, this study surveyed 1,001 Americans and found that four out of five expressed concerns about the use of AI to spread election misinformation. Further analysis shows that direct interactions with Generative AI tools such as ChatGPT and DALL-E have a negligible impact on alleviating these concerns. Education levels and work experiences in STEM fields also showed no significant associations with concern levels. In contrast, learning about AI through news, particularly TV programs, significantly correlates with increased concern. The results suggest that more ubiquitous use of the tools will not necessarily make the public more critical of AI misinformation risk; rather, the data point to the vital role news will play in shaping public understanding of AI risks."
+  "bibtex_string": "@article{yan2024origin,\n\ttitle={The Origin of Public Concerns over AI Supercharging Misinformation in the 2024 U.S. Presidential Election},\n\tauthor={Harry Yanjun Yan and Garrett Morrow and Kai-Cheng Yang and John Wihbey},\n\tyear={2025},\n\tjournal={The Harvard Kennedy School (HKS) Misinformation Review},\n\tvolume={6},\n\tnumber={1},\n\tdoi={10.37016/mr-2020-171}}",
+  "abstract": "We surveyed 1,000 U.S. adults to understand concerns about the use of artificial intelligence (AI) during the 2024 U.S. presidential election and public perceptions of AI-driven misinformation. Four out of five respondents expressed some level of worry about AI’s role in election misinformation. Our findings suggest that direct interactions with AI tools like ChatGPT and DALL-E were not correlated with these concerns, regardless of education or STEM work experience. Instead, news consumption, particularly through television, appeared more closely linked to heightened concerns. These results point to the potential influence of news media and the importance of exploring AI literacy and balanced reporting."
 }
