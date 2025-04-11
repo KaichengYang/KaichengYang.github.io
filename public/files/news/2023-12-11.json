@@ -1,9 +1,0 @@
-{
-  "date": "2023-12-11",
-  "type": "new_preprint",
-  "msgs": [
-    {"type": "string", "msg": "New preprint"},
-    {"type": "pub", "project_id": "duan2025constructing"},
-    {"type": "string", "msg": "available"}
-  ]
-}

@@ -1,0 +1,19 @@
+{
+  "date": "2025-04-11",
+  "type": "new_pub",
+  "msgs": [
+    { "type": "string", "msg": "Our paper" },
+    { "type": "pub", "project_id": "duan2025constructing" },
+    {
+      "type": "string",
+      "msg": "was published in Political Analysis."
+    },
+    { "type": "string", "msg": "You can listen to the" },
+    {
+      "type": "link",
+      "msg": "podcast",
+      "link": "https://notebooklm.google.com/notebook/7ed2acbc-9a0d-44f9-8650-b309049d0408/audio"
+    },
+    { "type": "string", "msg": "for details." }
+  ]
+}
