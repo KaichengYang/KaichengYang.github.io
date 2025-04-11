@@ -3,7 +3,7 @@
   "type": "new_preprint",
   "msgs": [
     {"type": "string", "msg": "New preprint"},
-    {"type": "pub", "project_id": "duan2024constructing"},
+    {"type": "pub", "project_id": "duan2025constructing"},
     {"type": "string", "msg": "available"}
   ]
 }
