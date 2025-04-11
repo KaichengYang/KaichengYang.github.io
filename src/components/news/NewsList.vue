@@ -57,7 +57,7 @@ const box_style = (item) => {
   <div v-for="news in news_to_show" :key="news.msg" class="grid grid-cols-1 md:grid-cols-6">
     <div class="flex font-mono justify-center md:col-span-2">
       <span class="badge w-28 text-white" :style="box_style('date')">{{ news.date }}</span>
-      <span v-if="news.type" class="badge w-32 ml-2 text-white" :style="box_style(news.type)">{{ color_text_map[news.type]['text'] }}</span>
+      <span v-if="news.type" class="badge w-36 ml-2 text-white" :style="box_style(news.type)">{{ color_text_map[news.type]['emoji'] }} {{ color_text_map[news.type]['text'] }}</span>
     </div>
     <div class="prose text-center md:text-left md:col-span-4">
       <NewsBlock :news_obj="news" />
