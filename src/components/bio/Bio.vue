@@ -87,7 +87,7 @@ const contact_links = ref([
         </p>
       </div>
     </div>
-    <div role="alert" class="alert alert-primary mt-4">
+    <!-- <div role="alert" class="alert alert-primary mt-4">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -103,7 +103,7 @@ const contact_links = ref([
         I'm joining Binghamton University Computer Science as an Assistant Professor this Fall.
         I'll recruit 2 motivated Ph.D. students. If you are interested in joining me, please send me an email with your CV and a short statement of purpose.
       </span>
-    </div>
+    </div> -->
   </div>
 </template>
 
