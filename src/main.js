@@ -40,7 +40,7 @@ async function initApp() {
     });
     pub.media_list = [];
     media.forEach(media_item => {
-      if (media_item.project_id && media_item.project_id.indexOf(pub.id) >= 0) {
+      if (media_item.project_id && media_item.project_id.indexOf(pub.id) >= 0 && media_item.toshow) {
         pub.media_list.push(media_item);
       }
     });
