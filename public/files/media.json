@@ -13,7 +13,7 @@
     "highlight": true
   },
   {
-    "title": "Breaking Down RFK Jr.’s Vaccine Doublespeak",
+    "title": "Breaking Down RFK Jr.'s Vaccine Doublespeak",
     "url": "https://www.rollingstone.com/culture/culture-features/rfk-jr-anti-vaxxer-history-1235169084/",
     "outlet": "Rolling Stone",
     "date": "2024-11-16",
@@ -25,7 +25,7 @@
     "project_id": [
       "pierri2023one"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Robert F. Kennedy Jr. has a long record of promoting anti-vaccine views",
@@ -40,7 +40,7 @@
     "project_id": [
       "pierri2023one"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "How close are we to an accurate AI fake news detector?",
@@ -317,7 +317,7 @@
     "project_id": [
       "deverna2021covaxxy"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "A disturbing AI phenomenon could completely upend the internet as we know it",
@@ -515,7 +515,7 @@
     ],
     "type": "coverage",
     "topic": "misinformation",
-    "toshow": true,
+    "toshow": false,
     "highlight": false
   },
   {
@@ -638,7 +638,7 @@
     "project_id": [
       "pierri2023one"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Twitter's restrictive API may leave researchers out in the cold",
@@ -1608,7 +1608,7 @@
     "project_id": [
       "deverna2021covaxxy"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "The Prescription Opioid Ecosystem: A Novel Approach to the Crisis",
@@ -1683,7 +1683,7 @@
     "project_id": [
       "deverna2021covaxxy"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Did Pandemic Lockdowns Worsen the Epidemic of Opioid Abuse? ",
