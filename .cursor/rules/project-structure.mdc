@@ -1,0 +1,36 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Project Structure Guide
+
+This project is a Vue.js web application using Vite as the build tool and Tailwind CSS for styling.
+
+## Main Entry Points
+- The application starts from [src/main.js](mdc:src/main.js), which initializes the app, loads data, and mounts the root [App.vue](mdc:src/App.vue) component.
+- Routing is configured in [src/router/index.js](mdc:src/router/index.js), mapping URL paths to main pages.
+
+## Key Directories
+- **[src/components/](mdc:src/components):** Contains all Vue components, organized by feature:
+  - [nav/](mdc:src/components/nav): Navigation components (e.g., [Navbar.vue](mdc:src/components/nav/Navbar.vue), [Footer.vue](mdc:src/components/nav/Footer.vue))
+  - [news/](mdc:src/components/news): News-related components
+  - [pubs/](mdc:src/components/pubs): Publication-related components
+  - [bio/](mdc:src/components/bio): Biography and about page components
+  - [failure/](mdc:src/components/failure): Failure-related components
+  - [media/](mdc:src/components/media): Media-related components
+  - [tool/](mdc:src/components/tool): Tool-related components
+- **[public/](mdc:public):** Static assets, including images, files, and logos, are stored here.
+
+## Configuration
+- [package.json](mdc:package.json): Project dependencies and scripts
+- [vite.config.js](mdc:vite.config.js): Vite build configuration
+- [tailwind.config.js](mdc:tailwind.config.js): Tailwind CSS configuration
+- [postcss.config.js](mdc:postcss.config.js): PostCSS configuration
+
+## Development
+- See [README.md](mdc:README.md) for setup and development instructions.
+
+## Notes
+- Data is loaded from JSON files in the [public/files/](mdc:public/files) directory at runtime.
+- The app uses FontAwesome for icons and provides lists of news, publications, tools, and media globally via Vue's provide/inject API.
