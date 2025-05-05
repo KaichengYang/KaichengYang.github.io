@@ -3,7 +3,7 @@
   "type": "new_pub",
   "msgs": [
     { "type": "string", "msg": "Our paper" },
-    { "type": "pub", "project_id": "yan2024origin" },
+    { "type": "pub", "project_id": "yan2025origin" },
     {
       "type": "string",
       "msg": "was published in The Harvard Kennedy School (HKS) Misinformation Review."
