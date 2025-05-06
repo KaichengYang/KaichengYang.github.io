@@ -8,7 +8,13 @@
       "type": "string",
       "msg": "was published in Political Analysis."
     },
-    { "type": "string", "msg": "You can listen to the" },
+    { "type": "string", "msg": "Check out the Twitter" },
+    {
+      "type": "link",
+      "msg": "thread",
+      "link": "https://x.com/Zening_Duan/status/1919538535977075008"
+    },
+    { "type": "string", "msg": "or listen to the" },
     {
       "type": "link",
       "msg": "podcast",
