@@ -73,7 +73,7 @@ const contact_links = ref([
           I obtained my Ph.D. in Informatics from <a class="link" href="https://luddy.indiana.edu/" target="_blank">
               Luddy School of Informatics, Computing, and Engineering</a>
           in Indiana University Bloomington, advised by <a class="link" href="http://cnets.indiana.edu/fil/" target="_blank">Filippo Menczer</a>.
-          I'll join Binghamton University Computer Science as an Assistant Professor Fall 2025.
+          I'll join Binghamton University Computer Science as an Assistant Professor starting Fall 2025.
         </p>
         <p>
           My research focuses on creating safe, fair, and trustworthy online information platforms by identifying how malicious actors and flawed systems distort information flow and developing effective countermeasures.
