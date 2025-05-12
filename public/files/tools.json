@@ -1,5 +1,22 @@
 [
   {
+    "id": "llmdomain",
+    "title": "LLM Domain Classification dashboard",
+    "image": "llmdomain",
+    "msg": "Evaluate LLMs' ability to classify domains into different categories",
+    "highlight": ["highlight"],
+    "links": [
+      {
+        "url": "https://yang3kc.github.io/llm_domain_classification",
+        "name": "Web interface"
+      },
+      {
+        "url": "https://github.com/yang3kc/llm_domain_classification",
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
     "id": "domaindemo",
     "title": "DomainDemo explorer",
     "image": "domaindemo",
@@ -42,7 +59,6 @@
     "title": "Scicolor Color Picker",
     "image": "scicolor",
     "msg": "A collection of color schemes for scientific visualization",
-    "highlight": ["highlight"],
     "links": [
       {
         "url": "https://yang3kc.github.io/scicolor/",
