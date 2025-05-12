@@ -1,0 +1,18 @@
+{
+  "date": "2025-05-12",
+  "type": "new_tool",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "I'm releasing a new "
+    },
+    {
+      "type": "tool",
+      "project_id": "llmdomain"
+    },
+    {
+      "type": "string",
+      "msg": "to evaluate LLMs' ability to recognize and classify news domains into different categories. Check it out!"
+    }
+  ]
+}
