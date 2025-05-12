@@ -19,6 +19,10 @@
       "name": "arXiv"
     },
     {
+      "url": "https://yang3kc.github.io/llm_domain_classification",
+      "name": "Dashboard"
+    },
+    {
       "url": "https://github.com/osome-iu/llm_domain_rating",
       "name": "GitHub"
     },
