@@ -33,6 +33,7 @@ const icon_mapping = {
   "Twitter": { prefix: "fab", icon: "twitter" },
   "Dataset": { prefix: "fas", icon: "database" },
   "Podcast": { prefix: "fas", icon: "podcast" },
+  "Dashboard": { prefix: "fas", icon: "gauge" },
   "default": { prefix: "fas", icon: "link" }
 };
 
