@@ -31,7 +31,7 @@ const closeModal = () => {
       <a @click="openModal(news_obj.project ? news_obj.project.id : null)" class="link">{{ news_obj.project.title }}</a>
       <template v-if="msg.punctuation">{{ msg.punctuation }}</template>&nbsp;
     </template>
-    <template v-else><a :href="msg.link" target="_blank" class="link">{{ msg.msg }} <font-awesome-icon :icon="['fas', 'link']" /></a>
+    <template v-else><a :href="msg.link" target="_blank" class="link">{{ msg.msg }} <font-awesome-icon :icon="['fas', 'link']"/></a>
     <template v-if="msg.punctuation">{{ msg.punctuation }}</template>&nbsp;</template>
   </template>
 
