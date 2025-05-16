@@ -1,38 +1,31 @@
 {
   "date": "2025-05-15",
-  "type": "general",
+  "type": "new_preprint",
   "msgs": [
     {
       "type": "string",
-      "msg": "I will attend"
-    },
-    {
-      "type": "link",
-      "msg": "WebSci 2025",
-      "link": "https://www.websci25.org"
-    },
-    {
-      "type": "string",
-      "msg": "at New York, NY. On May 20, I will host the tutorial"
-    },
-    {
-      "type": "link",
-      "msg": "Beyond APIs: Collecting Web Data for Research using the National Internet Observatory",
-      "link": "https://national-internet-observatory.github.io/beyondapi_websci25/",
-      "punctuation": "."
-    },
-    {
-      "type": "string",
-      "msg": "On May 22, I will present our paper"
+      "msg": "New preprint"
     },
     {
       "type": "pub",
-      "project_id": "yang2024accuracy",
-      "punctuation": "."
+      "project_id": "mimizuka2025post"
     },
     {
       "type": "string",
-      "msg": "Please come and say hi!"
+      "msg": "available."
+    },
+    {
+      "type": "string",
+      "msg": "Listen to the"
+    },
+    {
+      "type": "link",
+      "msg": "podcast",
+      "link": "https://notebooklm.google.com/notebook/d33a3d4e-8124-4bfd-917f-f1af7425a1d1/audio"
+    },
+    {
+      "type": "string",
+      "msg": "for details."
     }
   ]
 }
