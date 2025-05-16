@@ -16,8 +16,8 @@ import { ref, onMounted } from 'vue';
     </p>
 
     <div class="divider divider-primary" />
-    <!-- Tools -->
-    <h2 class="text-3xl font-bold text-center">Tools</h2>
+    <!-- Research Tools -->
+    <h2 class="text-3xl font-bold text-center">Research Tools</h2>
     <ul class="list-disc list-inside">
       <li class="prose">
         <a href="https://github.com/yang3kc/llm_for_css" class="link">
@@ -31,6 +31,13 @@ import { ref, onMounted } from 'vue';
           daily_arxiv_digest
         </a>: an interactive tool for using ChatGPT to filter relevant papers from arXiv every day
       </li>
+    </ul>
+
+    <div class="divider divider-primary" />
+
+    <!-- Coding -->
+    <h2 class="text-3xl font-bold text-center">Coding</h2>
+    <ul class="list-disc list-inside">
       <li class="prose">
         <a href="https://github.com/yang3kc/llm_git_commit" class="link">
           <font-awesome-icon :icon="['fab', 'github']" />
@@ -47,12 +54,18 @@ import { ref, onMounted } from 'vue';
       <li class="prose">
         <a href="https://yisongyue.medium.com/checklist-of-tips-for-computer-science-faculty-applications-9fd2480649cc" class="link">
           💡 Tips for Computer Science Faculty Applications - Yisong Yue
-        </a>
+        </a>: the Medium-Level Agenda point is gold
       </li>
       <li class="prose">
         <a href="https://github.com/ArthurSpirling/jobtalks/blob/master/jobtalks2017_handout_version.pdf" class="link">
           💡 Arthur Spirling on Job Talks
         </a>
+      </li>
+      <li class="prose">
+        <a href="https://www.overleaf.com/project/62696ff20c0ea2172a793d1e" class="link">
+          <font-awesome-icon :icon="['far', 'file-pdf']" />
+          CV Template
+        </a>: the LaTeX template I use for my CV
       </li>
     </ul>
 
@@ -61,12 +74,6 @@ import { ref, onMounted } from 'vue';
     <!-- Misc -->
     <h2 class="text-3xl font-bold text-center">Misc</h2>
     <ul class="list-disc list-inside">
-      <li class="prose">
-        <a href="https://www.overleaf.com/project/62696ff20c0ea2172a793d1e" class="link">
-          <font-awesome-icon :icon="['far', 'file-pdf']" />
-          CV Template
-        </a>: the LaTeX template I use for my CV
-      </li>
     </ul>
 
     <div class="divider divider-primary" />
