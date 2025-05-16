@@ -83,7 +83,7 @@ const contact_links = ref([
         <p>
           You can check out my <a class="link" href="#pubs">publications</a> to learn more.
           These works have been <a class="link" href="#media">covered</a> by various media outlets.
-          You might also find some of my <a class="link" href="#tools">tools</a> useful.
+          You might also find some of my <a class="link" href="#tools">tools</a> collection of <router-link to="/hiddencurriculum" class="link">hidden curriculum</router-link> useful.
         </p>
       </div>
     </div>
