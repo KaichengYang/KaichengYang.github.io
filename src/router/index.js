@@ -7,6 +7,7 @@ import PhotoPage from '@/components/bio/PhotoPage.vue'
 import PubsPage from '@/components/pubs/PubsPage.vue'
 import FailurePage from '@/components/failure/FailurePage.vue'
 import ToolPage from '@/components/tool/ToolPage.vue'
+import HiddencurriculumPage from '@/components/hiddencurriculum/HiddencurriculumPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -19,6 +20,7 @@ const router = createRouter({
     { path: '/photos', component: PhotoPage },
     { path: '/failures', component: FailurePage },
     { path: '/tools', component: ToolPage },
+    { path: '/hiddencurriculum', component: HiddencurriculumPage },
     { path: "/:pathMatch(.*)*", component: HomePage }
   ]
 })
