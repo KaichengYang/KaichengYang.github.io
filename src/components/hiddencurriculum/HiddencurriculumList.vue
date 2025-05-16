@@ -56,6 +56,11 @@ const scrollToSection = (id) => {
           daily_arxiv_digest
         </a>: an interactive tool for using ChatGPT to filter relevant papers from arXiv every day
       </li>
+      <li class="prose">
+        <a href="https://yang3kc.github.io/scicolor/" class="link">
+          scicolor
+        </a>: a collection of color palettes for scientific visualization
+      </li>
     </ul>
 
     <div class="divider divider-primary" />
@@ -63,6 +68,9 @@ const scrollToSection = (id) => {
     <!-- Coding -->
     <h2 id="coding" class="text-3xl font-bold text-center">Coding</h2>
     <ul class="list-disc list-inside">
+      <li class="prose">
+        <a href="https://missing.csail.mit.edu/" class="link">The Missing Semester of Your CS Education</a>
+      </li>
       <li class="prose">
         <a href="https://github.com/yang3kc/llm_git_commit" class="link">
           <font-awesome-icon :icon="['fab', 'github']" />
