@@ -1,14 +1,95 @@
 <script setup>
 import BackForth from '@/components/nav/BackForth.vue'
-import { ref, onMounted } from 'vue';
+import { ref } from 'vue';
 
-const sections = [
-  { id: 'research-tools', title: 'Research Tools' },
-  { id: 'coding', title: 'Coding' },
-  { id: 'paper-writing', title: 'Paper Writing' },
-  { id: 'academic-job-market', title: 'Academic Job Market' },
-  { id: 'misc', title: 'Misc' }
-];
+const sections = ref([
+  {
+    id: 'research-tools',
+    title: 'Research Tools',
+    items: [
+      {
+        title: 'llm_for_css',
+        link: 'https://github.com/yang3kc/llm_for_css',
+        description: 'my guidelines and example code for leveraging LLMs for computational social science tasks',
+        icon: { prefix: 'fab', icon: 'github' }
+      },
+      {
+        title: 'daily_arxiv_digest',
+        link: 'https://github.com/yang3kc/daily_arxiv_digest',
+        description: 'an interactive tool for using ChatGPT to filter relevant papers from arXiv every day',
+        icon: { prefix: 'fab', icon: 'github' }
+      },
+      {
+        title: 'scicolor',
+        link: 'https://yang3kc.github.io/scicolor/',
+        description: 'a collection of color palettes for scientific visualization'
+      }
+    ]
+  },
+  {
+    id: 'coding',
+    title: 'Coding',
+    items: [
+      {
+        title: 'The Missing Semester of Your CS Education',
+        link: 'https://missing.csail.mit.edu/',
+        description: ''
+      },
+      {
+        title: 'llm_git_commit',
+        link: 'https://github.com/yang3kc/llm_git_commit',
+        description: 'a tool for using LLMs to generate git commit messages',
+        icon: { prefix: 'fab', icon: 'github' }
+      }
+    ]
+  },
+  {
+    id: 'paper-writing',
+    title: 'Paper Writing',
+    items: [
+      {
+        title: 'cs-paper-checklist',
+        link: 'https://github.com/yzhao062/cs-paper-checklist',
+        description: 'a checklist for writing computer science papers',
+        icon: { prefix: 'fab', icon: 'github' }
+      },
+      {
+        title: 'Snippet to generate PDF diff files on Overleaf on the fly',
+        link: 'https://gist.github.com/yang3kc/120aeb79a3c41837b51ba611ace28a78',
+        description: ''
+      }
+    ]
+  },
+  {
+    id: 'academic-job-market',
+    title: 'Academic Job Market',
+    items: [
+      {
+        title: 'Tips for Computer Science Faculty Applications - Yisong Yue',
+        link: 'https://yisongyue.medium.com/checklist-of-tips-for-computer-science-faculty-applications-9fd2480649cc',
+        description: 'the Medium-Level Agenda point is gold',
+        icon: { prefix: 'fas', icon: 'lightbulb' }
+      },
+      {
+        title: 'Arthur Spirling on Job Talks',
+        link: 'https://github.com/ArthurSpirling/jobtalks/blob/master/jobtalks2017_handout_version.pdf',
+        description: '',
+        icon: { prefix: 'fas', icon: 'lightbulb' }
+      },
+      {
+        title: 'CV Template',
+        link: 'https://www.overleaf.com/project/62696ff20c0ea2172a793d1e',
+        description: 'the LaTeX template I use for my CV',
+        icon: { prefix: 'far', icon: 'file-pdf' }
+      }
+    ]
+  },
+  {
+    id: 'misc',
+    title: 'Misc',
+    items: []
+  }
+]);
 
 const scrollToSection = (id) => {
   const element = document.getElementById(id);
@@ -40,95 +121,22 @@ const scrollToSection = (id) => {
       </ul>
     </div>
 
-    <div class="divider divider-primary" />
-    <!-- Research Tools -->
-    <h2 id="research-tools" class="text-3xl font-bold text-center">Research Tools</h2>
-    <ul class="list-disc list-inside">
-      <li class="prose">
-        <a href="https://github.com/yang3kc/llm_for_css" class="link">
-          <font-awesome-icon :icon="['fab', 'github']" />
-          llm_for_css
-        </a>: my guidelines and example code for leveraging LLMs for computational social science tasks
-      </li>
-      <li class="prose">
-        <a href="https://github.com/yang3kc/daily_arxiv_digest" class="link">
-          <font-awesome-icon :icon="['fab', 'github']" />
-          daily_arxiv_digest
-        </a>: an interactive tool for using ChatGPT to filter relevant papers from arXiv every day
-      </li>
-      <li class="prose">
-        <a href="https://yang3kc.github.io/scicolor/" class="link">
-          scicolor
-        </a>: a collection of color palettes for scientific visualization
-      </li>
-    </ul>
+    <!-- Content Sections -->
+    <template v-for="section in sections" :key="section.id">
+      <div class="divider divider-primary" />
+      <h2 :id="section.id" class="text-3xl font-bold text-center">{{ section.title }}</h2>
+      <ul class="list-disc list-inside">
+        <li v-for="item in section.items" :key="item.title" class="prose">
+          <a :href="item.link" class="link" target="_blank">
+            <font-awesome-icon v-if="item.icon" :icon="[item.icon.prefix, item.icon.icon]" />
+            {{ item.title }}
+          </a>
+          <span v-if="item.description">: {{ item.description }}</span>
+        </li>
+      </ul>
+    </template>
 
     <div class="divider divider-primary" />
-
-    <!-- Coding -->
-    <h2 id="coding" class="text-3xl font-bold text-center">Coding</h2>
-    <ul class="list-disc list-inside">
-      <li class="prose">
-        <a href="https://missing.csail.mit.edu/" class="link">The Missing Semester of Your CS Education</a>
-      </li>
-      <li class="prose">
-        <a href="https://github.com/yang3kc/llm_git_commit" class="link">
-          <font-awesome-icon :icon="['fab', 'github']" />
-          llm_git_commit
-        </a>: a tool for using LLMs to generate git commit messages
-      </li>
-    </ul>
-
-    <div class="divider divider-primary" />
-
-    <!-- Paper Writing -->
-    <h2 id="paper-writing" class="text-3xl font-bold text-center">Paper Writing</h2>
-    <ul class="list-disc list-inside">
-      <li class="prose">
-        <a href="https://github.com/yzhao062/cs-paper-checklist" class="link">
-          <font-awesome-icon :icon="['fab', 'github']" />
-          cs-paper-checklist
-        </a>: a checklist for writing computer science papers
-      </li>
-      <li class="prose">
-        <a href="https://gist.github.com/yang3kc/120aeb79a3c41837b51ba611ace28a78" class="link">
-          Snippet to generate PDF diff files on Overleaf on the fly
-        </a>
-      </li>
-    </ul>
-
-    <div class="divider divider-primary" />
-
-    <!-- Academic job market -->
-    <h2 id="academic-job-market" class="text-3xl font-bold text-center">Academic Job Market</h2>
-    <ul class="list-disc list-inside">
-      <li class="prose">
-        <a href="https://yisongyue.medium.com/checklist-of-tips-for-computer-science-faculty-applications-9fd2480649cc" class="link">
-          💡 Tips for Computer Science Faculty Applications - Yisong Yue
-        </a>: the Medium-Level Agenda point is gold
-      </li>
-      <li class="prose">
-        <a href="https://github.com/ArthurSpirling/jobtalks/blob/master/jobtalks2017_handout_version.pdf" class="link">
-          💡 Arthur Spirling on Job Talks
-        </a>
-      </li>
-      <li class="prose">
-        <a href="https://www.overleaf.com/project/62696ff20c0ea2172a793d1e" class="link">
-          <font-awesome-icon :icon="['far', 'file-pdf']" />
-          CV Template
-        </a>: the LaTeX template I use for my CV
-      </li>
-    </ul>
-
-    <div class="divider divider-primary" />
-
-    <!-- Misc -->
-    <h2 id="misc" class="text-3xl font-bold text-center">Misc</h2>
-    <ul class="list-disc list-inside">
-    </ul>
-
-    <div class="divider divider-primary" />
-
     <BackForth :is_home="false" :target="'/hiddencurriculum'" />
   </div>
 </template>
