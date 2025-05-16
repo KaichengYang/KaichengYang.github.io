@@ -2,7 +2,20 @@
 import BackForth from '@/components/nav/BackForth.vue'
 import { ref, onMounted } from 'vue';
 
+const sections = [
+  { id: 'research-tools', title: 'Research Tools' },
+  { id: 'coding', title: 'Coding' },
+  { id: 'paper-writing', title: 'Paper Writing' },
+  { id: 'academic-job-market', title: 'Academic Job Market' },
+  { id: 'misc', title: 'Misc' }
+];
 
+const scrollToSection = (id) => {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 </script>
 
 <template>
@@ -15,9 +28,21 @@ import { ref, onMounted } from 'vue';
       Some were built or created by myself, and some were built by others.
     </p>
 
+    <!-- Table of Contents -->
+    <div class="my-8 flex flex-col items-center">
+      <h2 class="text-2xl font-bold mb-4">Table of Contents</h2>
+      <ul class="list-disc list-inside text-left">
+        <li v-for="section in sections" :key="section.id" class="prose">
+          <a href="#" @click.prevent="scrollToSection(section.id)" class="link">
+            {{ section.title }}
+          </a>
+        </li>
+      </ul>
+    </div>
+
     <div class="divider divider-primary" />
     <!-- Research Tools -->
-    <h2 class="text-3xl font-bold text-center">Research Tools</h2>
+    <h2 id="research-tools" class="text-3xl font-bold text-center">Research Tools</h2>
     <ul class="list-disc list-inside">
       <li class="prose">
         <a href="https://github.com/yang3kc/llm_for_css" class="link">
@@ -36,7 +61,7 @@ import { ref, onMounted } from 'vue';
     <div class="divider divider-primary" />
 
     <!-- Coding -->
-    <h2 class="text-3xl font-bold text-center">Coding</h2>
+    <h2 id="coding" class="text-3xl font-bold text-center">Coding</h2>
     <ul class="list-disc list-inside">
       <li class="prose">
         <a href="https://github.com/yang3kc/llm_git_commit" class="link">
@@ -48,8 +73,26 @@ import { ref, onMounted } from 'vue';
 
     <div class="divider divider-primary" />
 
+    <!-- Paper Writing -->
+    <h2 id="paper-writing" class="text-3xl font-bold text-center">Paper Writing</h2>
+    <ul class="list-disc list-inside">
+      <li class="prose">
+        <a href="https://github.com/yzhao062/cs-paper-checklist" class="link">
+          <font-awesome-icon :icon="['fab', 'github']" />
+          cs-paper-checklist
+        </a>: a checklist for writing computer science papers
+      </li>
+      <li class="prose">
+        <a href="https://gist.github.com/yang3kc/120aeb79a3c41837b51ba611ace28a78" class="link">
+          Snippet to generate PDF diff files on Overleaf on the fly
+        </a>
+      </li>
+    </ul>
+
+    <div class="divider divider-primary" />
+
     <!-- Academic job market -->
-    <h2 class="text-3xl font-bold text-center">Academic Job Market</h2>
+    <h2 id="academic-job-market" class="text-3xl font-bold text-center">Academic Job Market</h2>
     <ul class="list-disc list-inside">
       <li class="prose">
         <a href="https://yisongyue.medium.com/checklist-of-tips-for-computer-science-faculty-applications-9fd2480649cc" class="link">
@@ -72,7 +115,7 @@ import { ref, onMounted } from 'vue';
     <div class="divider divider-primary" />
 
     <!-- Misc -->
-    <h2 class="text-3xl font-bold text-center">Misc</h2>
+    <h2 id="misc" class="text-3xl font-bold text-center">Misc</h2>
     <ul class="list-disc list-inside">
     </ul>
 
