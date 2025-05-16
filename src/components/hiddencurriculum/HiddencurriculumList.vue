@@ -14,7 +14,9 @@ import { ref, onMounted } from 'vue';
       The list contains tools, blogs, videos, and all sorts of resources that I found useful.
       Some were built or created by myself, and some were built by others.
     </p>
+
     <div class="divider divider-primary" />
+    <!-- Tools -->
     <h2 class="text-3xl font-bold text-center">Tools</h2>
     <ul class="list-disc list-inside">
       <li class="prose">
@@ -36,7 +38,39 @@ import { ref, onMounted } from 'vue';
         </a>: a tool for using LLMs to generate git commit messages
       </li>
     </ul>
+
     <div class="divider divider-primary" />
+
+    <!-- Academic job market -->
+    <h2 class="text-3xl font-bold text-center">Academic Job Market</h2>
+    <ul class="list-disc list-inside">
+      <li class="prose">
+        <a href="https://yisongyue.medium.com/checklist-of-tips-for-computer-science-faculty-applications-9fd2480649cc" class="link">
+          💡 Tips for Computer Science Faculty Applications - Yisong Yue
+        </a>
+      </li>
+      <li class="prose">
+        <a href="https://github.com/ArthurSpirling/jobtalks/blob/master/jobtalks2017_handout_version.pdf" class="link">
+          💡 Arthur Spirling on Job Talks
+        </a>
+      </li>
+    </ul>
+
+    <div class="divider divider-primary" />
+
+    <!-- Misc -->
+    <h2 class="text-3xl font-bold text-center">Misc</h2>
+    <ul class="list-disc list-inside">
+      <li class="prose">
+        <a href="https://www.overleaf.com/project/62696ff20c0ea2172a793d1e" class="link">
+          <font-awesome-icon :icon="['far', 'file-pdf']" />
+          CV Template
+        </a>: the LaTeX template I use for my CV
+      </li>
+    </ul>
+
+    <div class="divider divider-primary" />
+
     <BackForth :is_home="false" :target="'/hiddencurriculum'" />
   </div>
 </template>
