@@ -53,20 +53,19 @@ async function initApp() {
   news_list.value = await Promise.all(news_index.map(async news_file_name => {
     const response = await fetch(`/files/news/${news_file_name}`);
     const news = await response.json();
-    news.project = {};
-    for (const msg of news.msgs) {
-      if (msg.type == "pub") {
-        news.project = pub_list.value.find(pub => pub.id == msg.project_id);
-        news.project.type = "pub";
-        break;
-      } else if (msg.type == "tool") {
-        news.project = tool_list.value.find(tool => tool.id == msg.project_id);
-        news.project.type = "tool";
-        break;
-      } else {
-        news.project = null;
+    // attach project object to each message if applicable
+    news.msgs.forEach(msg => {
+      if (msg.type === "pub") {
+        msg.project = pub_list.value.find(pub => pub.id === msg.project_id);
+        if (msg.project) msg.project.type = "pub";
+      } else if (msg.type === "tool") {
+        msg.project = tool_list.value.find(tool => tool.id === msg.project_id);
+        if (msg.project) msg.project.type = "tool";
       }
-    }
+    });
+    // optional: keep the first encountered project for backward compatibility
+    const firstMsgWithProject = news.msgs.find(m => m.project);
+    news.project = firstMsgWithProject ? firstMsgWithProject.project : null;
     return news;
   }));
 

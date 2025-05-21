@@ -13,8 +13,8 @@ const props = defineProps({
 const show_modal = ref(null);
 
 // methods to control modal
-const openModal = (projectId) => {
-  show_modal.value = projectId;
+const openModal = (projectObj) => {
+  show_modal.value = projectObj;
 };
 
 const closeModal = () => {
@@ -25,23 +25,23 @@ const closeModal = () => {
 
 <template>
 
-  <template v-for="msg in news_obj.msgs" :key="msg.msg">
+  <template v-for="(msg, idx) in news_obj.msgs" :key="idx">
     <template v-if="msg.type == 'string'">{{ msg.msg }}&nbsp;</template>
     <template v-else-if="msg.type == 'pub' || msg.type == 'tool'">
-      <a @click="openModal(news_obj.project ? news_obj.project.id : null)" class="link">{{ news_obj.project.title }}</a>
+      <a @click="openModal(msg.project)" class="link">{{ msg.project.title }}</a>
       <template v-if="msg.punctuation">{{ msg.punctuation }}</template>&nbsp;
     </template>
     <template v-else><a :href="msg.link" target="_blank" class="link">{{ msg.msg }} <font-awesome-icon :icon="['fas', 'link']"/></a>
     <template v-if="msg.punctuation">{{ msg.punctuation }}</template>&nbsp;</template>
   </template>
 
-  <dialog v-if="news_obj.project" :class="{'modal modal-open': show_modal === news_obj.project.id}" @close="closeModal">
+  <dialog v-if="show_modal" :class="{'modal modal-open': show_modal !== null}" @close="closeModal">
     <div class="modal-box w-11/12 max-w-3xl bg-white">
-      <div v-if="news_obj.project && news_obj.project.type == 'pub'" class="not-prose py-2">
-        <PubBlock :pub_obj="news_obj.project" />
+      <div v-if="show_modal && show_modal.type == 'pub'" class="not-prose py-2">
+        <PubBlock :pub_obj="show_modal" />
       </div>
-      <div v-else-if="news_obj.project && news_obj.project.type == 'tool'" class="not-prose py-2">
-        <ToolBlock :tool_obj="news_obj.project" />
+      <div v-else-if="show_modal && show_modal.type == 'tool'" class="not-prose py-2">
+        <ToolBlock :tool_obj="show_modal" />
       </div>
       <div class="modal-action">
         <button class="btn btn-outline btn-primary" @click="closeModal">
