@@ -1,0 +1,47 @@
+{
+  "authors": [
+    {
+      "id": "kcyang",
+      "annotation": ["corresponding_author", "highlight"]
+    },
+    {
+      "id": "fmenczer"
+    }
+  ],
+  "date": "2025-05-19",
+  "year": [2025],
+  "type": ["conf"],
+  "topic": ["misinformation", "genai", "bias"],
+  "highlight": ["highlight"],
+  "links": [
+    {
+      "url": "https://doi.org/10.1145/3717867.3717903",
+      "name": "DOI"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.00228",
+      "name": "arXiv"
+    },
+    {
+      "url": "https://yang3kc.github.io/llm_domain_classification",
+      "name": "Dashboard"
+    },
+    {
+      "url": "https://github.com/osome-iu/llm_domain_rating",
+      "name": "GitHub"
+    },
+    {
+      "url": "https://x.com/yang3kc/status/1823404980126261262",
+      "name": "Twitter"
+    },
+    {
+      "url": "https://notebooklm.google.com/notebook/4b284bb8-a41c-49ce-afd0-574a2ff55dd9/audio",
+      "name": "Podcast"
+    }
+  ],
+  "altmetric": {
+    "arxiv_id": "2304.00228"
+  },
+  "bibtex_string": "@inproceedings{yang2025accuracy,\n\tauthor={Yang, Kai-Cheng and Menczer, Filippo},\n\ttitle={Accuracy and Political Bias of News Source Credibility Ratings by Large Language Models},\n\tyear={2025},\n\tpublisher={Association for Computing Machinery},\n\taddress={New York, NY, USA},\n\turl={https://doi.org/10.1145/3717867.3717903},\n\tdoi={10.1145/3717867.3717903},\n\tbooktitle={Proceedings of the 17th ACM Web Science Conference},\n\tpages={127–137},\n\tnumpages={11},\n\tlocation={New Brunswick, NJ, USA},\n\tseries={Websci '25}}",
+  "abstract": "Search engines increasingly leverage large language models (LLMs) to generate direct answers, and AI chatbots now access the Internet for fresh data. As information curators for billions of users, LLMs must assess the accuracy and reliability of different sources. This paper audits nine widely used LLMs from three leading providers -- OpenAI, Google, and Meta -- to evaluate their ability to discern credible and high-quality information sources from low-credibility ones. We find that while LLMs can rate most tested news outlets, larger models more frequently refuse to provide ratings due to insufficient information, whereas smaller models are more prone to making errors in their ratings. For sources where ratings are provided, LLMs exhibit a high level of agreement among themselves (average Spearman's ρ=0.79), but their ratings align only moderately with human expert evaluations (average ρ=0.50). Analyzing news sources with different political leanings in the US, we observe a liberal bias in credibility ratings yielded by all LLMs in default configurations. Additionally, assigning partisan roles to LLMs consistently induces strong politically congruent bias in their ratings. These findings have important implications for the use of LLMs in curating news and political information."
+}
