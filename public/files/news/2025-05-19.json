@@ -1,0 +1,37 @@
+{
+  "date": "2025-05-19",
+  "type": "new_pub",
+  "msgs": [
+    { "type": "string", "msg": "Our paper" },
+    { "type": "pub", "project_id": "yang2025accuracy" },
+    {
+      "type": "string",
+      "msg": "was published in the proceedings of the ACM Web Science Conference."
+    },
+    { "type": "string", "msg": "Check out the Twitter" },
+    {
+      "type": "link",
+      "msg": "thread",
+      "link": "https://x.com/yang3kc/status/1823404980126261262"
+    },
+    { "type": "string", "msg": "or listen to the" },
+    {
+      "type": "link",
+      "msg": "podcast",
+      "link": "https://notebooklm.google.com/notebook/4b284bb8-a41c-49ce-afd0-574a2ff55dd9/audio"
+    },
+    { "type": "string", "msg": "for details." },
+    {
+      "type": "string",
+      "msg": "You can also check out the"
+    },
+    {
+      "type": "tool",
+      "project_id": "llmdomain"
+    },
+    {
+      "type": "string",
+      "msg": "to see the results for more recent LLMs."
+    }
+  ]
+}
