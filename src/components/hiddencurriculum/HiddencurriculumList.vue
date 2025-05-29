@@ -104,9 +104,9 @@ const scrollToSection = (id) => {
     <!-- Introduction -->
     <p class="prose">
       I'm listing my collection of hidden curriculum below.
-      These are resources that one would not typically find in classes or textbooks but are useful for one's research and career.
-      The list contains tools, blogs, videos, and all sorts of resources that I found useful.
-      Some were built or created by myself, and some were built by others.
+      These are resources that one would not typically find in classes or textbooks but are useful for their research and career.
+      The list contains tools, blog posts, videos, and all sorts of resources that I found useful.
+      Some were built or created by myself, and some were created by others.
     </p>
 
     <!-- Table of Contents -->
