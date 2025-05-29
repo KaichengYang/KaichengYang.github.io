@@ -81,6 +81,12 @@ const sections = ref([
         link: 'https://www.overleaf.com/project/62696ff20c0ea2172a793d1e',
         description: 'the LaTeX template I use for my CV',
         icon: { prefix: 'far', icon: 'file-pdf' }
+      },
+      {
+        title: 'Personal website',
+        link: 'https://github.com/KaichengYang/KaichengYang.github.io',
+        description: 'source code for my personal website',
+        icon: { prefix: 'fab', icon: 'github' }
       }
     ]
   },
