@@ -1,0 +1,37 @@
+{
+  "authors": [
+    {"id": "sscarano"},
+    {"id": "vvasudevan"},
+    {"id": "msamory"},
+    {"id": "kcyang", "annotation": ["highlight"]},
+    {"id": "jyang"},
+    {"id": "pgrabowicz"}
+  ],
+  "year": [
+    2025
+  ],
+  "date": "2025-06-07",
+  "type": [
+    "conf"
+  ],
+  "topic": [
+    "socialmedia",
+    "bias"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.1609/icwsm.v19i1.35900",
+      "name": "DOI"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.11146",
+      "name": "arXiv"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1609/icwsm.v19i1.35900"
+  },
+  "bibtex_string": "@article{scarano2025election,\n\ttitle={Election Polls on Social Media: Prevalence, Biases, and Voter Fraud Beliefs},\n\tvolume={19},\n\turl={https://ojs.aaai.org/index.php/ICWSM/article/view/35900},\n\tDOI={10.1609/icwsm.v19i1.35900},\n\tnumber={1},\n\tjournal={Proceedings of the International AAAI Conference on Web and Social Media},\n\tauthor={Scarano, Stephen and Vasudevan, Vijayalakshmi and Samory, Mattia and Yang, Kai-Cheng and Yang, JungHwan and Grabowicz, Przemyslaw A.},\n\tyear={2025},\n\tmonth={Jun.},\n\tpages={1771-1785}}",
+  "abstract": "Social media platforms allow users to create polls to gather public opinion on diverse topics. However, we know little about what such polls are used for and how reliable they are, especially in significant contexts like elections. Focusing on the 2020 presidential elections in the U.S., this study shows that outcomes of election polls on Twitter deviate from election results despite their prevalence. Leveraging demographic inference and statistical analysis, we find that Twitter polls are disproportionately authored by male Republicans and exhibit a large bias towards candidate Donald Trump in comparison to mainstream polls. We investigate potential sources of biased outcomes from the point of view of inauthentic, automated, and counter-normative behavior. Using social media experiments and interviews with poll authors, we identify inconsistencies between public vote counts and those privately visible to poll authors, with the gap potentially attributable to purchased votes. We find that election polls tend to be more biased, contain more questionable votes, and attract more bots before the election day than after. We highlight and compare key factors contributing to biased poll outcomes. Finally, we identify instances of polls spreading voter fraud conspiracy theories and estimate that a couple of thousand such polls were posted in 2020. The study discusses the implications of biased election polls in the context of transparency and accountability of social media platforms."
+}
