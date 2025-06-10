@@ -1,0 +1,18 @@
+{
+  "date": "2025-06-07",
+  "type": "new_pub",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Our paper"
+    },
+    {
+      "type": "pub",
+      "project_id": "scarano2025election"
+    },
+    {
+      "type": "string",
+      "msg": "was published in the proceedings of the International AAAI Conference on Web and Social Media."
+    }
+  ]
+}
