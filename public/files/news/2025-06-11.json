@@ -1,0 +1,19 @@
+{
+  "date": "2025-06-11",
+  "type": "general",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "I will attend"
+    },
+    {
+      "type": "link",
+      "msg": "ICA 2025",
+      "link": "https://www.icahdq.org/mpage/ICA25"
+    },
+    {
+      "type": "string",
+      "msg": "at Denver, CO. On June 15, I will host the tutorial 'Introduction to the National Internet Observatory'. Please come and say hi!"
+    }
+  ]
+}
