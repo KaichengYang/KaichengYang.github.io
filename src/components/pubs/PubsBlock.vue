@@ -98,6 +98,15 @@ const copyToClipboard = (content, content_type) => {
       </span>
       <br>
     </span>
+    <!-- honors -->
+    <span v-if="pub_obj.honors">
+      🏆
+      <span v-for="(honor, index) in pub_obj.honors" :key="index">
+        <a v-bind:href="honor.url" target="_blank" class="link"> {{ honor.text }} </a>
+        <span v-if="index != pub_obj.honors.length - 1"> | </span>
+      </span>
+      <br>
+    </span>
     <!-- media -->
     <span v-if="pub_obj.media_list.length > 0">
       🗞
