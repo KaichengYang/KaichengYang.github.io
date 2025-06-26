@@ -29,6 +29,12 @@
       "name": "arXiv"
     }
   ],
+  "honors": [
+    {
+      "url": "https://www.icwsm.org/2025/index.html",
+      "text": "Best Paper - Honorable Mention at ICWSM 2025"
+    }
+  ],
   "altmetric": {
     "doi_id": "10.1609/icwsm.v19i1.35900"
   },
