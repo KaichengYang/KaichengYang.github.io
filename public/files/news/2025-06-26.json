@@ -1,0 +1,15 @@
+{
+  "date": "2025-06-26",
+  "type": "general",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "I have joined the editorial board of"
+    },
+    {
+      "type": "link",
+      "msg": "Information Processing & Management",
+      "link": "https://www.sciencedirect.com/journal/information-processing-and-management/about/editorial-board"
+    }
+  ]
+}
