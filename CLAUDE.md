@@ -72,3 +72,65 @@ Single-page application with client-side routing defined in `src/router/index.js
 ## Data Structure
 
 Publications, news, tools, and media are stored as JSON files with cross-references via ID fields. The main.js file establishes relationships between entities (e.g., linking news items to publications, media coverage to projects).
+
+## Content Management
+
+### Adding News Items
+
+News items are stored in `public/files/news/` as individual JSON files named with the date format `YYYY-MM-DD.json`. Each news item follows this structure:
+
+```json
+{
+  "date": "YYYY-MM-DD",
+  "type": "news_type",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Text content"
+    },
+    {
+      "type": "pub|tool|link",
+      "project_id": "publication_id",
+      "msg": "link text",
+      "link": "url"
+    }
+  ]
+}
+```
+
+**News Types:**
+- `new_pub`: New publication announcement
+- `new_tool`: New tool release
+- `general`: General updates/announcements
+
+**Message Types:**
+- `string`: Plain text content
+- `pub`: Reference to a publication (uses `project_id` from pubs directory)
+- `tool`: Reference to a tool (uses `project_id` from tools.json)
+- `link`: External link (requires `msg` and `link` fields)
+
+**Steps to add a news item:**
+1. Create new JSON file in `public/files/news/` with date format
+2. Add the filename to the top of `public/files/news/news_index.json` (maintains chronological order)
+
+**Example for new publication:**
+```json
+{
+  "date": "2025-07-09",
+  "type": "new_pub",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "New preprint on"
+    },
+    {
+      "type": "pub",
+      "project_id": "yang2025news"
+    },
+    {
+      "type": "string",
+      "msg": "is now available on arXiv"
+    }
+  ]
+}
+```
