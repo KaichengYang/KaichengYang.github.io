@@ -81,6 +81,9 @@ const closeModal = () => {
                   Close</button>
               </div>
             </div>
+            <form method="dialog" class="modal-backdrop" @click="closeModal">
+              <button>close</button>
+            </form>
           </dialog>
         </template>
       </template>
