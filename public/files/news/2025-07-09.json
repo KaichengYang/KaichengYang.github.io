@@ -1,0 +1,27 @@
+{
+  "date": "2025-07-09",
+  "type": "new_pub",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "New preprint on"
+    },
+    {
+      "type": "pub",
+      "project_id": "yang2025news"
+    },
+    {
+      "type": "string",
+      "msg": "available. Listen to the"
+    },
+    {
+      "type": "link",
+      "msg": "podcast",
+      "link": "https://notebooklm.google.com/notebook/56698c30-b34f-4fd4-a1eb-e8a9a0b0cb39/audio"
+    },
+    {
+      "type": "string",
+      "msg": "for details."
+    }
+  ]
+}
