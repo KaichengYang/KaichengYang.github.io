@@ -1,0 +1,39 @@
+
+{
+  "authors": [
+    {
+      "id": "kcyang",
+      "annotation": ["corresponding_author", "highlight"]
+    }
+  ],
+  "date": "2025-07-08",
+  "year": [
+    2025
+  ],
+  "type": [
+    "preprint"
+  ],
+  "topic": [
+    "genai"
+  ],
+  "highlight": ["highlight"],
+  "links": [
+    {
+      "url": "https://arxiv.org/abs/2507.05301",
+      "name": "arXiv"
+    },
+    {
+      "url": "https://github.com/yang3kc/ai_search_arena",
+      "name": "GitHub"
+    },
+    {
+      "url": "https://notebooklm.google.com/notebook/56698c30-b34f-4fd4-a1eb-e8a9a0b0cb39/audio",
+      "name": "Podcast"
+    }
+  ],
+  "altmetric": {
+    "arxiv_id": "2507.05301"
+  },
+  "bibtex_string": "@misc{yang2025news,\n\ttitle={News Source Citing Patterns in AI Search Systems},\n\tauthor={Kai-Cheng Yang},\n\tyear={2025},\n\teprint={2507.05301},\n\tarchivePrefix={arXiv},\n\tprimaryClass={cs.IR},\n\turl={https://arxiv.org/abs/2507.05301},\n\tjournal={arxiv:2507.05301}}",
+  "abstract": "AI-powered search systems are emerging as new information gatekeepers, fundamentally transforming how users access news and information. Despite their growing influence, the citation patterns of these systems remain poorly understood. We address this gap by analyzing data from the AI Search Arena, a head-to-head evaluation platform for AI search systems. The dataset comprises over 24,000 conversations and 65,000 responses from models across three major providers: OpenAI, Perplexity, and Google. Among the over 366,000 citations embedded in these responses, 9% reference news sources. We find that while models from different providers cite distinct news sources, they exhibit shared patterns in citation behavior. News citations concentrate heavily among a small number of outlets and display a pronounced liberal bias, though low-credibility sources are rarely cited. User preference analysis reveals that neither the political leaning nor the quality of cited news sources significantly influences user satisfaction. These findings reveal significant challenges in current AI search systems and have important implications for their design and governance."
+}
