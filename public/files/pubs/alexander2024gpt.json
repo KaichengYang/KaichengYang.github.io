@@ -11,7 +11,7 @@
   ],
   "date": "2024-12-02",
   "type": [
-    "conf"
+    "conference"
   ],
   "topic": [
     "misinformation",
@@ -35,6 +35,6 @@
   "altmetric": {
     "arxiv_id": "2408.12617"
   },
-  "bibtex_string": "@inproceedings{alexander2024gpt,\nauthor={Alexander, Jason and Nanda, Priyal and Yang, Kai-Cheng and Sarvghad, Ali},\nbooktitle={2024 IEEE Visualization and Visual Analytics (VIS)},\ntitle={Can GPT-4 Models Detect Misleading Visualizations?},\nyear={2024},\nvolume={},\nnumber={},\npages={106-110},\ndoi={10.1109/VIS55277.2024.00029}}",
+  "bibtex_string": "@inproceedings{alexander2024gpt,\n\tauthor={Alexander, Jason and Nanda, Priyal and Yang, Kai-Cheng and Sarvghad, Ali},\n\tbooktitle={2024 IEEE Visualization and Visual Analytics (VIS)},\n\ttitle={Can GPT-4 Models Detect Misleading Visualizations?},\n\tyear={2024},\n\tvolume={},\n\tnumber={},\n\tpages={106-110},\n\tdoi={10.1109/VIS55277.2024.00029}\n\t}",
   "abstract": "The proliferation of misleading visualizations online, particularly during critical events like public health crises and elections, poses a significant risk. This study investigates the capability of GPT-4 models (4V, 4o, and 4o mini) to detect misleading visualizations. Utilizing a dataset of tweet-visualization pairs containing various visual misleaders, we test these models under four experimental conditions with different levels of guidance. We show that GPT-4 models can detect misleading visualizations with moderate accuracy without prior training (naive zero-shot) and that performance notably improves when provided with definitions of misleaders (guided zero-shot). However, a single prompt engineering technique does not yield the best results for all misleader types. Specifically, providing the models with misleader definitions and examples (guided few-shot) proves more effective for reasoning misleaders, while guided zero-shot performs better for design misleaders. This study underscores the feasibility of using large vision-language models to detect visual misinformation and the importance of prompt engineering for optimized detection accuracy."
 }
