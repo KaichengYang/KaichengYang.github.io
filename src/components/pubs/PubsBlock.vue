@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 // props
@@ -63,6 +63,22 @@ const copyToClipboard = (content, content_type) => {
     console.error('Failed to copy: ', err);
   });
 };
+
+// ESC key handler
+const handleEscKey = (event) => {
+  if (event.key === 'Escape' && show_modal.value) {
+    closeModal();
+  }
+};
+
+// Add/remove ESC key listener
+onMounted(() => {
+  document.addEventListener('keydown', handleEscKey);
+});
+
+onUnmounted(() => {
+  document.removeEventListener('keydown', handleEscKey);
+});
 </script>
 
 <template>

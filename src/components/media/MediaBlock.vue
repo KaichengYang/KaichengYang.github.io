@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue';
 import ToolBlock from '@/components/tool/ToolBlock.vue'
 import PubBlock from '@/components/pubs/PubsBlock.vue'
 
@@ -30,6 +30,22 @@ const openModal = (projectId) => {
 const closeModal = () => {
   show_modal.value = null;
 };
+
+// ESC key handler
+const handleEscKey = (event) => {
+  if (event.key === 'Escape' && show_modal.value) {
+    closeModal();
+  }
+};
+
+// Add/remove ESC key listener
+onMounted(() => {
+  document.addEventListener('keydown', handleEscKey);
+});
+
+onUnmounted(() => {
+  document.removeEventListener('keydown', handleEscKey);
+});
 
 </script>
 
