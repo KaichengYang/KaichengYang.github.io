@@ -30,6 +30,36 @@
     "toshow": true
   },
   {
+    "title": "What Meta's move to community moderation could mean for misinformation",
+    "url": "https://theconversation.com/what-metas-move-to-community-moderation-could-mean-for-misinformation-247016",
+    "outlet": "The Conversation",
+    "date": "2025-01-10",
+    "year": [
+      2025
+    ],
+    "type": "coverage",
+    "topic": "misinformation",
+    "project_id": [
+      "shao2018spread"
+    ],
+    "toshow": true
+  },
+  {
+    "title": "Meta Opens Floodgates For AI-Generated Accounts On Facebook, Instagram",
+    "url": "https://www.forbes.com/sites/chriswestfall/2025/01/02/meta-opens-floodgates-on-ai-generated-accounts-on-facebook-instagram/",
+    "outlet": "Forbes",
+    "date": "2025-01-02",
+    "year": [
+      2025
+    ],
+    "type": "coverage",
+    "topic": "social bot",
+    "project_id": [
+      "shao2018spread"
+    ],
+    "toshow": true
+  },
+  {
     "title": "ChatGPT fact-checks can reduce trust in accurate headlines, study finds",
     "url": "https://www.psypost.org/chatgpt-fact-checks-can-reduce-trust-in-accurate-headlines-study-finds/",
     "outlet": "PsyPost",
