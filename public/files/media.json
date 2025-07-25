@@ -158,8 +158,8 @@
     ],
     "type": "quotation",
     "topic": "social bot",
-    "toshow": true,
-    "highlight": true
+    "toshow": false,
+    "highlight": false
   },
   {
     "title": "Så gjorde vi granskningen av Europe Invasion",
@@ -219,7 +219,7 @@
     "project_id": [
       "scarano2025election"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Elon Musk didn't rid Twitter of bots. X is paying armies of them for slop",
@@ -1923,7 +1923,7 @@
     "project_id": [
       "hoaxy"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Twitter Bots Are Spreading Massive Amounts of COVID-19 Misinformation",
