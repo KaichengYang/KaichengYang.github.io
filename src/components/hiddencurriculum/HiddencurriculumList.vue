@@ -40,6 +40,11 @@ const sections = ref([
         link: 'https://github.com/yang3kc/llm_git_commit',
         description: 'a tool for using LLMs to generate git commit messages',
         icon: { prefix: 'fab', icon: 'github' }
+      },
+      {
+        title: 'Claude Code is secretly an excellent data analysis agent',
+        link: 'https://open.substack.com/pub/yang3kc/p/claude-code-is-secretly-an-excellent',
+        description: 'How I vibe code research projects',
       }
     ]
   },
