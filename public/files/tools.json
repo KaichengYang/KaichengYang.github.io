@@ -5,6 +5,7 @@
     "image": "llmdomain",
     "msg": "Evaluate LLMs' ability to classify domains into different categories",
     "highlight": ["highlight"],
+    "status": "active",
     "links": [
       {
         "url": "https://yang3kc.github.io/llm_domain_classification",
@@ -22,6 +23,7 @@
     "image": "domaindemo",
     "msg": "Check user demographics of over 129,000 domains",
     "highlight": ["highlight"],
+    "status": "active",
     "links": [
       {
         "url": "https://domaindemo.info",
@@ -39,6 +41,7 @@
     "image": "botometer",
     "msg": "Detect bot-like Twitter accounts",
     "highlight": ["highlight"],
+    "status": "active",
     "links": [
       {
         "url": "https://botometer.osome.iu.edu/",
@@ -59,6 +62,7 @@
     "title": "Scicolor Color Picker",
     "image": "scicolor",
     "msg": "A collection of color schemes for scientific visualization",
+    "status": "active",
     "links": [
       {
         "url": "https://yang3kc.github.io/scicolor/",
@@ -79,6 +83,7 @@
     "title": "Daily arXiv digest",
     "image": "arxiv_digest",
     "msg": "Use ChatGPT to select interesting arXiv papers every day",
+    "status": "active",
     "links": [
       {
         "url": "https://github.com/yang3kc/daily_arxiv_digest",
@@ -91,6 +96,7 @@
     "title": "vMFD",
     "image": "vmfd",
     "msg": "Infer moral appeals from text",
+    "status": "active",
     "links": [
       {
         "url": "https://github.com/ZeningDuan/vMFD",
@@ -107,6 +113,7 @@
     "title": "BiRank",
     "image": "birank",
     "msg": "Bipartite network PageRank",
+    "status": "active",
     "links": [
       {
         "url": "https://github.com/BrianAronson/birankr",
@@ -127,6 +134,7 @@
     "title": "Hoaxy",
     "image": "hoaxy",
     "msg": "A tool for tracking the spread of rumors on social media",
+    "status": "retired",
     "links": [
       {
         "url": "https://hoaxy.osome.iu.edu/",

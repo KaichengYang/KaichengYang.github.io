@@ -48,6 +48,12 @@ const get_icon = (link_name) => {
         </a>
         <span v-if="index != tool_obj.links.length - 1"> | </span>
       </span>
+      <div v-if="tool_obj.status === 'retired'" class="mt-3">
+        <div class="alert alert-warning bg-gray-50 border-gray-200 text-gray-600 p-3 rounded-lg shadow-sm">
+          <font-awesome-icon icon="exclamation-triangle"/>
+          <span class="font-medium">This tool is no longer maintained.</span>
+        </div>
+      </div>
     </div>
   </div>
 </template>
