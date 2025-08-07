@@ -31,8 +31,9 @@ const copyToClipboard = (bioText) => {
 </script>
 
 <template>
-  <Navbar />
-  <div class="container mx-auto max-w-screen-lg">
+  <div class="flex flex-col flex-grow">
+    <Navbar />
+    <div class="container mx-auto max-w-screen-lg flex-grow">
     <div class="grid grid-cols-1 md:grid-cols-3">
       <!-- photo -->
       <div class="col-span-full md:col-span-1">
@@ -94,14 +95,15 @@ const copyToClipboard = (bioText) => {
         </p>
       </div>
     </div>
-  </div>
-  <!-- toast  -->
-  <div v-if="showToast" class="toast">
-    <div class="alert alert-warning">
-      <div class="flex-1">
-        <span class="text-white">Bio copied to clipboard!</span>
+    </div>
+    <!-- toast  -->
+    <div v-if="showToast" class="toast">
+      <div class="alert alert-warning">
+        <div class="flex-1">
+          <span class="text-white">Bio copied to clipboard!</span>
+        </div>
       </div>
     </div>
+    <Footer />
   </div>
-  <Footer />
 </template>

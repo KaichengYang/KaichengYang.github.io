@@ -1,21 +1,23 @@
 <template>
-  <Navbar />
-  <div class="container mx-auto max-w-screen-lg mt-10">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-      <div v-for="(photo, index) in photos" :key="index" class="card">
-        <div class="flex flex-col items-center">
-          <img :src="photo.src" :alt="photo.alt" class="object-cover w-[200px] md:w-[300px]">
-          <a :href="photo.src" download>
-            <button class="btn btn-outline btn-primary mt-4 mb-8 mr-2">
-              <font-awesome-icon :icon="['fas', 'download']" />
-              Download photo
-            </button>
-          </a>
+  <div class="flex flex-col flex-grow">
+    <Navbar />
+    <div class="container mx-auto max-w-screen-lg mt-10 flex-grow">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div v-for="(photo, index) in photos" :key="index" class="card">
+          <div class="flex flex-col items-center">
+            <img :src="photo.src" :alt="photo.alt" class="object-cover w-[200px] md:w-[300px]">
+            <a :href="photo.src" download>
+              <button class="btn btn-outline btn-primary mt-4 mb-8 mr-2">
+                <font-awesome-icon :icon="['fas', 'download']" />
+                Download photo
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
+    <Footer />
   </div>
-  <Footer />
 </template>
 
 <script setup>
