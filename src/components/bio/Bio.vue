@@ -47,8 +47,13 @@ const contact_links = ref([
     <!-- avatar -->
       <div id="avatar_container" class="col-span-1 flex flex-col items-center justify-center">
         <!-- photo -->
-        <div id="avatar" class="mx-auto">
-          <img src="/photos/avatar_01.png" alt="Avatar" class="avatar rounded-full">
+        <div id="avatar" class="mx-auto relative group">
+          <router-link to="/photos">
+            <img src="/photos/avatar_01.png" alt="Avatar" class="avatar rounded-full cursor-pointer hover:opacity-80 transition-opacity">
+            <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
+              <span class="text-white text-sm font-medium">Click to view more photos</span>
+            </div>
+          </router-link>
         </div>
         <!-- info -->
         <div id="avatar_info" class="text-center">
