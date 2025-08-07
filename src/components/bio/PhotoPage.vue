@@ -28,9 +28,9 @@ import Footer from '@/components/nav/Footer.vue'
 const photos = ref([
   { src: '/photos/avatar_01.png', alt: 'Avatar 01' },
   { src: '/photos/avatar_02.png', alt: 'Avatar 02' },
-  { src: '/photos/avatar_03.png', alt: 'Avatar 03' },
+  { src: '/photos/bing_avatar_square.png', alt: 'Avatar 03' },
   { src: '/photos/avatar_11.png', alt: 'Avatar 11' },
   { src: '/photos/avatar_12.png', alt: 'Avatar 12' },
-  { src: '/photos/avatar_13.png', alt: 'Avatar 13' },
+  { src: '/photos/bing_avatar_full.png', alt: 'Avatar 13' },
 ])
 </script>
