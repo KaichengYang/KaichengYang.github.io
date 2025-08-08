@@ -73,12 +73,10 @@ const contact_links = ref([
       <!-- bio -->
       <div id="bio" class="md:col-span-2 mt-2 mx-4 prose">
         <p>
-          Hi! I'm Kai-Cheng Yang (pronounced KY-cheng YAHNG). You can also call me Kevin.
-          I'm a postdoctoral researcher at Northeastern University working with <a class="link" href="https://lazerlab.net" target="_blnak">David Lazer</a>.
-          I obtained my Ph.D. in Informatics from <a class="link" href="https://luddy.indiana.edu/" target="_blank">
-              Luddy School of Informatics, Computing, and Engineering</a>
-          in Indiana University Bloomington, advised by <a class="link" href="http://cnets.indiana.edu/fil/" target="_blank">Filippo Menczer</a>.
-          I'll join Binghamton University Computer Science as an Assistant Professor starting Fall 2025.
+          Hi! I'm Kai-Cheng Yang (pronounced KY-cheng YAHNG).
+          I'm currently an assistant professor in the School of Computing at Binghamton University.
+          Before joining Binghamton University, I was a postdoctoral researcher at Northeastern University.
+          I obtained my Ph.D. in Informatics from Indiana University.
         </p>
         <p>
           My research focuses on creating safe, fair, and trustworthy online information platforms by identifying how malicious actors and flawed systems distort information flow and developing effective countermeasures.
