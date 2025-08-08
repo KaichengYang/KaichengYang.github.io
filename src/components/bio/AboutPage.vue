@@ -86,7 +86,7 @@ const copyToClipboard = (bioText) => {
       <h1 class="text-4xl font-bold my-4 text-center">About this website</h1>
       <div class="text-center md:text-left">
         <p class="prose">
-          I created this website myself with the help of AI coding assistants.
+          I created this website myself with the help of AI <a class="link" href="https://cursor.com" target="_blank">coding</a> <a class="link" href="https://www.anthropic.com/claude-code" target="_blank">assistants</a>.
         </p>
         <p class="prose">
           It's currently implemented as a <a class="link" href="https://vuejs.org/" target="_blank">Vue.js</a> app, with <a class="link" href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a> and <a class="link" href="https://daisyui.com/" target="_blank">daisyUI</a> for styling.
