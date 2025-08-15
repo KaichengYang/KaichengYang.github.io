@@ -47,14 +47,19 @@ const contact_links = ref([
     <!-- avatar -->
       <div id="avatar_container" class="col-span-1 flex flex-col items-center justify-center">
         <!-- photo -->
-        <div id="avatar" class="mx-auto">
-          <img src="/photos/avatar_01.png" alt="Avatar" class="avatar rounded-full">
+        <div id="avatar" class="mx-auto relative group">
+          <router-link to="/photos">
+            <img src="/photos/avatar_01.png" alt="Avatar" class="avatar rounded-full cursor-pointer hover:opacity-80 transition-opacity">
+            <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
+              <span class="text-white text-sm font-medium">Click to view more photos</span>
+            </div>
+          </router-link>
         </div>
         <!-- info -->
         <div id="avatar_info" class="text-center">
           <h2 class="text-2xl font-medium">Kai-Cheng Yang, Ph.D.</h2>
-          <p id="title" class="text-xl text-gray-500">Postdoctoral researcher</p>
-          <p id="title" class="text-xl text-gray-500">Northeastern University</p>
+          <p id="title" class="text-xl text-gray-500">Assistant Professor</p>
+          <p id="title" class="text-xl text-gray-500">Binghamton University</p>
         </div>
         <!-- contact -->
         <div id="contact_container" class="mt-1">
@@ -68,12 +73,10 @@ const contact_links = ref([
       <!-- bio -->
       <div id="bio" class="md:col-span-2 mt-2 mx-4 prose">
         <p>
-          Hi! I'm Kai-Cheng Yang (pronounced KY-cheng YAHNG). You can also call me Kevin.
-          I'm a postdoctoral researcher at Northeastern University working with <a class="link" href="https://lazerlab.net" target="_blnak">David Lazer</a>.
-          I obtained my Ph.D. in Informatics from <a class="link" href="https://luddy.indiana.edu/" target="_blank">
-              Luddy School of Informatics, Computing, and Engineering</a>
-          in Indiana University Bloomington, advised by <a class="link" href="http://cnets.indiana.edu/fil/" target="_blank">Filippo Menczer</a>.
-          I'll join Binghamton University Computer Science as an Assistant Professor starting Fall 2025.
+          Hi! I'm Kai-Cheng Yang (pronounced KY-cheng YAHNG).
+          I'm currently an assistant professor in the School of Computing at Binghamton University.
+          Before joining Binghamton University, I was a postdoctoral researcher at Northeastern University.
+          I obtained my Ph.D. in Informatics from Indiana University.
         </p>
         <p>
           My research focuses on creating safe, fair, and trustworthy online information platforms by identifying how malicious actors and flawed systems distort information flow and developing effective countermeasures.
