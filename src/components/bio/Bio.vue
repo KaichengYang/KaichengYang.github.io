@@ -58,8 +58,8 @@ const contact_links = ref([
         <!-- info -->
         <div id="avatar_info" class="text-center">
           <h2 class="text-2xl font-medium">Kai-Cheng Yang, Ph.D.</h2>
-          <p id="title" class="text-xl text-gray-500">Postdoctoral researcher</p>
-          <p id="title" class="text-xl text-gray-500">Northeastern University</p>
+          <p id="title" class="text-xl text-gray-500">Assistant Professor</p>
+          <p id="title" class="text-xl text-gray-500">Binghamton University</p>
         </div>
         <!-- contact -->
         <div id="contact_container" class="mt-1">
