@@ -12,9 +12,9 @@ const team = inject('team', ref({}))
   <div class="flex flex-col flex-grow">
     <Navbar />
     <div class="container mx-auto max-w-screen-lg flex-grow">
-      
+
       <h1 class="text-4xl font-bold my-8 text-center">Yang Lab Team</h1>
-      
+
       <!-- Principal Investigator Section -->
       <div v-if="team.pi" class="mb-12">
         <h2 class="text-3xl font-medium mb-6 text-center text-primary">Principal Investigator</h2>
@@ -31,10 +31,10 @@ const team = inject('team', ref({}))
       <div v-if="team.students && team.students.length > 0" class="mb-8">
         <h2 class="text-3xl font-medium mb-6 text-center text-primary">Students</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <TeamMember 
-            v-for="student in team.students" 
+          <TeamMember
+            v-for="student in team.students"
             :key="student.name"
-            :member="student" 
+            :member="student"
           />
         </div>
       </div>
@@ -56,8 +56,8 @@ const team = inject('team', ref({}))
           <div>
             <h3 class="font-bold text-lg">Join Our Team!</h3>
             <div class="text-sm">
-              We are actively recruiting motivated Ph.D. students interested in computational social science, 
-              misinformation detection, and AI safety. If you're passionate about creating safer online information 
+              We are actively recruiting motivated Ph.D. students interested in computational social science,
+              misinformation detection, and AI safety. If you're passionate about creating safer online information
               ecosystems, we'd love to hear from you!
             </div>
             <div class="mt-2">

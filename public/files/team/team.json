@@ -5,7 +5,6 @@
     "role": "Assistant Professor",
     "affiliation": "School of Computing, Binghamton University",
     "photo": "/photos/avatar_01.png",
-    "bio": "Kai-Cheng Yang is an Assistant Professor in the School of Computing at Binghamton University. His research focuses on creating safe, fair, and trustworthy online information platforms by identifying how malicious actors and flawed systems distort information flow and developing effective countermeasures.",
     "email": "yang3kc@gmail.com",
     "links": [
       {
@@ -48,14 +47,6 @@
           "icon": "bluesky"
         }
       }
-    ],
-    "research_interests": [
-      "Computational Social Science",
-      "Misinformation Detection",
-      "Social Bots",
-      "Algorithmic Bias",
-      "AI Safety",
-      "Online Information Ecosystems"
     ]
   },
   "students": [
@@ -63,8 +54,8 @@
       "name": "Open Position",
       "role": "Ph.D. Student",
       "year": "Recruiting",
-      "photo": "/photos/avatar_02.png",
-      "bio": "We are actively recruiting motivated Ph.D. students! If you are interested in computational social science, misinformation detection, and AI safety research, please get in touch.",
+      "photo": "/photos/avatar_placeholder.jpg",
+      "bio": "We are actively recruiting motivated students!",
       "email": "yang3kc@gmail.com",
       "research_interests": [
         "Open to various research directions"
