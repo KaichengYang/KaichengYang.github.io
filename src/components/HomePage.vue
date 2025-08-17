@@ -20,6 +20,9 @@ import ToolList from '@/components/tool/ToolList.vue'
 
       <!-- News  -->
       <h2 class="text-4xl font-medium mb-4 flex justify-center" id="news">News</h2>
+      <p class="prose mb-4 text-center">
+        Follow us on <a href="https://twitter.com/yang3kc" class="link"><font-awesome-icon :icon="['fab', 'twitter']" class="mr-1" target="_blank"/>Twitter/X</a> and <a href="https://bsky.app/profile/yang3kc.bsky.social" class="link"><font-awesome-icon :icon="['fab', 'bluesky']" class="mr-1" target="_blank"/>Blue Sky</a> for updates
+      </p>
       <NewsList :is_home="true" />
 
       <div class="divider divider-primary" />

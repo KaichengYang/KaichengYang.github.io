@@ -10,6 +10,7 @@ import FailurePage from '@/components/failure/FailurePage.vue'
 import ToolPage from '@/components/tool/ToolPage.vue'
 import HiddencurriculumPage from '@/components/hiddencurriculum/HiddencurriculumPage.vue'
 import TeamPage from '@/components/team/TeamPage.vue'
+import ProspectiveStudentsPage from '@/components/prospective/ProspectiveStudentsPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -19,6 +20,7 @@ const router = createRouter({
     { path: '/about', component: AboutPage },
     { path: '/kaicheng', component: PersonalPage },
     { path: '/team', component: TeamPage },
+    { path: '/prospective', component: ProspectiveStudentsPage },
     { path: '/news', component: NewsPage },
     { path: '/media', component: MediaPage },
     { path: '/photos', component: PhotoPage },

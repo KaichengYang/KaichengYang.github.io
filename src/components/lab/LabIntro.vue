@@ -1,29 +1,4 @@
 <script setup>
-import { ref } from 'vue'
-
-const contact_links = ref([
-  {
-    name: 'Email',
-    icon: {prefix: 'fas', icon: 'envelope'},
-    link: 'mailto:yang3kc@gmail.com'
-  },
-  {
-    name: 'Google Scholar',
-    icon: {prefix: 'fab', icon: 'google-scholar'},
-    link: 'https://scholar.google.com/citations?hl=en&user=tqb96X8AAAAJ&view_op=list_works&sortby=pubdate'
-  },
-  {
-    name: 'Twitter',
-    icon: {prefix: 'fab', icon: 'twitter'},
-    link: 'https://twitter.com/yang3kc'
-  },
-  {
-    name: 'Blue Sky',
-    icon: {prefix: 'fab', icon: 'bluesky'},
-    link: 'https://bsky.app/profile/yang3kc.bsky.social'
-  }
-])
-
 </script>
 
 <template>
@@ -48,6 +23,9 @@ const contact_links = ref([
           Our work has been <a class="link" href="#media">covered</a> by various media outlets.
           You might also find some of our <a class="link" href="#tools">tools</a> useful for your own research.
           Here is a <router-link to="/hiddencurriculum" class="link">collection of resources</router-link> you might find useful for your research.
+        </p>
+        <p>
+          We are actively seeking motivated students and collaborators, see <router-link to="/prospective" class="link">here</router-link> for more information.
         </p>
       </div>
     </div>
