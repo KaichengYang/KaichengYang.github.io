@@ -48,6 +48,14 @@
           "prefix": "fab",
           "icon": "bluesky"
         }
+      },
+      {
+        "name": "Substack",
+        "url": "https://yang3kc.substack.com",
+        "icon": {
+          "prefix": "fas",
+          "icon": "bookmark"
+        }
       }
     ]
   },

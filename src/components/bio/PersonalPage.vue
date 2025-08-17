@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, inject, computed } from 'vue'
 import Navbar from '@/components/nav/Navbar.vue'
 import Footer from '@/components/nav/Footer.vue'
 
@@ -8,44 +8,36 @@ const bio = ref({
   long: ''
 })
 const showToast = ref(false)
+const team = inject('team', ref({}))
 
-const contact_links = ref([
-  {
-    name: 'Email',
-    icon: {prefix: 'fas', icon: 'envelope'},
-    link: 'mailto:yang3kc@gmail.com'
-  },
-  {
-    name: 'Google Scholar',
-    icon: {prefix: 'fab', icon: 'google-scholar'},
-    link: 'https://scholar.google.com/citations?hl=en&user=tqb96X8AAAAJ&view_op=list_works&sortby=pubdate'
-  },
-  {
-    name: 'ResearchGate',
-    icon: {prefix: 'fab', icon: 'researchgate'},
-    link: 'https://www.researchgate.net/profile/Kai-Cheng-Yang-3'
-  },
-  {
-    name: 'LinkedIn',
-    icon: {prefix: 'fab', icon: 'linkedin'},
-    link: 'https://www.linkedin.com/in/kaicheng-yang-43477213b/'
-  },
-  {
-    name: 'Twitter',
-    icon: {prefix: 'fab', icon: 'twitter'},
-    link: 'https://twitter.com/yang3kc'
-  },
-  {
-    name: 'Blue Sky',
-    icon: {prefix: 'fab', icon: 'bluesky'},
-    link: 'https://bsky.app/profile/yang3kc.bsky.social'
-  },
-  {
-    name: 'Substack',
-    icon: {prefix: 'fas', icon: 'bookmark'},
-    link: 'https://yang3kc.substack.com'
+// Computed property to get contact links from team data
+const contact_links = computed(() => {
+  if (!team.value.pi) return []
+  
+  const links = []
+  
+  // Add email link if exists
+  if (team.value.pi.email) {
+    links.push({
+      name: 'Email',
+      icon: {prefix: 'fas', icon: 'envelope'},
+      link: `mailto:${team.value.pi.email}`
+    })
   }
-])
+  
+  // Add all other links from team data
+  if (team.value.pi.links) {
+    team.value.pi.links.forEach(link => {
+      links.push({
+        name: link.name,
+        icon: link.icon,
+        link: link.url
+      })
+    })
+  }
+  
+  return links
+})
 
 onMounted(() => {
   fetch('/files/bios.json')
@@ -73,17 +65,17 @@ const copyToClipboard = (bioText) => {
     <Navbar />
     <div class="container mx-auto max-w-screen-lg flex-grow">
       
-      <h1 class="text-4xl font-bold my-8 text-center">Kai-Cheng Yang</h1>
+      <h1 class="text-4xl font-bold my-8 text-center">{{ team.pi?.name || 'Kai-Cheng Yang' }}</h1>
       
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         <!-- photo -->
         <div class="col-span-full md:col-span-1">
           <h2 class="text-2xl font-bold text-center mb-2 mt-4">Photo</h2>
           <div class="flex justify-center">
-            <img src="/photos/avatar_01.png" alt="Kai-Cheng Yang" class="w-2/3 h-auto rounded-lg">
+            <img :src="team.pi?.photo || '/photos/avatar_01.png'" :alt="team.pi?.name || 'Kai-Cheng Yang'" class="w-2/3 h-auto rounded-lg">
           </div>
           <div class="flex justify-center">
-            <a href="/photos/avatar_01.png" download>
+            <a :href="team.pi?.photo || '/photos/avatar_01.png'" download>
               <button class="btn btn-outline btn-primary mt-4 mr-2">
                 <font-awesome-icon :icon="['fas', 'download']" />
                 Download photo</button>
@@ -94,10 +86,10 @@ const copyToClipboard = (bioText) => {
           </div>
           
           <!-- CV Download -->
-          <div class="flex justify-center mt-4">
-            <a href="/files/cv.pdf" target="_blank">
+          <div v-if="team.pi?.cv_link" class="flex justify-center mt-4">
+            <a :href="team.pi.cv_link" target="_blank">
               <button class="btn btn-primary">
-                <font-awesome-icon :icon="['fas', 'file-pdf']" />
+                <font-awesome-icon :icon="['far', 'file-pdf']" />
                 Download CV
               </button>
             </a>
