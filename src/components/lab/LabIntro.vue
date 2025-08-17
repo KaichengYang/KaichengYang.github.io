@@ -19,10 +19,9 @@
           and social science approaches to address critical challenges in online information ecosystems.
         </p>
         <p>
-          Check out our <router-link to="/team" class="link">team</router-link> and <a class="link" href="#pubs">publications</a> to learn more about our research.
-          Our work has been <a class="link" href="#media">covered</a> by various media outlets.
-          You might also find some of our <a class="link" href="#tools">tools</a> useful for your own research.
-          Here is a <router-link to="/hiddencurriculum" class="link">collection of resources</router-link> you might find useful for your research.
+          Learn more about our research by exploring our <router-link to="/team" class="link">team</router-link> and <a class="link" href="#pubs">publications</a>.
+          Our work has been <a class="link" href="#media">featured</a> in various media outlets, and you may find our research <a class="link" href="#tools">tools</a> helpful for your own projects.
+          We've also compiled a <router-link to="/hiddencurriculum" class="link">collection of resources</router-link> that researchers might find useful.
         </p>
         <p>
           We are actively seeking motivated students and collaborators, see <router-link to="/prospective" class="link">here</router-link> for more information.
