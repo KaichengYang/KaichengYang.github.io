@@ -6,6 +6,8 @@
     "affiliation": "School of Computing, Binghamton University",
     "photo": "/photos/avatar_01.png",
     "email": "yang3kc@gmail.com",
+    "internal_route": "/kaicheng",
+    "cv_link": "/files/cv.pdf",
     "links": [
       {
         "name": "Google Scholar",

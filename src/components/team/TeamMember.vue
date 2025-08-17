@@ -17,7 +17,12 @@ defineProps({
       />
     </figure>
     <div class="card-body items-center text-center">
-      <h2 class="card-title text-xl">{{ member.name }}</h2>
+      <h2 class="card-title text-xl">
+        <router-link v-if="member.internal_route" :to="member.internal_route" class="link hover:text-primary">
+          {{ member.name }}
+        </router-link>
+        <span v-else>{{ member.name }}</span>
+      </h2>
       <p class="text-lg text-primary font-medium">{{ member.role }}</p>
       <p v-if="member.year" class="text-sm text-gray-500">{{ member.year }}</p>
       <p v-if="member.affiliation" class="text-sm text-gray-500">{{ member.affiliation }}</p>
@@ -39,7 +44,26 @@ defineProps({
         </div>
       </div>
 
-      <div v-if="member.email || (member.links && member.links.length)" class="card-actions justify-center mt-4">
+      <div v-if="member.internal_route || member.cv_link || member.email || (member.links && member.links.length)" class="card-actions justify-center mt-4">
+        <router-link
+          v-if="member.internal_route"
+          :to="member.internal_route"
+          class="btn btn-circle btn-outline btn-sm"
+          :title="`View ${member.name}'s Personal Page`"
+        >
+          <font-awesome-icon :icon="['fas', 'user']" />
+        </router-link>
+
+        <a
+          v-if="member.cv_link"
+          :href="member.cv_link"
+          target="_blank"
+          class="btn btn-circle btn-outline btn-sm"
+          :title="`View ${member.name}'s CV`"
+        >
+          <font-awesome-icon :icon="['far', 'file-pdf']" />
+        </a>
+
         <a
           v-if="member.email"
           :href="`mailto:${member.email}`"
