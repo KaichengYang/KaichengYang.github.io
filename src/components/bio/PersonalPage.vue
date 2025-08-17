@@ -78,7 +78,7 @@ const copyToClipboard = (bioText) => {
         <!-- photo -->
         <div class="col-span-full md:col-span-1 mt-8">
           <div class="flex justify-center">
-            <img :src="team.pi?.photo || '/photos/avatar_01.png'" :alt="team.pi?.name || 'Kai-Cheng Yang'" class="w-2/3 h-auto rounded-lg">
+            <img :src="team.pi?.photo || '/photos/avatar_01.png'" :alt="team.pi?.name || 'Kai-Cheng Yang'" class="rounded-full w-48 h-48 object-cover">
           </div>
           <div class="flex justify-center">
             <a :href="team.pi?.photo || '/photos/avatar_01.png'" download>
