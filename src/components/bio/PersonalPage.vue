@@ -74,12 +74,9 @@ const copyToClipboard = (bioText) => {
     <Navbar />
     <div class="container mx-auto max-w-screen-lg flex-grow">
 
-      <h1 class="text-4xl font-bold my-8 text-center">{{ team.pi?.name || 'Kai-Cheng Yang' }}</h1>
-
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         <!-- photo -->
-        <div class="col-span-full md:col-span-1">
-          <h2 class="text-2xl font-bold text-center mb-2 mt-4">Photo</h2>
+        <div class="col-span-full md:col-span-1 mt-8">
           <div class="flex justify-center">
             <img :src="team.pi?.photo || '/photos/avatar_01.png'" :alt="team.pi?.name || 'Kai-Cheng Yang'" class="w-2/3 h-auto rounded-lg">
           </div>
@@ -106,21 +103,19 @@ const copyToClipboard = (bioText) => {
 
         <!-- Personal Information -->
         <div class="col-span-full md:col-span-2">
-          <h2 class="text-2xl font-bold mb-4 mt-4">About Kai-Cheng</h2>
           <div class="prose">
+
+            <h1 class="text-3xl font-bold mt-8 mb-4">{{ team.pi?.name || 'Kai-Cheng Yang' }}</h1>
             <p>
-              Kai-Cheng Yang (pronounced KY-cheng YAHNG) is an Assistant Professor in the School of Computing at Binghamton University.
+              Kai-Cheng Yang (pronounced KY-cheng YAHNG) is an Assistant Professor in the School of Computing at Binghamton University and leads the Yang Lab.
+              He also goes by Kevin.
               Before joining Binghamton University, he was a postdoctoral researcher at Northeastern University.
               He obtained his Ph.D. in Informatics from Indiana University.
             </p>
             <p>
-              His research focuses on creating safe, fair, and trustworthy online information platforms by identifying how malicious actors and flawed systems distort information flow and developing effective countermeasures.
-              His work spans social bots, misinformation, and algorithmic biases.
-              Currently, he's exploring how generative AI is being misused in these contexts and how to harness this technology to protect against these threats.
-            </p>
-            <p>
-              His work has been covered by various media outlets, and he has developed several tools for research and education.
-              He also maintains a collection of <router-link to="/hiddencurriculum" class="link">hidden curriculum</router-link> resources for students and researchers.
+              Here is his <a href="/files/cv.pdf" class="link">CV</a>.
+              You can learn more about his research by exploring his <router-link to="/pubs" class="link">publications</router-link>.
+              He also writes <a href="https://yang3kc.substack.com" class="link" target="_blank">blogs</a> sometimes.
             </p>
           </div>
         </div>
