@@ -31,14 +31,14 @@ import Footer from '@/components/nav/Footer.vue'
             <h3>Preferred Background</h3>
             <p>
               We are open to students with a wide range of backgrounds.
-              However, since the Ph.D. program is located in a Computer Science department, the admission committee will give more weight to the students with background in computer science or related fields.
-              In principle, the admission committee only admits students with Master's degrees, but undergraduates with exceptional background will also be considered.
+              However, since the Ph.D. program is located in a Computer Science department, the admission committee will give more weight to students with backgrounds in computer science or related fields.
+              In principle, the admission committee only admits students with Master's degrees, but undergraduates with exceptional backgrounds will also be considered.
             </p>
 
             <h3>Application Process</h3>
             <p>
               Please follow the instructions on the <a href="https://www.binghamton.edu/computer-science/graduate-programs" target="_blank" class="link">Ph.D. program website</a> for more details.
-              Perspective Ph.D. students are encouraged to reach out before submitting an application by emailing their research statements and CVs to <a href="mailto:yang3kc@gmail.com" class="link">Kai-Cheng</a>.
+              Prospective Ph.D. students are encouraged to reach out before submitting an application by emailing their research statements and CVs to <a href="mailto:yang3kc@gmail.com" class="link">Kai-Cheng</a>.
               Be sure to mention Kai-Cheng's name in the application so that he can be notified of your application.
             </p>
 
@@ -51,9 +51,8 @@ import Footer from '@/components/nav/Footer.vue'
           <div class="prose prose-lg mx-auto">
             <p>
               We are also open to collaboration with students at Binghamton University and other institutions.
-              Paid positions are unavailable unless stated otherwise.
-              But we can provide research opportunities and resources for students who are interested in our work.
-              Those who are interested in joining our lab, please send <a href="mailto:yang3kc@gmail.com" class="link">Kai-Cheng</a> an email with a brief statement of research interests and CV.
+              Paid positions are unavailable unless stated otherwise, but we can provide research opportunities and resources for students who are interested in our work.
+              Those who are interested in joining our lab should send <a href="mailto:yang3kc@gmail.com" class="link">Kai-Cheng</a> an email with a brief statement of research interests and a CV.
             </p>
           </div>
         </div>
