@@ -4,7 +4,7 @@
   "msgs": [
     {
       "type": "string",
-      "msg": "I attended"
+      "msg": "Kaicheng attended"
     },
     {
       "type": "link",
@@ -13,7 +13,7 @@
     },
     {
       "type": "string",
-      "msg": "at Philadelphia, PA. I delivered one"
+      "msg": "at Philadelphia, PA. Kaicheng delivered one"
     },
     {
       "type": "link",
@@ -22,7 +22,7 @@
     },
     {
       "type": "string",
-      "msg": "and three talks. My coauthors delivered two talks and presented three posters. See the Twitter threads for details:"
+      "msg": "and three talks. Kaicheng's coauthors delivered two talks and presented three posters. See the Twitter threads for details:"
     },
     {
       "type": "link",

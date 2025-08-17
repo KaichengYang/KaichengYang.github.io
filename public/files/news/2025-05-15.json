@@ -14,7 +14,10 @@
       "type": "string",
       "msg": "available."
     },
-    { "type": "string", "msg": "Check out my Twitter" },
+    {
+      "type": "string",
+      "msg": "Check out Kaicheng's Twitter"
+    },
     {
       "type": "link",
       "msg": "thread",

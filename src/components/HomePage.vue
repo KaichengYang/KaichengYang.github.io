@@ -1,6 +1,6 @@
 <script setup>
 import Navbar from '@/components/nav/Navbar.vue'
-import Bio from '@/components/bio/Bio.vue'
+import LabIntro from '@/components/lab/LabIntro.vue'
 import NewsList from '@/components/news/NewsList.vue'
 import PubsList from '@/components/pubs/PubsList.vue'
 import MediaList from '@/components/media/MediaList.vue'
@@ -13,8 +13,8 @@ import ToolList from '@/components/tool/ToolList.vue'
     <Navbar />
     <div class="container mx-auto max-w-screen-lg flex-grow">
 
-      <!-- Bio -->
-      <Bio />
+      <!-- Lab Introduction -->
+      <LabIntro />
 
       <div class="divider divider-primary" />
 

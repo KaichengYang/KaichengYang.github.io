@@ -1,0 +1,74 @@
+{
+  "pi": {
+    "name": "Kai-Cheng Yang",
+    "title": "Principal Investigator",
+    "role": "Assistant Professor",
+    "affiliation": "School of Computing, Binghamton University",
+    "photo": "/photos/avatar_01.png",
+    "bio": "Kai-Cheng Yang is an Assistant Professor in the School of Computing at Binghamton University. His research focuses on creating safe, fair, and trustworthy online information platforms by identifying how malicious actors and flawed systems distort information flow and developing effective countermeasures.",
+    "email": "yang3kc@gmail.com",
+    "links": [
+      {
+        "name": "Google Scholar",
+        "url": "https://scholar.google.com/citations?hl=en&user=tqb96X8AAAAJ&view_op=list_works&sortby=pubdate",
+        "icon": {
+          "prefix": "fab",
+          "icon": "google-scholar"
+        }
+      },
+      {
+        "name": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Kai-Cheng-Yang-3",
+        "icon": {
+          "prefix": "fab",
+          "icon": "researchgate"
+        }
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/kaicheng-yang-43477213b/",
+        "icon": {
+          "prefix": "fab",
+          "icon": "linkedin"
+        }
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/yang3kc",
+        "icon": {
+          "prefix": "fab",
+          "icon": "twitter"
+        }
+      },
+      {
+        "name": "Blue Sky",
+        "url": "https://bsky.app/profile/yang3kc.bsky.social",
+        "icon": {
+          "prefix": "fab",
+          "icon": "bluesky"
+        }
+      }
+    ],
+    "research_interests": [
+      "Computational Social Science",
+      "Misinformation Detection",
+      "Social Bots",
+      "Algorithmic Bias",
+      "AI Safety",
+      "Online Information Ecosystems"
+    ]
+  },
+  "students": [
+    {
+      "name": "Open Position",
+      "role": "Ph.D. Student",
+      "year": "Recruiting",
+      "photo": "/photos/avatar_02.png",
+      "bio": "We are actively recruiting motivated Ph.D. students! If you are interested in computational social science, misinformation detection, and AI safety research, please get in touch.",
+      "email": "yang3kc@gmail.com",
+      "research_interests": [
+        "Open to various research directions"
+      ]
+    }
+  ]
+}

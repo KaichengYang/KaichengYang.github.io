@@ -4,7 +4,7 @@
   "msgs": [
     {
       "type": "string",
-      "msg": "I will attend"
+      "msg": "Kaicheng will attend"
     },
     {
       "type": "link",
@@ -13,7 +13,7 @@
     },
     {
       "type": "string",
-      "msg": "at Denver, CO. On June 15, I will host the tutorial 'Introduction to the National Internet Observatory'. Please come and say hi!"
+      "msg": "at Denver, CO. On June 15, Kaicheng will host the tutorial 'Introduction to the National Internet Observatory'. Please come and say hi!"
     }
   ]
 }

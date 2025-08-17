@@ -7,8 +7,7 @@ const pages = ref([
   {name: 'News', path: '/news', is_external: false},
   {name: 'Media', path: '/media', is_external: false},
   {name: 'Tools', path: '/tools', is_external: false},
-  {name: 'CV', path: '/files/cv.pdf', is_external: true},
-  {name: 'About', path: '/about', is_external: false},
+  {name: 'Team', path: '/team', is_external: false},
 ]);
 </script>
 

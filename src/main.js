@@ -21,12 +21,14 @@ async function initApp() {
   const tool_list = ref([]);
   const media_list = ref([]);
   const news_list = ref([]);
-  const [news_index, authors, pub_index, media, tools] = await Promise.all([
+  const team = ref({});
+  const [news_index, authors, pub_index, media, tools, team_data] = await Promise.all([
     fetch('/files/news/news_index.json').then(response => response.json()),
     fetch('/files/pubs/authors.json').then(response => response.json()),
     fetch('/files/pubs/pubs_index.json').then(response => response.json()),
     fetch('/files/media.json').then(response => response.json()),
     fetch('/files/tools.json').then(response => response.json()),
+    fetch('/files/team/team.json').then(response => response.json()),
   ]);
 
   pub_list.value = await Promise.all(pub_index.map(async pub_file_name => {
@@ -48,6 +50,7 @@ async function initApp() {
   }));
 
   tool_list.value = tools;
+  team.value = team_data;
 
 
   news_list.value = await Promise.all(news_index.map(async news_file_name => {
@@ -99,6 +102,7 @@ async function initApp() {
     .provide('pub_list', pub_list)
     .provide('tool_list', tool_list)
     .provide('media_list', media_list)
+    .provide('team', team)
     .mount('#app');
 }
 
