@@ -13,9 +13,9 @@ const team = inject('team', ref({}))
 // Computed property to get contact links from team data
 const contact_links = computed(() => {
   if (!team.value.pi) return []
-  
+
   const links = []
-  
+
   // Add email link if exists
   if (team.value.pi.email) {
     links.push({
@@ -24,7 +24,16 @@ const contact_links = computed(() => {
       link: `mailto:${team.value.pi.email}`
     })
   }
-  
+
+  // Add CV link if exists
+  if (team.value.pi.cv_link) {
+    links.push({
+      name: 'CV',
+      icon: {prefix: 'far', icon: 'file-pdf'},
+      link: team.value.pi.cv_link
+    })
+  }
+
   // Add all other links from team data
   if (team.value.pi.links) {
     team.value.pi.links.forEach(link => {
@@ -35,7 +44,7 @@ const contact_links = computed(() => {
       })
     })
   }
-  
+
   return links
 })
 
@@ -64,9 +73,9 @@ const copyToClipboard = (bioText) => {
   <div class="flex flex-col flex-grow">
     <Navbar />
     <div class="container mx-auto max-w-screen-lg flex-grow">
-      
+
       <h1 class="text-4xl font-bold my-8 text-center">{{ team.pi?.name || 'Kai-Cheng Yang' }}</h1>
-      
+
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         <!-- photo -->
         <div class="col-span-full md:col-span-1">
@@ -84,21 +93,11 @@ const copyToClipboard = (bioText) => {
               <button class="btn btn-outline btn-primary mt-4">More photos</button>
             </router-link>
           </div>
-          
-          <!-- CV Download -->
-          <div v-if="team.pi?.cv_link" class="flex justify-center mt-4">
-            <a :href="team.pi.cv_link" target="_blank">
-              <button class="btn btn-primary">
-                <font-awesome-icon :icon="['far', 'file-pdf']" />
-                Download CV
-              </button>
-            </a>
-          </div>
-          
+
           <!-- Contact Links -->
           <div class="flex justify-center mt-4 flex-wrap gap-2">
             <template v-for="link in contact_links" :key="link.name">
-              <a :href="link.link" class="text-primary" target="_blank" :title="link.name">
+              <a :href="link.link" class="text-primary" :target="link.name === 'Email' ? '_self' : '_blank'" :title="link.name">
                 <font-awesome-icon :icon="[link.icon.prefix, link.icon.icon]" class="text-2xl" />
               </a>
             </template>
@@ -140,7 +139,7 @@ const copyToClipboard = (bioText) => {
               Copy short bio</button>
           </div>
         </div>
-        
+
         <!-- longer bio -->
         <div class="col-span-full text-center md:text-left">
           <h2 class="text-2xl font-bold mb-2 mt-8 text-center">Longer bio</h2>
