@@ -4,7 +4,7 @@
   "msgs": [
     {
       "type": "string",
-      "msg": "I attended"
+      "msg": "Kaicheng attended"
     },
     {
       "type": "link",
@@ -13,7 +13,7 @@
     },
     {
       "type": "string",
-      "msg": "at Buffalo, NY. On Jun 3, I co-organized the"
+      "msg": "at Buffalo, NY. On Jun 3, Kaicheng co-organized the"
     },
     {
       "type": "link",
@@ -22,7 +22,7 @@
     },
     {
       "type": "string",
-      "msg": "On Jun 4, I presented our paper"
+      "msg": "On Jun 4, Kaicheng presented our paper"
     },
     {
       "type": "pub",

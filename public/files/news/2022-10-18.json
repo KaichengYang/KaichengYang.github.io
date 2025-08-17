@@ -1,1 +1,15 @@
-{"date": "2022-10-18", "type": "talk", "msgs": [{"type": "string", "msg": "I gave a talk about my work on COVID-19 misinformation at the"}, {"type": "link", "msg": "2022 INFORMS Annual Meeting", "link": "https://meetings.informs.org/wordpress/indianapolis2022/"}]}
+{
+  "date": "2022-10-18",
+  "type": "talk",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Kaicheng gave a talk about his work on COVID-19 misinformation at the"
+    },
+    {
+      "type": "link",
+      "msg": "2022 INFORMS Annual Meeting",
+      "link": "https://meetings.informs.org/wordpress/indianapolis2022/"
+    }
+  ]
+}

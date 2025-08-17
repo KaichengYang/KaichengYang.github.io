@@ -1,0 +1,75 @@
+{
+  "pi": {
+    "name": "Kai-Cheng Yang",
+    "title": "Principal Investigator",
+    "role": "Assistant Professor",
+    "affiliation": "School of Computing, Binghamton University",
+    "photo": "/photos/avatar_01.png",
+    "email": "yang3kc@gmail.com",
+    "internal_route": "/kaicheng",
+    "cv_link": "/files/cv.pdf",
+    "links": [
+      {
+        "name": "Google Scholar",
+        "url": "https://scholar.google.com/citations?hl=en&user=tqb96X8AAAAJ&view_op=list_works&sortby=pubdate",
+        "icon": {
+          "prefix": "fab",
+          "icon": "google-scholar"
+        }
+      },
+      {
+        "name": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Kai-Cheng-Yang-3",
+        "icon": {
+          "prefix": "fab",
+          "icon": "researchgate"
+        }
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/kaicheng-yang-43477213b/",
+        "icon": {
+          "prefix": "fab",
+          "icon": "linkedin"
+        }
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/yang3kc",
+        "icon": {
+          "prefix": "fab",
+          "icon": "twitter"
+        }
+      },
+      {
+        "name": "Blue Sky",
+        "url": "https://bsky.app/profile/yang3kc.bsky.social",
+        "icon": {
+          "prefix": "fab",
+          "icon": "bluesky"
+        }
+      },
+      {
+        "name": "Substack",
+        "url": "https://yang3kc.substack.com",
+        "icon": {
+          "prefix": "fas",
+          "icon": "newspaper"
+        }
+      }
+    ]
+  },
+  "students": [
+    {
+      "name": "Open Position",
+      "role": "Ph.D. Student",
+      "year": "Recruiting",
+      "photo": "/photos/avatar_placeholder.jpg",
+      "bio": "We are actively recruiting motivated students!",
+      "email": "yang3kc@gmail.com",
+      "research_interests": [
+        "Open to various research directions"
+      ]
+    }
+  ]
+}

@@ -2,24 +2,39 @@
   "date": "2025-01-30",
   "type": "new_pub",
   "msgs": [
-    { "type": "string", "msg": "Our paper" },
-    { "type": "pub", "project_id": "yan2025origin" },
+    {
+      "type": "string",
+      "msg": "Our paper"
+    },
+    {
+      "type": "pub",
+      "project_id": "yan2025origin"
+    },
     {
       "type": "string",
       "msg": "was published in The Harvard Kennedy School (HKS) Misinformation Review."
     },
-    { "type": "string", "msg": "Check out my Twitter" },
+    {
+      "type": "string",
+      "msg": "Check out Kaicheng's Twitter"
+    },
     {
       "type": "link",
       "msg": "thread",
       "link": "https://x.com/yang3kc/status/1833149935807545378"
     },
-    { "type": "string", "msg": "or listen to the" },
+    {
+      "type": "string",
+      "msg": "or listen to the"
+    },
     {
       "type": "link",
       "msg": "podcast",
       "link": "https://notebooklm.google.com/notebook/33e368dc-92c1-4042-a6c5-3cb583c0e79a/audio"
     },
-    { "type": "string", "msg": "for details." }
+    {
+      "type": "string",
+      "msg": "for details."
+    }
   ]
 }

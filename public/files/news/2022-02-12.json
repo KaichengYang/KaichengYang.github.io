@@ -1,1 +1,19 @@
-{"date": "2022-02-12", "type": "general", "msgs": [{"type": "string", "msg": "I was selected for"}, {"type": "link", "msg": "Future Leaders Summit 2022", "link": "https://midas.umich.edu/ds-consortium/"}, {"type": "string", "msg": ", University of Michigan"}]}
+{
+  "date": "2022-02-12",
+  "type": "general",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Kaicheng was selected for"
+    },
+    {
+      "type": "link",
+      "msg": "Future Leaders Summit 2022",
+      "link": "https://midas.umich.edu/ds-consortium/"
+    },
+    {
+      "type": "string",
+      "msg": ", University of Michigan"
+    }
+  ]
+}

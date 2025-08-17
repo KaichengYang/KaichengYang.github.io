@@ -1,1 +1,19 @@
-{"date": "2024-02-28", "type": "media", "msgs": [{"type": "string", "msg": "Check out the"}, {"type": "link", "msg": "'Who Trolled Amber'", "link": "https://podcasts.apple.com/us/podcast/who-trolled-amber/id1590561275"}, {"type": "string", "msg": "podcast series produced by Tortoise. I helped with the data analyses and shared my insights on inauthentic online actors"}]}
+{
+  "date": "2024-02-28",
+  "type": "media",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Check out the"
+    },
+    {
+      "type": "link",
+      "msg": "'Who Trolled Amber'",
+      "link": "https://podcasts.apple.com/us/podcast/who-trolled-amber/id1590561275"
+    },
+    {
+      "type": "string",
+      "msg": "podcast series produced by Tortoise. Kaicheng helped with the data analyses and shared Kaicheng's insights on inauthentic online actors"
+    }
+  ]
+}

@@ -1,1 +1,28 @@
-{"date": "2023-05-05", "type": "general", "msgs": [{"type": "string", "msg": "Please read my"}, {"type": "link", "msg": "open letter", "link": "https://independenttechresearch.org/reddit-data-access-letter/"}, {"type": "string", "msg": "with the"}, {"type": "link", "msg": "Coalition for Independent Technology Research", "link": "https://independenttechresearch.org"}, {"type": "string", "msg": "regarding Reddit's decesion to restrict its data access"}]}
+{
+  "date": "2023-05-05",
+  "type": "general",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Please read Kaicheng's"
+    },
+    {
+      "type": "link",
+      "msg": "open letter",
+      "link": "https://independenttechresearch.org/reddit-data-access-letter/"
+    },
+    {
+      "type": "string",
+      "msg": "with the"
+    },
+    {
+      "type": "link",
+      "msg": "Coalition for Independent Technology Research",
+      "link": "https://independenttechresearch.org"
+    },
+    {
+      "type": "string",
+      "msg": "regarding Reddit's decesion to restrict its data access"
+    }
+  ]
+}
