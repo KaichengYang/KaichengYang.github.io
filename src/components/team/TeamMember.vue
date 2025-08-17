@@ -13,7 +13,7 @@ defineProps({
       <img
         :src="member.photo || '/photos/avatar_placeholder.jpg'"
         :alt="member.name"
-        class="rounded-xl w-48 h-48 object-cover"
+        class="rounded-full w-48 h-48 object-cover"
       />
     </figure>
     <div class="card-body items-center text-center">
