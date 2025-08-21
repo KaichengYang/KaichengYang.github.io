@@ -11,6 +11,7 @@ import ToolPage from '@/components/tool/ToolPage.vue'
 import HiddencurriculumPage from '@/components/hiddencurriculum/HiddencurriculumPage.vue'
 import TeamPage from '@/components/team/TeamPage.vue'
 import ProspectiveStudentsPage from '@/components/prospective/ProspectiveStudentsPage.vue'
+import TeachingPage from '@/components/teaching/TeachingPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -26,6 +27,7 @@ const router = createRouter({
     { path: '/photos', component: PhotoPage },
     { path: '/failures', component: FailurePage },
     { path: '/tools', component: ToolPage },
+    { path: '/teaching', component: TeachingPage },
     { path: '/hiddencurriculum', component: HiddencurriculumPage },
     { path: "/:pathMatch(.*)*", component: HomePage }
   ]

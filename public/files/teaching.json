@@ -1,0 +1,20 @@
+[
+  {
+    "id": "cs415-515_fall2025",
+    "code": "CS 415/515",
+    "title": "Social Media Data Science Pipelines",
+    "institution": "Binghamton University",
+    "semester": "Fall 2025",
+    "year": 2025,
+    "links": [
+      {
+        "name": "Course Website",
+        "url": "https://yangkclab.github.io/social-media-ds-course"
+      },
+      {
+        "name": "Syllabus",
+        "url": "https://github.com/YangKCLab/social-media-ds-course/blob/main/syllabus/syllabus.pdf"
+      }
+    ]
+  }
+]
