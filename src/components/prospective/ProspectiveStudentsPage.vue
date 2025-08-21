@@ -19,7 +19,7 @@ import Footer from '@/components/nav/Footer.vue'
             We are also open to collaboration with researchers from other institutions.
           </p>
           <p class="text-xl">
-            You can check out our <router-link to="/team" class="link">team</router-link> and <a class="link" href="#pubs">publications</a> to learn more about our research.
+            You can check out our <router-link to="/team" class="link">team</router-link> and <router-link to="/pubs" class="link">publications</router-link> to learn more about our research.
           </p>
         </div>
 
