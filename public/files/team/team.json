@@ -61,6 +61,24 @@
   },
   "students": [
     {
+      "name": "Claire Dekker",
+      "role": "Ph.D. Student",
+      "year": "Since 2025",
+      "photo": "/photos/cjdekker.png",
+      "affiliation": "School of Computing, Binghamton University",
+      "email": "cdekker@binghamton.edu",
+      "links": [
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/claire-dekker-21082b151/",
+          "icon": {
+            "prefix": "fab",
+            "icon": "linkedin"
+          }
+        }
+      ]
+    },
+    {
       "name": "Open Position",
       "role": "Ph.D. Student",
       "year": "Recruiting",
