@@ -57,7 +57,26 @@ import Footer from '@/components/nav/Footer.vue'
           </div>
         </div>
 
+        <!-- Communication -->
+        <div class="mb-12">
+          <h2 class="text-3xl font-bold mb-6 text-center text-primary">Communication</h2>
+          <div class="prose prose-lg mx-auto">
+            <p>
+              When emailing us, please include "[Prospective student]" (with brackets) in the subject line to reduce the chance of your email being overlooked.
+            </p>
+            <p>
+              Due to the high volume of inquiries we receive, we cannot guarantee a timely response to all emails.
+              However, we make every effort to respond to every genuine inquiry, except for:
+              <ul>
+                <li>Emails addressed to the wrong person</li>
+                <li>Generic emails that are not tailored to our research</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+
       </div>
+
 
     </div>
     <Footer />
