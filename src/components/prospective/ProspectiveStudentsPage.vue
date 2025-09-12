@@ -67,11 +67,11 @@ import Footer from '@/components/nav/Footer.vue'
             <p>
               Due to the high volume of inquiries we receive, we cannot guarantee a timely response to all emails.
               However, we make every effort to respond to every genuine inquiry, except for:
-              <ul>
-                <li>Emails addressed to the wrong person</li>
-                <li>Generic emails that are not tailored to our research</li>
-              </ul>
             </p>
+            <ul>
+              <li>Emails addressed to the wrong person</li>
+              <li>Generic emails that are not tailored to our research</li>
+            </ul>
           </div>
         </div>
 
