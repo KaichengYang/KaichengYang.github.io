@@ -79,6 +79,32 @@
       ]
     },
     {
+      "name": "Xuanchi Li",
+      "role": "Ph.D. Student in Systems Science",
+      "year": "Since 2025",
+      "photo": "/photos/xuanchili.jpg",
+      "affiliation": "School of Systems Science and Industrial Engineering, Binghamton University",
+      "email": "xli314@binghamton.edu",
+      "links": [
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/xuanchi-li/",
+          "icon": {
+            "prefix": "fab",
+            "icon": "linkedin"
+          }
+        },
+        {
+          "name": "Twitter",
+          "url": "https://x.com/li_xuanchi",
+          "icon": {
+            "prefix": "fab",
+            "icon": "twitter"
+          }
+        }
+      ]
+    },
+    {
       "name": "Open Position",
       "role": "Ph.D. Student",
       "year": "Recruiting",
