@@ -105,6 +105,32 @@
       ]
     },
     {
+      "name": "Jay Desai",
+      "role": "M.S. Student in Information Systems",
+      "year": "Since 2025",
+      "photo": "/photos/jaydesai.jpg",
+      "affiliation": "School of Computing, Binghamton University",
+      "email": "jdesai1@binghamton.edu",
+      "links": [
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jaypankajdesai",
+          "icon": {
+            "prefix": "fab",
+            "icon": "linkedin"
+          }
+        },
+        {
+          "name": "Twitter",
+          "url": "https://x.com/jayydesai",
+          "icon": {
+            "prefix": "fab",
+            "icon": "twitter"
+          }
+        }
+      ]
+    },
+    {
       "name": "Open Position",
       "role": "Ph.D. Student",
       "year": "Recruiting",
