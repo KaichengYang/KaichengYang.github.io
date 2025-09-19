@@ -19,7 +19,7 @@ import Footer from '@/components/nav/Footer.vue'
             We are also open to collaboration with researchers from other institutions.
           </p>
           <p class="text-xl">
-            You can check out our <router-link to="/team" class="link">team</router-link> and <router-link to="/pubs" class="link">publications</router-link> to learn more about our research.
+            You can check out our <router-link to="/team" class="link">team</router-link> and <router-link to="/pubs" class="link">publications</router-link> to learn more about us and our research.
           </p>
         </div>
 
@@ -31,14 +31,14 @@ import Footer from '@/components/nav/Footer.vue'
             <h3>Preferred Background</h3>
             <p>
               We are open to students with a wide range of backgrounds.
-              However, since the Ph.D. program is located in a Computer Science department, the admission committee will give more weight to students with backgrounds in computer science or related fields.
-              In principle, the admission committee only admits students with Master's degrees, but undergraduates with exceptional backgrounds will also be considered.
+              However, the admission committee will give more weight to students with backgrounds in computer science or related fields since the Ph.D. program is located in a Computer Science department.
+              The admission committee only admits students with Master's degrees in principle, but undergraduates with exceptional backgrounds will also be considered.
             </p>
 
             <h3>Application Process</h3>
             <p>
-              Please follow the instructions on the <a href="https://www.binghamton.edu/computer-science/graduate-programs" target="_blank" class="link">Ph.D. program website</a> for more details.
-              Prospective Ph.D. students are encouraged to reach out before submitting an application by emailing their research statements and CVs to <a href="mailto:yang3kc@gmail.com" class="link">Kai-Cheng</a>.
+              Please refer to the <a href="https://www.binghamton.edu/computer-science/graduate-programs" target="_blank" class="link">Ph.D. program website</a> for instructions on how to apply.
+              Prospective Ph.D. students are encouraged to reach out before submitting an application by emailing their research statements and CVs to <a href="mailto:yang3kc@gmail.com" class="link">Kai-Cheng</a> (see communication section below for more details).
               Be sure to mention Kai-Cheng's name in the application so that he can be notified of your application.
             </p>
 
