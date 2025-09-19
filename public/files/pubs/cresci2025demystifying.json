@@ -1,0 +1,49 @@
+{
+  "authors": [
+    {
+      "id": "scresci"
+    },
+    {
+      "id": "kcyang",
+      "annotation": "highlight"
+    },
+    {
+      "id": "aspognardi"
+    },
+    {
+      "id": "rdipietro"
+    },
+    {
+      "id": "fmenczer"
+    },
+    {
+      "id": "mpetrocchi"
+    }
+  ],
+  "year": [
+    2025
+  ],
+  "date": "2025-09-15",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "bot"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.1177/08944393251376707",
+      "name": "DOI"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.17251",
+      "name": "arXiv"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1177/08944393251376707"
+  },
+  "bibtex_string": "@article{cresci2025demystifying,\n\tauthor = {Stefano Cresci and Kai-Cheng Yang and Angelo Spognardi and Roberto Di Pietro and Filippo Menczer and Marinella Petrocchi},\n\ttitle ={Demystifying Misconceptions in Social Bots Research},\n\tjournal = {Social Science Computer Review},\n\tvolume = {0},\n\tnumber = {0},\n\tpages = {08944393251376707},\n\tyear = {2025},\n\tdoi = {10.1177/08944393251376707}}",
+  "abstract": "Research on social bots aims at advancing knowledge and providing solutions to one of the most debated forms of online manipulation. Yet, social bot research is plagued by widespread biases, hyped results, and misconceptions that set the stage for ambiguities, unrealistic expectations, and seemingly irreconcilable findings. Overcoming such issues is instrumental toward ensuring reliable solutions and reaffirming the validity of the scientific method. Here, we discuss a broad set of consequential methodological and conceptual issues that affect current social bots research, illustrating each with examples drawn from recent studies. More importantly, we demystify common misconceptions, addressing fundamental points on how social bots research is discussed. Our analysis surfaces the need to discuss research about online disinformation and manipulation in a rigorous, unbiased, and responsible way. This article bolsters such effort by identifying and refuting common fallacious arguments used by both proponents and opponents of social bots research, as well as providing directions toward sound methodologies for future research."
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2025-09-19",
+  "type": "new_pub",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Our paper"
+    },
+    {
+      "type": "pub",
+      "project_id": "cresci2025demystifying"
+    },
+    {
+      "type": "string",
+      "msg": "was published in Social Science Computer Review."
+    }
+  ]
+}
