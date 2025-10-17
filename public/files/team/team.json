@@ -132,7 +132,7 @@
     },
     {
       "name": "Jay Desai",
-      "role": "M.S. Student in Information Systems",
+      "role": "M.S. Student in Computer Science",
       "year": "Since 2025",
       "photo": "/photos/jaydesai.jpg",
       "affiliation": "School of Computing, Binghamton University",
@@ -152,6 +152,32 @@
           "icon": {
             "prefix": "fab",
             "icon": "twitter"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Monish Kumar Dhanasekar",
+      "role": "M.S. Student in Computer Science",
+      "year": "Since 2025",
+      "photo": "/photos/monishdhanasekar.jpeg",
+      "affiliation": "School of Computing, Binghamton University",
+      "email": "mdhanasekar@binghamton.edu",
+      "links": [
+        {
+          "name": "LinkedIn",
+          "url": "https://linkedin.com/in/monishkumard17",
+          "icon": {
+            "prefix": "fab",
+            "icon": "linkedin"
+          }
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/monishkumardhanasekar",
+          "icon": {
+            "prefix": "fab",
+            "icon": "github"
           }
         }
       ]
