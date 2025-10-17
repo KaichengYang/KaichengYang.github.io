@@ -105,8 +105,34 @@
       ]
     },
     {
+      "name": "Smriti Janaswamy",
+      "role": "Ph.D. Student in Computer Science",
+      "year": "Since 2025",
+      "photo": "/photos/smritijanaswamy.jpeg",
+      "affiliation": "School of Computing, Binghamton University",
+      "email": "sjanasw1@binghamton.edu",
+      "links": [
+        {
+          "name": "Blue Sky",
+          "url": "https://bsky.app/profile/smits5.bsky.social",
+          "icon": {
+            "prefix": "fab",
+            "icon": "bluesky"
+          }
+        },
+        {
+          "name": "Twitter",
+          "url": "https://x.com/smits_5",
+          "icon": {
+            "prefix": "fab",
+            "icon": "twitter"
+          }
+        }
+      ]
+    },
+    {
       "name": "Jay Desai",
-      "role": "M.S. Student in Information Systems",
+      "role": "M.S. Student in Computer Science",
       "year": "Since 2025",
       "photo": "/photos/jaydesai.jpg",
       "affiliation": "School of Computing, Binghamton University",
@@ -126,6 +152,32 @@
           "icon": {
             "prefix": "fab",
             "icon": "twitter"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Monish Kumar Dhanasekar",
+      "role": "M.S. Student in Computer Science",
+      "year": "Since 2025",
+      "photo": "/photos/monishdhanasekar.jpeg",
+      "affiliation": "School of Computing, Binghamton University",
+      "email": "mdhanasekar@binghamton.edu",
+      "links": [
+        {
+          "name": "LinkedIn",
+          "url": "https://linkedin.com/in/monishkumard17",
+          "icon": {
+            "prefix": "fab",
+            "icon": "linkedin"
+          }
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/monishkumardhanasekar",
+          "icon": {
+            "prefix": "fab",
+            "icon": "github"
           }
         }
       ]
