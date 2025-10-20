@@ -16,7 +16,6 @@ import Footer from '@/components/nav/Footer.vue'
         <div class="prose prose-lg mx-auto mb-8">
           <p class="text-xl">
             We are actively recruiting motivated Ph.D. and Master's students to join our research team at Binghamton University.
-            We are also open to collaboration with researchers from other institutions.
           </p>
           <p class="text-xl">
             You can check out our <router-link to="/team" class="link">team</router-link> and <router-link to="/pubs" class="link">publications</router-link> to learn more about us and our research.
@@ -47,12 +46,12 @@ import Footer from '@/components/nav/Footer.vue'
 
         <!-- Other students & collaborators -->
         <div class="mb-12">
-          <h2 class="text-3xl font-bold mb-6 text-center text-primary">Students at Binghamton University</h2>
+          <h2 class="text-3xl font-bold mb-6 text-center text-primary">Students at Binghamton University and Other Institutions</h2>
           <div class="prose prose-lg mx-auto">
             <p>
               We are also open to collaboration with students at Binghamton University and other institutions.
               Paid positions are unavailable unless stated otherwise, but we can provide research opportunities and resources for students who are interested in our work.
-              Those who are interested in joining our lab should send <a href="mailto:yang3kc@gmail.com" class="link">Kai-Cheng</a> an email with a brief statement of research interests and a CV.
+              Those who are interested in joining our lab should send <a href="mailto:yang3kc@gmail.com" class="link">Kai-Cheng</a> an email with a brief statement of research interests, a CV, and/or a research proposal.
             </p>
           </div>
         </div>
@@ -70,7 +69,7 @@ import Footer from '@/components/nav/Footer.vue'
             </p>
             <ul>
               <li>Emails addressed to the wrong person</li>
-              <li>Generic emails that are not tailored to our research</li>
+              <li>Generic emails that are not tailored to our research or lack important details</li>
             </ul>
           </div>
         </div>
