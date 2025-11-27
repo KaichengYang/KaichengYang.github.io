@@ -1,0 +1,18 @@
+{
+  "date": "2025-11-26",
+  "type": "new_pub",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "New preprint"
+    },
+    {
+      "type": "pub",
+      "project_id": "deverna2025large"
+    },
+    {
+      "type": "string",
+      "msg": "available."
+    }
+  ]
+}
