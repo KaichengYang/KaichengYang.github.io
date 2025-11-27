@@ -1,0 +1,52 @@
+{
+  "authors": [
+    {
+      "id": "mdeverna"
+    },
+    {
+      "id": "kcyang",
+      "annotation": [
+        "highlight"
+      ]
+    },
+    {
+      "id": "hyan"
+    },
+    {
+      "id": "fmenczer"
+    }
+  ],
+  "year": [
+    2025
+  ],
+  "date": "2025-11-26",
+  "type": [
+    "preprint"
+  ],
+  "topic": [
+    "misinformation",
+    "genai"
+  ],
+  "highlight": [
+    "highlight"
+  ],
+  "links": [
+    {
+      "url": "https://arxiv.org/abs/2511.18749",
+      "name": "arXiv"
+    },
+    {
+      "url": "https://github.com/osome-iu/fact_check_rag_osome",
+      "name": "GitHub"
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.17693220",
+      "name": "Dataset"
+    }
+  ],
+  "altmetric": {
+    "arxiv_id": "2511.18749"
+  },
+  "bibtex_string": "@misc{deverna2025large,\n\ttitle={Large Language Models Require Curated Context for Reliable Political Fact-Checking -- Even with Reasoning and Web Search},\n\tauthor={Matthew R. DeVerna and Kai-Cheng Yang and Harry Yaojun Yan and Filippo Menczer},\n\tyear={2025},\n\teprint={2511.18749},\n\tarchivePrefix={arXiv},\n\tprimaryClass={cs.CL},\n\turl={https://arxiv.org/abs/2511.18749},\n\tjournal={arxiv:2511.18749}}",
+  "abstract": "Large language models (LLMs) have raised hopes for automated end-to-end fact-checking, but prior studies report mixed results. As mainstream chatbots increasingly ship with reasoning capabilities and web search tools -- and millions of users already rely on them for verification -- rigorous evaluation is urgent. We evaluate 15 recent LLMs from OpenAI, Google, Meta, and DeepSeek on more than 6,000 claims fact-checked by PolitiFact, comparing standard models with reasoning- and web-search variants. Standard models perform poorly, reasoning offers minimal benefits, and web search provides only moderate gains, despite fact-checks being available on the web. In contrast, a curated RAG system using PolitiFact summaries improved macro F1 by 233% on average across model variants. These findings suggest that giving models access to curated high-quality context is a promising path for automated fact-checking."
+}
