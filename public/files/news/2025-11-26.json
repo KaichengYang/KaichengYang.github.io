@@ -12,7 +12,16 @@
     },
     {
       "type": "string",
-      "msg": "available."
+      "msg": "available. Check the Twitter"
+    },
+    {
+      "type": "link",
+      "msg": "thread",
+      "link": "https://x.com/mdeverna2/status/1994893738280468897"
+    },
+    {
+      "type": "string",
+      "msg": "for details."
     }
   ]
 }
