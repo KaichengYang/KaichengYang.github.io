@@ -98,7 +98,14 @@ const sections = ref([
   {
     id: 'misc',
     title: 'Misc',
-    items: []
+    items: [
+      {
+        title: 'awesome-tips',
+        link: 'https://github.com/jbhuang0604/awesome-tips',
+        description: 'a curated collection of practical advice on research, writing, presentations, and academic career development by Jia-Bin Huang',
+        icon: { prefix: 'fab', icon: 'github' }
+      }
+    ]
   }
 ]);
 
