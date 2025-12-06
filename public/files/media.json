@@ -15,36 +15,6 @@
     "toshow": true
   },
   {
-    "title": "Most Americans believe misinformation is a problem — federal research cuts will only make the problem worse",
-    "url": "https://theconversation.com/most-americans-believe-misinformation-is-a-problem-federal-research-cuts-will-only-make-the-problem-worse-255355",
-    "outlet": "The Conversation",
-    "date": "2025-06-16",
-    "year": [
-      2025
-    ],
-    "type": "coverage",
-    "topic": "misinformation",
-    "project_id": [
-      "chen2021neutral"
-    ],
-    "toshow": true
-  },
-  {
-    "title": "What Meta's move to community moderation could mean for misinformation",
-    "url": "https://theconversation.com/what-metas-move-to-community-moderation-could-mean-for-misinformation-247016",
-    "outlet": "The Conversation",
-    "date": "2025-01-10",
-    "year": [
-      2025
-    ],
-    "type": "coverage",
-    "topic": "misinformation",
-    "project_id": [
-      "shao2018spread"
-    ],
-    "toshow": true
-  },
-  {
     "title": "Meta Opens Floodgates For AI-Generated Accounts On Facebook, Instagram",
     "url": "https://www.forbes.com/sites/chriswestfall/2025/01/02/meta-opens-floodgates-on-ai-generated-accounts-on-facebook-instagram/",
     "outlet": "Forbes",
@@ -130,7 +100,7 @@
     "project_id": [
       "deverna2024factchecking"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Beware Of AI Voting Assistants In Swing States In The 2024 U.S. Election",
@@ -141,7 +111,7 @@
       2024
     ],
     "project_id": [
-        "yang2025accuracy"
+      "yang2025accuracy"
     ],
     "type": "coverage",
     "topic": "ai",
@@ -189,7 +159,7 @@
     "project_id": [
       "scarano2025election"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Researchers Assess Origins of Public Concerns About AI in the 2024 US Elections",
@@ -231,7 +201,8 @@
     ],
     "type": "quotation",
     "project_id": [
-      "yang2024anatomy", "yang2024characteristics"
+      "yang2024anatomy",
+      "yang2024characteristics"
     ],
     "topic": "social bot",
     "toshow": true
@@ -343,7 +314,7 @@
       2024
     ],
     "type": "coverage",
-    "topic":"social bot",
+    "topic": "social bot",
     "toshow": true,
     "project_id": [
       "shao2018spread"
@@ -514,7 +485,7 @@
     "project_id": [
       "yang2025accuracy"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "AI is ruining the internet",
@@ -540,7 +511,7 @@
       2023
     ],
     "project_id": [
-        "yang2024anatomy"
+      "yang2024anatomy"
     ],
     "type": "coverage",
     "topic": "social bot",
@@ -556,7 +527,7 @@
       2023
     ],
     "project_id": [
-        "yang2024anatomy"
+      "yang2024anatomy"
     ],
     "type": "coverage",
     "topic": "social bot",
@@ -572,7 +543,7 @@
       2023
     ],
     "project_id": [
-        "botometer"
+      "botometer"
     ],
     "type": "coverage",
     "topic": "social bot",
@@ -609,23 +580,6 @@
     "highlight": false
   },
   {
-    "title": "Musk Promised Transparency, Then Hid Twitter Data",
-    "url": "https://www.washingtonpost.com/business/2023/06/09/elon-musk-says-twitter-transparency-builds-trust-it-s-all-talk-no-action/b448bdc4-06b7-11ee-b74a-5bdd335d4fa2_story.html",
-    "outlet": "The Washington Post",
-    "date": "2023-06-09",
-    "year": [
-      2023
-    ],
-    "project_id": [
-      "botometer",
-      "hoaxy"
-    ],
-    "type": "coverage",
-    "topic": "social bot",
-    "toshow": true,
-    "highlight": false
-  },
-  {
     "title": "Twitter just closed the book on academic research",
     "url": "https://www.theverge.com/2023/5/31/23739084/twitter-elon-musk-api-policy-chilling-academic-research",
     "outlet": "The Verge",
@@ -650,38 +604,6 @@
     "topic": "social bot",
     "project_id": [
       "botometer"
-    ],
-    "toshow": true
-  },
-  {
-    "title": "Twitter is making researchers delete data it gave them unless they pay $42,000",
-    "url": "https://inews.co.uk/news/twitter-researchers-delete-data-unless-pay-2364535",
-    "outlet": "i News",
-    "date": "2023-05-25",
-    "year": [
-      2023
-    ],
-    "type": "coverage",
-    "topic": "social bot",
-    "project_id": [
-      "botometer",
-      "hoaxy"
-    ],
-    "toshow": true
-  },
-  {
-    "title": "A new Twitter policy cripples journalists’ efforts to halt disinformation",
-    "url": "https://thehill.com/opinion/technology/4015509-a-new-twitter-policy-cripples-journalists-efforts-to-halt-disinformation",
-    "outlet": "The Hill",
-    "date": "2023-05-23",
-    "year": [
-      2023
-    ],
-    "type": "coverage",
-    "topic": "social bot",
-    "project_id": [
-      "botometer",
-      "hoaxy"
     ],
     "toshow": true
   },
@@ -783,7 +705,7 @@
     "project_id": [
       "pierri2022online"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Twitter API Changes Set to Disrupt Public Interest Research",
@@ -799,21 +721,6 @@
     "highlight": true
   },
   {
-    "title": "How to Track the Spread of Twitter Information With Hoaxy",
-    "url": "https://www.makeuseof.com/hoaxy-track-twitter-information-spread/",
-    "outlet": "MakeUseOf",
-    "date": "2023-01-03",
-    "year": [
-      2023
-    ],
-    "type": "coverage",
-    "topic": "misinformation",
-    "project_id": [
-      "hoaxy"
-    ],
-    "toshow": true
-  },
-  {
     "title": "Fact Check: Did Zelensky's Wife Go on $40K Shopping Spree in Paris?",
     "url": "https://www.newsweek.com/zelenska-zelensky-ukraine-russia-paris-france-shopping-spree-1768736",
     "outlet": "Newsweek",
@@ -825,21 +732,6 @@
     "topic": "social bot",
     "project_id": [
       "botometer"
-    ],
-    "toshow": true
-  },
-  {
-    "title": "We're witnessing the brain death of Twitter",
-    "url": "https://www.technologyreview.com/2022/12/15/1065013/twitter-brain-death/",
-    "outlet": "MIT Technology Review",
-    "date": "2022-12-15",
-    "year": [
-      2022
-    ],
-    "type": "coverage",
-    "topic": "manipulation",
-    "project_id": [
-      "hoaxy"
     ],
     "toshow": true
   },
@@ -872,21 +764,6 @@
       "botamp"
     ],
     "toshow": false
-  },
-  {
-    "title": "Experts grade Facebook, TikTok, Twitter, YouTube on readiness to handle midterm election misinformation",
-    "url": "https://theconversation.com/experts-grade-facebook-tiktok-twitter-youtube-on-readiness-to-handle-midterm-election-misinformation-191249",
-    "outlet": "The Conversation",
-    "date": "2022-10-17",
-    "year": [
-      2022
-    ],
-    "type": "coverage",
-    "topic": "misinformation",
-    "project_id": [
-      "hoaxy"
-    ],
-    "toshow": true
   },
   {
     "title": "Elon Musk commissioned this bot analysis in his fight with Twitter. Now it shows what he could face if he takes over the platform",
@@ -954,7 +831,7 @@
     ],
     "type": "interview",
     "topic": "misinformation",
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Here's how Elon Musk calculated the number of bots on Twitter",
@@ -1535,8 +1412,8 @@
     "project_id": [
       "pierri2022online"
     ],
-    "toshow": true,
-    "highlight": true
+    "toshow": false,
+    "highlight": false
   },
   {
     "title": "The extent to which COVID-19 vaccination rates and vaccine hesitancy are associated with levels of online vaccine misinformation",
@@ -1596,7 +1473,7 @@
     "project_id": [
       "pierri2022online"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Elon Musk tweets unleash racist abuse on female Twitter employee",
@@ -1626,7 +1503,7 @@
     "project_id": [
       "pierri2022online"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Elon Musk Previews What He'll Do With Twitter: Serve Up His Employees for the Far Right's Racist Abuse ",
@@ -1728,7 +1605,7 @@
     "project_id": [
       "yang2021covid"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Increased Opioid Prescribing Observed During the COVID-19 Pandemic ",
@@ -1818,7 +1695,7 @@
     "project_id": [
       "yang2021covid"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Misinformation is just one part of a vaccine trust problem",
@@ -1833,7 +1710,7 @@
     "project_id": [
       "deverna2021covaxxy"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Opioid-Use Policies Causing Unintended Consequences",
@@ -1863,7 +1740,7 @@
     "project_id": [
       "deverna2021covaxxy"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Republicans are least likely to want the coronavirus vaccine",
@@ -1878,7 +1755,7 @@
     "project_id": [
       "deverna2021covaxxy"
     ],
-    "toshow": true
+    "toshow": false
   },
   {
     "title": "Opioid supply-controlling policies may have unintended consequences, finds study",
@@ -1908,21 +1785,6 @@
     "project_id": [
       "botometer"
     ],
-    "toshow": true
-  },
-  {
-    "title": "Disinformation Machine for Trump Targets Remaining Swing States",
-    "url": "https://www.bloomberg.com/news/articles/2020-11-05/disinformation-machine-for-trump-targets-remaining-swing-states#xj4y7vzkg",
-    "outlet": "Bloomberg",
-    "date": "2020-11-05",
-    "year": [
-      2020
-    ],
-    "type": "coverage",
-    "topic": "manipulation",
-    "project_id": [
-      "hoaxy"
-    ],
     "toshow": false
   },
   {
@@ -1938,68 +1800,8 @@
     "project_id": [
       "yang2020prevalence"
     ],
-    "toshow": true,
-    "highlight": true
-  },
-  {
-    "title": "Republicans Are Spreading Voter Fraud Disinformation in an Election They're Not Even Running In",
-    "url": "https://www.motherjones.com/politics/2020/02/republicans-are-spreading-voter-fraud-disinformation-in-an-election-theyre-not-even-running-in/",
-    "outlet": "Mother Jones",
-    "date": "2020-02-03",
-    "year": [
-      2020
-    ],
-    "type": "coverage",
-    "topic": "manipulation",
-    "project_id": [
-      "hoaxy"
-    ],
-    "toshow": true
-  },
-  {
-    "title": "Conspiracy theories swirl over canceled Iowa poll, pushed by Sanders and Yang supporters",
-    "url": "https://www.nbcnews.com/tech/social-media/conspiracy-theories-swirl-over-canceled-iowa-poll-pushed-sanders-yang-n1128621",
-    "outlet": "NBC News",
-    "date": "2020-02-03",
-    "year": [
-      2020
-    ],
-    "type": "coverage",
-    "topic": "manipulation",
-    "project_id": [
-      "hoaxy"
-    ],
-    "toshow": true
-  },
-  {
-    "title": "How Twitter's Algorithm Poured Gas on the Bernie-Warren Spat",
-    "url": "https://www.vice.com/en/article/y3mv3b/how-twitters-algorithm-poured-gas-on-the-bernie-warren-spat",
-    "outlet": "Vice News",
-    "date": "2020-01-15",
-    "year": [
-      2020
-    ],
-    "type": "coverage",
-    "topic": "manipulation",
-    "project_id": [
-      "hoaxy"
-    ],
-    "toshow": true
-  },
-  {
-    "title": "A '#NeverWarren' hashtag portended a Democratic squabble. Data showed otherwise",
-    "url": "https://www.nbcnews.com/tech/social-media/neverwarren-hashtag-portended-democratic-squabble-data-showed-otherwise-n1116696",
-    "outlet": "NBC News",
-    "date": "2020-01-15",
-    "year": [
-      2020
-    ],
-    "type": "coverage",
-    "topic": "manipulation",
-    "project_id": [
-      "hoaxy"
-    ],
-    "toshow": true
+    "toshow": false,
+    "highlight": false
   },
   {
     "title": "Bushfires, bots and arson claims: Australia flung in the global disinformation spotlight ",
@@ -2014,52 +1816,6 @@
     "project_id": [
       "botometer"
     ],
-    "toshow": true
-  },
-  {
-    "title": "As Sondland testified, a misleading Ukraine story spread among conservatives on social media",
-    "url": "https://www.nbcnews.com/tech/internet/sondland-testified-misleading-ukraine-story-spread-among-conservatives-social-media-n1087511",
-    "outlet": "NBC News",
-    "date": "2019-11-20",
-    "year": [
-      2019
-    ],
-    "type": "coverage",
-    "topic": "misinformation",
-    "project_id": [
-      "hoaxy"
-    ],
-    "toshow": true
-  },
-  {
-    "title": "Exclusive: Twitter deletes over 10,000 accounts that sought to discourage U.S. voting",
-    "url": "https://www.reuters.com/article/us-usa-election-twitter-exclusive-idUSKCN1N72FA",
-    "outlet": "Reuters",
-    "date": "2018-11-02",
-    "year": [
-      2018
-    ],
-    "type": "coverage",
-    "topic": "social bot",
-    "project_id": [
-      "botometer",
-      "hoaxy"
-    ],
-    "toshow": true
-  },
-  {
-    "title": "How Syria's White Helmets became victims of an online propaganda machine",
-    "url": "https://www.theguardian.com/world/2017/dec/18/syria-white-helmets-conspiracy-theories",
-    "outlet": "The Guardian",
-    "date": "2017-12-18",
-    "year": [
-      2017
-    ],
-    "type": "coverage",
-    "topic": "manipulation",
-    "project_id": [
-      "hoaxy"
-    ],
-    "toshow": true
+    "toshow": false
   }
 ]

@@ -4,7 +4,9 @@
     "title": "LLM Domain Classification dashboard",
     "image": "llmdomain",
     "msg": "Evaluate LLMs' ability to classify domains into different categories",
-    "highlight": ["highlight"],
+    "highlight": [
+      "highlight"
+    ],
     "status": "active",
     "links": [
       {
@@ -22,7 +24,9 @@
     "title": "DomainDemo explorer",
     "image": "domaindemo",
     "msg": "Check user demographics of over 129,000 domains",
-    "highlight": ["highlight"],
+    "highlight": [
+      "highlight"
+    ],
     "status": "active",
     "links": [
       {
@@ -40,7 +44,9 @@
     "title": "Botometer X",
     "image": "botometer",
     "msg": "Detect bot-like Twitter accounts",
-    "highlight": ["highlight"],
+    "highlight": [
+      "highlight"
+    ],
     "status": "active",
     "links": [
       {
@@ -126,19 +132,6 @@
       {
         "url": "https://cran.r-project.org/web/packages/birankr/index.html",
         "name": "CRAN"
-      }
-    ]
-  },
-  {
-    "id": "hoaxy",
-    "title": "Hoaxy",
-    "image": "hoaxy",
-    "msg": "A tool for tracking the spread of rumors on social media",
-    "status": "retired",
-    "links": [
-      {
-        "url": "https://hoaxy.osome.iu.edu/",
-        "name": "Web interface"
       }
     ]
   }

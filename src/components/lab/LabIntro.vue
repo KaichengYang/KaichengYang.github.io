@@ -11,12 +11,7 @@
           We are a research group led by <router-link to="/kaicheng" class="link">Dr. Kai-Cheng Yang</router-link>, who is an Assistant Professor in the School of Computing at Binghamton University.
         </p>
         <p>
-          Our lab focuses on creating safe, fair, and trustworthy online information platforms by identifying
-          how malicious actors and flawed systems distort information flow and developing effective countermeasures.
-          Our work spans social bots, misinformation, and algorithmic biases.
-          Currently, we're exploring how generative AI is being misused in these contexts and how to harness
-          this technology to protect against these threats. We combine computational methods, data science,
-          and social science approaches to address critical challenges in online information ecosystems.
+          Our lab studies how generative AI is transforming online information ecosystems, combining computational methods, data science, and social science approaches.
         </p>
         <p>
           Learn more about our research by exploring our <router-link to="/team" class="link">team</router-link> and <a class="link" href="#pubs">publications</a>.
