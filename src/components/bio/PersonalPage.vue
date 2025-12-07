@@ -121,7 +121,7 @@ const copyToClipboard = (bioText) => {
         </div>
 
         <!-- short bio -->
-        <div class="col-span-full text-center md:text-left mt-8">
+        <!-- <div class="col-span-full text-center md:text-left mt-8">
           <h2 class="text-2xl font-bold mb-2 text-center">Short bio</h2>
           <div class="col-span-full flex justify-center">
             <p class="prose" id="short-bio">
@@ -133,10 +133,10 @@ const copyToClipboard = (bioText) => {
               <font-awesome-icon :icon="['far', 'copy']" />
               Copy short bio</button>
           </div>
-        </div>
+        </div> -->
 
         <!-- longer bio -->
-        <div class="col-span-full text-center md:text-left">
+        <!-- <div class="col-span-full text-center md:text-left">
           <h2 class="text-2xl font-bold mb-2 mt-8 text-center">Longer bio</h2>
           <p class="prose">
             {{ bio.long }}
@@ -146,7 +146,7 @@ const copyToClipboard = (bioText) => {
               <font-awesome-icon :icon="['far', 'copy']" />
               Copy longer bio</button>
           </div>
-        </div>
+        </div> -->
       </div>
 
     </div>
