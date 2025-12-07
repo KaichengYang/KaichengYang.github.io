@@ -10,10 +10,6 @@ defineProps({
 
 // data
 const icon_mapping = {
-  "Course Website": {
-    prefix: "fas",
-    icon: "link"
-  },
   "Syllabus": {
     prefix: "far",
     icon: "file-pdf"
@@ -21,10 +17,6 @@ const icon_mapping = {
   "GitHub Repository": {
     prefix: "fab",
     icon: "github"
-  },
-  "Course Materials": {
-    prefix: "fas",
-    icon: "database"
   },
   "default": {
     prefix: "fas",
