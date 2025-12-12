@@ -1,10 +1,32 @@
 <script setup>
-import { ref, onMounted, inject } from 'vue'
+import { ref, inject, computed } from 'vue'
 import Navbar from '@/components/nav/Navbar.vue'
 import Footer from '@/components/nav/Footer.vue'
 import TeamMember from '@/components/team/TeamMember.vue'
+import AlumniMember from '@/components/team/AlumniMember.vue'
 
 const team = inject('team', ref({}))
+
+const alumniGroups = computed(() => {
+  if (!team.value.alumni || team.value.alumni.length === 0) return []
+
+  const groups = {}
+  team.value.alumni.forEach(alumni => {
+    let category = 'Other Alumni'
+    if (alumni.role.includes('Ph.D.')) {
+      category = 'Ph.D. Alumni'
+    } else if (alumni.role.includes('M.S.')) {
+      category = 'M.S. Alumni'
+    }
+    if (!groups[category]) groups[category] = []
+    groups[category].push(alumni)
+  })
+
+  const order = ['Ph.D. Alumni', 'M.S. Alumni', 'Other Alumni']
+  return order
+    .filter(cat => groups[cat] && groups[cat].length > 0)
+    .map(cat => ({ category: cat, members: groups[cat] }))
+})
 
 </script>
 
@@ -63,6 +85,26 @@ const team = inject('team', ref({}))
           />
         </div>
       </div>
+
+      <!-- Alumni Section -->
+      <template v-if="alumniGroups.length > 0">
+        <div class="divider divider-primary" />
+
+        <div class="mb-8">
+          <h2 class="text-3xl font-medium mb-6 text-center text-primary">Alumni</h2>
+
+          <div v-for="group in alumniGroups" :key="group.category" class="mb-6">
+            <h3 class="text-2xl font-medium mb-4 text-gray-700">{{ group.category }}</h3>
+            <div class="space-y-1">
+              <AlumniMember
+                v-for="alumni in group.members"
+                :key="alumni.name"
+                :alumni="alumni"
+              />
+            </div>
+          </div>
+        </div>
+      </template>
 
     </div>
     <Footer />
