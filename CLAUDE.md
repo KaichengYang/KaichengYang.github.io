@@ -75,6 +75,45 @@ Publications, news, tools, and media are stored as JSON files with cross-referen
 
 ## Content Management
 
+### Managing Team Members
+
+Team member information is stored in `public/files/team/team.json` with three main sections: `pi` (Principal Investigator), `students` (current students), and `alumni` (former members).
+
+#### Alumni Section
+
+Alumni are displayed on the team page in a simple list format grouped by degree type (Ph.D. students, M.S. students, Others). Each alumni entry follows this structure:
+
+```json
+{
+  "name": "Alumni Name",
+  "role": "M.S. in Computer Science",
+  "year": "2025",
+  "current_position": "Software Engineer at Company X",
+  "email": "alumni@example.edu",
+  "website": "https://linkedin.com/in/alumniname"
+}
+```
+
+**Required Fields:**
+- `name`: Alumni's full name
+- `role`: Degree and field (must include "Ph.D." or "M.S." for proper grouping)
+
+**Optional Fields:**
+- `year`: Year of graduation or years in lab (e.g., "2025" or "2020-2024")
+- `current_position`: Current job title and organization
+- `email`: Contact email address
+- `website`: Personal website or LinkedIn URL (makes the name clickable)
+
+**To move a student to alumni:**
+1. Copy the student's entry from the `students` array
+2. Remove from `students` array
+3. Add to `alumni` array with updated fields:
+   - Change role from "Student in..." to degree earned (e.g., "M.S. in Computer Science")
+   - Update `year` to graduation year
+   - Remove `photo` and `affiliation` fields (not displayed for alumni)
+   - Optionally add `current_position` and simplify to single `website` field
+4. Delete the student's photo from `public/photos/` if no longer needed
+
 ### Adding News Items
 
 News items are stored in `public/files/news/` as individual JSON files named with the date format `YYYY-MM-DD.json`. Each news item follows this structure:
