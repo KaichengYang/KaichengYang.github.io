@@ -12,17 +12,17 @@ const alumniGroups = computed(() => {
 
   const groups = {}
   team.value.alumni.forEach(alumni => {
-    let category = 'Other Alumni'
+    let category = 'Others'
     if (alumni.role.includes('Ph.D.')) {
-      category = 'Ph.D. Alumni'
+      category = 'Ph.D. students'
     } else if (alumni.role.includes('M.S.')) {
-      category = 'M.S. Alumni'
+      category = 'M.S. students'
     }
     if (!groups[category]) groups[category] = []
     groups[category].push(alumni)
   })
 
-  const order = ['Ph.D. Alumni', 'M.S. Alumni', 'Other Alumni']
+  const order = ['Ph.D. students', 'M.S. students', 'Others']
   return order
     .filter(cat => groups[cat] && groups[cat].length > 0)
     .map(cat => ({ category: cat, members: groups[cat] }))
@@ -76,7 +76,7 @@ const alumniGroups = computed(() => {
 
       <!-- Students Section -->
       <div v-if="team.students && team.students.length > 0" class="mb-8">
-        <h2 class="text-3xl font-medium mb-6 text-center text-primary">Students</h2>
+        <h2 class="text-3xl font-medium mb-6 text-center text-primary">Current Students</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <TeamMember
             v-for="student in team.students"

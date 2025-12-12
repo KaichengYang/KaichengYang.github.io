@@ -174,24 +174,7 @@
       "role": "M.S. in Computer Science",
       "year": "2025",
       "email": "jdesai1@binghamton.edu",
-      "links": [
-        {
-          "name": "LinkedIn",
-          "url": "https://www.linkedin.com/in/jaypankajdesai",
-          "icon": {
-            "prefix": "fab",
-            "icon": "linkedin"
-          }
-        },
-        {
-          "name": "Twitter",
-          "url": "https://x.com/jayydesai",
-          "icon": {
-            "prefix": "fab",
-            "icon": "twitter"
-          }
-        }
-      ]
+      "website": "https://www.linkedin.com/in/jaypankajdesai"
     }
   ]
 }
