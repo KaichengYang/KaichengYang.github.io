@@ -1,0 +1,18 @@
+{
+    "date": "2026-01-21",
+    "type": "new_pub",
+    "msgs": [
+        {
+            "type": "string",
+            "msg": "Our paper"
+        },
+        {
+            "type": "pub",
+            "project_id": "xue2026network"
+        },
+        {
+            "type": "string",
+            "msg": "was published in Physical Review Research."
+        }
+    ]
+}
