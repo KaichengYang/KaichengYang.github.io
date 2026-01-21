@@ -1,0 +1,53 @@
+{
+  "authors": [
+    {
+      "id": "lxue"
+    },
+    {
+      "id": "kcyang",
+      "annotation": [
+        "highlight"
+      ]
+    },
+    {
+      "id": "pcui"
+    },
+    {
+      "id": "zdi"
+    }
+  ],
+  "year": [
+    2026
+  ],
+  "date": "2026-01-21",
+  "type": [
+    "journal"
+  ],
+  "topic": [
+    "netsci"
+  ],
+  "highlight": [],
+  "links": [
+    {
+      "url": "https://doi.org/10.1103/tdz7-r22b",
+      "name": "DOI"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.15371",
+      "name": "arXiv"
+    },
+    {
+      "url": "https://github.com/LeyangXue/InnovationDiffusion",
+      "name": "GitHub"
+    },
+    {
+      "url": "https://data.mendeley.com/datasets/d848h7rcdg",
+      "name": "Dataset"
+    }
+  ],
+  "altmetric": {
+    "doi_id": "10.1103/tdz7-r22b"
+  },
+  "bibtex_string": "@article{xue2026network,\n\ttitle = {Network localization governs social contagion dynamics with macro-level reinforcement},\n\tauthor = {Xue, Leyang and Yang, Kai-Cheng and Cui, Peng-Bi and Di, Zengru},\n\tjournal = {Physical Review Research},\n\tvolume = {8},\n\tissue = {1},\n\tpages = {013062},\n\tnumpages = {11},\n\tyear = {2026},\n\tmonth = {Jan},\n\tpublisher = {American Physical Society},\n\tdoi = {10.1103/tdz7-r22b},\n\turl = {https://link.aps.org/doi/10.1103/tdz7-r22b}}",
+  "abstract": "The spread of ideas, behaviors, and technologies generally depends on feedback mechanisms operating across multiple scales. Previous studies have extensively examined pairwise transmission and local reinforcement. However, the role of macro-level social influence—where widespread adoption enhances further adoption—remains understudied. Here, we focus on a contagion process that incorporates both pairwise interactions and macro-level reinforcement. We show that the contagion undergoes a shift from continuous to mixed-order transition as macro-level influence exceeds a reinforcement threshold. Simulations on various real-world networks indicate that network localization governs the contagion outcomes by determining the critical point and the reinforcement threshold. Building on this insight, we develop a structural metric linking network localization to contagion dynamics, revealing a key trade-off: Networks that facilitate weak contagion tend to experience slower diffusion and lower adoption rates, while networks that suppress weak contagions enable faster and more widespread adoption. These findings challenge the conventional belief that stronger local connectivity uniformly promotes contagion."
+}
