@@ -1,5 +1,23 @@
 [
   {
+    "id": "cs481e-581e_spring2026",
+    "code": "CS 481E/581E",
+    "title": "AI and Society",
+    "institution": "Binghamton University",
+    "semester": "Spring 2026",
+    "year": 2026,
+    "links": [
+      {
+        "name": "Course information & schedule",
+        "url": "https://yangkclab.github.io/ai-and-society-course/Spring2026/"
+      },
+      {
+        "name": "Reading list",
+        "url": "https://yangkclab.github.io/ai-and-society-course/Spring2026/readings"
+      }
+    ]
+  },
+  {
     "id": "cs415-515_fall2025",
     "code": "CS 415/515",
     "title": "Social Media Data Science Pipelines",
