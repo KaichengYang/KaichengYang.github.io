@@ -21,6 +21,9 @@
         <p>
           For prospective students, please see <router-link to="/prospective" class="link">here</router-link> for more information about joining our lab.
         </p>
+        <p>
+          For students seeking recommendation letters, please see <router-link to="/recommendation-letters" class="link">here</router-link> for more information.
+        </p>
       </div>
     </div>
   </div>

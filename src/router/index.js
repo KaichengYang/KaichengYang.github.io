@@ -12,6 +12,7 @@ import HiddencurriculumPage from '@/components/hiddencurriculum/Hiddencurriculum
 import TeamPage from '@/components/team/TeamPage.vue'
 import ProspectiveStudentsPage from '@/components/prospective/ProspectiveStudentsPage.vue'
 import TeachingPage from '@/components/teaching/TeachingPage.vue'
+import RecommendationLettersPage from '@/components/letters/RecommendationLettersPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -29,6 +30,7 @@ const router = createRouter({
     { path: '/tools', component: ToolPage },
     { path: '/teaching', component: TeachingPage },
     { path: '/hiddencurriculum', component: HiddencurriculumPage },
+    { path: '/recommendation-letters', component: RecommendationLettersPage },
     { path: "/:pathMatch(.*)*", component: HomePage }
   ]
 })
