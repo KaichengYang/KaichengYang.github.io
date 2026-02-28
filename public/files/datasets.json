@@ -54,6 +54,23 @@
     ]
   },
   {
+    "id": "fake_gan_accounts",
+    "title": "Fake GAN Accounts",
+    "msg": "A dataset of 1,420 Twitter (X) accounts using GAN-generated faces as profile pictures, used to study the characteristics and prevalence of fake social media profiles with AI-generated faces.",
+    "pub_id": "yang2024characteristics",
+    "highlight": [],
+    "links": [
+      {
+        "url": "https://doi.org/10.5281/zenodo.10436889",
+        "name": "Zenodo"
+      },
+      {
+        "url": "https://github.com/osome-iu/fake_gan_accounts",
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
     "id": "meiu22",
     "title": "MEIU22",
     "msg": "A multi-platform collection of social media posts about the 2022 U.S. Midterm Elections from Twitter, Facebook, Instagram, Reddit, and 4chan.",
