@@ -15,7 +15,7 @@
         </p>
         <p>
           Learn more about our research by exploring our <router-link to="/team" class="link">team</router-link> and <a class="link" href="#pubs">publications</a>.
-          Our work has been <a class="link" href="#media">featured</a> in various media outlets, and you may find our research <a class="link" href="#tools">tools</a> helpful for your own projects.
+          Our work has been <a class="link" href="#media">featured</a> in various media outlets, and you may find our <a class="link" href="#tools">research tools</a> and <a class="link" href="#datasets">datasets</a> helpful for your own projects.
           We've also compiled a <router-link to="/hiddencurriculum" class="link">collection of resources</router-link> that researchers might find useful.
         </p>
         <p>
