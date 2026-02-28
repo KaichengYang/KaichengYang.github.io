@@ -1,0 +1,116 @@
+[
+  {
+    "id": "domaindemo",
+    "title": "DomainDemo",
+    "msg": "A dataset linking domains shared on Twitter (X) with the demographic characteristics of associated users, including age, gender, race, political affiliation, and geolocation, from 2011 to 2022.",
+    "pub_id": "yang2025domaindemo",
+    "highlight": [
+      "highlight"
+    ],
+    "links": [
+      {
+        "url": "https://doi.org/10.5281/zenodo.15151613",
+        "name": "Zenodo"
+      },
+      {
+        "url": "https://github.com/LazerLab/DomainDemo",
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
+    "id": "list_of_news_domains",
+    "title": "A List of News Domains",
+    "msg": "A canonical compilation of U.S. news domains aggregated from multiple existing datasets, designed for researchers studying news consumption and media bias.",
+    "highlight": [
+      "highlight"
+    ],
+    "links": [
+      {
+        "url": "https://github.com/yang3kc/list_of_news_domains",
+        "name": "GitHub"
+      },
+      {
+        "url": "https://doi.org/10.5281/zenodo.15073918",
+        "name": "Zenodo"
+      }
+    ]
+  },
+  {
+    "id": "fact_check_rag",
+    "title": "LLM Fact-Checking Benchmark",
+    "msg": "A benchmark dataset of over 6,000 PolitiFact claims used to evaluate LLM fact-checking capabilities, including curated RAG context and model responses.",
+    "pub_id": "deverna2025large",
+    "highlight": [],
+    "links": [
+      {
+        "url": "https://doi.org/10.5281/zenodo.17693220",
+        "name": "Zenodo"
+      },
+      {
+        "url": "https://github.com/osome-iu/fact_check_rag_osome",
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
+    "id": "aibot_fox8",
+    "title": "AI Botnet (Fox8)",
+    "msg": "A dataset of 1,140 Twitter (X) bot accounts that appear to use ChatGPT to generate human-like content, forming a coordinated AI-powered malicious social botnet.",
+    "pub_id": "yang2024anatomy",
+    "highlight": [],
+    "links": [
+      {
+        "url": "https://doi.org/10.5281/zenodo.8035289",
+        "name": "Zenodo"
+      },
+      {
+        "url": "https://github.com/osome-iu/AIBot_fox8",
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
+    "id": "fake_gan_accounts",
+    "title": "Fake GAN Accounts",
+    "msg": "A dataset of 1,420 Twitter (X) accounts using GAN-generated faces as profile pictures, used to study the characteristics and prevalence of fake social media profiles with AI-generated faces.",
+    "pub_id": "yang2024characteristics",
+    "highlight": [],
+    "links": [
+      {
+        "url": "https://doi.org/10.5281/zenodo.10436889",
+        "name": "Zenodo"
+      },
+      {
+        "url": "https://github.com/osome-iu/fake_gan_accounts",
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
+    "id": "meiu22",
+    "title": "MEIU22",
+    "msg": "A multi-platform collection of social media posts about the 2022 U.S. Midterm Elections from Twitter, Facebook, Instagram, Reddit, and 4chan.",
+    "pub_id": "aiyappa2023multiplatform",
+    "highlight": [],
+    "links": [
+      {
+        "url": "https://github.com/osome-iu/MEIU22",
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
+    "id": "covaxxy",
+    "title": "CoVaxxy",
+    "msg": "A growing collection of English-language Twitter posts about COVID-19 vaccines, with a dashboard for visualizing the relationship between vaccine adoption and geo-located posts.",
+    "pub_id": "deverna2021covaxxy",
+    "highlight": [],
+    "links": [
+      {
+        "url": "https://github.com/osome-iu/CoVaxxy",
+        "name": "GitHub"
+      }
+    ]
+  }
+]

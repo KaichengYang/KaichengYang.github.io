@@ -6,6 +6,7 @@ import PubsList from '@/components/pubs/PubsList.vue'
 import MediaList from '@/components/media/MediaList.vue'
 import Footer from '@/components/nav/Footer.vue'
 import ToolList from '@/components/tool/ToolList.vue'
+import DatasetsList from '@/components/datasets/DatasetsList.vue'
 </script>
 
 <template>
@@ -45,6 +46,12 @@ import ToolList from '@/components/tool/ToolList.vue'
       <!-- Tools -->
       <h2 class="text-4xl font-medium mb-4 flex justify-center" id="tools">Selected tools</h2>
       <ToolList :is_home="true" />
+
+      <div class="divider divider-primary" />
+
+      <!-- Datasets -->
+      <h2 class="text-4xl font-medium mb-4 flex justify-center" id="datasets">Selected datasets & benchmarks</h2>
+      <DatasetsList :is_home="true" />
 
     </div>
     <Footer />
