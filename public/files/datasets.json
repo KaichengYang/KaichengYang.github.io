@@ -37,14 +37,18 @@
     ]
   },
   {
-    "id": "covaxxy",
-    "title": "CoVaxxy",
-    "msg": "A growing collection of English-language Twitter posts about COVID-19 vaccines, with a dashboard for visualizing the relationship between vaccine adoption and geo-located posts.",
-    "pub_id": "deverna2021covaxxy",
+    "id": "fact_check_rag",
+    "title": "LLM Fact-Checking Benchmark",
+    "msg": "A benchmark dataset of over 6,000 PolitiFact claims used to evaluate LLM fact-checking capabilities, including curated RAG context and model responses.",
+    "pub_id": "deverna2025large",
     "highlight": [],
     "links": [
       {
-        "url": "https://github.com/osome-iu/CoVaxxy",
+        "url": "https://doi.org/10.5281/zenodo.17693220",
+        "name": "Zenodo"
+      },
+      {
+        "url": "https://github.com/osome-iu/fact_check_rag_osome",
         "name": "GitHub"
       }
     ]
@@ -58,6 +62,19 @@
     "links": [
       {
         "url": "https://github.com/osome-iu/MEIU22",
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
+    "id": "covaxxy",
+    "title": "CoVaxxy",
+    "msg": "A growing collection of English-language Twitter posts about COVID-19 vaccines, with a dashboard for visualizing the relationship between vaccine adoption and geo-located posts.",
+    "pub_id": "deverna2021covaxxy",
+    "highlight": [],
+    "links": [
+      {
+        "url": "https://github.com/osome-iu/CoVaxxy",
         "name": "GitHub"
       }
     ]
