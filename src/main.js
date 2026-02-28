@@ -54,7 +54,12 @@ async function initApp() {
   }));
 
   tool_list.value = tools;
-  dataset_list.value = datasets;
+  dataset_list.value = datasets.map(dataset => {
+    if (dataset.pub_id) {
+      dataset.pub = pub_list.value.find(pub => pub.id === dataset.pub_id);
+    }
+    return dataset;
+  });
   team.value = team_data;
   teaching_list.value = teaching;
 
