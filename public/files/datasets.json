@@ -54,6 +54,23 @@
     ]
   },
   {
+    "id": "aibot_fox8",
+    "title": "AI Botnet (Fox8)",
+    "msg": "A dataset of 1,140 Twitter (X) bot accounts that appear to use ChatGPT to generate human-like content, forming a coordinated AI-powered malicious social botnet.",
+    "pub_id": "yang2024anatomy",
+    "highlight": [],
+    "links": [
+      {
+        "url": "https://doi.org/10.5281/zenodo.8035289",
+        "name": "Zenodo"
+      },
+      {
+        "url": "https://github.com/osome-iu/AIBot_fox8",
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
     "id": "fake_gan_accounts",
     "title": "Fake GAN Accounts",
     "msg": "A dataset of 1,420 Twitter (X) accounts using GAN-generated faces as profile pictures, used to study the characteristics and prevalence of fake social media profiles with AI-generated faces.",
