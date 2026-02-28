@@ -19,16 +19,18 @@ library.add(faEnvelope, faFile, faBookmark, faLinkedin, faTwitter, faGoogleSchol
 async function initApp() {
   const pub_list = ref([]);
   const tool_list = ref([]);
+  const dataset_list = ref([]);
   const media_list = ref([]);
   const news_list = ref([]);
   const team = ref({});
   const teaching_list = ref([]);
-  const [news_index, authors, pub_index, media, tools, team_data, teaching] = await Promise.all([
+  const [news_index, authors, pub_index, media, tools, datasets, team_data, teaching] = await Promise.all([
     fetch('/files/news/news_index.json').then(response => response.json()),
     fetch('/files/pubs/authors.json').then(response => response.json()),
     fetch('/files/pubs/pubs_index.json').then(response => response.json()),
     fetch('/files/media.json').then(response => response.json()),
     fetch('/files/tools.json').then(response => response.json()),
+    fetch('/files/datasets.json').then(response => response.json()),
     fetch('/files/team/team.json').then(response => response.json()),
     fetch('/files/teaching.json').then(response => response.json()),
   ]);
@@ -52,6 +54,7 @@ async function initApp() {
   }));
 
   tool_list.value = tools;
+  dataset_list.value = datasets;
   team.value = team_data;
   teaching_list.value = teaching;
 
@@ -104,6 +107,7 @@ async function initApp() {
     .provide('news_list', news_list)
     .provide('pub_list', pub_list)
     .provide('tool_list', tool_list)
+    .provide('dataset_list', dataset_list)
     .provide('media_list', media_list)
     .provide('team', team)
     .provide('teaching_list', teaching_list)

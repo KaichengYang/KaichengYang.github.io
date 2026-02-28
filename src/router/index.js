@@ -13,6 +13,7 @@ import TeamPage from '@/components/team/TeamPage.vue'
 import ProspectiveStudentsPage from '@/components/prospective/ProspectiveStudentsPage.vue'
 import TeachingPage from '@/components/teaching/TeachingPage.vue'
 import RecommendationLettersPage from '@/components/letters/RecommendationLettersPage.vue'
+import DatasetsPage from '@/components/datasets/DatasetsPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -28,6 +29,7 @@ const router = createRouter({
     { path: '/photos', component: PhotoPage },
     { path: '/failures', component: FailurePage },
     { path: '/tools', component: ToolPage },
+    { path: '/datasets', component: DatasetsPage },
     { path: '/teaching', component: TeachingPage },
     { path: '/hiddencurriculum', component: HiddencurriculumPage },
     { path: '/recommendation-letters', component: RecommendationLettersPage },
