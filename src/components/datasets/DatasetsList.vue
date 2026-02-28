@@ -19,9 +19,9 @@ const datasets = inject('dataset_list');
   <div class="flex flex-col gap-4">
     <hr class="col-span-full my-3">
     <template v-for="dataset in datasets" :key="dataset.id">
-      <DatasetBlock v-if="!is_home || dataset.highlight" :dataset_obj="dataset" />
+      <DatasetBlock v-if="!is_home || dataset.highlight.length" :dataset_obj="dataset" />
 
-      <hr v-if="!is_home || dataset.highlight" class="col-span-full my-3">
+      <hr v-if="!is_home || dataset.highlight.length" class="col-span-full my-3">
     </template>
 
   </div>
