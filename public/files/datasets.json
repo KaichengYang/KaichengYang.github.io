@@ -1,9 +1,30 @@
 [
   {
+    "id": "domaindemo",
+    "title": "DomainDemo",
+    "msg": "A dataset linking domains shared on Twitter (X) with the demographic characteristics of associated users, including age, gender, race, political affiliation, and geolocation, from 2011 to 2022.",
+    "pub_id": "yang2025domaindemo",
+    "highlight": [
+      "highlight"
+    ],
+    "links": [
+      {
+        "url": "https://doi.org/10.5281/zenodo.15151613",
+        "name": "Zenodo"
+      },
+      {
+        "url": "https://github.com/LazerLab/DomainDemo",
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
     "id": "list_of_news_domains",
     "title": "A List of News Domains",
     "msg": "A canonical compilation of U.S. news domains aggregated from multiple existing datasets, designed for researchers studying news consumption and media bias.",
-    "highlight": ["highlight"],
+    "highlight": [
+      "highlight"
+    ],
     "links": [
       {
         "url": "https://github.com/yang3kc/list_of_news_domains",
@@ -12,6 +33,32 @@
       {
         "url": "https://doi.org/10.5281/zenodo.15073918",
         "name": "Zenodo"
+      }
+    ]
+  },
+  {
+    "id": "covaxxy",
+    "title": "CoVaxxy",
+    "msg": "A growing collection of English-language Twitter posts about COVID-19 vaccines, with a dashboard for visualizing the relationship between vaccine adoption and geo-located posts.",
+    "pub_id": "deverna2021covaxxy",
+    "highlight": [],
+    "links": [
+      {
+        "url": "https://github.com/osome-iu/CoVaxxy",
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
+    "id": "meiu22",
+    "title": "MEIU22",
+    "msg": "A multi-platform collection of social media posts about the 2022 U.S. Midterm Elections from Twitter, Facebook, Instagram, Reddit, and 4chan.",
+    "pub_id": "aiyappa2023multiplatform",
+    "highlight": [],
+    "links": [
+      {
+        "url": "https://github.com/osome-iu/MEIU22",
+        "name": "GitHub"
       }
     ]
   }
