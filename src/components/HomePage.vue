@@ -50,7 +50,7 @@ import DatasetsList from '@/components/datasets/DatasetsList.vue'
       <div class="divider divider-primary" />
 
       <!-- Datasets -->
-      <h2 class="text-4xl font-medium mb-4 flex justify-center" id="datasets">Selected datasets</h2>
+      <h2 class="text-4xl font-medium mb-4 flex justify-center" id="datasets">Selected datasets & benchmarks</h2>
       <DatasetsList :is_home="true" />
 
     </div>

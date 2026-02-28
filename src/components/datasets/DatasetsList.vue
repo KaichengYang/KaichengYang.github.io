@@ -26,6 +26,6 @@ const datasets = inject('dataset_list');
 
   </div>
   <div class="mt-2  ">
-    <BackForth :is_home="is_home" :target="'/datasets'" target_name="datasets"/>
+    <BackForth :is_home="is_home" :target="'/datasets'" target_name="datasets & benchmarks"/>
   </div>
 </template>
