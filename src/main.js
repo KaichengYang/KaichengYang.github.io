@@ -16,6 +16,15 @@ import { faLinkedin, faTwitter, faGoogleScholar, faResearchgate, faGithub, faPyt
 /* add icons to the library */
 library.add(faEnvelope, faFile, faBookmark, faLinkedin, faTwitter, faGoogleScholar, faResearchgate, faCircleArrowLeft, faCircleArrowRight, faLink, faFilePdfRegular, faDatabase, faGithub, faUser, faCircleUser, faUserRegular, faCircleUserRegular, faEnvelopeRegular, faCopyRegular, faCircleXmarkRegular, faDownload, faPython, faRProject, faBluesky, faPodcast, faGauge, faExclamationTriangle, faNewspaper)
 
+async function fetchJSON(url, retries = 3) {
+  for (let i = 0; i < retries; i++) {
+    const response = await fetch(url);
+    if (response.ok) return response.json();
+    if (i < retries - 1) await new Promise(r => setTimeout(r, 1000 * (i + 1)));
+  }
+  throw new Error(`Failed to fetch ${url}`);
+}
+
 async function initApp() {
   const pub_list = ref([]);
   const tool_list = ref([]);
@@ -25,19 +34,18 @@ async function initApp() {
   const team = ref({});
   const teaching_list = ref([]);
   const [news_index, authors, pub_index, media, tools, datasets, team_data, teaching] = await Promise.all([
-    fetch('/files/news/news_index.json').then(response => response.json()),
-    fetch('/files/pubs/authors.json').then(response => response.json()),
-    fetch('/files/pubs/pubs_index.json').then(response => response.json()),
-    fetch('/files/media.json').then(response => response.json()),
-    fetch('/files/tools.json').then(response => response.json()),
-    fetch('/files/datasets.json').then(response => response.json()),
-    fetch('/files/team/team.json').then(response => response.json()),
-    fetch('/files/teaching.json').then(response => response.json()),
+    fetchJSON('/files/news/news_index.json'),
+    fetchJSON('/files/pubs/authors.json'),
+    fetchJSON('/files/pubs/pubs_index.json'),
+    fetchJSON('/files/media.json'),
+    fetchJSON('/files/tools.json'),
+    fetchJSON('/files/datasets.json'),
+    fetchJSON('/files/team/team.json'),
+    fetchJSON('/files/teaching.json'),
   ]);
 
   pub_list.value = await Promise.all(pub_index.map(async pub_file_name => {
-    const response = await fetch(`/files/pubs/${pub_file_name}`);
-    const pub = await response.json();
+    const pub = await fetchJSON(`/files/pubs/${pub_file_name}`);
     pub.bibtex = bibtexParse.toJSON(pub.bibtex_string)[0];
     pub.id = pub.bibtex.citationKey;
     pub.title = pub.bibtex.entryTags.title;
@@ -65,8 +73,7 @@ async function initApp() {
 
 
   news_list.value = await Promise.all(news_index.map(async news_file_name => {
-    const response = await fetch(`/files/news/${news_file_name}`);
-    const news = await response.json();
+    const news = await fetchJSON(`/files/news/${news_file_name}`);
     // attach project object to each message if applicable
     news.msgs.forEach(msg => {
       if (msg.type === "pub") {
