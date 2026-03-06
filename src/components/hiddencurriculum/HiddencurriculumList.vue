@@ -14,15 +14,14 @@ const sections = ref([
         icon: { prefix: 'fab', icon: 'github' }
       },
       {
-        title: 'daily_arxiv_digest',
-        link: 'https://github.com/yang3kc/daily_arxiv_digest',
-        description: 'an interactive tool for using ChatGPT to filter relevant papers from arXiv every day',
-        icon: { prefix: 'fab', icon: 'github' }
-      },
-      {
         title: 'scicolor',
         link: 'https://yang3kc.github.io/scicolor/',
         description: 'a collection of color palettes for scientific visualization'
+      },
+      {
+        title: 'Easy Scraper',
+        link: 'https://easyscraper.com/',
+        description: 'a free Chrome extension for no-code web scraping'
       }
     ]
   },
@@ -34,12 +33,6 @@ const sections = ref([
         title: 'The Missing Semester of Your CS Education',
         link: 'https://missing.csail.mit.edu/',
         description: ''
-      },
-      {
-        title: 'llm_git_commit',
-        link: 'https://github.com/yang3kc/llm_git_commit',
-        description: 'a tool for using LLMs to generate git commit messages',
-        icon: { prefix: 'fab', icon: 'github' }
       },
       {
         title: 'Claude Code is secretly an excellent data analysis agent',
@@ -92,6 +85,12 @@ const sections = ref([
         link: 'https://github.com/KaichengYang/KaichengYang.github.io',
         description: 'source code for my personal website',
         icon: { prefix: 'fab', icon: 'github' }
+      },
+      {
+        title: 'Academic Job Search Resources',
+        link: 'https://docs.google.com/document/d/1qvK1NiOKPyniJjDzIvYXkOhPj0EeYzTbCemLV0qMA0E/edit?tab=t.0#heading=h.urf95emgdmf0',
+        description: 'job boards, application tips, guides, and templates',
+        icon: { prefix: 'fas', icon: 'lightbulb' }
       }
     ]
   },
