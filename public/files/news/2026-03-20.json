@@ -1,0 +1,19 @@
+{
+  "date": "2026-03-20",
+  "type": "general",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "I am launching the"
+    },
+    {
+      "type": "link",
+      "msg": "Research with AI Agents",
+      "link": "https://research-with-ai-agents-workshop.github.io/"
+    },
+    {
+      "type": "string",
+      "msg": "workshop series on using AI agents for research workflows. The first talk is this Saturday, March 21!"
+    }
+  ]
+}
