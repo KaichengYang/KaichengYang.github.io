@@ -2,11 +2,14 @@ import { readFileSync, writeFileSync, readdirSync } from 'fs';
 import { join, basename } from 'path';
 import { fileURLToPath } from 'url';
 import matter from 'gray-matter';
+import MarkdownIt from 'markdown-it';
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url));
 const rootDir = join(__dirname, '..');
 const blogDir = join(rootDir, 'src', 'content', 'blog');
 const distDir = join(rootDir, 'dist');
+
+const md = new MarkdownIt({ html: true, linkify: true });
 
 const SITE_URL = 'https://kaichengyang.github.io';
 const FEED_TITLE = "Kaicheng Yang's Blog";
@@ -65,12 +68,13 @@ const items = posts
       <link>${link}</link>
       <guid isPermaLink="true">${link}</guid>
       <pubDate>${toRFC2822(post.date)}</pubDate>${description ? `\n      <description>${description}</description>` : ''}
+      <content:encoded><![CDATA[${md.render(post.content)}]]></content:encoded>
     </item>`;
   })
   .join('\n');
 
 const feed = `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>${escapeXml(FEED_TITLE)}</title>
     <link>${SITE_URL}/blog</link>
