@@ -94,7 +94,10 @@ const copyToClipboard = (bioText) => {
           <!-- Contact Links -->
           <div class="flex justify-center mt-4 flex-wrap gap-2">
             <template v-for="link in contact_links" :key="link.name">
-              <a :href="link.link" class="text-primary" :target="link.name === 'Email' ? '_self' : '_blank'" :title="link.name">
+              <router-link v-if="link.link.startsWith('/')" :to="link.link" class="text-primary" :title="link.name">
+                <font-awesome-icon :icon="[link.icon.prefix, link.icon.icon]" class="text-2xl" />
+              </router-link>
+              <a v-else :href="link.link" class="text-primary" :target="link.name === 'Email' ? '_self' : '_blank'" :title="link.name">
                 <font-awesome-icon :icon="[link.icon.prefix, link.icon.icon]" class="text-2xl" />
               </a>
             </template>
@@ -115,7 +118,7 @@ const copyToClipboard = (bioText) => {
             <p>
               Here is his <a href="/files/cv.pdf" class="link">CV</a>.
               You can learn more about his research by exploring his <router-link to="/pubs" class="link">publications</router-link>.
-              He also writes <a href="https://yang3kc.substack.com" class="link" target="_blank">blogs</a> sometimes.
+              He also writes <router-link to="/blog" class="link">blogs</router-link> sometimes.
             </p>
           </div>
         </div>

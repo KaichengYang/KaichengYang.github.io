@@ -10,6 +10,7 @@ const pages = ref([
   {name: 'Datasets', path: '/datasets', is_external: false},
   {name: 'Teaching', path: '/teaching', is_external: false},
   {name: 'Team', path: '/team', is_external: false},
+  {name: 'Blog', path: '/blog', is_external: false},
 ]);
 </script>
 

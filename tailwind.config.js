@@ -7,7 +7,13 @@ export default {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            maxWidth: "none"
+            maxWidth: "none",
+            a: {
+              color: "oklch(var(--p))",
+              "&:hover": {
+                color: "oklch(var(--pf))",
+              },
+            },
           }
         }
       })
