@@ -33,9 +33,10 @@ const contact_links = ref([
     link: 'https://bsky.app/profile/yang3kc.bsky.social'
   },
   {
-    name: 'Substack',
+    name: 'Blog',
     icon: {prefix: 'fas', icon: 'bookmark'},
-    link: 'https://yang3kc.substack.com'
+    link: '/blog',
+    is_internal: true
   }
 ])
 
@@ -64,7 +65,10 @@ const contact_links = ref([
         <!-- contact -->
         <div id="contact_container" class="mt-1">
           <template v-for="link in contact_links" :key="link.name">
-            <a :href="link.link" class="text-primary mr-1" target="_blank">
+            <router-link v-if="link.is_internal" :to="link.link" class="text-primary mr-1">
+              <font-awesome-icon :icon="[link.icon.prefix, link.icon.icon]" class="text-2xl" />
+            </router-link>
+            <a v-else :href="link.link" class="text-primary mr-1" target="_blank">
               <font-awesome-icon :icon="[link.icon.prefix, link.icon.icon]" class="text-2xl" />
             </a>
           </template>

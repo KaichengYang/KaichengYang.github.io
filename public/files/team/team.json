@@ -50,8 +50,8 @@
         }
       },
       {
-        "name": "Substack",
-        "url": "https://yang3kc.substack.com",
+        "name": "Blog",
+        "url": "/blog",
         "icon": {
           "prefix": "fas",
           "icon": "newspaper"

@@ -14,11 +14,15 @@ import ProspectiveStudentsPage from '@/components/prospective/ProspectiveStudent
 import TeachingPage from '@/components/teaching/TeachingPage.vue'
 import RecommendationLettersPage from '@/components/letters/RecommendationLettersPage.vue'
 import DatasetsPage from '@/components/datasets/DatasetsPage.vue'
+import BlogPage from '@/components/blog/BlogPage.vue'
+import BlogPostPage from '@/components/blog/BlogPostPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
   routes: [
     { path: '/', component: HomePage },
+    { path: '/blog', component: BlogPage },
+    { path: '/blog/:slug', component: BlogPostPage },
     { path: '/pubs', component: PubsPage },
     { path: '/about', component: AboutPage },
     { path: '/kaicheng', component: PersonalPage },
