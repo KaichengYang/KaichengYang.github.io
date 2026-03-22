@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --open",
-    "build": "vite build",
+    "build": "vite build && node scripts/generate-rss.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -23,6 +23,7 @@
     "@vitejs/plugin-vue": "^5.1.2",
     "autoprefixer": "^10.4.20",
     "daisyui": "^4.12.10",
+    "gray-matter": "^4.0.3",
     "markdown-it": "^14.1.1",
     "markdown-it-anchor": "^9.2.0",
     "postcss": "^8.4.41",
