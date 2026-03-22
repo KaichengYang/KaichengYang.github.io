@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="card bg-base-100 mb-4">
+  <div class="card mb-4">
     <div class="card-body px-2 py-4">
       <div class="flex items-baseline gap-3">
         <span class="text-sm text-gray-400 whitespace-nowrap">{{ post.date }}</span>
