@@ -9,15 +9,15 @@ function extractExcerpt(component) {
 function getAllPosts() {
   const posts = Object.entries(modules).map(([path, mod]) => {
     const slug = path.split('/').pop().replace('.md', '')
-    const fm = mod.frontmatter || {}
 
     return {
       slug,
-      title: fm.title || slug,
-      date: fm.date || '',
-      tags: fm.tags || [],
-      excerpt: fm.excerpt || '',
-      status: fm.status || 'published',
+      title: mod.title || slug,
+      rawDate: mod.date || '',
+      date: mod.date ? new Date(mod.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : '',
+      tags: mod.tags || [],
+      excerpt: mod.excerpt || '',
+      status: mod.status || 'published',
       component: mod.default,
     }
   })
@@ -25,7 +25,7 @@ function getAllPosts() {
   // Only show published posts, sorted by date descending
   return posts
     .filter(p => p.status === 'published')
-    .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+    .sort((a, b) => (b.rawDate || '').localeCompare(a.rawDate || ''))
 }
 
 export function useBlogPosts() {
