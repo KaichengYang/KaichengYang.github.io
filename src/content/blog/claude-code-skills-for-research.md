@@ -5,7 +5,6 @@ updated:
 tags: [claude-code, research-tools, ai-agents, academic-workflow]
 status: published
 ---
-# Claude Code Skills and Plugins for Academic Research
 
 ## TL;DR
 - Curated list of Claude Code skill repos and plugins designed for academic research
