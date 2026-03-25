@@ -1,7 +1,7 @@
 ---
 title: Claude Code Skills and Plugins for Academic Research
 date: 2026-03-24
-updated:
+updated: 2026-03-24
 tags: [claude-code, research-tools, ai-agents, academic-workflow]
 status: published
 ---
@@ -10,14 +10,14 @@ status: published
 - Curated list of Claude Code skill repos and plugins designed for academic research
 - Covers literature review, paper writing, data analysis, and full research lifecycle
 
-## Draft
+## Background
 
 Since January 2026, I have seen unprecedented enthusiasm from academics for doing research with AI agents.
 One of the reasons is the skills/plugins system that allows researchers to turn their experiences, workflows, and know-how accumulated over the years into text files, which can be reused and shared.
 The ecosystem of research-oriented skills has grown quickly.
 Here's a curated list of what I have collected so far.
 
-### The List
+## The List
 
 **[K-Dense Scientific Skills](https://github.com/K-Dense-AI/claude-scientific-skills)** — The largest collection: 170+ skills spanning bioinformatics, cheminformatics, clinical research, ML, materials science, and more. Access to 250+ scientific databases. Strongest in STEM and life sciences.
 
@@ -33,7 +33,7 @@ Here's a curated list of what I have collected so far.
 
 **[Research Paper Writing Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills)** — A skill package for ML/CV/NLP paper writing, adapted from Prof. Peng Sida's open methodology notes. Section-specific writing guides for Abstract, Introduction, Method, Experiments, and Conclusion, plus claim-evidence alignment checks and pre-submission self-review.
 
-### Disclaimer
+## Disclaimer
 
 I haven't closely experimented with these skills and plugins, so I cannot guarantee their quality.
 
