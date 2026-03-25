@@ -1,7 +1,7 @@
 ---
 title: AI is Transforming Academia — How Do We Survive It?
 date: 2026-03-22
-updated:
+updated: 2026-03-24
 tags: [ai, academia, teaching]
 status: published
 ---
@@ -32,4 +32,6 @@ So it's important to:
 
 ### Don'ts
 
-Following the same principles, we should avoid spending precious time on things that AI already does or will soon do really well.
+Here are the things we should avoid:
+1. Spending precious time on things that AI already does or will soon do really well.
+2. Cognitive offloading (cognitive surrender).
