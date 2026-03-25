@@ -1,6 +1,7 @@
 ---
 title: Claude Code Skills and Plugins for Academic Research
 date: 2026-03-24
+updated:
 tags: [claude-code, research-tools, ai-agents, academic-workflow]
 status: published
 ---

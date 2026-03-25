@@ -1,6 +1,7 @@
 ---
 title: Migrating my blogs from Substack to my personal website
 date: 2026-03-14
+updated:
 tags: [obsidian, blog]
 status: published
 ---

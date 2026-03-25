@@ -20,6 +20,7 @@ const post = computed(() => getPost(route.params.slug))
         <h1 class="text-4xl font-bold mt-2 mb-2">{{ post.title }}</h1>
         <div class="flex items-center gap-3 mb-6">
           <span class="text-gray-400">{{ post.date }}</span>
+          <span v-if="post.updated" class="text-gray-400">(Updated: {{ post.updated }})</span>
           <span v-for="tag in post.tags" :key="tag" class="badge badge-outline badge-sm">{{ tag }}</span>
         </div>
         <div class="prose max-w-none">

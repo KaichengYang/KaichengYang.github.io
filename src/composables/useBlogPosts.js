@@ -16,6 +16,8 @@ function getAllPosts() {
       rawDate: mod.date || '',
       date: mod.date ? new Date(mod.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : '',
       tags: mod.tags || [],
+      rawUpdated: mod.updated || '',
+      updated: mod.updated ? new Date(mod.updated).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : '',
       excerpt: mod.excerpt || '',
       status: mod.status || 'published',
       component: mod.default,

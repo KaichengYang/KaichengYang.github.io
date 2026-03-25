@@ -1,6 +1,7 @@
 ---
 title: AI is Transforming Academia — How Do We Survive It?
 date: 2026-03-22
+updated:
 tags: [ai, academia, teaching]
 status: published
 ---
