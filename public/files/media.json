@@ -1,5 +1,16 @@
 [
   {
+    "title": "The Guardian view on the BBC's future: who decides what news means?",
+    "url": "https://www.theguardian.com/commentisfree/2026/apr/01/the-guardian-view-on-the-bbcs-future-who-decides-what-news-means",
+    "outlet": "The Guardian",
+    "date": "2026-04-01",
+    "year": [2026],
+    "type": "coverage",
+    "topic": "ai",
+    "project_id": ["yang2025news"],
+    "toshow": true
+  },
+  {
     "title": "Want to Be Discovered in AI Search? These Are the Sources That Matter",
     "url": "https://www.entrepreneur.com/growing-a-business/want-to-rank-in-ai-search-focus-on-these-sources/493371",
     "outlet": "Entrepreneur",

@@ -1,0 +1,19 @@
+{
+  "date": "2026-04-01",
+  "type": "media",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Our work on news source citing patterns in AI search was mentioned in a"
+    },
+    {
+      "type": "link",
+      "msg": "The Guardian",
+      "link": "https://www.theguardian.com/commentisfree/2026/apr/01/the-guardian-view-on-the-bbcs-future-who-decides-what-news-means"
+    },
+    {
+      "type": "string",
+      "msg": "editorial on the BBC's future"
+    }
+  ]
+}
