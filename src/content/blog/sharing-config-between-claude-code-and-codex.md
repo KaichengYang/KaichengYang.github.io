@@ -3,6 +3,7 @@ title: Sharing Config Between Claude Code and Codex CLI
 date: 2026-04-02
 tags: [claude-code, codex, ai-agents, developer-tools]
 status: published
+updated: 2026-04-02
 ---
 ## TL;DR
 - Both tools read markdown instructions and support the Agent Skills format
@@ -50,10 +51,15 @@ This means symlinks are all you need. Point the Codex paths at the Claude Code p
 
 ## Potential Issues
 
-I'm still testing this setup. So far, it's been working well.
-But there's one thing to watch: some tools are specific to Claude Code, like `AskUserQuestion`.
-Codex ignores unknown tools, so nothing breaks, but behavior might differ slightly.
-I might need to make some skill definitions more tool-agnostic over time.
+One real issue I hit: some skills reference `AskUserQuestion`, a Claude Code-specific tool for structured user prompts. Codex doesn't have it---it uses `request_user_input` instead.
+
+My fix was adding a fallback chain to `CLAUDE.md`:
+1. Try `AskUserQuestion` (Claude Code)
+2. Fall back to `request_user_input` (Codex)
+3. If neither is available, output the question as plain text and wait
+
+Since both tools read the same `CLAUDE.md`, this one instruction makes skills work on both platforms.
+Also, I don't need to update all the skills individually this way.
 
 ## The Setup
 
