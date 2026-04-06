@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-06",
+  "type": "new_pub",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Two papers accepted!"
+    },
+    {
+      "type": "pub",
+      "project_id": "deverna2025large"
+    },
+    {
+      "type": "string",
+      "msg": "accepted at ACL 2026, and"
+    },
+    {
+      "type": "pub",
+      "project_id": "mimizuka2025post"
+    },
+    {
+      "type": "string",
+      "msg": "accepted at CSCW 2026."
+    }
+  ]
+}
