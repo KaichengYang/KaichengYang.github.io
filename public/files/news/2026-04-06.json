@@ -4,7 +4,7 @@
   "msgs": [
     {
       "type": "string",
-      "msg": "Two papers accepted!"
+      "msg": "Two papers accepted:"
     },
     {
       "type": "pub",
@@ -12,7 +12,7 @@
     },
     {
       "type": "string",
-      "msg": "accepted at ACL 2026, and"
+      "msg": "at ACL 2026, and"
     },
     {
       "type": "pub",
@@ -20,7 +20,7 @@
     },
     {
       "type": "string",
-      "msg": "accepted at CSCW 2026."
+      "msg": "at CSCW 2026."
     }
   ]
 }
