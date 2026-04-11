@@ -24,6 +24,14 @@ function extractExcerpt(content, maxLen = 160) {
   return plain.slice(0, maxLen).replace(/\s+\S*$/, '') + '...';
 }
 
+function escapeHtml(str = '') {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
 // Read the built index.html as template
 const template = readFileSync(join(distDir, 'index.html'), 'utf-8');
 
@@ -45,29 +53,31 @@ for (const post of posts) {
   const postUrl = `${SITE_URL}/blog/${post.slug}`;
   const description = post.excerpt || extractExcerpt(post.content);
   const title = post.title;
+  const safeTitle = escapeHtml(title);
+  const safeDescription = escapeHtml(description);
 
   let html = template;
 
   // Replace <title>
   html = html.replace(
     /<title>.*?<\/title>/,
-    `<title>${title}</title>`
+    `<title>${safeTitle}</title>`
   );
 
   // Replace existing og:title
   html = html.replace(
     /<meta property="og:title" content=".*?" \/>/,
-    `<meta property="og:title" content="${title}" />`
+    `<meta property="og:title" content="${safeTitle}" />`
   );
 
   // Replace existing og:description
   html = html.replace(
     /<meta property="og:description" content=".*?" \/>/,
-    `<meta property="og:description" content="${description}" />`
+    `<meta property="og:description" content="${safeDescription}" />`
   );
 
   // Add og:url and og:type after og:description
-  const ogDescTag = `<meta property="og:description" content="${description}" />`;
+  const ogDescTag = `<meta property="og:description" content="${safeDescription}" />`;
   html = html.replace(
     ogDescTag,
     `${ogDescTag}\n    <meta property="og:url" content="${postUrl}" />\n    <meta property="og:type" content="article" />`
@@ -75,7 +85,7 @@ for (const post of posts) {
 
   // Add twitter:title and twitter:description after twitter:site
   const twitterSiteTag = '<meta name="twitter:site" content="@yang3kc" />';
-  let twitterInsert = `\n    <meta name="twitter:title" content="${title}" />\n    <meta name="twitter:description" content="${description}" />`;
+  let twitterInsert = `\n    <meta name="twitter:title" content="${safeTitle}" />\n    <meta name="twitter:description" content="${safeDescription}" />`;
 
   // Add image tags if post has an image
   if (post.image) {
