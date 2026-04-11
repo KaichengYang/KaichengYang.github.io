@@ -2,8 +2,9 @@
 title: Sharing Config Between Claude Code and Codex CLI
 date: 2026-04-02
 tags: [claude-code, codex, ai-agents, developer-tools]
+image: /images/blog/sharing-config-between-claude-code-and-codex-cover.png
 status: published
-updated: 2026-04-04
+updated: 2026-04-11
 ---
 ## TL;DR
 - Both tools read markdown instructions and support the Agent Skills format
