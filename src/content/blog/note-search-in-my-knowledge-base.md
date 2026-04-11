@@ -2,6 +2,8 @@
 title: "Building better note search for Claude Code, one iteration at a time"
 date: 2026-04-05
 tags: [claude-code, obsidian, knowledge-management, semantic-search]
+image: /images/blog/note-search-in-my-knowledge-base-cover.png
+updated: 2026-04-11
 status: published
 ---
 ## TL;DR
