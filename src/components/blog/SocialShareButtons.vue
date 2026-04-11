@@ -41,7 +41,7 @@ async function copyLink() {
 </script>
 
 <template>
-  <div class="flex items-center gap-3 mt-6 pt-4 border-t border-base-300">
+  <div class="flex items-center gap-3 mb-6">
     <span class="text-sm text-gray-400">Share:</span>
     <a
       v-for="link in shareLinks"
