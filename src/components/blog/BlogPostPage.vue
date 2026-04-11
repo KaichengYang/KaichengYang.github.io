@@ -3,6 +3,7 @@ import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import Navbar from '@/components/nav/Navbar.vue'
 import Footer from '@/components/nav/Footer.vue'
+import SocialShareButtons from '@/components/blog/SocialShareButtons.vue'
 import { useBlogPosts } from '@/composables/useBlogPosts.js'
 
 const route = useRoute()
@@ -18,11 +19,12 @@ const post = computed(() => getPost(route.params.slug))
       <div v-if="post" class="mx-4 my-8">
         <router-link to="/blog" class="link text-sm mb-4 inline-block">&larr; Back to blog</router-link>
         <h1 class="text-4xl font-bold mt-2 mb-2">{{ post.title }}</h1>
-        <div class="flex items-center gap-3 mb-6">
+        <div class="flex items-center gap-3 mb-2">
           <span class="text-gray-400">{{ post.date }}</span>
           <span v-if="post.updated" class="text-gray-400">(Updated: {{ post.updated }})</span>
           <span v-for="tag in post.tags" :key="tag" class="badge badge-outline badge-sm">{{ tag }}</span>
         </div>
+        <SocialShareButtons :title="post.title" :slug="post.slug" />
         <div class="prose max-w-none">
           <component :is="post.component" />
         </div>
