@@ -24,7 +24,7 @@ const post = computed(() => getPost(route.params.slug))
           <span v-if="post.updated" class="text-gray-400">(Updated: {{ post.updated }})</span>
           <span v-for="tag in post.tags" :key="tag" class="badge badge-outline badge-sm">{{ tag }}</span>
         </div>
-        <SocialShareButtons :title="post.title" :slug="post.slug" />
+        <SocialShareButtons :title="post.title" :slug="post.slug" :rawMarkdown="post.rawMarkdown" />
         <img v-if="post.image" :src="post.image" :alt="post.title" class="w-full rounded-lg my-4" />
         <div class="prose max-w-none">
           <component :is="post.component" />
