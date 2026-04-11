@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --open",
-    "build": "vite build && node scripts/generate-rss.mjs",
+    "build": "vite build && node scripts/generate-rss.mjs && node scripts/generate-blog-meta.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
