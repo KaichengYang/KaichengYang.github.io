@@ -3,6 +3,7 @@ import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import Navbar from '@/components/nav/Navbar.vue'
 import Footer from '@/components/nav/Footer.vue'
+import SocialShareButtons from '@/components/blog/SocialShareButtons.vue'
 import { useBlogPosts } from '@/composables/useBlogPosts.js'
 
 const route = useRoute()
@@ -26,6 +27,7 @@ const post = computed(() => getPost(route.params.slug))
         <div class="prose max-w-none">
           <component :is="post.component" />
         </div>
+        <SocialShareButtons :title="post.title" :slug="post.slug" />
       </div>
       <div v-else class="text-center mt-16">
         <p class="text-xl text-gray-500">Post not found.</p>
