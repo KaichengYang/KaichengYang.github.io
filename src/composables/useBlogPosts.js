@@ -20,6 +20,7 @@ function getAllPosts() {
       updated: mod.updated ? new Date(mod.updated).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : '',
       excerpt: mod.excerpt || '',
       status: mod.status || 'published',
+      image: mod.image || '',
       component: mod.default,
     }
   })
