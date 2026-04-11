@@ -8,7 +8,7 @@ const props = defineProps({
 
 const copied = ref(false)
 
-const url = computed(() => window.location.origin + '/blog/' + props.slug)
+const url = computed(() => 'https://kaichengyang.com/blog/' + props.slug)
 
 const shareLinks = computed(() => [
   {
