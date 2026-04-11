@@ -24,7 +24,7 @@ const shareLinks = computed(() => [
   {
     name: 'LinkedIn',
     icon: { prefix: 'fab', icon: 'linkedin' },
-    href: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url.value)}`
+    href: `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(url.value)}&title=${encodeURIComponent(props.title)}`
   },
   {
     name: 'Email',
