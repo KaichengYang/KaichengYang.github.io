@@ -3,6 +3,7 @@ title: "Vibe Researching as a Team: Challenges and Possible Solutions"
 date: 2026-04-05
 updated:
 tags: [ai, collaboration, research, vibe-coding]
+image: /images/blog/vibe-researching-as-a-team-cover.png
 status: published
 ---
 
