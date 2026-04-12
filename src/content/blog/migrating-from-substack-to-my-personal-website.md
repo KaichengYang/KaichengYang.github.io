@@ -3,6 +3,7 @@ title: Migrating my blogs from Substack to my personal website
 date: 2026-03-14
 updated:
 tags: [obsidian, blog]
+image: /images/blog/migrating-from-substack-to-my-personal-website-cover.png
 status: published
 ---
 
