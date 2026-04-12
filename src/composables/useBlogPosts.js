@@ -1,4 +1,5 @@
 const modules = import.meta.glob('../content/blog/*.md', { eager: true })
+const rawModules = import.meta.glob('../content/blog/*.md', { query: '?raw', import: 'default', eager: true })
 
 function extractExcerpt(component) {
   // We'll use the first ~160 chars of the raw markdown body as excerpt
@@ -22,6 +23,7 @@ function getAllPosts() {
       status: mod.status || 'published',
       image: mod.image || '',
       component: mod.default,
+      rawMarkdown: rawModules[path] || '',
     }
   })
 

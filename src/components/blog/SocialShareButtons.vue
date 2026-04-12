@@ -3,7 +3,8 @@ import { ref, computed } from 'vue'
 
 const props = defineProps({
   title: String,
-  slug: String
+  slug: String,
+  rawMarkdown: String
 })
 
 const copied = ref(false)
@@ -33,15 +34,23 @@ const shareLinks = computed(() => [
   }
 ])
 
+const copiedMarkdown = ref(false)
+
 async function copyLink() {
   await navigator.clipboard.writeText(url.value)
   copied.value = true
   setTimeout(() => { copied.value = false }, 2000)
 }
+
+async function copyMarkdown() {
+  await navigator.clipboard.writeText(props.rawMarkdown)
+  copiedMarkdown.value = true
+  setTimeout(() => { copiedMarkdown.value = false }, 2000)
+}
 </script>
 
 <template>
-  <div class="flex items-center gap-3 mb-6">
+  <div class="flex flex-wrap items-center gap-3 mb-6">
     <span class="text-sm text-gray-400">Share:</span>
     <a
       v-for="link in shareLinks"
@@ -62,5 +71,13 @@ async function copyLink() {
       <font-awesome-icon :icon="['fas', 'link']" class="text-xl" />
     </button>
     <span v-if="copied" class="text-sm text-success">Copied!</span>
+    <button
+      v-if="rawMarkdown"
+      @click="copyMarkdown"
+      class="btn btn-sm btn-outline btn-primary"
+    >
+      <font-awesome-icon :icon="['far', 'copy']" />
+      {{ copiedMarkdown ? 'Copied!' : 'Copy Markdown' }}
+    </button>
   </div>
 </template>
