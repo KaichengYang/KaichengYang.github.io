@@ -36,3 +36,7 @@ So it's important to:
 Here are the things we should avoid:
 1. Spending precious time on things that AI already does or will soon do really well.
 2. Cognitive offloading (cognitive surrender).
+
+## Related posts
+
+See [The Impact of Generative AI on the Labor Market](https://www.kaichengyang.me/blog/impact-of-generative-ai-on-labor-market) for more discussions and recommendations.
