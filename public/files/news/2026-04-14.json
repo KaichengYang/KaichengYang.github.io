@@ -1,0 +1,19 @@
+{
+  "date": "2026-04-14",
+  "type": "new_pub",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Four papers from our lab accepted to"
+    },
+    {
+      "type": "link",
+      "msg": "IC2S2 2026",
+      "link": "https://ic2s2-2026.org/"
+    },
+    {
+      "type": "string",
+      "msg": ", including two led by lab members Smriti and Claire."
+    }
+  ]
+}
