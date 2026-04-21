@@ -513,5 +513,25 @@
     "full_name": "Megan A. Brown",
     "abbr_name": "Brown, M. A.",
     "link": "https://scholar.google.com/citations?hl=en&user=wu6o8yUAAAAJ&view_op=list_works&sortby=pubdate"
+  },
+  "mpruden": {
+    "full_name": "Meredith L. Pruden",
+    "abbr_name": "Pruden, M. L.",
+    "link": "https://meredithpruden.com"
+  },
+  "qwu": {
+    "full_name": "Qunfang Wu",
+    "abbr_name": "Wu, Q.",
+    "link": "https://qunfangwu.com"
+  },
+  "ceagan": {
+    "full_name": "Colby Eagan",
+    "abbr_name": "Eagan, C.",
+    "link": "https://www.linkedin.com/in/colbyeagan/"
+  },
+  "dfreelon": {
+    "full_name": "Deen Freelon",
+    "abbr_name": "Freelon, D.",
+    "link": "https://dfreelon.org"
   }
 }

@@ -1,0 +1,9 @@
+{
+  "date": "2026-04-21",
+  "type": "new_pub",
+  "msgs": [
+    {"type": "string", "msg": "New preprint on"},
+    {"type": "pub", "project_id": "yang2026systematic"},
+    {"type": "string", "msg": "is now available on SocArXiv"}
+  ]
+}
