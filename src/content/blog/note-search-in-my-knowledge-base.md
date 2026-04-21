@@ -3,7 +3,7 @@ title: "Building better note search for Claude Code, one iteration at a time"
 date: 2026-04-05
 tags: [claude-code, obsidian, knowledge-management, semantic-search]
 image: /images/blog/note-search-in-my-knowledge-base-cover.png
-updated: 2026-04-11
+updated: 2026-04-21
 status: published
 ---
 ## TL;DR
@@ -76,3 +76,82 @@ There are other costs too. The embedding model itself is a dependency: if the AP
 ### The lessons
 
 I haven't systematically benchmarked the three approaches, but my vibe-checking suggests each iteration is better than the previous one. As the knowledge base grows, any reasoning over the docs (including cross-referencing) will require high-quality search and retrieval. Semantic search is a must. So I'm sticking with QMD for now, despite the overhead, and will keep exploring better solutions. 
+
+### Update on 2026-04-21
+
+I'm still using QMD, but have moved away from the cron job approach to a pre-tool-use hook approach.
+
+**Why cron was the wrong tool.** Knowledge-base edits happen in bursts: I write a new note, then immediately search for related notes to cross-reference. A cron job runs on a wall-clock schedule that is entirely uncorrelated with those bursts, so the index is always stale at exactly the moment it matters. Running `qmd embed` hourly or even every 15 minutes doesn't fix the race.
+
+**The fix: just-in-time refresh with a `PreToolUse` hook.** Claude Code lets you run a shell script before any tool call, gated by a matcher. That's the right primitive here: instead of refreshing on a schedule, refresh the index right before the search command that needs it. The general pattern is useful beyond QMD — any pre-flight work like index maintenance, cache warming, or auth validation can be wired this way without relying on a scheduler.
+
+The hook lives in `.claude/settings.json`:
+
+```json
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "if": "Bash(qmd *)",
+            "command": "$CLAUDE_PROJECT_DIR/scripts/qmd-freshen.sh",
+            "timeout": 60000
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+`matcher: "Bash"` fires on any Bash tool call; the `if: "Bash(qmd *)"` gate narrows it to commands that start with `qmd`, so the hook only runs when a QMD command is about to execute. `$CLAUDE_PROJECT_DIR` makes the path portable. `timeout` is in **milliseconds** — `60000` = 60 seconds.
+
+**The same hook in Codex CLI.** The same script ports to Codex with two pieces of config. First, enable the experimental hooks feature in `~/.codex/config.toml`:
+
+```toml
+[features]
+codex_hooks = true
+```
+
+Then add a project-local `.codex/hooks.json` next to `.claude/settings.json`:
+
+```json
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/absolute/path/to/scripts/qmd-freshen.sh",
+            "timeout": 60,
+            "statusMessage": "Freshening QMD index"
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+Two gotchas if you're porting a Claude hook to Codex:
+
+- **No `if:` gate.** Codex's `PreToolUse` matcher currently keys only on tool name (`Bash`), not on the command inside it — there's no `if: "Bash(qmd *)"` equivalent. Every Bash call fires the hook, so the script has to self-filter: exit 0 fast unless the command looks like a `qmd` invocation.
+- **Timeout units differ.** Claude's `timeout` is milliseconds (`60000`); Codex's is seconds (`60`). Copy-pasting `60000` into Codex config will silently give you a ~16-hour timeout.
+
+**What the freshen script does** (one script, two assistants):
+
+- Reads the pending command from hook stdin (`.tool_input.command`) and normalizes direct and full-path `qmd` invocations.
+- Self-filters maintenance subcommands (`status`, `update`, `embed`, `cleanup`, …) so those calls don't recurse, and no-ops on any non-`qmd` Bash command — the guard Codex needs since it can't use `if:`.
+- Short-circuits with a marker file if a refresh ran within the last 10 minutes. Without this, every search in a session would re-trigger a no-op `qmd update`.
+- Checks `qmd status` for pending embeddings and runs `qmd embed` if any are queued.
+- Checks the index age; runs `qmd update` if it exceeds the staleness threshold, then runs `qmd embed` if the update reports "need vectors".
+- Logs everything to `.git/hooks/qmd-freshen.log` for debugging. You can choose a different path for the log file, but it's critical for debugging.
+
+The first `qmd` call after a batch of edits pays the refresh cost inline (a few seconds for `update`, longer for `embed`); every subsequent call within the 10-minute window is free — a better tradeoff than either stale-cron results or paying embedding cost on every search.
+
+The git `post-commit` hook that runs `qmd update` is still in place so committed changes get indexed even outside an agent session. The old cron entry is paused rather than deleted, in case the hook approach ever needs a fallback.

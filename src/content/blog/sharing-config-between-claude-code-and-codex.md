@@ -4,7 +4,7 @@ date: 2026-04-02
 tags: [claude-code, codex, ai-agents, developer-tools]
 image: /images/blog/sharing-config-between-claude-code-and-codex-cover.png
 status: published
-updated: 2026-04-11
+updated: 2026-04-21
 ---
 ## TL;DR
 - Both tools read markdown instructions and support the Agent Skills format
@@ -103,3 +103,8 @@ A couple things to watch for:
 - **Tool-specific config files should stay separate.** Claude Code uses `.claude/settings.json` for permissions and tool allowlists. Codex uses `.codex/config.toml` for model selection and approval policies. These have different formats and different semantics, so don't symlink them.
 
 - **Directory structure matters.** Codex now uses `.agents/` for skills (while config like `config.toml` stays in `.codex/`). Make sure `.agents/` exists before creating the skills symlink inside it. And if you're symlinking globally, ensure `~/.codex/` exists too.
+
+## Bonus
+
+The setup also applies to other agents, such as OpenCode and Cursor.
+I think this is because they typically follow the same configuration convention as Codex.

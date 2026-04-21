@@ -1,7 +1,7 @@
 ---
 title: Fix Your Claude Code Token Reset Time with Scheduled Tasks
 date: 2026-04-11
-updated:
+updated: 2026-04-21
 tags: [claude-code, productivity, tips]
 image: /images/blog/fix-your-claude-code-token-resets-with-scheduled-agents-cover.png
 status: published
@@ -56,3 +56,7 @@ I use the `:05` offset so it doesn't land exactly on the hour.
 
 Since the scheduled task is just a "touch" to anchor the reset timer, there's no reason to burn your Opus or Sonnet tokens on it.
 Just set the model to **Haiku** and it does the job.
+
+## Caveat
+
+One way to disrupt this schedule is if you work between 3am and 7am, which happened to me a few times recently.

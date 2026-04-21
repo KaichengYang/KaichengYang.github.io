@@ -1,7 +1,7 @@
 ---
 title: Claude Code Skills and Plugins for Academic Research
 date: 2026-03-24
-updated: 2026-03-28
+updated: 2026-04-21
 tags: [claude-code, research-tools, ai-agents, academic-workflow]
 status: published
 ---
@@ -36,6 +36,8 @@ Here's a curated list of what I have collected so far.
 **[Research Paper Writing Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills)** — A skill package for ML/CV/NLP paper writing, adapted from Prof. Peng Sida's open methodology notes. Section-specific writing guides for Abstract, Introduction, Method, Experiments, and Conclusion, plus claim-evidence alignment checks and pre-submission self-review.
 
 **[Academic Research Skills](https://github.com/Imbad0202/academic-research-skills)** — The most structured skill package available: four interconnected skill sets (Deep Research, Academic Paper, Reviewer, Pipeline) orchestrated by a 10-stage pipeline from research to finalization. Multi-agent architecture with 13 research agents, 12 writing agents, and 7 reviewer agents. Includes mandatory integrity verification stages with anti-hallucination checks, Socratic coaching, and LaTeX output with multiple citation formats.
+
+**[open-scholar-skill by Yongjun Zhang](https://github.com/joshzyj/open-scholar-skill)** — 30 modular skills + 19 agents covering the full research pipeline for social scientists, from literature review and hypothesis development through data analysis, writing, citation management, peer-review simulation, and replication packaging. Targets top journals (ASR, AJS, Demography, Nature Human Behaviour). Includes a three-layer data-safety stack (policy + ingestion-time scan + `PreToolUse` hook) for IRB/HIPAA-sensitive data. Notably, the design intentionally omits a full-paper orchestrator to keep researchers in control at every stage. A `/scholar-knowledge` skill supports cross-project literature synthesis with Obsidian wiki export.
 
 ## Disclaimer
 
