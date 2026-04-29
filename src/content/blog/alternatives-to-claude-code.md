@@ -2,7 +2,7 @@
 title: Alternatives to Claude Code
 date: 2026-04-29
 updated:
-tags: []
+tags: [claude-code, codex, ai-agents, developer-tools]
 image: /images/blog/alternatives-to-claude-code-cover.png
 status: published
 ---
@@ -110,7 +110,7 @@ Fun fact: Pi-agent is the engine behind OpenClaw.
 If you're not sure what combination to use, here's my current take.
 
 - If you can afford it, Claude Code with the Max subscription is still the safest choice (the Pro subscription is barely usable these days). You get to use the best model and harness.
-- A nice alternative is ChatGPT Plus/Pro. Even the Plus tier lets you do some serious work. Personally, I prefer Pi-agent with GPT-5.5 now.
+- A nice alternative is Codex with ChatGPT Plus/Pro. Even the Plus tier lets you do some serious work. The Codex App is pretty good as well. For CLI, I prefer Pi-agent with GPT-5.5 now these days.
 - If $20/month is still too much, consider exploring some of the open-weight models and plans. You can still use them in a good harness.
 
 You can also use different stacks at the same time to avoid overreliance on a single provider.
