@@ -1,5 +1,5 @@
 ---
-title: my pi-agent configurations
+title: My Pi-agent Configurations
 date: 2026-05-07
 updated: 2026-05-08
 tags:
