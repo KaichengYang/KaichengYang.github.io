@@ -1,7 +1,7 @@
 ---
 title: my pi-agent configurations
 date: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-08
 tags:
   - pi
   - ai-agents
@@ -22,6 +22,7 @@ status: published
 It only ships with a small core.
 There are 4 tools (Read, Write, Edit, Bash) and the shortest system prompt of any known coding agent.
 But you can add what you need.
+If you want to learn more about the philosophy behind the agent, I highly recommend reading the blog post [What I learned building an opinionated and minimal coding agent](https://mariozechner.at/posts/2025-11-30-pi-coding-agent/) by Pi's creator, Mario Zechner.
 
 In my post [Alternatives to Claude Code](https://www.kaichengyang.me/blog/alternatives-to-claude-code), I mentioned that Pi is my new favorite.
 One reason is the freedom to customize it.
