@@ -1,6 +1,6 @@
 ---
 title: Tricks to Save Tokens When Using Claude Code
-date: 2026-05-05
+date: 2026-05-09
 updated:
 tags: [ai-agents, claude-code, productivity, tips, developer-tools]
 image: /images/blog/saving-tokens-when-using-ai-agents-cover.png
