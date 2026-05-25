@@ -1,0 +1,19 @@
+{
+  "authors": [
+    {"id": "mdeverna"},
+    {"id": "hyan"},
+    {"id": "kcyang"},
+    {"id": "fmenczer"}
+  ],
+  "year": [2026],
+  "date": "2026-05-21",
+  "type": ["preprint"],
+  "topic": ["genai", "misinformation"],
+  "highlight": [],
+  "links": [
+    {"url": "https://arxiv.org/abs/2605.23026", "name": "arXiv"}
+  ],
+  "altmetric": {"arxiv_id": "2605.23026"},
+  "bibtex_string": "@misc{deverna2026opportunities,\n\ttitle={Opportunities and Risks of Generative AI through the Health Information Journey},\n\tauthor={Matthew R. DeVerna and Harry Yaojun Yan and Kai-Cheng Yang and Filippo Menczer},\n\tyear={2026},\n\teprint={2605.23026},\n\tarchivePrefix={arXiv},\n\tprimaryClass={cs.CY},\n\turl={https://arxiv.org/abs/2605.23026},\n\tjournal={arxiv:2605.23026}}",
+  "abstract": "Artificial intelligence is fundamentally changing how health content is encountered and acted upon across both the information and healthcare ecosystems. AI systems now generate claims, curate information, interpret symptoms, synthesize evidence, and guide decisions, with significant opportunities and risks for the public. Potential benefits include improvements in access, comprehension, and continuity of care. At the same time, AI can introduce inaccurate or manipulative content that is difficult to distinguish from reliable guidance, and encourage automated decisions that affect care with little transparency or recourse. We introduce a four-stage framework to examine how these opportunities and risks unfold as the public moves through the information environment and into formal healthcare."
+}
