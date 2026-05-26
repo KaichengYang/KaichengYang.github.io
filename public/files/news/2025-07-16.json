@@ -34,15 +34,6 @@
     },
     {
       "type": "string",
-      "msg": "or listen to the"
-    },
-    {
-      "type": "link",
-      "msg": "podcast",
-      "link": "https://notebooklm.google.com/notebook/e275fc3f-f98c-4596-b129-212205727fff/audio"
-    },
-    {
-      "type": "string",
       "msg": "for details."
     },
     {
