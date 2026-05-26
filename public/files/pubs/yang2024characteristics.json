@@ -1,24 +1,14 @@
 {
   "authors": [
-    {"id": "kcyang", "annotation": ["corresponding_author", "highlight"]},
-    {"id": "dsingh"},
-    {"id": "fmenczer"}
+    { "id": "kcyang", "annotation": ["corresponding_author", "highlight"] },
+    { "id": "dsingh" },
+    { "id": "fmenczer" }
   ],
-  "year": [
-    2024
-  ],
+  "year": [2024],
   "date": "2024-09-18",
-  "type": [
-    "journal"
-  ],
-  "topic": [
-    "genai",
-    "socialmedia",
-    "bot"
-  ],
-  "highlight": [
-    "highlight"
-  ],
+  "type": ["journal"],
+  "topic": ["genai", "socialmedia", "bot"],
+  "highlight": [],
   "links": [
     {
       "url": "https://doi.org/10.54501/jots.v2i4.197",

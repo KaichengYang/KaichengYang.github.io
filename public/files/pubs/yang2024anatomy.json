@@ -9,20 +9,10 @@
     }
   ],
   "date": "2024-05-29",
-  "year": [
-    2024
-  ],
-  "type": [
-    "journal"
-  ],
-  "topic": [
-    "bot",
-    "genai",
-    "socialmedia"
-  ],
-  "highlight": [
-    "highlight"
-  ],
+  "year": [2024],
+  "type": ["journal"],
+  "topic": ["bot", "genai", "socialmedia"],
+  "highlight": [],
   "links": [
     {
       "url": "https://doi.org/10.51685/jqd.2024.icwsm.7",
