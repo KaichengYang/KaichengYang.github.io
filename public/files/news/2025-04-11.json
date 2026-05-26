@@ -14,12 +14,6 @@
       "msg": "thread",
       "link": "https://x.com/Zening_Duan/status/1919538535977075008"
     },
-    { "type": "string", "msg": "or listen to the" },
-    {
-      "type": "link",
-      "msg": "podcast",
-      "link": "https://notebooklm.google.com/notebook/7ed2acbc-9a0d-44f9-8650-b309049d0408/audio"
-    },
     { "type": "string", "msg": "for details." }
   ]
 }

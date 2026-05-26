@@ -14,12 +14,6 @@
       "msg": "thread",
       "link": "https://x.com/yang3kc/status/1823404980126261262"
     },
-    { "type": "string", "msg": "or listen to the" },
-    {
-      "type": "link",
-      "msg": "podcast",
-      "link": "https://notebooklm.google.com/notebook/4b284bb8-a41c-49ce-afd0-574a2ff55dd9/audio"
-    },
     { "type": "string", "msg": "for details." },
     {
       "type": "string",
