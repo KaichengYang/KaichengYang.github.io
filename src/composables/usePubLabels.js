@@ -8,6 +8,7 @@ export const topicLabels = {
   misinformation: "📢 Misinformation",
   netsci: "🕸 Network science",
   opioid: "💊 Opioid crisis",
+  socialmedia: "📱 Social media",
 };
 
 export const typeLabels = {
