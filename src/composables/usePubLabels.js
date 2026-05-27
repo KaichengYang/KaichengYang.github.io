@@ -9,6 +9,7 @@ export const topicLabels = {
   netsci: "🕸 Network science",
   opioid: "💊 Opioid crisis",
   socialmedia: "📱 Social media",
+  covid: "🦠 COVID-19",
 };
 
 export const typeLabels = {
