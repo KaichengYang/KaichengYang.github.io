@@ -1,6 +1,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { labelFor } from '@/composables/usePubLabels';
 
 // props
 const props = defineProps({
@@ -85,6 +86,14 @@ onUnmounted(() => {
   <div class="text-center md:text-left">
     <!-- title -->
     <p><b>{{ pub_obj.bibtex.entryTags.title }}</b></p>
+    <!-- topic chips (pubs page only) -->
+    <div v-if="!is_home && pub_obj.topic && pub_obj.topic.length" class="flex flex-wrap gap-1 mt-1 mb-1">
+      <span
+        v-for="topic in pub_obj.topic"
+        :key="topic"
+        class="badge badge-outline badge-sm"
+      >{{ labelFor(topic) }}</span>
+    </div>
     <!-- authors  -->
     <p>
       🧑‍💻️

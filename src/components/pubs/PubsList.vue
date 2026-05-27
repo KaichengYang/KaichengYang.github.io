@@ -2,6 +2,7 @@
 import { ref, computed, onMounted, inject, onUpdated } from 'vue';
 import BackForth from '@/components/nav/BackForth.vue';
 import PubsBlock from '@/components/pubs/PubsBlock.vue';
+import { topicLabels, typeLabels } from '@/composables/usePubLabels';
 
 // props
 const props = defineProps({
@@ -14,19 +15,6 @@ const props = defineProps({
 // data
 const isHome = props.is_home;
 const topic_to_show = ref("all");
-const topic_dict = {
-  "all": {"name": " 🌐 All"},
-  "genai": {"name": "💡 Generative AI"},
-  "bot": {"name": "🤖 Social bot"},
-  "bias": {"name": "🔀 System bias"},
-  "misinformation": {"name": "📢 Misinformation"},
-  "netsci": {"name": "🕸 Network science"},
-  "opioid": { "name": "💊 Opioid crisis" }
-};
-const type_dict = {
-  "dataset": { "name": "💾 Dataset" },
-  "method": { "name": "🧪 Method" },
-}
 const highlight_dict = {
   "all": {"name": "✨ Highlight"},
   "recent": {"name": "📅 Recent"}
@@ -76,14 +64,15 @@ onUpdated(() => {
   <!-- Buttons for topic and type -->
   <div v-if="!isHome" class="flex flex-wrap justify-center gap-1">
     <p class="prose">Topic:</p>
-    <template v-for="topic in Object.keys(topic_dict)" :key="topic">
-      <button class="btn btn-sm btn-outline btn-primary" :class="{'btn-active': topic_to_show === topic}" @click="topic_to_show = topic" >{{ topic_dict[topic].name }}</button>
+    <button class="btn btn-sm btn-outline btn-primary" :class="{'btn-active': topic_to_show === 'all'}" @click="topic_to_show = 'all'">🌐 All</button>
+    <template v-for="(label, key) in topicLabels" :key="key">
+      <button class="btn btn-sm btn-outline btn-primary" :class="{'btn-active': topic_to_show === key}" @click="topic_to_show = key">{{ label }}</button>
     </template>
   </div>
   <div v-if="!isHome" class="flex flex-wrap justify-center gap-1 mt-2">
     <p class="prose">Type:</p>
-    <template v-for="type in Object.keys(type_dict)" :key="type">
-      <button class="btn btn-sm btn-outline btn-primary" :class="{'btn-active': topic_to_show === type}" @click="topic_to_show = type" >{{ type_dict[type].name }}</button>
+    <template v-for="(label, key) in typeLabels" :key="key">
+      <button class="btn btn-sm btn-outline btn-primary" :class="{'btn-active': topic_to_show === key}" @click="topic_to_show = key">{{ label }}</button>
     </template>
   </div>
   <hr class="col-span-full my-3">
