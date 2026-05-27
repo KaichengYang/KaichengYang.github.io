@@ -1,27 +1,20 @@
 {
   "authors": [
-    {"id": "afeal"},
-    {"id": "jgleason"},
-    {"id": "pgoel"},
-    {"id": "jradford"},
-    {"id": "kcyang", "annotation": ["highlight"]},
-    {"id": "jbasl"},
-    {"id": "mmeyer"},
-    {"id": "dchoffnes"},
-    {"id": "cwilson"},
-    {"id": "dlazer"}
+    { "id": "afeal" },
+    { "id": "jgleason" },
+    { "id": "pgoel" },
+    { "id": "jradford" },
+    { "id": "kcyang", "annotation": ["highlight"] },
+    { "id": "jbasl" },
+    { "id": "mmeyer" },
+    { "id": "dchoffnes" },
+    { "id": "cwilson" },
+    { "id": "dlazer" }
   ],
   "date": "2024-06-01",
-  "year": [
-    2024
-  ],
-  "type": [
-    "conference"
-  ],
-  "topic": [
-    "nio",
-    "dataset"
-  ],
+  "year": [2024],
+  "type": ["conference"],
+  "topic": ["dataset"],
   "highlight": [],
   "links": [
     {
