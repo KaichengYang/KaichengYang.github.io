@@ -157,6 +157,24 @@
       ]
     },
     {
+      "name": "Jason Zhao",
+      "role": "Undergraduate Research Assistant",
+      "year": "Summer 2026",
+      "photo": "/photos/jasonzhao.png",
+      "affiliation": "School of Computing, Binghamton University",
+      "email": "jzhao23@binghamton.edu",
+      "links": [
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jasonzhao0/",
+          "icon": {
+            "prefix": "fab",
+            "icon": "linkedin"
+          }
+        }
+      ]
+    },
+    {
       "name": "Open Position",
       "role": "Ph.D. Student",
       "year": "Recruiting",
