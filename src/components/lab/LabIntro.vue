@@ -1,4 +1,12 @@
-<script setup></script>
+<script setup>
+const nav_links = [
+    { name: 'Research Tools', emoji: '⚙️', link: '#tools', is_internal: false },
+    { name: 'Datasets & Benchmarks', emoji: '🗄️', link: '#datasets', is_internal: false },
+    { name: 'Prospective Students', emoji: '🎓', link: '/prospective', is_internal: true },
+    { name: 'Resource Collection', emoji: '🔖', link: '/hiddencurriculum', is_internal: true },
+    { name: 'Recommendation Letters', emoji: '✉️', link: '/recommendation-letters', is_internal: true },
+]
+</script>
 
 <template>
     <div>
@@ -24,30 +32,26 @@
                     Learn more about our research by exploring our
                     <router-link to="/team" class="link">team</router-link> and
                     <a class="link" href="#pubs">publications</a>. Our work has
-                    been <a class="link" href="#media">featured</a> in various
-                    media outlets, and you may find our
-                    <a class="link" href="#tools">research tools</a> and
-                    <a class="link" href="#datasets">datasets & benchmarks</a>
-                    helpful for your own projects. We've also compiled a
-                    <router-link to="/hiddencurriculum" class="link"
-                        >collection of resources</router-link
-                    >
-                    that researchers might find useful.
+                    also been <a class="link" href="#media">featured</a> in various
+                    media outlets.
                 </p>
-                <p>
-                    For prospective students, please see
-                    <router-link to="/prospective" class="link"
-                        >here</router-link
-                    >
-                    for more information about joining our lab.
-                </p>
-                <p>
-                    For students seeking recommendation letters, please see
-                    <router-link to="/recommendation-letters" class="link"
-                        >here</router-link
-                    >
-                    for more information.
-                </p>
+            </div>
+            <!-- compact navigation links -->
+            <div class="mt-6 mx-4 text-center text-sm text-gray-500">
+                <span class="mr-1">Explore the lab:</span>
+                <template v-for="(item, index) in nav_links" :key="item.name">
+                    <router-link
+                        v-if="item.is_internal"
+                        :to="item.link"
+                        class="link"
+                    >{{ item.emoji }} {{ item.name }}</router-link>
+                    <a
+                        v-else
+                        :href="item.link"
+                        class="link"
+                    >{{ item.emoji }} {{ item.name }}</a>
+                    <span v-if="index < nav_links.length - 1" class="mx-1 text-gray-400">·</span>
+                </template>
             </div>
         </div>
     </div>
