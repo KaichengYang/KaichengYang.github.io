@@ -3,13 +3,13 @@ import { ref } from 'vue';
 
 const pages = ref([
   {name: 'Home', path: '/', is_external: false},
-  {name: 'Publications', path: '/pubs', is_external: false},
+  {name: 'Team', path: '/team', is_external: false},
   {name: 'News', path: '/news', is_external: false},
+  {name: 'Publications', path: '/pubs', is_external: false},
   {name: 'Media', path: '/media', is_external: false},
   {name: 'Tools', path: '/tools', is_external: false},
   {name: 'Datasets', path: '/datasets', is_external: false},
   {name: 'Teaching', path: '/teaching', is_external: false},
-  {name: 'Team', path: '/team', is_external: false},
   {name: 'Blog', path: '/blog', is_external: false},
 ]);
 </script>
