@@ -1,7 +1,7 @@
 ---
 title: My AI Agent Stack
 date: 2026-06-05
-updated:
+updated: 2026-06-06
 tags: [ai-agents, claude-code, developer-tools, productivity]
 image: /images/blog/apps-and-configs-i-use-to-manage-ai-agents-cover.png
 status: published
@@ -35,9 +35,10 @@ There are many solutions to this problem now, and countless apps aiming to solve
 After trying many, I've settled on two.
 
 [Vibe Island](https://vibeisland.app/) turns the notch of your Mac into a hub that shows the status of all running agents and lets you interact with them.
-It's a paid app, but it's well-designed and actively maintained, so I think it's worth it.
 The one downside is that it can be disruptive: notifications pop up every time an agent needs input.
 That's not necessarily the app's fault so much as a reflection of what it's like to work with multiple AI agents asynchronously.
+It's a paid app, but it's well-designed and actively maintained, so I think it's worth it.
+If you don't want to pay for it, there is an open-source alternative called [Open Island](https://github.com/Octane0411/open-vibe-island). Note that I haven't tried it myself, so I'm not sure how well it works.
 
 [herdr](https://herdr.dev/) is a tmux-style app for running, monitoring, and managing multiple agents.
 It lives in the terminal, so you can run it locally or on a remote server.
