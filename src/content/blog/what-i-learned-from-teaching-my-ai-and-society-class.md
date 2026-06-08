@@ -9,7 +9,7 @@ status: published
 
 ## TL;DR
 
-- I taught [AI and Society](https://yangkclab.github.io/ai-and-society-course/Spring2026/) as a seminar for 19 CS grad students --- my first new course as a new faculty member.
+- I taught [AI and Society](https://yangkclab.github.io/ai-and-society-course/Spring2026/) during the spring semester.
 - Letting students use AI freely (with full transparency) shifted assessment toward in-class participation and project presentations.
 - Hallucinated references in assignments became a teachable moment.
 - Access to paid AI models created an equity gap I ended up bridging with my own research funds.
@@ -22,8 +22,8 @@ This is the first time I taught this course, and I feel very lucky it went smoot
 Here I'm sharing my reflections on it.
 
 As a background, I joined Binghamton University last fall and pretty much scrambled through my whole first year (the summer has finally arrived!).
-Around the middle of the fall semester, the department began preparing the spring course schedule.
-That's when I decided to propose a new course because I didn't want to be assigned classes that weren't very relevant to my research.
+Around the middle of the fall semester, the department began preparing the spring semester course schedule.
+That was when I decided to propose a new course because I didn't want to be assigned classes that weren't very relevant to my research.
 
 I knew I wanted to teach something at the intersection of AI and society, which is what I study and am deeply interested in.
 I also knew I didn't have the capacity to prepare a lecture-based course within the time frame.
@@ -57,13 +57,13 @@ That said, I had no idea what would happen when I asked students to read papers 
 
 To that end, I think expectations are critical.
 My goal was simple: I wanted students to gain a sense of how AI is used across different disciplines and contexts, prompting them to think outside the CS box.
-They wouldn't magically become domain experts after the semester, and the knowledge they picked up might quickly expire given how fast technology evolves (which is actually one of the points I wanted to make in the course).
+They wouldn't magically become domain experts after the semester, and the knowledge they picked up might quickly expire given how fast technology evolves (which is actually one of the points I tried to make in the course).
 But at least I hoped they could start thinking about how AI is changing the world around them, ask questions, and seek answers on their own.
 
 ## Student engagement
 
 As a seminar-style course, in-class participation is the most important aspect.
-But I was pretty nervous about it because I was facing a room of CS majors who, in my experience, are not the most talkative people.
+Before the semester started, I was pretty nervous about it because I was facing a room of CS majors who, in my experience, are not the most talkative people.
 In fact, I had never taken a similar class myself before coming to the US for my PhD.
 I still remember the first seminar-style class I attended.
 It was challenging both because I wasn't familiar with the format and because English wasn't my mother tongue.
@@ -76,7 +76,7 @@ From time to time, I had to use some tricks to get them to show up and talk.
 
 But I'm pretty happy with the attendance and with how the students eventually spoke up in class.
 I can see that they had a genuine interest in at least some of the topics.
-When they actually shared something, I could feel that they had read the materials and put some thought into them, which is exactly what I hoped for.
+When they shared something, I could feel that they had read the materials and put some thought into them, which is exactly what I hoped for.
 It was also encouraging to see shy students start sharing their thoughts with more confidence later in the semester.
 
 ## AI policy
@@ -92,17 +92,17 @@ It also allowed me to assign materials that would otherwise be quite challenging
 
 But evaluating learning outcomes became harder as a result.
 This is why in-class participation is crucial for the course.
-For the reading assignment, I asked students to write a short reflection before class.
-But that wasn't all. I'd also ask them to share their thoughts again in class.
-They could use AI to summarize a paper and write the reflection, but to say something during class, they would at least have to have read the AI's summary.
-That's my goal.
+For the reading assignments, I asked students to write short reflections before class.
+But that wasn't all.
+I would also ask them to share their thoughts again in class.
+They could use AI to summarize a paper and write the reflection, but to say something during class, they would at least have to have read the AI's summary, and that's my goal.
 
 For the course project, students had opportunities to present their proposals and final results, where I would ask clarifying questions and give feedback.
-Again, they could use AI to produce project results, but they'd need a solid understanding of the work to present and answer questions.
+Again, they could use AI to produce project results, but they would need a solid understanding of the work to present and answer questions.
 In short, these in-person interactions are how I kept them engaged and ensured they were actually learning.
 One downside is that this approach doesn't scale.
 For my class, 12--15 students might be the optimal size for thorough interactions with everyone.
-If I were facing 40 students, this wouldn't work.
+If I were facing 40 students, this would not work.
 
 Another thing I wanted to teach was how to use AI effectively and responsibly.
 And the most important lesson is that they should never blindly trust AI output, and validation is always necessary.
@@ -130,8 +130,10 @@ For the course project, many students' proposed studies involved interacting wit
 Unfortunately, we didn't have dedicated funding to support the students and the course yet.
 After talking with some of the students facing this challenge, I decided to cover their costs with my own research funds.
 I don't think this is how it should work, and it's not a sustainable solution, but at least I made sure the students in my class got the experience they needed.
+
 On a related note: if you ever have to run something similar, I'd recommend [OpenRouter](https://openrouter.ai).
-It lets you access all kinds of AI models and makes it easy to create individual API keys with limited credits and expiration dates that you can easily share with the students.
+It lets you access all kinds of AI models and makes it easy to create individual API keys with a fixed amount of credits and expiration dates that you can easily share with the students.
+You won't need to worry too much if they commit the key to GitHub or share it with others (which, unsurprisingly, also happened in my class).
 
 ## Where to go from here
 
