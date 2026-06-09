@@ -12,6 +12,7 @@ status: published
 - Claude Code is my primary agent; I also use Codex and Pi, all from the terminal
 - For managing multiple agents, I use herdr (a tmux-style dashboard) and sometimes Vibe Island (Mac notch status)
 - Zed for code editing, Obsidian for Markdown
+- For CLI tools: Warp as terminal, Yazi for file management, lazygit for git
 
 After a few months of working with various AI agents and trying different tools, my setup has become relatively stable.
 I'm sharing it here.
@@ -64,7 +65,7 @@ For Markdown, I'm using [Obsidian](https://obsidian.md/).
 The main reasons: it makes jumping around via wiki links easy, and it renders Markdown better.
 That said, I have no issues editing Markdown files in Zed.
 
-## Terminal
+## Terminal and CLI tools
 
 Since herdr is my main interface for AI agents now, the choice of terminal app matters a lot less.
 
@@ -74,3 +75,8 @@ What I like about Warp is that you don't need to spend a lot of time configuring
 For instance, I tried herdr in [ghostty](https://ghostty.org/) as well, the fonts and layout are just off to me.
 It's also easy to share Warp's config files across machines.
 That said, there's nothing unique about Warp.
+
+For file management, I use [Yazi](https://yazi-rs.github.io/).
+For git, I use [lazygit](https://github.com/jesseduffield/lazygit).
+Both are CLI tools that can be operated without my hands leaving the keyboard. 
+I have shortcuts in herdr to open Yazi and lazygit, which is really handy.

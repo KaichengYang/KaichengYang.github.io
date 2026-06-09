@@ -4,7 +4,7 @@ date: 2026-04-02
 tags: [claude-code, codex, ai-agents, developer-tools]
 image: /images/blog/sharing-config-between-claude-code-and-codex-cover.png
 status: published
-updated: 2026-04-21
+updated: 2026-05-27
 ---
 ## TL;DR
 - Both tools read markdown instructions and support the Agent Skills format
@@ -24,11 +24,15 @@ Turns out it's not that complicated.
 
 Both tools have nearly identical config structures but different file names:
 
-| | Claude Code | Codex |
+| | Claude Code | Codex (and most other agents) |
 |---|---|---|
 | Project instructions | `CLAUDE.md` | `AGENTS.md` |
 | Skills directory | `.claude/skills/` | `.agents/skills/` |
 | Global instructions | `~/.claude/CLAUDE.md` | `~/.codex/AGENTS.md` |
+
+`AGENTS.md` and `.agents/` are the cross-agent open convention — Codex, OpenCode, Cursor, and others all follow it.
+Claude Code is the exception that uses its own namespace.
+That's worth keeping in mind when you decide which side to use as the source of truth.
 
 The content format is the same: plain markdown.
 The skills format is the same: the open [Agent Skills](https://github.com/anthropics/agent-skills) standard.
@@ -48,18 +52,18 @@ Tool-specific directives are ignored by the other tool.
 
 The Agent Skills standard was designed to be tool-agnostic. A `SKILL.md` file in `.claude/skills/my-skill/` behaves identically when Codex reads it from `.agents/skills/my-skill/`. Same file, same format, same behavior.
 
-This means symlinks are all you need. Point the Codex paths at the Claude Code paths (or vice versa), and both tools read from the same source of truth.
+This means symlinks are all you need. Since `.agents/` is the cross-agent convention, I use it as the source of truth and point Claude Code's paths at it with backward-compat symlinks.
 
 ## Potential Issues
 
 One real issue I hit: some skills reference `AskUserQuestion`, a Claude Code-specific tool for structured user prompts. Codex doesn't have it---it uses `request_user_input` instead.
 
-My fix was adding a fallback chain to `CLAUDE.md`:
+My fix was adding a fallback chain to `AGENTS.md`:
 1. Try `AskUserQuestion` (Claude Code)
 2. Fall back to `request_user_input` (Codex)
 3. If neither is available, output the question as plain text and wait
 
-Since both tools read the same `CLAUDE.md`, this one instruction makes skills work on both platforms.
+Since both tools read the same `AGENTS.md`, this one instruction makes skills work on both platforms.
 Also, I don't need to update all the skills individually this way.
 
 ## The Setup
@@ -68,26 +72,36 @@ The setup is simple---three symlinks cover everything:
 
 **1. Project-level instructions**
 
+`AGENTS.md` is the real file. `CLAUDE.md` is a backward-compat symlink that Claude Code follows:
+
 ```bash
 # From your project root
-ln -s CLAUDE.md AGENTS.md
+ln -s AGENTS.md CLAUDE.md
 ```
 
-Now both `CLAUDE.md` and `AGENTS.md` resolve to the same file. Edit one, both tools see the change.
+Now both `AGENTS.md` and `CLAUDE.md` resolve to the same file. Edit `AGENTS.md`; both tools see the change.
 
 **2. Project-level skills**
 
+`.agents/skills/` is the real directory. `.claude/skills` is a backward-compat symlink:
+
 ```bash
 # From your project root
-ln -s ../.claude/skills .agents/skills
+# (create .agents/ first if it doesn't exist)
+mkdir -p .agents
+# move your skills into .agents/skills, then:
+ln -s ../.agents/skills .claude/skills
 ```
 
-This points `.agents/skills/` at `.claude/skills/`. Every skill you create for Claude Code is automatically available to Codex.
+Every skill you add to `.agents/skills/` is automatically available to both Codex and Claude Code.
 
 **3. Global instructions**
 
+Keep one source file (e.g. `~/.agents/AGENTS.md` or wherever your dotfiles manager puts it) and point both tools at it:
+
 ```bash
-ln -s ~/.claude/CLAUDE.md ~/.codex/AGENTS.md
+ln -s /path/to/agents/AGENTS.md ~/.claude/CLAUDE.md
+ln -s /path/to/agents/AGENTS.md ~/.codex/AGENTS.md
 ```
 
 Your global instructions (model preferences, environment details, behavioral guidelines) now live in one file.
@@ -102,7 +116,7 @@ A couple things to watch for:
 
 - **Tool-specific config files should stay separate.** Claude Code uses `.claude/settings.json` for permissions and tool allowlists. Codex uses `.codex/config.toml` for model selection and approval policies. These have different formats and different semantics, so don't symlink them.
 
-- **Directory structure matters.** Codex now uses `.agents/` for skills (while config like `config.toml` stays in `.codex/`). Make sure `.agents/` exists before creating the skills symlink inside it. And if you're symlinking globally, ensure `~/.codex/` exists too.
+- **Directory structure matters.** `.agents/` is the canonical skills location; `.claude/skills` is a backward-compat symlink into it. Make sure `.agents/` exists before populating it. For global symlinks, ensure `~/.codex/` and `~/.claude/` exist first.
 
 ## Bonus
 
