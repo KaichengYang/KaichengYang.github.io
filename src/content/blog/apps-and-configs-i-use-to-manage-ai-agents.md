@@ -46,7 +46,7 @@ It lives in the terminal, so you can run it locally or on a remote server.
 It supports mouse operations but also allows you to control almost everything with keyboard shortcuts.
 What I love most is the left panel that lists all your running agents alongside their status. It allows you to quickly survey the situation and jump to whoever needs attention.
 
-herdr also ships an [agent skill](https://github.com/ogulcancelik/herdr/blob/master/SKILL.md) that lets agents control herdr from within it. Once installed, Claude can split panes, run commands in them, read their output, wait for specific output patterns, and coordinate with other agents running in sibling panes. In practice this means Claude can spin up a dev server in a new pane, wait until it's ready, run tests against it, and clean up — all without leaving its own pane or asking you to do it manually.
+herdr also ships an [agent skill](https://github.com/ogulcancelik/herdr/blob/master/SKILL.md) that lets agents control herdr from within it. Once installed, AI agents can split panes, run commands in them, read their output, wait for specific output patterns, and coordinate with other agents running in sibling panes. In practice, this means the agents can spin up a dev server in a new pane, wait until it's ready, run tests against it, and clean up — all without leaving its own pane or asking you to do it manually.
 
 Currently, herdr is my default interface.
 I sometimes layer in Vibe Island when I really want to stay on top of things.
