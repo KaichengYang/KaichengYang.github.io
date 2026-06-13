@@ -10,11 +10,11 @@
     "status": "active",
     "links": [
       {
-        "url": "https://yang3kc.github.io/llm_domain_classification",
+        "url": "https://yangkclab.github.io/llm_domain_classification/",
         "name": "Web interface"
       },
       {
-        "url": "https://github.com/yang3kc/llm_domain_classification",
+        "url": "https://github.com/YangKCLab/llm_domain_classification",
         "name": "GitHub"
       }
     ]
