@@ -1,0 +1,19 @@
+{
+  "date": "2026-06-19",
+  "type": "general",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Byungkyu (BK) Lee (NYU) will give a talk, \"Using Coding Agents as Research Tools,\" in our"
+    },
+    {
+      "type": "link",
+      "msg": "Research with AI Agents Workshop Series",
+      "link": "https://research-with-ai-agents-workshop.github.io/events/2026-06-29-byungkyu-lee"
+    },
+    {
+      "type": "string",
+      "msg": "on June 29, 2026."
+    }
+  ]
+}
