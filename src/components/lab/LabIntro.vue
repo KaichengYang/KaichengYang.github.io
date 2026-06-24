@@ -18,6 +18,12 @@ const nav_links = [
         link: "/hiddencurriculum",
         is_internal: true,
     },
+    {
+        name: "Research with AI Agents Workshop",
+        emoji: "🤖",
+        link: "https://research-with-ai-agents-workshop.github.io/",
+        is_internal: false,
+    },
 ];
 </script>
 
@@ -52,7 +58,7 @@ const nav_links = [
                         class="link"
                         >{{ item.emoji }} {{ item.name }}</router-link
                     >
-                    <a v-else :href="item.link" class="link"
+                    <a v-else :href="item.link" class="link" target="_blank" rel="noopener noreferrer"
                         >{{ item.emoji }} {{ item.name }}</a
                     >
                     <span
