@@ -83,7 +83,7 @@ onUpdated(() => {
     </div>
     <!-- main info -->
     <div class="col-span-full md:col-span-5">
-      <PubsBlock :pub_obj="pub" :is_home="isHome"/>
+      <PubsBlock :pub_obj="pub" :is_home="isHome" @topic-click="topic_to_show = $event"/>
     </div>
     <!-- altmetric small -->
     <div class="col-span-full flex justify-center mt-2 md:hidden">
