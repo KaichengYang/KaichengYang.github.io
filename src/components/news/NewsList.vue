@@ -31,10 +31,13 @@ const news_to_show = computed(() => {
   if (props.is_home) {
     return news_list.value.slice(0, 5);
   } else {
+    const cutoff = new Date();
+    cutoff.setFullYear(cutoff.getFullYear() - 2);
+    const recent = news_list.value.filter(news => new Date(news.date) >= cutoff);
     if (type_to_show.value === "all") {
-      return news_list.value;
+      return recent;
     } else {
-      return news_list.value.filter(news => news.type === type_to_show.value);
+      return recent.filter(news => news.type === type_to_show.value);
     }
   }
 });
