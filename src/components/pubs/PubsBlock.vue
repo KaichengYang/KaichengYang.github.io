@@ -16,6 +16,8 @@ const props = defineProps({
   }
 });
 
+const emit = defineEmits(['topic-click']);
+
 // data
 const show_modal = ref(null);
 const show_modal_type = ref(null);
@@ -91,7 +93,8 @@ onUnmounted(() => {
       <span
         v-for="topic in pub_obj.topic"
         :key="topic"
-        class="badge badge-outline badge-sm"
+        class="badge badge-outline badge-sm cursor-pointer hover:badge-primary hover:!text-white"
+        @click="emit('topic-click', topic)"
       >{{ labelFor(topic) }}</span>
     </div>
     <!-- authors  -->
