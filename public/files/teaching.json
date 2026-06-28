@@ -1,5 +1,23 @@
 [
   {
+    "id": "cs415-515_fall2026",
+    "code": "CS 415/515",
+    "title": "Social Media Data Science Pipelines",
+    "institution": "Binghamton University",
+    "semester": "Fall 2026",
+    "year": 2026,
+    "links": [
+      {
+        "name": "Course information & schedule",
+        "url": "https://yangkclab.github.io/social-media-ds-course/fall2026"
+      },
+      {
+        "name": "Course materials",
+        "url": "https://yangkclab.github.io/social-media-analysis"
+      }
+    ]
+  },
+  {
     "id": "cs481e-581e_spring2026",
     "code": "CS 481E/581E",
     "title": "AI and Society",
