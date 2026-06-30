@@ -1,0 +1,18 @@
+{
+  "date": "2026-06-30",
+  "type": "new_pub",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Our paper"
+    },
+    {
+      "type": "pub",
+      "project_id": "deverna2025large"
+    },
+    {
+      "type": "string",
+      "msg": "has been published in Findings of the ACL 2026."
+    }
+  ]
+}

@@ -94,7 +94,7 @@ const copyToClipboard = (bioText) => {
           <!-- Contact Links -->
           <div class="flex justify-center mt-4 flex-wrap gap-2">
             <template v-for="link in contact_links" :key="link.name">
-              <router-link v-if="link.link.startsWith('/')" :to="link.link" class="text-primary" :title="link.name">
+              <router-link v-if="link.link.startsWith('/') && !link.link.startsWith('/files/')" :to="link.link" class="text-primary" :title="link.name">
                 <font-awesome-icon :icon="[link.icon.prefix, link.icon.icon]" class="text-2xl" />
               </router-link>
               <a v-else :href="link.link" class="text-primary" :target="link.name === 'Email' ? '_self' : '_blank'" :title="link.name">
