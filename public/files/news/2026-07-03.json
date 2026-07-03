@@ -1,0 +1,11 @@
+{
+  "date": "2026-07-03",
+  "type": "general",
+  "msgs": [
+    { "type": "string", "msg": "We released" },
+    { "type": "link", "msg": "yanglabkit-scicolor", "link": "https://github.com/YangKCLab/yanglabkit" },
+    { "type": "string", "msg": ", an AI agent skill that recommends" },
+    { "type": "tool", "project_id": "scicolor" },
+    { "type": "string", "msg": "palettes for your figures. Check it out!" }
+  ]
+}

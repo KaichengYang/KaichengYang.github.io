@@ -28,17 +28,19 @@ async function fetchJSON(url, retries = 3) {
 async function initApp() {
   const pub_list = ref([]);
   const tool_list = ref([]);
+  const skill_list = ref([]);
   const dataset_list = ref([]);
   const media_list = ref([]);
   const news_list = ref([]);
   const team = ref({});
   const teaching_list = ref([]);
-  const [news_index, authors, pub_index, media, tools, datasets, team_data, teaching] = await Promise.all([
+  const [news_index, authors, pub_index, media, tools, skills, datasets, team_data, teaching] = await Promise.all([
     fetchJSON('/files/news/news_index.json'),
     fetchJSON('/files/pubs/authors.json'),
     fetchJSON('/files/pubs/pubs_index.json'),
     fetchJSON('/files/media.json'),
     fetchJSON('/files/tools.json'),
+    fetchJSON('/files/skills.json'),
     fetchJSON('/files/datasets.json'),
     fetchJSON('/files/team/team.json'),
     fetchJSON('/files/teaching.json'),
@@ -62,6 +64,7 @@ async function initApp() {
   }));
 
   tool_list.value = tools;
+  skill_list.value = skills;
   dataset_list.value = datasets.map(dataset => {
     if (dataset.pub_id) {
       dataset.pub = pub_list.value.find(pub => pub.id === dataset.pub_id);
@@ -119,6 +122,7 @@ async function initApp() {
     .provide('news_list', news_list)
     .provide('pub_list', pub_list)
     .provide('tool_list', tool_list)
+    .provide('skill_list', skill_list)
     .provide('dataset_list', dataset_list)
     .provide('media_list', media_list)
     .provide('team', team)

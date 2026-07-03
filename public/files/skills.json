@@ -1,0 +1,17 @@
+[
+  {
+    "id": "yanglabkit-scicolor",
+    "title": "yanglabkit-scicolor",
+    "msg": "An AI agent skill that recommends scicolor palettes from a description of your data or chart, returning concrete hex codes and defaulting to color-blind-safe, perceptually uniform choices.",
+    "highlight": [
+      "highlight"
+    ],
+    "status": "active",
+    "links": [
+      {
+        "url": "https://github.com/YangKCLab/yanglabkit",
+        "name": "GitHub"
+      }
+    ]
+  }
+]
