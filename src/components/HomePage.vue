@@ -5,7 +5,7 @@ import NewsList from '@/components/news/NewsList.vue'
 import PubsList from '@/components/pubs/PubsList.vue'
 import MediaList from '@/components/media/MediaList.vue'
 import Footer from '@/components/nav/Footer.vue'
-import ToolList from '@/components/tool/ToolList.vue'
+import ToolSkillList from '@/components/tool/ToolSkillList.vue'
 import DatasetsList from '@/components/datasets/DatasetsList.vue'
 </script>
 
@@ -43,9 +43,9 @@ import DatasetsList from '@/components/datasets/DatasetsList.vue'
 
       <div class="divider divider-primary" />
 
-      <!-- Tools -->
-      <h2 class="text-4xl font-medium mb-4 flex justify-center" id="tools">Selected tools</h2>
-      <ToolList :is_home="true" />
+      <!-- Tools & Skills -->
+      <h2 class="text-4xl font-medium mb-4 flex justify-center" id="tools">Selected tools &amp; skills</h2>
+      <ToolSkillList :is_home="true" />
 
       <div class="divider divider-primary" />
 
