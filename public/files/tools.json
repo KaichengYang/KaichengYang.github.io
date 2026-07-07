@@ -81,6 +81,10 @@
       {
         "url": "https://pypi.org/project/scicolor/",
         "name": "PyPI"
+      },
+      {
+        "url": "https://github.com/YangKCLab/yanglabkit/tree/main/skills/yanglabkit-scicolor",
+        "name": "AI agent skill"
       }
     ]
   },

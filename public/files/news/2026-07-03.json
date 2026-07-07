@@ -3,9 +3,7 @@
   "type": "general",
   "msgs": [
     { "type": "string", "msg": "We released" },
-    { "type": "link", "msg": "yanglabkit-scicolor", "link": "https://github.com/YangKCLab/yanglabkit" },
-    { "type": "string", "msg": ", an AI agent skill that recommends" },
-    { "type": "tool", "project_id": "scicolor" },
-    { "type": "string", "msg": "palettes for your figures. Check it out!" }
+    { "type": "link", "msg": "yanglabkit", "link": "https://github.com/YangKCLab/yanglabkit" },
+    { "type": "string", "msg": ", a set of AI-agent skills for the lab's research workflows — currently colour-palette recommendations and matplotlib/seaborn figure styling. Check it out!" }
   ]
 }

@@ -1,8 +1,8 @@
 [
   {
-    "id": "yanglabkit-scicolor",
-    "title": "yanglabkit-scicolor",
-    "msg": "An AI agent skill that recommends scicolor palettes from a description of your data or chart, returning concrete hex codes and defaulting to color-blind-safe, perceptually uniform choices.",
+    "id": "yanglabkit",
+    "title": "yanglabkit",
+    "msg": "A set of AI-agent skills tailored to the Yang Lab's research workflows. It currently includes yanglabkit-scicolor (recommends colour-blind-safe, perceptually uniform palettes for a figure, chart, or map) and yanglabkit-figures (styles matplotlib/seaborn figures print-first, the Yang Lab way). Built on the portable SKILL.md convention, so it works with any AI agent that supports it.",
     "highlight": [
       "highlight"
     ],
