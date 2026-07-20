@@ -92,12 +92,16 @@
     "id": "arxiv_digest",
     "title": "Daily arXiv digest",
     "image": "arxiv_digest",
-    "msg": "Use ChatGPT to select interesting arXiv papers every day",
+    "msg": "Daily digest of interesting arXiv papers — an unattended LLM pipeline, plus an agent skill your AI agent runs itself",
     "status": "active",
     "links": [
       {
         "url": "https://github.com/yang3kc/daily_arxiv_digest",
         "name": "GitHub"
+      },
+      {
+        "url": "https://github.com/yang3kc/daily_arxiv_digest/tree/main/skills/arxiv-fetch",
+        "name": "AI agent skill"
       }
     ]
   },

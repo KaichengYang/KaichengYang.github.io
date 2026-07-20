@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-20",
+  "type": "new_tool",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "My"
+    },
+    {
+      "type": "tool",
+      "project_id": "arxiv_digest"
+    },
+    {
+      "type": "string",
+      "msg": "tool got a major upgrade: it now ships an"
+    },
+    {
+      "type": "link",
+      "msg": "arxiv-fetch agent skill",
+      "link": "https://github.com/yang3kc/daily_arxiv_digest/tree/main/skills/arxiv-fetch"
+    },
+    {
+      "type": "string",
+      "msg": "that lets your AI agent fetch and judge new arXiv papers itself — no API key or dependencies. Check it out!"
+    }
+  ]
+}
