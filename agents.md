@@ -81,7 +81,7 @@ Team member information is stored in `public/files/team/team.json` with three ma
 
 #### Alumni Section
 
-Alumni are displayed on the team page in a simple list format grouped by degree type (Ph.D. students, M.S. students, Others). Each alumni entry follows this structure:
+Alumni are displayed on the team page in a simple list format grouped by degree type (Ph.D. students, M.S. students, Undergraduate students, Others). Each alumni entry follows this structure:
 
 ```json
 {
@@ -96,7 +96,7 @@ Alumni are displayed on the team page in a simple list format grouped by degree 
 
 **Required Fields:**
 - `name`: Alumni's full name
-- `role`: Degree and field (must include "Ph.D." or "M.S." for proper grouping)
+- `role`: Degree and field (must include "Ph.D.", "M.S.", or "Undergraduate" for proper grouping)
 
 **Optional Fields:**
 - `year`: Year of graduation or years in lab (e.g., "2025" or "2020-2024")

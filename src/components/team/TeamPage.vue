@@ -17,12 +17,19 @@ const alumniGroups = computed(() => {
             category = "Ph.D. students";
         } else if (alumni.role.includes("M.S.")) {
             category = "M.S. students";
+        } else if (alumni.role.includes("Undergraduate")) {
+            category = "Undergraduate students";
         }
         if (!groups[category]) groups[category] = [];
         groups[category].push(alumni);
     });
 
-    const order = ["Ph.D. students", "M.S. students", "Others"];
+    const order = [
+        "Ph.D. students",
+        "M.S. students",
+        "Undergraduate students",
+        "Others",
+    ];
     return order
         .filter((cat) => groups[cat] && groups[cat].length > 0)
         .map((cat) => ({ category: cat, members: groups[cat] }));
