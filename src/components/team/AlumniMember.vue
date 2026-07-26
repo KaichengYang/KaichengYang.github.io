@@ -16,7 +16,7 @@ const hasLinks = computed(() => {
 </script>
 
 <template>
-  <div class="flex flex-col md:flex-row md:items-center gap-2 py-2 border-b border-gray-200">
+  <div class="flex flex-col md:flex-row md:items-center gap-2 py-2">
     <!-- Name (with optional link) -->
     <div class="font-semibold text-lg">
       <router-link v-if="alumni.website" :to="alumni.website" class="link hover:text-primary">

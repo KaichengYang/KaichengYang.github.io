@@ -32,7 +32,11 @@ const alumniGroups = computed(() => {
     ];
     return order
         .filter((cat) => groups[cat] && groups[cat].length > 0)
-        .map((cat) => ({ category: cat, members: groups[cat] }));
+        .map((cat) => ({
+            category: cat,
+            // Most recent alumni first within each group
+            members: [...groups[cat]].reverse(),
+        }));
 });
 </script>
 
