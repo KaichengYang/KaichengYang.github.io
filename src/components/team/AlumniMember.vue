@@ -19,9 +19,9 @@ const hasLinks = computed(() => {
   <div class="flex flex-col md:flex-row md:items-baseline gap-x-3 gap-y-0 py-0.5">
     <!-- Name (with optional link) -->
     <div class="font-semibold">
-      <router-link v-if="alumni.website" :to="alumni.website" class="link hover:text-primary">
+      <a v-if="alumni.website" :href="alumni.website" target="_blank" class="link hover:text-primary">
         {{ alumni.name }}
-      </router-link>
+      </a>
       <span v-else>{{ alumni.name }}</span>
     </div>
 
