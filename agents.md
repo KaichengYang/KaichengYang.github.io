@@ -79,9 +79,23 @@ Publications, news, tools, and media are stored as JSON files with cross-referen
 
 Team member information is stored in `public/files/team/team.json` with three main sections: `pi` (Principal Investigator), `students` (current students), and `alumni` (former members).
 
+#### Temporarily Hiding an Entry
+
+Any `students` or `alumni` entry can be hidden from the team page without deleting it by adding `"hidden": true`:
+
+```json
+{
+  "hidden": true,
+  "name": "Open Position",
+  "role": "Ph.D. Student"
+}
+```
+
+The entry keeps all its data in `team.json` but is filtered out before rendering, so bringing it back is a matter of removing the one field. Use this for things that come and go — the "Open Position" recruiting card, or a member on leave. Deleting the entry outright is still the right move for a permanent removal.
+
 #### Alumni Section
 
-Alumni are displayed on the team page in a simple list format grouped by degree type (Ph.D. students, M.S. students, Others). Each alumni entry follows this structure:
+Alumni are displayed on the team page in a simple list format grouped by degree type (Ph.D. students, M.S. students, Undergraduate students, Others). Each alumni entry follows this structure:
 
 ```json
 {
@@ -96,7 +110,7 @@ Alumni are displayed on the team page in a simple list format grouped by degree 
 
 **Required Fields:**
 - `name`: Alumni's full name
-- `role`: Degree and field (must include "Ph.D." or "M.S." for proper grouping)
+- `role`: Degree and field (must include "Ph.D.", "M.S.", or "Undergraduate" for proper grouping)
 
 **Optional Fields:**
 - `year`: Year of graduation or years in lab (e.g., "2025" or "2020-2024")
