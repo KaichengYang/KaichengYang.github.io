@@ -7,6 +7,12 @@ import AlumniMember from "@/components/team/AlumniMember.vue";
 
 const team = inject("team", ref({}));
 
+// Latest year mentioned in the `year` field ("2026", "Summer 2026", "2020-2024")
+const latestYear = (alumni) => {
+    const years = String(alumni.year || "").match(/\d{4}/g);
+    return years ? Math.max(...years.map(Number)) : -Infinity;
+};
+
 const alumniGroups = computed(() => {
     if (!team.value.alumni || team.value.alumni.length === 0) return [];
 
@@ -35,7 +41,9 @@ const alumniGroups = computed(() => {
         .map((cat) => ({
             category: cat,
             // Most recent alumni first within each group
-            members: [...groups[cat]].reverse(),
+            members: [...groups[cat]].sort(
+                (a, b) => latestYear(b) - latestYear(a),
+            ),
         }));
 });
 </script>
