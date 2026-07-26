@@ -139,7 +139,7 @@ const alumniGroups = computed(() => {
                         <h3 class="text-2xl font-medium mb-4 text-gray-700">
                             {{ group.category }}
                         </h3>
-                        <div class="space-y-1">
+                        <div class="space-y-0">
                             <AlumniMember
                                 v-for="alumni in group.members"
                                 :key="alumni.name"
