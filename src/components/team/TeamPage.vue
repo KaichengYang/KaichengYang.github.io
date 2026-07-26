@@ -7,6 +7,11 @@ import AlumniMember from "@/components/team/AlumniMember.vue";
 
 const team = inject("team", ref({}));
 
+// Entries flagged `hidden: true` stay in team.json but are not rendered
+const visibleStudents = computed(() =>
+    (team.value.students || []).filter((student) => !student.hidden),
+);
+
 // Latest year mentioned in the `year` field ("2026", "Summer 2026", "2020-2024")
 const latestYear = (alumni) => {
     const years = String(alumni.year || "").match(/\d{4}/g);
@@ -17,18 +22,20 @@ const alumniGroups = computed(() => {
     if (!team.value.alumni || team.value.alumni.length === 0) return [];
 
     const groups = {};
-    team.value.alumni.forEach((alumni) => {
-        let category = "Others";
-        if (alumni.role.includes("Ph.D.")) {
-            category = "Ph.D. students";
-        } else if (alumni.role.includes("M.S.")) {
-            category = "M.S. students";
-        } else if (alumni.role.includes("Undergraduate")) {
-            category = "Undergraduate students";
-        }
-        if (!groups[category]) groups[category] = [];
-        groups[category].push(alumni);
-    });
+    team.value.alumni
+        .filter((alumni) => !alumni.hidden)
+        .forEach((alumni) => {
+            let category = "Others";
+            if (alumni.role.includes("Ph.D.")) {
+                category = "Ph.D. students";
+            } else if (alumni.role.includes("M.S.")) {
+                category = "M.S. students";
+            } else if (alumni.role.includes("Undergraduate")) {
+                category = "Undergraduate students";
+            }
+            if (!groups[category]) groups[category] = [];
+            groups[category].push(alumni);
+        });
 
     const order = [
         "Ph.D. students",
@@ -98,7 +105,7 @@ const alumniGroups = computed(() => {
             <div class="divider divider-primary" />
 
             <!-- Students Section -->
-            <div v-if="team.students && team.students.length > 0" class="mb-8">
+            <div v-if="visibleStudents.length > 0" class="mb-8">
                 <h2 class="text-3xl font-medium mb-6 text-center text-primary">
                     Current Students
                 </h2>
@@ -106,7 +113,7 @@ const alumniGroups = computed(() => {
                     class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
                 >
                     <TeamMember
-                        v-for="student in team.students"
+                        v-for="student in visibleStudents"
                         :key="student.name"
                         :member="student"
                     />
