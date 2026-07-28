@@ -16,7 +16,8 @@
   "title": "A systematic review of social science studies analyzing social media data, 2010–2024",
   "links": [
     {"url": "https://doi.org/10.31235/osf.io/yexp6_v1", "name": "SocArXiv"},
-    {"url": "https://github.com/yang3kc/social_science_social_media_review", "name": "GitHub"}
+    {"url": "https://github.com/yang3kc/social_science_social_media_review", "name": "GitHub"},
+    {"url": "https://x.com/yang3kc/status/2047343323514372460", "name": "Twitter"}
   ],
   "altmetric": {"doi_id": "10.31235/osf.io/yexp6_v1"},
   "bibtex_string": "@misc{yang2026systematic,\n\ttitle={A systematic review of social science studies analyzing social media data, 2010--2024},\n\tauthor={Kai-Cheng Yang and Pranav Goel and Meredith L. Pruden and Qunfang Wu and Colby Eagan and David Lazer and Deen Freelon},\n\tyear={2026},\n\tdoi={10.31235/osf.io/yexp6_v1},\n\turl={https://doi.org/10.31235/osf.io/yexp6_v1},\n\tjournal={SocArXiv preprint}}",

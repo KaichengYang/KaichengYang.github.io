@@ -4,6 +4,9 @@
   "msgs": [
     { "type": "string", "msg": "New preprint" },
     { "type": "pub", "project_id": "yang2026systematic" },
-    { "type": "string", "msg": "is now available on SocArXiv." }
+    { "type": "string", "msg": "is now available on SocArXiv." },
+    { "type": "string", "msg": "Check out Kaicheng's Twitter" },
+    { "type": "link", "msg": "thread", "link": "https://x.com/yang3kc/status/2047343323514372460" },
+    { "type": "string", "msg": "for details." }
   ]
 }
