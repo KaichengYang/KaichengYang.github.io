@@ -1,0 +1,19 @@
+{
+  "authors": [
+    {"id": "mdeverna"},
+    {"id": "hyan"},
+    {"id": "kcyang"},
+    {"id": "fmenczer"}
+  ],
+  "year": [2026],
+  "date": "2026-08-19",
+  "type": ["preprint"],
+  "topic": ["genai", "misinformation"],
+  "highlight": [],
+  "links": [
+    {"url": "https://arxiv.org/abs/2605.23026", "name": "arXiv"}
+  ],
+  "altmetric": {"arxiv_id": "2605.23026"},
+  "bibtex_string": "@misc{deverna2026invisible,\n\ttitle={The Invisible Risks of AI-Generated Health Information},\n\tauthor={Matthew R. DeVerna and Harry Yaojun Yan and Kai-Cheng Yang and Filippo Menczer},\n\tyear={2026},\n\teprint={2605.23026},\n\tarchivePrefix={arXiv},\n\tprimaryClass={cs.CY},\n\turl={https://arxiv.org/abs/2605.23026},\n\tjournal={arxiv:2605.23026}}",
+  "abstract": "Generative artificial intelligence (AI) systems now summarize health-related search results, answer medical questions, and offer guidance people once sought from clinicians. These systems bring real benefits, including plain-language explanations of medical information, around-the-clock availability, and expanded access for people facing language or literacy barriers. They also carry new risks: inaccurate guidance can harm people at scale, and malicious actors can now generate personalized health misinformation at negligible cost. In this Perspective, we argue that these risks are largely invisible to the institutions responsible for protecting public health. When AI guidance causes harm, no record exists outside the platform, no channel allows users to report it, and no independent researcher can measure the consequences. We trace these invisible risks across two settings: incidental exposure online and active seeking through search engines and chatbots. Minimizing harm from AI-generated health information requires making it observable. We therefore offer recommendations that aim to improve transparency, mitigate harm at the point of delivery, and assign accountability, ranging from voluntary platform measures to regulatory ones."
+}
