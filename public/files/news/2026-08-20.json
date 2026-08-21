@@ -1,0 +1,18 @@
+{
+  "date": "2026-08-20",
+  "type": "new_preprint",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "New preprint"
+    },
+    {
+      "type": "pub",
+      "project_id": "deverna2026invisible"
+    },
+    {
+      "type": "string",
+      "msg": "is now available on arXiv."
+    }
+  ]
+}
