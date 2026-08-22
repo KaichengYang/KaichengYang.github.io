@@ -11,6 +11,7 @@ status: published
 
 - I run several Claude Code agents in `herdr`, and supervising them is a handful of keys pressed a few hundred times a day
 - Those keys now live on an Xbox controller sitting next to my keyboard
+- The pad also rumbles when an agent blocks on a prompt or finishes, so I can stop watching the screen
 - Config and install steps are in [my fork of `herdr-gamepad`](https://github.com/yang3kc/herdr-gamepad) if you want to copy it
 
 ## What supervising agents actually looks like
@@ -41,7 +42,7 @@ It worked really well, and now it has become my favorite way to interact with AI
      ┌──────────┐                    ┌──────────┐
      │ L-STICK  │  ↑↓←→ arrow keys   │ R-STICK  │  ↑↓ scroll
      │  click:  │                    │  click:  │  ←→ focus pane
-     │ overview │                    │  (free)  │
+     │ overview │                    │  space   │
      └──────────┘                    └──────────┘
 ```
 
@@ -58,7 +59,7 @@ It worked really well, and now it has become my favorite way to interact with AI
 | **Xbox** | Bring the terminal running herdr to the front |
 | **D-pad** | Types `/`, `/compact`, `/clear`, `/exit` into the input box |
 | **Left stick** | Arrow keys, auto-repeating. Click for an overview of every agent |
-| **Right stick** | Up and down scroll the scrollback, left and right move pane focus |
+| **Right stick** | Up and down scroll the scrollback, left and right move pane focus. Click sends Space, which toggles an item in Claude Code's multi-select dialogs |
 
 ## Type, don't submit
 
@@ -78,12 +79,16 @@ RT toggles [superwhisper](https://superwhisper.com/).
 The full loop for giving an agent a new instruction is: squeeze RT, talk, squeeze RT, superwhisper pastes the transcript into the pane, press A to send.
 My hands never touch the keyboard.
 
-## What it doesn't do yet
+## Rumble
 
-Rumble is the feature I want most and don't have.
-A buzz when any agent becomes blocked would let me stop watching the screen entirely, which is the whole point of a pad like this.
+This was the feature I wanted most, and it took one more evening.
+The pad now buzzes twice when any agent becomes blocked (a permission prompt or a question is waiting) and once when an agent finishes.
+I don't have to watch the screen anymore.
+I can read something else, feel the buzz, press Y to jump to the agent, and press A or B.
 
-Also, it only works for Claude Code, and the configuration is tailored to my own setup of many other things.
+## Limitations
+
+It only works for Claude Code, and the configuration is tailored to my own setup of many other things.
 
 ## If you want to try it
 
