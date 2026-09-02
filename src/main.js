@@ -34,7 +34,8 @@ async function initApp() {
   const news_list = ref([]);
   const team = ref({});
   const teaching_list = ref([]);
-  const [news_index, authors, pub_index, media, tools, skills, datasets, team_data, teaching] = await Promise.all([
+  const material_list = ref([]);
+  const [news_index, authors, pub_index, media, tools, skills, datasets, team_data, teaching, materials] = await Promise.all([
     fetchJSON('/files/news/news_index.json'),
     fetchJSON('/files/pubs/authors.json'),
     fetchJSON('/files/pubs/pubs_index.json'),
@@ -44,6 +45,7 @@ async function initApp() {
     fetchJSON('/files/datasets.json'),
     fetchJSON('/files/team/team.json'),
     fetchJSON('/files/teaching.json'),
+    fetchJSON('/files/learning-materials.json'),
   ]);
 
   pub_list.value = await Promise.all(pub_index.map(async pub_file_name => {
@@ -73,6 +75,7 @@ async function initApp() {
   });
   team.value = team_data;
   teaching_list.value = teaching;
+  material_list.value = materials;
 
 
   news_list.value = await Promise.all(news_index.map(async news_file_name => {
@@ -127,6 +130,7 @@ async function initApp() {
     .provide('media_list', media_list)
     .provide('team', team)
     .provide('teaching_list', teaching_list)
+    .provide('material_list', material_list)
     .mount('#app');
 }
 
