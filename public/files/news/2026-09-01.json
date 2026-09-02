@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-01",
+  "type": "general",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "I put together a"
+    },
+    {
+      "type": "link",
+      "msg": "website",
+      "link": "https://yang3kc.github.io/llm_for_css/",
+      "punctuation": ","
+    },
+    {
+      "type": "string",
+      "msg": "for llm_for_css, my guide to using large language model APIs in research. It covers API setup, structured output, asynchronous requests, batch processing for cost savings, and alternative providers including local models. The code is on"
+    },
+    {
+      "type": "link",
+      "msg": "GitHub",
+      "link": "https://github.com/yang3kc/llm_for_css",
+      "punctuation": "."
+    }
+  ]
+}

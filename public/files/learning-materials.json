@@ -1,0 +1,32 @@
+[
+  {
+    "id": "social-media-analysis",
+    "title": "Social Media Analysis",
+    "msg": "An introduction to analyzing social media data. Covers data collection from platform APIs, data format and management, measurements and metrics, hypothesis testing, visualization, and network analysis.",
+    "links": [
+      {
+        "url": "https://yangkclab.github.io/social-media-analysis/",
+        "name": "Website"
+      },
+      {
+        "url": "https://github.com/YangKCLab/social-media-analysis",
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
+    "id": "llm-for-css",
+    "title": "LLM for Computational Social Science",
+    "msg": "Practical guidance and runnable examples for using large language model APIs in research. Covers API setup, structured output, asynchronous requests, batch processing for cost savings, and alternative providers including local models.",
+    "links": [
+      {
+        "url": "https://yang3kc.github.io/llm_for_css/",
+        "name": "Website"
+      },
+      {
+        "url": "https://github.com/yang3kc/llm_for_css",
+        "name": "GitHub"
+      }
+    ]
+  }
+]

@@ -8,12 +8,6 @@ const sections = ref([
     title: 'Research Tools',
     items: [
       {
-        title: 'llm_for_css',
-        link: 'https://github.com/yang3kc/llm_for_css',
-        description: 'my guidelines and example code for leveraging LLMs for computational social science tasks',
-        icon: { prefix: 'fab', icon: 'github' }
-      },
-      {
         title: 'scicolor',
         link: 'https://yang3kc.github.io/scicolor/',
         description: 'a collection of color palettes for scientific visualization'
