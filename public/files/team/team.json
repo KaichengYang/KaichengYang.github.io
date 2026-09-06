@@ -149,6 +149,32 @@
       ]
     },
     {
+      "name": "Yuheng Fang",
+      "role": "M.S. Student in Computer Science",
+      "year": "Since 2026",
+      "photo": "/photos/yuhengfang.jpg",
+      "affiliation": "School of Computing, Binghamton University",
+      "email": "yfang6@binghamton.edu",
+      "links": [
+        {
+          "name": "Website",
+          "url": "https://fang-dev.com",
+          "icon": {
+            "prefix": "fas",
+            "icon": "link"
+          }
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jeffery-fang",
+          "icon": {
+            "prefix": "fab",
+            "icon": "linkedin"
+          }
+        }
+      ]
+    },
+    {
       "hidden": true,
       "name": "Open Position",
       "role": "Ph.D. Student",
