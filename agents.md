@@ -79,6 +79,31 @@ Publications, news, tools, and media are stored as JSON files with cross-referen
 
 Team member information is stored in `public/files/team/team.json` with three main sections: `pi` (Principal Investigator), `students` (current students), and `alumni` (former members).
 
+#### Headshot Photo Requirements
+
+Headshots live in `public/photos/` and are referenced by the `photo` field in `team.json`. `TeamMember.vue` renders them as `rounded-full w-48 h-48 object-cover` — a 192x192 CSS pixel circle with a center crop.
+
+| Requirement | Value |
+|---|---|
+| Aspect ratio | Square (1:1) — required |
+| Minimum size | 600x600 pixels |
+| Format | JPEG preferred; PNG accepted |
+| File size | Under ~200 KB |
+| Framing | Face centered, some headroom (the circle mask clips the corners) |
+
+A non-square image is center-cropped rather than rejected, so off-center photos crop badly. Oversized files are the main cost here: every visitor to the team page downloads all of them.
+
+**Blurb to send to a new student (copy-paste):**
+
+> Please send me a headshot for the lab website:
+>
+> - Square (1:1 aspect ratio)
+> - At least 600x600 pixels
+> - JPEG or PNG, ideally under 200 KB
+> - Face centered with a little space above the head — the photo is displayed in a circle, so the corners get cropped off
+>
+> A phone selfie cropped to a square works fine. No professional photo needed.
+
 #### Temporarily Hiding an Entry
 
 Any `students` or `alumni` entry can be hidden from the team page without deleting it by adding `"hidden": true`:
