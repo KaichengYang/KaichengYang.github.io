@@ -14,12 +14,16 @@
       "id": "jlukito"
     }
   ],
-  "date": "2025-05-15",
+  "date": "2026-09-23",
   "year": [2026],
   "type": ["conference"],
   "topic": ["socialmedia"],
   "highlight": [],
   "links": [
+    {
+      "url": "https://doi.org/10.1145/3816985",
+      "name": "DOI"
+    },
     {
       "url": "https://arxiv.org/abs/2505.09877",
       "name": "arXiv"
@@ -30,8 +34,8 @@
     }
   ],
   "altmetric": {
-    "arxiv_id": "2505.09877"
+    "doi_id": "10.1145/3816985"
   },
-  "bibtex_string": "@inproceedings{mimizuka2025post,\n\ttitle={Post-Post-API Age: Studying Digital Platforms in Scant Data Access Times},\n\tauthor={Kayo Mimizuka and Megan A Brown and Kai-Cheng Yang and Josephine Lukito},\n\tyear={2026},\n\teprint={2505.09877},\n\tarchivePrefix={arXiv},\n\tprimaryClass={cs.HC},\n\turl={https://arxiv.org/abs/2505.09877},\n\tbooktitle={Proceedings of the ACM on Human-Computer Interaction (CSCW), forthcoming}}",
+  "bibtex_string": "@article{mimizuka2025post,\n\ttitle={Post-Post-API Age: Studying Digital Platforms in Scant Data Access Times},\n\tauthor={Mimizuka, Kayo and Brown, Megan A. and Yang, Kai-Cheng and Lukito, Josephine},\n\tjournal={Proceedings of the ACM on Human-Computer Interaction},\n\tvolume={10},\n\tnumber={6},\n\tpages={1--26},\n\tyear={2026},\n\tmonth=sep,\n\tpublisher={Association for Computing Machinery},\n\tdoi={10.1145/3816985},\n\turl={https://doi.org/10.1145/3816985}}",
   "abstract": "Over the past decade, data provided by digital platforms has informed substantial research in HCI to understand online human interaction and communication. Following the closure of major social media APIs that previously provided free access to large-scale data (the 'post-API age'), emerging data access programs required by the European Union's Digital Services Act (DSA) have sparked optimism about increased platform transparency and renewed opportunities for comprehensive research on digital platforms, leading to the 'post-post-API age.' However, it remains unclear whether platforms provide adequate data access in practice. To assess how platforms make data available under the DSA, we conducted a comprehensive survey followed by in-depth interviews with 19 researchers to understand their experiences with data access in this new era. Our findings reveal significant challenges in accessing social media data, with researchers facing multiple barriers including complex API application processes, difficulties obtaining credentials, and limited API usability. These challenges have exacerbated existing institutional, regional, and financial inequities in data access. Based on these insights, we provide actionable recommendations for platforms, researchers, and policymakers to foster more equitable and effective data access, while encouraging broader dialogue within the CSCW community around interdisciplinary and multi-stakeholder solutions."
 }
