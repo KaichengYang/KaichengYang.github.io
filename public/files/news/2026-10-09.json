@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-09",
+  "type": "new_pub",
+  "msgs": [
+    {
+      "type": "string",
+      "msg": "Our paper"
+    },
+    {
+      "type": "pub",
+      "project_id": "deverna2026invisible"
+    },
+    {
+      "type": "string",
+      "msg": "has been published in Nature Health."
+    }
+  ]
+}

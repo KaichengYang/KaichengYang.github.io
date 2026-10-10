@@ -12,7 +12,7 @@
   "year": [2026],
   "type": ["preprint"],
   "topic": ["socialmedia", "method"],
-  "highlight": ["highlight"],
+  "highlight": [],
   "title": "A systematic review of social science studies analyzing social media data, 2010–2024",
   "links": [
     {"url": "https://doi.org/10.31235/osf.io/yexp6_v1", "name": "SocArXiv"},
