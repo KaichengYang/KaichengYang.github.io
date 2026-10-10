@@ -9,7 +9,7 @@
   "date": "2026-10-09",
   "type": ["journal"],
   "topic": ["genai", "misinformation"],
-  "highlight": [],
+  "highlight": ["highlight"],
   "links": [
     {"url": "https://doi.org/10.1038/s44360-026-00206-x", "name": "DOI"},
     {"url": "https://arxiv.org/abs/2605.23026", "name": "arXiv"}
