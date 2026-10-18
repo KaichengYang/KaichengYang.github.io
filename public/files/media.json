@@ -1,5 +1,17 @@
 [
   {
+    "title": "A Man Turned to AI for Diet Advice. His Hospital Stay Exposed a Blind Spot",
+    "url": "https://www.newsweek.com/a-man-turned-to-ai-for-diet-advice-his-hospital-stay-exposed-a-blind-spot-12573267",
+    "outlet": "Newsweek",
+    "date": "2026-10-18",
+    "year": [2026],
+    "type": "coverage",
+    "topic": "ai",
+    "project_id": ["deverna2026invisible"],
+    "toshow": true,
+    "highlight": true
+  },
+  {
     "title": "Scientists reveal terrifying reason not to use AI for health advice",
     "url": "https://www.the-independent.com/tech/ai-health-chatgpt-claude-artificial-intelligence-b3064281.html",
     "outlet": "The Independent",
