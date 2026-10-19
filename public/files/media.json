@@ -12,6 +12,18 @@
     "highlight": true
   },
   {
+    "title": "ChatGPT gave a man unlicensed medical advice, leading to mental health crisis, lawsuit alleges",
+    "url": "https://www.cbsnews.com/news/chatgpt-medical-advice-lawsuit/",
+    "outlet": "CBS News",
+    "date": "2026-10-16",
+    "year": [2026],
+    "type": "coverage",
+    "topic": "ai",
+    "project_id": ["deverna2026invisible"],
+    "toshow": true,
+    "highlight": false
+  },
+  {
     "title": "Scientists reveal terrifying reason not to use AI for health advice",
     "url": "https://www.the-independent.com/tech/ai-health-chatgpt-claude-artificial-intelligence-b3064281.html",
     "outlet": "The Independent",
